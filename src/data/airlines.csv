@@ -1,0 +1,22 @@
+﻿iata_code,ticket_code,name_en,name_zh,country_or_region,alliance
+3U,876,Sichuan Airlines,四川航空,CHN,
+AA,001,American Airlines,美国航空,USA,OW
+AC,014,Air Canada,加拿大航空,CAN,SA
+BR,695,Eva Air,长荣航空,TWN,SA
+CA,999,Air China,中国国际航空,CHN,SA
+CI,297,China Airlines,中华航空,TWN,ST
+CX,160,Cathay Pacific,国泰航空,HKG,OW
+CZ,784,China Southern,中国南方航空,CHN,
+DL,006,Delta Airlines,达美航空,USA,ST
+HA,173,Hawaiian Airlines,夏威夷航空,USA,
+HU,880,Hainan Airlines,海南航空,CHN,
+HX,851,Hong Kong Airlines,香港航空,HKG,
+JL,131,Japan Airlines,日本航空,JPN,OW
+JX,189,Starlux Airlines,星宇航空,TWN,
+KE,180,Korean Air,大韩航空,KOR,ST
+MF,731,Xiamen Airlines,厦门航空,CHN,ST
+MU,781,China Eastern,中国东方航空,CHN,ST
+NH,205,All Nippon Airlines,全日空航空,JPN,SA
+OZ,988,Asiana Airlines,韩亚航空,KOR,SA
+SQ,618,Singapore Airlines,新加坡航空,SGP,SA
+UA,016,United Airlines,美国联合航空,USA,SA
