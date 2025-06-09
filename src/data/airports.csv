@@ -1,22 +1,22 @@
-﻿iata_code,name_en,name_zh,city,country
+iata_code,name_en,name_zh,city,country
 LAX,Los Angeles International Airport,洛杉矶国际机场,"Los Angeles, CA",USA
 SFO,San Francisco International Airport,旧金山国际机场,"San Francisco, CA",USA
 JFK,John F. Kennedy International Airport,约翰F肯尼迪国际机场,"New York, NY",USA
 SEA,Seattle Tacoma International Airport,西雅图塔科马国际机场,"Seattle Tacoma, WA",USA
-DFW,Dallas Ft. Worth Internatioal Airport,达拉斯沃斯堡国际机场,"Dallas, TX",USA
+DFW,Dallas Ft. Worth International Airport,达拉斯沃斯堡国际机场,"Dallas, TX",USA
 BOS,Boston Logan International Airport,波士顿洛根国际机场,"Boston, MA",USA
 ORD,Chicago O'Hare International Airport,芝加哥奥黑尔国际机场,"Chicago, IL",USA
 IAD,Washington Dulles International Airport,华盛顿杜勒斯国际机场,"Washington, DC",USA
 ONT,Ontario International Airport,安大略国际机场,"Ontario, CA",USA
-YVR,Vancouver International Airport,温哥华国际机场,"Vancover, BC",CAN
+YVR,Vancouver International Airport,温哥华国际机场,"Vancouver, BC",CAN
 YYZ,Toronto Pearson International Airport,多伦多皮尔逊国际机场,"Toronto, ON",CAN
 PEK,Beijing Capital International Airport,北京首都国际机场,Beijing,CHN
-PVG,Shanghai Pudong International Aiport,上海浦东国际机场,Shanghai,CHN
+PVG,Shanghai Pudong International Airport,上海浦东国际机场,Shanghai,CHN
 CAN,Guangzhou Baiyun International Airport,广州白云国际机场,"Guangzhou, Guangdong",CHN
 CKG,Chongqing Jiangbei International Airport,重庆江北国际机场,Chongqing,CHN
-XMN,Xiamen Gaoqi Internatioanl Airport,厦门高崎国际机场,"Xiamen, Fujian",CHN
+XMN,Xiamen Gaoqi International Airport,厦门高崎国际机场,"Xiamen, Fujian",CHN
 CTU,Chengdu Tianfu International Airport,成都天府国际机场,"Chengdu, Sichuan",CHN
-HKG,Hong Kong Internatioal Airport,香港国际机场,Hong Kong,HKG
+HKG,Hong Kong International Airport,香港国际机场,Hong Kong,HKG
 TPE,Taipei Taoyuan International Airport,台北桃园国际机场,Taipei,TWN
 SIN,Singapore Changi Airport,新加坡樟宜国际机场,Singapore,SGP
 ICN,Seoul Incheon International Airport,首尔仁川国际机场,Seoul,KOR
