@@ -1,4 +1,4 @@
-﻿iata_code,name_en,name_zh,city,country
+﻿iata_code,name_en,name_cn,city,country_or_region
 LAX,Los Angeles International Airport,洛杉矶国际机场,"Los Angeles, CA",USA
 SFO,San Francisco International Airport,旧金山国际机场,"San Francisco, CA",USA
 JFK,John F. Kennedy International Airport,约翰F肯尼迪国际机场,"New York, NY",USA
@@ -8,6 +8,7 @@ BOS,Boston Logan International Airport,波士顿洛根国际机场,"Boston, MA",
 ORD,Chicago O'Hare International Airport,芝加哥奥黑尔国际机场,"Chicago, IL",USA
 IAD,Washington Dulles International Airport,华盛顿杜勒斯国际机场,"Washington, DC",USA
 ONT,Ontario International Airport,安大略国际机场,"Ontario, CA",USA
+GUM,Guam Antonio B. Won Pat International Airport,关岛安东尼奥·B·旺·帕特国际机场,Guam,USA
 YVR,Vancouver International Airport,温哥华国际机场,"Vancover, BC",CAN
 YYZ,Toronto Pearson International Airport,多伦多皮尔逊国际机场,"Toronto, ON",CAN
 PEK,Beijing Capital International Airport,北京首都国际机场,Beijing,CHN
@@ -22,3 +23,4 @@ SIN,Singapore Changi Airport,新加坡樟宜国际机场,Singapore,SGP
 ICN,Seoul Incheon International Airport,首尔仁川国际机场,Seoul,KOR
 HND,Tokyo Haneda International Airport,东京羽田国际机场,Tokyo,JPN
 NRT,Tokyo Narita International Airport,东京成田国际机场,Tokyo,JPN
+KIX,Osaka Kansai International Airport,大阪关西国际机场,Osaka,JPN
