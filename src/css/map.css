@@ -1,0 +1,18 @@
+/* Leaflet overrides: all typefaces inherit the root setting. */
+#map { height: 100%; background: var(--map-ocean); cursor: default; }
+.leaflet-container, .leaflet-container .leaflet-tooltip, .leaflet-container .leaflet-popup,
+.leaflet-container .leaflet-control, .leaflet-container a.leaflet-popup-close-button { font-family: inherit; }
+.leaflet-container, .leaflet-tooltip, .leaflet-popup-content { font-size: var(--font-size-base); }
+#map .leaflet-interactive:focus { outline: none; }
+.airport-label { padding: 2px 5px; border: 1px solid var(--color-border); border-radius: 3px; background: var(--color-surface); box-shadow: none; color: var(--color-text); font-size: var(--font-size-base); font-weight: 700; }
+.leaflet-tooltip::before { display: none; }
+.leaflet-popup-content-wrapper, .leaflet-popup-tip { background: var(--color-surface); color: var(--color-text); }
+.airport-info-popup .leaflet-popup-content-wrapper { padding: 0; overflow: hidden; border: 1px solid var(--color-border); border-radius: var(--radius); box-shadow: var(--shadow); }
+.airport-info-popup { max-width: var(--map-overlay-width, calc(100vw - 16px)); }
+.airport-info-popup .leaflet-popup-content { margin: 0; max-width: calc(var(--map-overlay-width, 100vw) - 2px); overflow: hidden; overflow-wrap: anywhere; }
+.leaflet-tooltip { width: max-content; max-width: none; white-space: nowrap; overflow-wrap: normal; }
+.edge-adjusted .leaflet-popup-tip-container { display: none; }
+.leaflet-container a.leaflet-popup-close-button { color: var(--color-muted); }
+.leaflet-control-attribution { font-size: var(--font-size-base) !important; }
+#status { position: absolute; z-index: 1000; left: 18px; bottom: 35px; max-width: 85%; padding: 10px; border-radius: 5px; background: var(--color-background); color: var(--color-accent); font-size: var(--font-size-base); }
+#status:empty { display: none; }

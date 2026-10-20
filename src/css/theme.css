@@ -1,0 +1,83 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap');
+
+/* 修改配色、字体和通用尺寸，只需从这里开始。 */
+:root {
+    /* FL24 风格：中性灰层次、浅色正文、黄色强调。 */
+    --color-background: #303030;
+    --color-surface: #3e3e3e;
+    --color-heading: #4b4b4b;
+    --color-control: #484848;
+    --color-hover: #555555;
+    --color-border: #606060;
+    --color-text: #eeeeee;
+    --color-muted: #c1c1c1;
+    --color-accent: #f8c51c;
+    --color-accent-hover: #ffda57;
+    --color-on-accent: #302a16;
+    --color-scroll-track: #292929;
+    --color-scroll-thumb: #a0a0a0;
+    --color-scroll-thumb-hover: #b8b8b8;
+
+    /* 地图颜色也由这里控制，JS 通过 SVG CSS 变量使用它们。 */
+    --map-ocean: #d8edf3;
+    --map-land: #90aaa0;
+    --map-border: #728e85;
+    --route-color: #31839b;
+    /* 地区航线：蓝／紫红／深绿／橙棕，避开与浅色底图接近的黄色。 */
+    --route-greater-china: #245ec0;
+    --route-greater-china-highlight: #163b80;
+    --route-japan: #a43c8b;
+    --route-japan-highlight: #70245f;
+    --route-korea: #147453;
+    --route-korea-highlight: #084b35;
+    --route-singapore: #c16b20;
+    --route-singapore-highlight: #87440d;
+    --route-color-highlight: #1b586b;
+    --route-highlight: var(--color-accent);
+    --airport-active: #166971;
+    --airport-inactive: #8b9d9c;
+    --airport-fill: #ffffff;
+    --airport-inactive-fill: #b9c5c2;
+
+    /* 字号层级：正文 14px，标题和重点文字逐级增大。 */
+    --font-size-base: 14px;
+    --font-size-medium: 16px;
+    --font-size-large: 18px;
+    --font-size-xlarge: 20px;
+    --font-size-stat: 22px;
+
+    /* 常用布局参数。 */
+    --header-height: 64px;
+    --sidebar-width: 420px;
+    --panel-gap: 14px;
+    --panel-padding: 16px;
+    --radius: 8px;
+    --scrollbar-width: 11px;
+    --shadow: 0 6px 20px #00000026;
+    font-family: 'Open Sans', sans-serif;
+    font-size: var(--font-size-base);
+    color: var(--color-text);
+    background: var(--color-background);
+    color-scheme: dark;
+    font-synthesis: none;
+}
+
+* { box-sizing: border-box; scrollbar-width: auto; scrollbar-color: var(--color-scroll-thumb) var(--color-scroll-track); }
+*::-webkit-scrollbar { width: var(--scrollbar-width); height: var(--scrollbar-width); }
+*::-webkit-scrollbar-track, *::-webkit-scrollbar-corner { background: var(--color-scroll-track); }
+*::-webkit-scrollbar-thumb { background: var(--color-scroll-thumb); border: 2px solid var(--color-scroll-track); border-radius: var(--radius); min-height: 32px; }
+*::-webkit-scrollbar-thumb:hover { background: var(--color-scroll-thumb-hover); }
+[hidden] { display: none !important; }
+body { margin: 0; height: 100dvh; overflow: hidden; }
+button, select { font: inherit; }
+button { cursor: pointer; }
+button:disabled { opacity: .45; cursor: default; }
+button:focus-visible, select:focus-visible {
+    outline: 2px solid var(--color-accent);
+    outline-offset: 3px;
+}
+h1 { margin: 0; font-size: var(--font-size-large); font-weight: 500; }
+h2 { margin: 0 0 8px; font-size: var(--font-size-xlarge); }
+p { margin: 0 0 14px; font-size: var(--font-size-base); line-height: 1.8; color: var(--color-muted); }
+footer { margin-top: 22px; font-size: var(--font-size-base); line-height: 1.8; color: var(--color-muted); }
+footer #catalog-note { margin-bottom: 8px; font-size: inherit; line-height: inherit; color: inherit; }
