@@ -57,7 +57,7 @@ for (const route of routes) {
   assert.equal(airportByCode.get(route.origin)?.region, 'asia_pacific');
   assert.equal(airportByCode.get(route.destination)?.region, 'north_america');
   assert(['active', 'seasonal', 'announced'].includes(route.service_status));
-  assert.equal(route.checked_on, catalog.route_snapshot.checked_on);
+  assert(route.checked_on <= catalog.route_snapshot.checked_on);
   checkSources(route.source_ids);
   if (route.service_status === 'announced') assert(route.service_start > catalog.checked_on);
   if (route.service_start && route.service_end) assert(route.service_start <= route.service_end);
@@ -84,7 +84,25 @@ for (const f of flights) {
   if (f.import_batch) {
     checkSources(f.source_ids);
     assert(f.valid_from && f.valid_to && f.valid_from <= f.valid_to);
-    assert.equal(f.checked_on, catalog.checked_on);
+    assert(f.checked_on <= (catalog.timetable_snapshot?.checked_on || catalog.checked_on));
+    if (f.import_batch === catalog.timetable_snapshot?.import_batch) {
+      assert.equal(f.checked_on, catalog.timetable_snapshot.checked_on);
+      assert(f.aircraft, 'New researched flight must include sourced aircraft');
+      assert.equal(f.dept_time, ''); assert.equal(f.arri_time, '');
+      assert(f.valid_to <= catalog.timetable_snapshot.review_by);
+    }
+    if ([catalog.timetable_snapshot?.import_batch, catalog.timetable_snapshot?.seasonal_plan_import_batch].includes(f.import_batch)) {
+      assert(f.operating_periods?.length, 'Missing source date periods');
+      const expected = [];
+      for (let t = Date.parse(`${f.display_from}T00:00:00Z`); t <= Date.parse(`${f.display_to}T00:00:00Z`); t += 86400000) {
+        const stamp = new Date(t).toISOString().slice(0,10), day = String(new Date(t).getUTCDay() || 7);
+        const planes = new Set(f.operating_periods.filter(p => (!p.valid_from || p.valid_from <= stamp)
+          && (!p.valid_to || stamp <= p.valid_to) && p.weekdays.includes(day)).map(p => p.aircraft));
+        if (planes.size) expected.push({date:stamp,aircraft:[...planes].sort().join(' / ')});
+      }
+      assert.deepEqual(f.departures, expected, `Incorrect departure calendar: ${timetableKey}`);
+      assert.equal(new Set(f.departures.map(d => d.date)).size,f.departures.length);
+    }
     const a = airportByCode.get(f.origin), b = airportByCode.get(f.destination);
     const key = a?.region === 'asia_pacific' ? `${f.airline}:${f.origin}-${f.destination}` : `${f.airline}:${f.destination}-${f.origin}`;
     assert(currentKeys.has(key), `Timetable without a researched route: ${key}`);
@@ -94,6 +112,27 @@ for (const f of flights) {
   if (a && b && a.region !== b.region) visible++;
 }
 assert.equal(flights[0].flight_number, '0127');
+if (catalog.timetable_snapshot) {
+  const snapshot = flights.filter(f => f.import_batch === catalog.timetable_snapshot.import_batch);
+  assert.equal(snapshot.length, catalog.timetable_snapshot.records);
+  assert.equal(new Set(snapshot.map(f => f.airline)).size, catalog.timetable_snapshot.airlines);
+  const snapshotRoutes = new Set(snapshot.map(f => {
+    const a = airportByCode.get(f.origin);
+    return a.region === 'asia_pacific' ? `${f.airline}:${f.origin}-${f.destination}` : `${f.airline}:${f.destination}-${f.origin}`;
+  }));
+  assert.equal(snapshotRoutes.size, catalog.timetable_snapshot.airline_route_records);
+  for (const id of catalog.timetable_snapshot.missing_airline_routes) assert(!snapshotRoutes.has(id));
+  const plans = flights.filter(f => f.import_batch === catalog.timetable_snapshot.seasonal_plan_import_batch);
+  assert.equal(plans.length, catalog.timetable_snapshot.seasonal_plan_records);
+  assert(plans.every(f => f.valid_from > catalog.timetable_snapshot.checked_on && f.aircraft));
+  for (const key of ['AA:NRT-ORD','UA:NRT-ORD','UA:KIX-LAX']) assert(!currentKeys.has(key));
+  const ac = n => snapshot.find(f => f.airline === 'AC' && f.flight_number === n);
+  assert.equal(ac('0007').departures.length,5);
+  assert.equal(ac('0008').departures.length,5);
+  assert.equal(ac('0015').departures[0].date,'2026-10-23');
+  const sichuan = snapshot.find(f => f.airline === '3U' && f.flight_number === '3859');
+  assert.deepEqual(sichuan.departures.map(d => d.date),['2026-10-20','2026-10-23']);
+}
 const html = fs.readFileSync(new URL('../index.html', import.meta.url), 'utf8');
 for (const path of ['src/js/app.js', 'src/css/style.css']) {
   assert(html.includes(path)); assert(fs.existsSync(new URL(`../${path}`, import.meta.url)));

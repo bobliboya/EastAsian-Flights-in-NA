@@ -2,18 +2,21 @@
 
 /* 修改配色、字体和通用尺寸，只需从这里开始。 */
 :root {
-    /* FL24 风格：中性灰层次、浅色正文、黄色强调。 */
-    --color-background: #303030;
-    --color-surface: #3e3e3e;
-    --color-heading: #4b4b4b;
-    --color-control: #484848;
-    --color-hover: #555555;
-    --color-border: #606060;
-    --color-text: #eeeeee;
-    --color-muted: #c1c1c1;
-    --color-accent: #f8c51c;
-    --color-accent-hover: #ffda57;
-    --color-on-accent: #302a16;
+    /* 深海蓝：蓝灰面板、蓝色主按钮、浅蓝链接。 */
+    --color-background: #172330;
+    --color-surface: #233444;
+    --color-heading: #2d4356;
+    --color-control: #2b4053;
+    --color-hover: #36536c;
+    --color-border: #4b657b;
+    --color-text: #edf4fb;
+    --color-muted: #b9c9d8;
+    --color-accent: #438de3;
+    --color-accent-hover: #64a7f0;
+    --color-on-accent: #0b1928;
+    --color-link: #8cc8ff;
+    --color-link-hover: #b9dfff;
+    --color-map-link: #195c9e;
     --color-scroll-track: #292929;
     --color-scroll-thumb: #a0a0a0;
     --color-scroll-thumb-hover: #b8b8b8;
@@ -48,7 +51,7 @@
 
     /* 常用布局参数。 */
     --header-height: 64px;
-    --sidebar-width: 420px;
+    --sidebar-width: 400px;
     --panel-gap: 14px;
     --panel-padding: 16px;
     --radius: 8px;
@@ -69,6 +72,8 @@
 *::-webkit-scrollbar-thumb:hover { background: var(--color-scroll-thumb-hover); }
 [hidden] { display: none !important; }
 body { margin: 0; height: 100dvh; overflow: hidden; }
+a { color: var(--color-link); }
+a:hover { color: var(--color-link-hover); }
 button, select { font: inherit; }
 button { cursor: pointer; }
 button:disabled { opacity: .45; cursor: default; }

@@ -359,6 +359,2334 @@
       "url": "https://www.flightconnections.com/flights-from-osaka-kix",
       "kind": "schedule_index",
       "accessed_on": "2026-10-19"
+    },
+    "aa_ord_nrt_2027": {
+      "title": "American official summer 2027 launch: ORD to NRT March 19",
+      "url": "https://news.aa.com/news/news-details/2026/Summer-gets-sweeter-with-new-global-routes-from-American-Airlines-NET-RTS-08/",
+      "kind": "primary",
+      "accessed_on": "2026-10-20"
+    },
+    "ua_ord_nrt_2026": {
+      "title": "Narita airport: United Narita–Chicago starts October 25, 2026",
+      "url": "https://www.narita-airport.jp/en/company/media-center/news/20260518_unitedairlines_en/",
+      "kind": "primary",
+      "accessed_on": "2026-10-20"
+    },
+    "fm_CZ_CAN_JFK_20261020": {
+      "title": "FlightMapper dated passenger schedule: CZ CAN–JFK",
+      "url": "https://info.flightmapper.net/route/China_Southern_Airlines_CZ_CAN_JFK",
+      "kind": "schedule_index",
+      "accessed_on": "2026-10-20"
+    },
+    "fm_CZ_JFK_CAN_20261020": {
+      "title": "FlightMapper dated passenger schedule: CZ JFK–CAN",
+      "url": "https://info.flightmapper.net/route/China_Southern_Airlines_CZ_JFK_CAN",
+      "kind": "schedule_index",
+      "accessed_on": "2026-10-20"
+    },
+    "fm_CZ_CAN_LAX_20261020": {
+      "title": "FlightMapper dated passenger schedule: CZ CAN–LAX",
+      "url": "https://info.flightmapper.net/route/China_Southern_Airlines_CZ_CAN_LAX",
+      "kind": "schedule_index",
+      "accessed_on": "2026-10-20"
+    },
+    "fm_CZ_LAX_CAN_20261020": {
+      "title": "FlightMapper dated passenger schedule: CZ LAX–CAN",
+      "url": "https://info.flightmapper.net/route/China_Southern_Airlines_CZ_LAX_CAN",
+      "kind": "schedule_index",
+      "accessed_on": "2026-10-20"
+    },
+    "fm_CZ_CAN_SFO_20261020": {
+      "title": "FlightMapper dated passenger schedule: CZ CAN–SFO",
+      "url": "https://info.flightmapper.net/route/China_Southern_Airlines_CZ_CAN_SFO",
+      "kind": "schedule_index",
+      "accessed_on": "2026-10-20"
+    },
+    "fm_CZ_SFO_CAN_20261020": {
+      "title": "FlightMapper dated passenger schedule: CZ SFO–CAN",
+      "url": "https://info.flightmapper.net/route/China_Southern_Airlines_CZ_SFO_CAN",
+      "kind": "schedule_index",
+      "accessed_on": "2026-10-20"
+    },
+    "fm_CZ_CAN_YVR_20261020": {
+      "title": "FlightMapper dated passenger schedule: CZ CAN–YVR",
+      "url": "https://info.flightmapper.net/route/China_Southern_Airlines_CZ_CAN_YVR",
+      "kind": "schedule_index",
+      "accessed_on": "2026-10-20"
+    },
+    "fm_CZ_YVR_CAN_20261020": {
+      "title": "FlightMapper dated passenger schedule: CZ YVR–CAN",
+      "url": "https://info.flightmapper.net/route/China_Southern_Airlines_CZ_YVR_CAN",
+      "kind": "schedule_index",
+      "accessed_on": "2026-10-20"
+    },
+    "fm_CZ_CAN_YYZ_20261020": {
+      "title": "FlightMapper dated passenger schedule: CZ CAN–YYZ",
+      "url": "https://info.flightmapper.net/route/China_Southern_Airlines_CZ_CAN_YYZ",
+      "kind": "schedule_index",
+      "accessed_on": "2026-10-20"
+    },
+    "fm_CZ_YYZ_CAN_20261020": {
+      "title": "FlightMapper dated passenger schedule: CZ YYZ–CAN",
+      "url": "https://info.flightmapper.net/route/China_Southern_Airlines_CZ_YYZ_CAN",
+      "kind": "schedule_index",
+      "accessed_on": "2026-10-20"
+    },
+    "fm_HU_CKG_SEA_20261020": {
+      "title": "FlightMapper dated passenger schedule: HU CKG–SEA",
+      "url": "https://info.flightmapper.net/route/Hainan_Airlines_HU_CKG_SEA",
+      "kind": "schedule_index",
+      "accessed_on": "2026-10-20"
+    },
+    "fm_HU_SEA_CKG_20261020": {
+      "title": "FlightMapper dated passenger schedule: HU SEA–CKG",
+      "url": "https://info.flightmapper.net/route/Hainan_Airlines_HU_SEA_CKG",
+      "kind": "schedule_index",
+      "accessed_on": "2026-10-20"
+    },
+    "fm_MF_FOC_JFK_20261020": {
+      "title": "FlightMapper dated passenger schedule: MF FOC–JFK",
+      "url": "https://info.flightmapper.net/route/XiamenAir_MF_FOC_JFK",
+      "kind": "schedule_index",
+      "accessed_on": "2026-10-20"
+    },
+    "fm_MF_JFK_FOC_20261020": {
+      "title": "FlightMapper dated passenger schedule: MF JFK–FOC",
+      "url": "https://info.flightmapper.net/route/XiamenAir_MF_JFK_FOC",
+      "kind": "schedule_index",
+      "accessed_on": "2026-10-20"
+    },
+    "fm_CX_HKG_BOS_20261020": {
+      "title": "FlightMapper dated passenger schedule: CX HKG–BOS",
+      "url": "https://info.flightmapper.net/route/Cathay_Pacific_CX_HKG_BOS",
+      "kind": "schedule_index",
+      "accessed_on": "2026-10-20"
+    },
+    "fm_CX_BOS_HKG_20261020": {
+      "title": "FlightMapper dated passenger schedule: CX BOS–HKG",
+      "url": "https://info.flightmapper.net/route/Cathay_Pacific_CX_BOS_HKG",
+      "kind": "schedule_index",
+      "accessed_on": "2026-10-20"
+    },
+    "fm_CX_HKG_DFW_20261020": {
+      "title": "FlightMapper dated passenger schedule: CX HKG–DFW",
+      "url": "https://info.flightmapper.net/route/Cathay_Pacific_CX_HKG_DFW",
+      "kind": "schedule_index",
+      "accessed_on": "2026-10-20"
+    },
+    "fm_CX_DFW_HKG_20261020": {
+      "title": "FlightMapper dated passenger schedule: CX DFW–HKG",
+      "url": "https://info.flightmapper.net/route/Cathay_Pacific_CX_DFW_HKG",
+      "kind": "schedule_index",
+      "accessed_on": "2026-10-20"
+    },
+    "fm_CX_HKG_JFK_20261020": {
+      "title": "FlightMapper dated passenger schedule: CX HKG–JFK",
+      "url": "https://info.flightmapper.net/route/Cathay_Pacific_CX_HKG_JFK",
+      "kind": "schedule_index",
+      "accessed_on": "2026-10-20"
+    },
+    "fm_CX_JFK_HKG_20261020": {
+      "title": "FlightMapper dated passenger schedule: CX JFK–HKG",
+      "url": "https://info.flightmapper.net/route/Cathay_Pacific_CX_JFK_HKG",
+      "kind": "schedule_index",
+      "accessed_on": "2026-10-20"
+    },
+    "fm_CX_HKG_LAX_20261020": {
+      "title": "FlightMapper dated passenger schedule: CX HKG–LAX",
+      "url": "https://info.flightmapper.net/route/Cathay_Pacific_CX_HKG_LAX",
+      "kind": "schedule_index",
+      "accessed_on": "2026-10-20"
+    },
+    "fm_CX_LAX_HKG_20261020": {
+      "title": "FlightMapper dated passenger schedule: CX LAX–HKG",
+      "url": "https://info.flightmapper.net/route/Cathay_Pacific_CX_LAX_HKG",
+      "kind": "schedule_index",
+      "accessed_on": "2026-10-20"
+    },
+    "fm_DL_HKG_LAX_20261020": {
+      "title": "FlightMapper dated passenger schedule: DL HKG–LAX",
+      "url": "https://info.flightmapper.net/route/Delta_Air_Lines_DL_HKG_LAX",
+      "kind": "schedule_index",
+      "accessed_on": "2026-10-20"
+    },
+    "fm_DL_LAX_HKG_20261020": {
+      "title": "FlightMapper dated passenger schedule: DL LAX–HKG",
+      "url": "https://info.flightmapper.net/route/Delta_Air_Lines_DL_LAX_HKG",
+      "kind": "schedule_index",
+      "accessed_on": "2026-10-20"
+    },
+    "fm_UA_HKG_LAX_20261020": {
+      "title": "FlightMapper dated passenger schedule: UA HKG–LAX",
+      "url": "https://info.flightmapper.net/route/United_Airlines_UA_HKG_LAX",
+      "kind": "schedule_index",
+      "accessed_on": "2026-10-20"
+    },
+    "fm_UA_LAX_HKG_20261020": {
+      "title": "FlightMapper dated passenger schedule: UA LAX–HKG",
+      "url": "https://info.flightmapper.net/route/United_Airlines_UA_LAX_HKG",
+      "kind": "schedule_index",
+      "accessed_on": "2026-10-20"
+    },
+    "fm_CX_HKG_ORD_20261020": {
+      "title": "FlightMapper dated passenger schedule: CX HKG–ORD",
+      "url": "https://info.flightmapper.net/route/Cathay_Pacific_CX_HKG_ORD",
+      "kind": "schedule_index",
+      "accessed_on": "2026-10-20"
+    },
+    "fm_CX_ORD_HKG_20261020": {
+      "title": "FlightMapper dated passenger schedule: CX ORD–HKG",
+      "url": "https://info.flightmapper.net/route/Cathay_Pacific_CX_ORD_HKG",
+      "kind": "schedule_index",
+      "accessed_on": "2026-10-20"
+    },
+    "fm_CX_HKG_SEA_20261020": {
+      "title": "FlightMapper dated passenger schedule: CX HKG–SEA",
+      "url": "https://info.flightmapper.net/route/Cathay_Pacific_CX_HKG_SEA",
+      "kind": "schedule_index",
+      "accessed_on": "2026-10-20"
+    },
+    "fm_CX_SEA_HKG_20261020": {
+      "title": "FlightMapper dated passenger schedule: CX SEA–HKG",
+      "url": "https://info.flightmapper.net/route/Cathay_Pacific_CX_SEA_HKG",
+      "kind": "schedule_index",
+      "accessed_on": "2026-10-20"
+    },
+    "fm_CX_HKG_SFO_20261020": {
+      "title": "FlightMapper dated passenger schedule: CX HKG–SFO",
+      "url": "https://info.flightmapper.net/route/Cathay_Pacific_CX_HKG_SFO",
+      "kind": "schedule_index",
+      "accessed_on": "2026-10-20"
+    },
+    "fm_CX_SFO_HKG_20261020": {
+      "title": "FlightMapper dated passenger schedule: CX SFO–HKG",
+      "url": "https://info.flightmapper.net/route/Cathay_Pacific_CX_SFO_HKG",
+      "kind": "schedule_index",
+      "accessed_on": "2026-10-20"
+    },
+    "fm_UA_HKG_SFO_20261020": {
+      "title": "FlightMapper dated passenger schedule: UA HKG–SFO",
+      "url": "https://info.flightmapper.net/route/United_Airlines_UA_HKG_SFO",
+      "kind": "schedule_index",
+      "accessed_on": "2026-10-20"
+    },
+    "fm_UA_SFO_HKG_20261020": {
+      "title": "FlightMapper dated passenger schedule: UA SFO–HKG",
+      "url": "https://info.flightmapper.net/route/United_Airlines_UA_SFO_HKG",
+      "kind": "schedule_index",
+      "accessed_on": "2026-10-20"
+    },
+    "fm_AC_HKG_YVR_20261020": {
+      "title": "FlightMapper dated passenger schedule: AC HKG–YVR",
+      "url": "https://info.flightmapper.net/route/Air_Canada_AC_HKG_YVR",
+      "kind": "schedule_index",
+      "accessed_on": "2026-10-20"
+    },
+    "fm_AC_YVR_HKG_20261020": {
+      "title": "FlightMapper dated passenger schedule: AC YVR–HKG",
+      "url": "https://info.flightmapper.net/route/Air_Canada_AC_YVR_HKG",
+      "kind": "schedule_index",
+      "accessed_on": "2026-10-20"
+    },
+    "fm_CX_HKG_YVR_20261020": {
+      "title": "FlightMapper dated passenger schedule: CX HKG–YVR",
+      "url": "https://info.flightmapper.net/route/Cathay_Pacific_CX_HKG_YVR",
+      "kind": "schedule_index",
+      "accessed_on": "2026-10-20"
+    },
+    "fm_CX_YVR_HKG_20261020": {
+      "title": "FlightMapper dated passenger schedule: CX YVR–HKG",
+      "url": "https://info.flightmapper.net/route/Cathay_Pacific_CX_YVR_HKG",
+      "kind": "schedule_index",
+      "accessed_on": "2026-10-20"
+    },
+    "fm_HX_HKG_YVR_20261020": {
+      "title": "FlightMapper dated passenger schedule: HX HKG–YVR",
+      "url": "https://info.flightmapper.net/route/Hong_Kong_Airlines_HX_HKG_YVR",
+      "kind": "schedule_index",
+      "accessed_on": "2026-10-20"
+    },
+    "fm_HX_YVR_HKG_20261020": {
+      "title": "FlightMapper dated passenger schedule: HX YVR–HKG",
+      "url": "https://info.flightmapper.net/route/Hong_Kong_Airlines_HX_YVR_HKG",
+      "kind": "schedule_index",
+      "accessed_on": "2026-10-20"
+    },
+    "fm_CX_HKG_YYZ_20261020": {
+      "title": "FlightMapper dated passenger schedule: CX HKG–YYZ",
+      "url": "https://info.flightmapper.net/route/Cathay_Pacific_CX_HKG_YYZ",
+      "kind": "schedule_index",
+      "accessed_on": "2026-10-20"
+    },
+    "fm_CX_YYZ_HKG_20261020": {
+      "title": "FlightMapper dated passenger schedule: CX YYZ–HKG",
+      "url": "https://info.flightmapper.net/route/Cathay_Pacific_CX_YYZ_HKG",
+      "kind": "schedule_index",
+      "accessed_on": "2026-10-20"
+    },
+    "fm_DL_HND_ATL_20261020": {
+      "title": "FlightMapper dated passenger schedule: DL HND–ATL",
+      "url": "https://info.flightmapper.net/route/Delta_Air_Lines_DL_HND_ATL",
+      "kind": "schedule_index",
+      "accessed_on": "2026-10-20"
+    },
+    "fm_DL_ATL_HND_20261020": {
+      "title": "FlightMapper dated passenger schedule: DL ATL–HND",
+      "url": "https://info.flightmapper.net/route/Delta_Air_Lines_DL_ATL_HND",
+      "kind": "schedule_index",
+      "accessed_on": "2026-10-20"
+    },
+    "fm_AA_HND_DFW_20261020": {
+      "title": "FlightMapper dated passenger schedule: AA HND–DFW",
+      "url": "https://info.flightmapper.net/route/American_Airlines_AA_HND_DFW",
+      "kind": "schedule_index",
+      "accessed_on": "2026-10-20"
+    },
+    "fm_AA_DFW_HND_20261020": {
+      "title": "FlightMapper dated passenger schedule: AA DFW–HND",
+      "url": "https://info.flightmapper.net/route/American_Airlines_AA_DFW_HND",
+      "kind": "schedule_index",
+      "accessed_on": "2026-10-20"
+    },
+    "fm_JL_HND_DFW_20261020": {
+      "title": "FlightMapper dated passenger schedule: JL HND–DFW",
+      "url": "https://info.flightmapper.net/route/Japan_Airlines_JL_HND_DFW",
+      "kind": "schedule_index",
+      "accessed_on": "2026-10-20"
+    },
+    "fm_JL_DFW_HND_20261020": {
+      "title": "FlightMapper dated passenger schedule: JL DFW–HND",
+      "url": "https://info.flightmapper.net/route/Japan_Airlines_JL_DFW_HND",
+      "kind": "schedule_index",
+      "accessed_on": "2026-10-20"
+    },
+    "fm_DL_HND_DTW_20261020": {
+      "title": "FlightMapper dated passenger schedule: DL HND–DTW",
+      "url": "https://info.flightmapper.net/route/Delta_Air_Lines_DL_HND_DTW",
+      "kind": "schedule_index",
+      "accessed_on": "2026-10-20"
+    },
+    "fm_DL_DTW_HND_20261020": {
+      "title": "FlightMapper dated passenger schedule: DL DTW–HND",
+      "url": "https://info.flightmapper.net/route/Delta_Air_Lines_DL_DTW_HND",
+      "kind": "schedule_index",
+      "accessed_on": "2026-10-20"
+    },
+    "fm_UA_HND_EWR_20261020": {
+      "title": "FlightMapper dated passenger schedule: UA HND–EWR",
+      "url": "https://info.flightmapper.net/route/United_Airlines_UA_HND_EWR",
+      "kind": "schedule_index",
+      "accessed_on": "2026-10-20"
+    },
+    "fm_UA_EWR_HND_20261020": {
+      "title": "FlightMapper dated passenger schedule: UA EWR–HND",
+      "url": "https://info.flightmapper.net/route/United_Airlines_UA_EWR_HND",
+      "kind": "schedule_index",
+      "accessed_on": "2026-10-20"
+    },
+    "fm_AS_HND_HNL_20261020": {
+      "title": "FlightMapper dated passenger schedule: AS HND–HNL",
+      "url": "https://info.flightmapper.net/route/Alaska_Airlines_AS_HND_HNL",
+      "kind": "schedule_index",
+      "accessed_on": "2026-10-20"
+    },
+    "fm_AS_HNL_HND_20261020": {
+      "title": "FlightMapper dated passenger schedule: AS HNL–HND",
+      "url": "https://info.flightmapper.net/route/Alaska_Airlines_AS_HNL_HND",
+      "kind": "schedule_index",
+      "accessed_on": "2026-10-20"
+    },
+    "fm_DL_HND_HNL_20261020": {
+      "title": "FlightMapper dated passenger schedule: DL HND–HNL",
+      "url": "https://info.flightmapper.net/route/Delta_Air_Lines_DL_HND_HNL",
+      "kind": "schedule_index",
+      "accessed_on": "2026-10-20"
+    },
+    "fm_DL_HNL_HND_20261020": {
+      "title": "FlightMapper dated passenger schedule: DL HNL–HND",
+      "url": "https://info.flightmapper.net/route/Delta_Air_Lines_DL_HNL_HND",
+      "kind": "schedule_index",
+      "accessed_on": "2026-10-20"
+    },
+    "fm_JL_HND_HNL_20261020": {
+      "title": "FlightMapper dated passenger schedule: JL HND–HNL",
+      "url": "https://info.flightmapper.net/route/Japan_Airlines_JL_HND_HNL",
+      "kind": "schedule_index",
+      "accessed_on": "2026-10-20"
+    },
+    "fm_JL_HNL_HND_20261020": {
+      "title": "FlightMapper dated passenger schedule: JL HNL–HND",
+      "url": "https://info.flightmapper.net/route/Japan_Airlines_JL_HNL_HND",
+      "kind": "schedule_index",
+      "accessed_on": "2026-10-20"
+    },
+    "fm_NH_HND_HNL_20261020": {
+      "title": "FlightMapper dated passenger schedule: NH HND–HNL",
+      "url": "https://info.flightmapper.net/route/All_Nippon_Airways_NH_HND_HNL",
+      "kind": "schedule_index",
+      "accessed_on": "2026-10-20"
+    },
+    "fm_NH_HNL_HND_20261020": {
+      "title": "FlightMapper dated passenger schedule: NH HNL–HND",
+      "url": "https://info.flightmapper.net/route/All_Nippon_Airways_NH_HNL_HND",
+      "kind": "schedule_index",
+      "accessed_on": "2026-10-20"
+    },
+    "fm_NH_HND_IAD_20261020": {
+      "title": "FlightMapper dated passenger schedule: NH HND–IAD",
+      "url": "https://info.flightmapper.net/route/All_Nippon_Airways_NH_HND_IAD",
+      "kind": "schedule_index",
+      "accessed_on": "2026-10-20"
+    },
+    "fm_NH_IAD_HND_20261020": {
+      "title": "FlightMapper dated passenger schedule: NH IAD–HND",
+      "url": "https://info.flightmapper.net/route/All_Nippon_Airways_NH_IAD_HND",
+      "kind": "schedule_index",
+      "accessed_on": "2026-10-20"
+    },
+    "fm_UA_HND_IAD_20261020": {
+      "title": "FlightMapper dated passenger schedule: UA HND–IAD",
+      "url": "https://info.flightmapper.net/route/United_Airlines_UA_HND_IAD",
+      "kind": "schedule_index",
+      "accessed_on": "2026-10-20"
+    },
+    "fm_UA_IAD_HND_20261020": {
+      "title": "FlightMapper dated passenger schedule: UA IAD–HND",
+      "url": "https://info.flightmapper.net/route/United_Airlines_UA_IAD_HND",
+      "kind": "schedule_index",
+      "accessed_on": "2026-10-20"
+    },
+    "fm_NH_HND_IAH_20261020": {
+      "title": "FlightMapper dated passenger schedule: NH HND–IAH",
+      "url": "https://info.flightmapper.net/route/All_Nippon_Airways_NH_HND_IAH",
+      "kind": "schedule_index",
+      "accessed_on": "2026-10-20"
+    },
+    "fm_NH_IAH_HND_20261020": {
+      "title": "FlightMapper dated passenger schedule: NH IAH–HND",
+      "url": "https://info.flightmapper.net/route/All_Nippon_Airways_NH_IAH_HND",
+      "kind": "schedule_index",
+      "accessed_on": "2026-10-20"
+    },
+    "fm_AA_HND_JFK_20261020": {
+      "title": "FlightMapper dated passenger schedule: AA HND–JFK",
+      "url": "https://info.flightmapper.net/route/American_Airlines_AA_HND_JFK",
+      "kind": "schedule_index",
+      "accessed_on": "2026-10-20"
+    },
+    "fm_AA_JFK_HND_20261020": {
+      "title": "FlightMapper dated passenger schedule: AA JFK–HND",
+      "url": "https://info.flightmapper.net/route/American_Airlines_AA_JFK_HND",
+      "kind": "schedule_index",
+      "accessed_on": "2026-10-20"
+    },
+    "fm_JL_HND_JFK_20261020": {
+      "title": "FlightMapper dated passenger schedule: JL HND–JFK",
+      "url": "https://info.flightmapper.net/route/Japan_Airlines_JL_HND_JFK",
+      "kind": "schedule_index",
+      "accessed_on": "2026-10-20"
+    },
+    "fm_JL_JFK_HND_20261020": {
+      "title": "FlightMapper dated passenger schedule: JL JFK–HND",
+      "url": "https://info.flightmapper.net/route/Japan_Airlines_JL_JFK_HND",
+      "kind": "schedule_index",
+      "accessed_on": "2026-10-20"
+    },
+    "fm_NH_HND_JFK_20261020": {
+      "title": "FlightMapper dated passenger schedule: NH HND–JFK",
+      "url": "https://info.flightmapper.net/route/All_Nippon_Airways_NH_HND_JFK",
+      "kind": "schedule_index",
+      "accessed_on": "2026-10-20"
+    },
+    "fm_NH_JFK_HND_20261020": {
+      "title": "FlightMapper dated passenger schedule: NH JFK–HND",
+      "url": "https://info.flightmapper.net/route/All_Nippon_Airways_NH_JFK_HND",
+      "kind": "schedule_index",
+      "accessed_on": "2026-10-20"
+    },
+    "fm_AA_HND_LAX_20261020": {
+      "title": "FlightMapper dated passenger schedule: AA HND–LAX",
+      "url": "https://info.flightmapper.net/route/American_Airlines_AA_HND_LAX",
+      "kind": "schedule_index",
+      "accessed_on": "2026-10-20"
+    },
+    "fm_AA_LAX_HND_20261020": {
+      "title": "FlightMapper dated passenger schedule: AA LAX–HND",
+      "url": "https://info.flightmapper.net/route/American_Airlines_AA_LAX_HND",
+      "kind": "schedule_index",
+      "accessed_on": "2026-10-20"
+    },
+    "fm_DL_HND_LAX_20261020": {
+      "title": "FlightMapper dated passenger schedule: DL HND–LAX",
+      "url": "https://info.flightmapper.net/route/Delta_Air_Lines_DL_HND_LAX",
+      "kind": "schedule_index",
+      "accessed_on": "2026-10-20"
+    },
+    "fm_DL_LAX_HND_20261020": {
+      "title": "FlightMapper dated passenger schedule: DL LAX–HND",
+      "url": "https://info.flightmapper.net/route/Delta_Air_Lines_DL_LAX_HND",
+      "kind": "schedule_index",
+      "accessed_on": "2026-10-20"
+    },
+    "fm_JL_HND_LAX_20261020": {
+      "title": "FlightMapper dated passenger schedule: JL HND–LAX",
+      "url": "https://info.flightmapper.net/route/Japan_Airlines_JL_HND_LAX",
+      "kind": "schedule_index",
+      "accessed_on": "2026-10-20"
+    },
+    "fm_JL_LAX_HND_20261020": {
+      "title": "FlightMapper dated passenger schedule: JL LAX–HND",
+      "url": "https://info.flightmapper.net/route/Japan_Airlines_JL_LAX_HND",
+      "kind": "schedule_index",
+      "accessed_on": "2026-10-20"
+    },
+    "fm_NH_HND_LAX_20261020": {
+      "title": "FlightMapper dated passenger schedule: NH HND–LAX",
+      "url": "https://info.flightmapper.net/route/All_Nippon_Airways_NH_HND_LAX",
+      "kind": "schedule_index",
+      "accessed_on": "2026-10-20"
+    },
+    "fm_NH_LAX_HND_20261020": {
+      "title": "FlightMapper dated passenger schedule: NH LAX–HND",
+      "url": "https://info.flightmapper.net/route/All_Nippon_Airways_NH_LAX_HND",
+      "kind": "schedule_index",
+      "accessed_on": "2026-10-20"
+    },
+    "fm_UA_HND_LAX_20261020": {
+      "title": "FlightMapper dated passenger schedule: UA HND–LAX",
+      "url": "https://info.flightmapper.net/route/United_Airlines_UA_HND_LAX",
+      "kind": "schedule_index",
+      "accessed_on": "2026-10-20"
+    },
+    "fm_UA_LAX_HND_20261020": {
+      "title": "FlightMapper dated passenger schedule: UA LAX–HND",
+      "url": "https://info.flightmapper.net/route/United_Airlines_UA_LAX_HND",
+      "kind": "schedule_index",
+      "accessed_on": "2026-10-20"
+    },
+    "fm_DL_HND_MSP_20261020": {
+      "title": "FlightMapper dated passenger schedule: DL HND–MSP",
+      "url": "https://info.flightmapper.net/route/Delta_Air_Lines_DL_HND_MSP",
+      "kind": "schedule_index",
+      "accessed_on": "2026-10-20"
+    },
+    "fm_DL_MSP_HND_20261020": {
+      "title": "FlightMapper dated passenger schedule: DL MSP–HND",
+      "url": "https://info.flightmapper.net/route/Delta_Air_Lines_DL_MSP_HND",
+      "kind": "schedule_index",
+      "accessed_on": "2026-10-20"
+    },
+    "fm_JL_HND_ORD_20261020": {
+      "title": "FlightMapper dated passenger schedule: JL HND–ORD",
+      "url": "https://info.flightmapper.net/route/Japan_Airlines_JL_HND_ORD",
+      "kind": "schedule_index",
+      "accessed_on": "2026-10-20"
+    },
+    "fm_JL_ORD_HND_20261020": {
+      "title": "FlightMapper dated passenger schedule: JL ORD–HND",
+      "url": "https://info.flightmapper.net/route/Japan_Airlines_JL_ORD_HND",
+      "kind": "schedule_index",
+      "accessed_on": "2026-10-20"
+    },
+    "fm_NH_HND_ORD_20261020": {
+      "title": "FlightMapper dated passenger schedule: NH HND–ORD",
+      "url": "https://info.flightmapper.net/route/All_Nippon_Airways_NH_HND_ORD",
+      "kind": "schedule_index",
+      "accessed_on": "2026-10-20"
+    },
+    "fm_NH_ORD_HND_20261020": {
+      "title": "FlightMapper dated passenger schedule: NH ORD–HND",
+      "url": "https://info.flightmapper.net/route/All_Nippon_Airways_NH_ORD_HND",
+      "kind": "schedule_index",
+      "accessed_on": "2026-10-20"
+    },
+    "fm_UA_HND_ORD_20261020": {
+      "title": "FlightMapper dated passenger schedule: UA HND–ORD",
+      "url": "https://info.flightmapper.net/route/United_Airlines_UA_HND_ORD",
+      "kind": "schedule_index",
+      "accessed_on": "2026-10-20"
+    },
+    "fm_UA_ORD_HND_20261020": {
+      "title": "FlightMapper dated passenger schedule: UA ORD–HND",
+      "url": "https://info.flightmapper.net/route/United_Airlines_UA_ORD_HND",
+      "kind": "schedule_index",
+      "accessed_on": "2026-10-20"
+    },
+    "fm_DL_HND_SEA_20261020": {
+      "title": "FlightMapper dated passenger schedule: DL HND–SEA",
+      "url": "https://info.flightmapper.net/route/Delta_Air_Lines_DL_HND_SEA",
+      "kind": "schedule_index",
+      "accessed_on": "2026-10-20"
+    },
+    "fm_DL_SEA_HND_20261020": {
+      "title": "FlightMapper dated passenger schedule: DL SEA–HND",
+      "url": "https://info.flightmapper.net/route/Delta_Air_Lines_DL_SEA_HND",
+      "kind": "schedule_index",
+      "accessed_on": "2026-10-20"
+    },
+    "fm_NH_HND_SEA_20261020": {
+      "title": "FlightMapper dated passenger schedule: NH HND–SEA",
+      "url": "https://info.flightmapper.net/route/All_Nippon_Airways_NH_HND_SEA",
+      "kind": "schedule_index",
+      "accessed_on": "2026-10-20"
+    },
+    "fm_NH_SEA_HND_20261020": {
+      "title": "FlightMapper dated passenger schedule: NH SEA–HND",
+      "url": "https://info.flightmapper.net/route/All_Nippon_Airways_NH_SEA_HND",
+      "kind": "schedule_index",
+      "accessed_on": "2026-10-20"
+    },
+    "fm_JL_HND_SFO_20261020": {
+      "title": "FlightMapper dated passenger schedule: JL HND–SFO",
+      "url": "https://info.flightmapper.net/route/Japan_Airlines_JL_HND_SFO",
+      "kind": "schedule_index",
+      "accessed_on": "2026-10-20"
+    },
+    "fm_JL_SFO_HND_20261020": {
+      "title": "FlightMapper dated passenger schedule: JL SFO–HND",
+      "url": "https://info.flightmapper.net/route/Japan_Airlines_JL_SFO_HND",
+      "kind": "schedule_index",
+      "accessed_on": "2026-10-20"
+    },
+    "fm_NH_HND_SFO_20261020": {
+      "title": "FlightMapper dated passenger schedule: NH HND–SFO",
+      "url": "https://info.flightmapper.net/route/All_Nippon_Airways_NH_HND_SFO",
+      "kind": "schedule_index",
+      "accessed_on": "2026-10-20"
+    },
+    "fm_NH_SFO_HND_20261020": {
+      "title": "FlightMapper dated passenger schedule: NH SFO–HND",
+      "url": "https://info.flightmapper.net/route/All_Nippon_Airways_NH_SFO_HND",
+      "kind": "schedule_index",
+      "accessed_on": "2026-10-20"
+    },
+    "fm_UA_HND_SFO_20261020": {
+      "title": "FlightMapper dated passenger schedule: UA HND–SFO",
+      "url": "https://info.flightmapper.net/route/United_Airlines_UA_HND_SFO",
+      "kind": "schedule_index",
+      "accessed_on": "2026-10-20"
+    },
+    "fm_UA_SFO_HND_20261020": {
+      "title": "FlightMapper dated passenger schedule: UA SFO–HND",
+      "url": "https://info.flightmapper.net/route/United_Airlines_UA_SFO_HND",
+      "kind": "schedule_index",
+      "accessed_on": "2026-10-20"
+    },
+    "fm_NH_HND_YVR_20261020": {
+      "title": "FlightMapper dated passenger schedule: NH HND–YVR",
+      "url": "https://info.flightmapper.net/route/All_Nippon_Airways_NH_HND_YVR",
+      "kind": "schedule_index",
+      "accessed_on": "2026-10-20"
+    },
+    "fm_NH_YVR_HND_20261020": {
+      "title": "FlightMapper dated passenger schedule: NH YVR–HND",
+      "url": "https://info.flightmapper.net/route/All_Nippon_Airways_NH_YVR_HND",
+      "kind": "schedule_index",
+      "accessed_on": "2026-10-20"
+    },
+    "fm_AC_HND_YYZ_20261020": {
+      "title": "FlightMapper dated passenger schedule: AC HND–YYZ",
+      "url": "https://info.flightmapper.net/route/Air_Canada_AC_HND_YYZ",
+      "kind": "schedule_index",
+      "accessed_on": "2026-10-20"
+    },
+    "fm_AC_YYZ_HND_20261020": {
+      "title": "FlightMapper dated passenger schedule: AC YYZ–HND",
+      "url": "https://info.flightmapper.net/route/Air_Canada_AC_YYZ_HND",
+      "kind": "schedule_index",
+      "accessed_on": "2026-10-20"
+    },
+    "fm_DL_ICN_ATL_20261020": {
+      "title": "FlightMapper dated passenger schedule: DL ICN–ATL",
+      "url": "https://info.flightmapper.net/route/Delta_Air_Lines_DL_ICN_ATL",
+      "kind": "schedule_index",
+      "accessed_on": "2026-10-20"
+    },
+    "fm_DL_ATL_ICN_20261020": {
+      "title": "FlightMapper dated passenger schedule: DL ATL–ICN",
+      "url": "https://info.flightmapper.net/route/Delta_Air_Lines_DL_ATL_ICN",
+      "kind": "schedule_index",
+      "accessed_on": "2026-10-20"
+    },
+    "fm_KE_ICN_ATL_20261020": {
+      "title": "FlightMapper dated passenger schedule: KE ICN–ATL",
+      "url": "https://info.flightmapper.net/route/Korean_Air_KE_ICN_ATL",
+      "kind": "schedule_index",
+      "accessed_on": "2026-10-20"
+    },
+    "fm_KE_ATL_ICN_20261020": {
+      "title": "FlightMapper dated passenger schedule: KE ATL–ICN",
+      "url": "https://info.flightmapper.net/route/Korean_Air_KE_ATL_ICN",
+      "kind": "schedule_index",
+      "accessed_on": "2026-10-20"
+    },
+    "fm_KE_ICN_BOS_20261020": {
+      "title": "FlightMapper dated passenger schedule: KE ICN–BOS",
+      "url": "https://info.flightmapper.net/route/Korean_Air_KE_ICN_BOS",
+      "kind": "schedule_index",
+      "accessed_on": "2026-10-20"
+    },
+    "fm_KE_BOS_ICN_20261020": {
+      "title": "FlightMapper dated passenger schedule: KE BOS–ICN",
+      "url": "https://info.flightmapper.net/route/Korean_Air_KE_BOS_ICN",
+      "kind": "schedule_index",
+      "accessed_on": "2026-10-20"
+    },
+    "fm_AA_ICN_DFW_20261020": {
+      "title": "FlightMapper dated passenger schedule: AA ICN–DFW",
+      "url": "https://info.flightmapper.net/route/American_Airlines_AA_ICN_DFW",
+      "kind": "schedule_index",
+      "accessed_on": "2026-10-20"
+    },
+    "fm_AA_DFW_ICN_20261020": {
+      "title": "FlightMapper dated passenger schedule: AA DFW–ICN",
+      "url": "https://info.flightmapper.net/route/American_Airlines_AA_DFW_ICN",
+      "kind": "schedule_index",
+      "accessed_on": "2026-10-20"
+    },
+    "fm_KE_ICN_DFW_20261020": {
+      "title": "FlightMapper dated passenger schedule: KE ICN–DFW",
+      "url": "https://info.flightmapper.net/route/Korean_Air_KE_ICN_DFW",
+      "kind": "schedule_index",
+      "accessed_on": "2026-10-20"
+    },
+    "fm_KE_DFW_ICN_20261020": {
+      "title": "FlightMapper dated passenger schedule: KE DFW–ICN",
+      "url": "https://info.flightmapper.net/route/Korean_Air_KE_DFW_ICN",
+      "kind": "schedule_index",
+      "accessed_on": "2026-10-20"
+    },
+    "fm_DL_ICN_DTW_20261020": {
+      "title": "FlightMapper dated passenger schedule: DL ICN–DTW",
+      "url": "https://info.flightmapper.net/route/Delta_Air_Lines_DL_ICN_DTW",
+      "kind": "schedule_index",
+      "accessed_on": "2026-10-20"
+    },
+    "fm_DL_DTW_ICN_20261020": {
+      "title": "FlightMapper dated passenger schedule: DL DTW–ICN",
+      "url": "https://info.flightmapper.net/route/Delta_Air_Lines_DL_DTW_ICN",
+      "kind": "schedule_index",
+      "accessed_on": "2026-10-20"
+    },
+    "fm_YP_ICN_EWR_20261020": {
+      "title": "FlightMapper dated passenger schedule: YP ICN–EWR",
+      "url": "https://info.flightmapper.net/route/Air_Premia_YP_ICN_EWR",
+      "kind": "schedule_index",
+      "accessed_on": "2026-10-20"
+    },
+    "fm_YP_EWR_ICN_20261020": {
+      "title": "FlightMapper dated passenger schedule: YP EWR–ICN",
+      "url": "https://info.flightmapper.net/route/Air_Premia_YP_EWR_ICN",
+      "kind": "schedule_index",
+      "accessed_on": "2026-10-20"
+    },
+    "fm_KE_ICN_HNL_20261020": {
+      "title": "FlightMapper dated passenger schedule: KE ICN–HNL",
+      "url": "https://info.flightmapper.net/route/Korean_Air_KE_ICN_HNL",
+      "kind": "schedule_index",
+      "accessed_on": "2026-10-20"
+    },
+    "fm_KE_HNL_ICN_20261020": {
+      "title": "FlightMapper dated passenger schedule: KE HNL–ICN",
+      "url": "https://info.flightmapper.net/route/Korean_Air_KE_HNL_ICN",
+      "kind": "schedule_index",
+      "accessed_on": "2026-10-20"
+    },
+    "fm_YP_ICN_HNL_20261020": {
+      "title": "FlightMapper dated passenger schedule: YP ICN–HNL",
+      "url": "https://info.flightmapper.net/route/Air_Premia_YP_ICN_HNL",
+      "kind": "schedule_index",
+      "accessed_on": "2026-10-20"
+    },
+    "fm_YP_HNL_ICN_20261020": {
+      "title": "FlightMapper dated passenger schedule: YP HNL–ICN",
+      "url": "https://info.flightmapper.net/route/Air_Premia_YP_HNL_ICN",
+      "kind": "schedule_index",
+      "accessed_on": "2026-10-20"
+    },
+    "fm_KE_ICN_IAD_20261020": {
+      "title": "FlightMapper dated passenger schedule: KE ICN–IAD",
+      "url": "https://info.flightmapper.net/route/Korean_Air_KE_ICN_IAD",
+      "kind": "schedule_index",
+      "accessed_on": "2026-10-20"
+    },
+    "fm_KE_IAD_ICN_20261020": {
+      "title": "FlightMapper dated passenger schedule: KE IAD–ICN",
+      "url": "https://info.flightmapper.net/route/Korean_Air_KE_IAD_ICN",
+      "kind": "schedule_index",
+      "accessed_on": "2026-10-20"
+    },
+    "fm_YP_ICN_IAD_20261020": {
+      "title": "FlightMapper dated passenger schedule: YP ICN–IAD",
+      "url": "https://info.flightmapper.net/route/Air_Premia_YP_ICN_IAD",
+      "kind": "schedule_index",
+      "accessed_on": "2026-10-20"
+    },
+    "fm_YP_IAD_ICN_20261020": {
+      "title": "FlightMapper dated passenger schedule: YP IAD–ICN",
+      "url": "https://info.flightmapper.net/route/Air_Premia_YP_IAD_ICN",
+      "kind": "schedule_index",
+      "accessed_on": "2026-10-20"
+    },
+    "fm_KE_ICN_JFK_20261020": {
+      "title": "FlightMapper dated passenger schedule: KE ICN–JFK",
+      "url": "https://info.flightmapper.net/route/Korean_Air_KE_ICN_JFK",
+      "kind": "schedule_index",
+      "accessed_on": "2026-10-20"
+    },
+    "fm_KE_JFK_ICN_20261020": {
+      "title": "FlightMapper dated passenger schedule: KE JFK–ICN",
+      "url": "https://info.flightmapper.net/route/Korean_Air_KE_JFK_ICN",
+      "kind": "schedule_index",
+      "accessed_on": "2026-10-20"
+    },
+    "fm_OZ_ICN_JFK_20261020": {
+      "title": "FlightMapper dated passenger schedule: OZ ICN–JFK",
+      "url": "https://info.flightmapper.net/route/Asiana_Airlines_OZ_ICN_JFK",
+      "kind": "schedule_index",
+      "accessed_on": "2026-10-20"
+    },
+    "fm_OZ_JFK_ICN_20261020": {
+      "title": "FlightMapper dated passenger schedule: OZ JFK–ICN",
+      "url": "https://info.flightmapper.net/route/Asiana_Airlines_OZ_JFK_ICN",
+      "kind": "schedule_index",
+      "accessed_on": "2026-10-20"
+    },
+    "fm_KE_ICN_LAS_20261020": {
+      "title": "FlightMapper dated passenger schedule: KE ICN–LAS",
+      "url": "https://info.flightmapper.net/route/Korean_Air_KE_ICN_LAS",
+      "kind": "schedule_index",
+      "accessed_on": "2026-10-20"
+    },
+    "fm_KE_LAS_ICN_20261020": {
+      "title": "FlightMapper dated passenger schedule: KE LAS–ICN",
+      "url": "https://info.flightmapper.net/route/Korean_Air_KE_LAS_ICN",
+      "kind": "schedule_index",
+      "accessed_on": "2026-10-20"
+    },
+    "fm_KE_ICN_LAX_20261020": {
+      "title": "FlightMapper dated passenger schedule: KE ICN–LAX",
+      "url": "https://info.flightmapper.net/route/Korean_Air_KE_ICN_LAX",
+      "kind": "schedule_index",
+      "accessed_on": "2026-10-20"
+    },
+    "fm_KE_LAX_ICN_20261020": {
+      "title": "FlightMapper dated passenger schedule: KE LAX–ICN",
+      "url": "https://info.flightmapper.net/route/Korean_Air_KE_LAX_ICN",
+      "kind": "schedule_index",
+      "accessed_on": "2026-10-20"
+    },
+    "fm_OZ_ICN_LAX_20261020": {
+      "title": "FlightMapper dated passenger schedule: OZ ICN–LAX",
+      "url": "https://info.flightmapper.net/route/Asiana_Airlines_OZ_ICN_LAX",
+      "kind": "schedule_index",
+      "accessed_on": "2026-10-20"
+    },
+    "fm_OZ_LAX_ICN_20261020": {
+      "title": "FlightMapper dated passenger schedule: OZ LAX–ICN",
+      "url": "https://info.flightmapper.net/route/Asiana_Airlines_OZ_LAX_ICN",
+      "kind": "schedule_index",
+      "accessed_on": "2026-10-20"
+    },
+    "fm_YP_ICN_LAX_20261020": {
+      "title": "FlightMapper dated passenger schedule: YP ICN–LAX",
+      "url": "https://info.flightmapper.net/route/Air_Premia_YP_ICN_LAX",
+      "kind": "schedule_index",
+      "accessed_on": "2026-10-20"
+    },
+    "fm_YP_LAX_ICN_20261020": {
+      "title": "FlightMapper dated passenger schedule: YP LAX–ICN",
+      "url": "https://info.flightmapper.net/route/Air_Premia_YP_LAX_ICN",
+      "kind": "schedule_index",
+      "accessed_on": "2026-10-20"
+    },
+    "fm_DL_ICN_MSP_20261020": {
+      "title": "FlightMapper dated passenger schedule: DL ICN–MSP",
+      "url": "https://info.flightmapper.net/route/Delta_Air_Lines_DL_ICN_MSP",
+      "kind": "schedule_index",
+      "accessed_on": "2026-10-20"
+    },
+    "fm_DL_MSP_ICN_20261020": {
+      "title": "FlightMapper dated passenger schedule: DL MSP–ICN",
+      "url": "https://info.flightmapper.net/route/Delta_Air_Lines_DL_MSP_ICN",
+      "kind": "schedule_index",
+      "accessed_on": "2026-10-20"
+    },
+    "fm_KE_ICN_ORD_20261020": {
+      "title": "FlightMapper dated passenger schedule: KE ICN–ORD",
+      "url": "https://info.flightmapper.net/route/Korean_Air_KE_ICN_ORD",
+      "kind": "schedule_index",
+      "accessed_on": "2026-10-20"
+    },
+    "fm_KE_ORD_ICN_20261020": {
+      "title": "FlightMapper dated passenger schedule: KE ORD–ICN",
+      "url": "https://info.flightmapper.net/route/Korean_Air_KE_ORD_ICN",
+      "kind": "schedule_index",
+      "accessed_on": "2026-10-20"
+    },
+    "fm_AS_ICN_SEA_20261020": {
+      "title": "FlightMapper dated passenger schedule: AS ICN–SEA",
+      "url": "https://info.flightmapper.net/route/Alaska_Airlines_AS_ICN_SEA",
+      "kind": "schedule_index",
+      "accessed_on": "2026-10-20"
+    },
+    "fm_AS_SEA_ICN_20261020": {
+      "title": "FlightMapper dated passenger schedule: AS SEA–ICN",
+      "url": "https://info.flightmapper.net/route/Alaska_Airlines_AS_SEA_ICN",
+      "kind": "schedule_index",
+      "accessed_on": "2026-10-20"
+    },
+    "fm_DL_ICN_SEA_20261020": {
+      "title": "FlightMapper dated passenger schedule: DL ICN–SEA",
+      "url": "https://info.flightmapper.net/route/Delta_Air_Lines_DL_ICN_SEA",
+      "kind": "schedule_index",
+      "accessed_on": "2026-10-20"
+    },
+    "fm_DL_SEA_ICN_20261020": {
+      "title": "FlightMapper dated passenger schedule: DL SEA–ICN",
+      "url": "https://info.flightmapper.net/route/Delta_Air_Lines_DL_SEA_ICN",
+      "kind": "schedule_index",
+      "accessed_on": "2026-10-20"
+    },
+    "fm_KE_ICN_SEA_20261020": {
+      "title": "FlightMapper dated passenger schedule: KE ICN–SEA",
+      "url": "https://info.flightmapper.net/route/Korean_Air_KE_ICN_SEA",
+      "kind": "schedule_index",
+      "accessed_on": "2026-10-20"
+    },
+    "fm_KE_SEA_ICN_20261020": {
+      "title": "FlightMapper dated passenger schedule: KE SEA–ICN",
+      "url": "https://info.flightmapper.net/route/Korean_Air_KE_SEA_ICN",
+      "kind": "schedule_index",
+      "accessed_on": "2026-10-20"
+    },
+    "fm_KE_ICN_SFO_20261020": {
+      "title": "FlightMapper dated passenger schedule: KE ICN–SFO",
+      "url": "https://info.flightmapper.net/route/Korean_Air_KE_ICN_SFO",
+      "kind": "schedule_index",
+      "accessed_on": "2026-10-20"
+    },
+    "fm_KE_SFO_ICN_20261020": {
+      "title": "FlightMapper dated passenger schedule: KE SFO–ICN",
+      "url": "https://info.flightmapper.net/route/Korean_Air_KE_SFO_ICN",
+      "kind": "schedule_index",
+      "accessed_on": "2026-10-20"
+    },
+    "fm_OZ_ICN_SFO_20261020": {
+      "title": "FlightMapper dated passenger schedule: OZ ICN–SFO",
+      "url": "https://info.flightmapper.net/route/Asiana_Airlines_OZ_ICN_SFO",
+      "kind": "schedule_index",
+      "accessed_on": "2026-10-20"
+    },
+    "fm_OZ_SFO_ICN_20261020": {
+      "title": "FlightMapper dated passenger schedule: OZ SFO–ICN",
+      "url": "https://info.flightmapper.net/route/Asiana_Airlines_OZ_SFO_ICN",
+      "kind": "schedule_index",
+      "accessed_on": "2026-10-20"
+    },
+    "fm_UA_ICN_SFO_20261020": {
+      "title": "FlightMapper dated passenger schedule: UA ICN–SFO",
+      "url": "https://info.flightmapper.net/route/United_Airlines_UA_ICN_SFO",
+      "kind": "schedule_index",
+      "accessed_on": "2026-10-20"
+    },
+    "fm_UA_SFO_ICN_20261020": {
+      "title": "FlightMapper dated passenger schedule: UA SFO–ICN",
+      "url": "https://info.flightmapper.net/route/United_Airlines_UA_SFO_ICN",
+      "kind": "schedule_index",
+      "accessed_on": "2026-10-20"
+    },
+    "fm_YP_ICN_SFO_20261020": {
+      "title": "FlightMapper dated passenger schedule: YP ICN–SFO",
+      "url": "https://info.flightmapper.net/route/Air_Premia_YP_ICN_SFO",
+      "kind": "schedule_index",
+      "accessed_on": "2026-10-20"
+    },
+    "fm_YP_SFO_ICN_20261020": {
+      "title": "FlightMapper dated passenger schedule: YP SFO–ICN",
+      "url": "https://info.flightmapper.net/route/Air_Premia_YP_SFO_ICN",
+      "kind": "schedule_index",
+      "accessed_on": "2026-10-20"
+    },
+    "fm_DL_ICN_SLC_20261020": {
+      "title": "FlightMapper dated passenger schedule: DL ICN–SLC",
+      "url": "https://info.flightmapper.net/route/Delta_Air_Lines_DL_ICN_SLC",
+      "kind": "schedule_index",
+      "accessed_on": "2026-10-20"
+    },
+    "fm_DL_SLC_ICN_20261020": {
+      "title": "FlightMapper dated passenger schedule: DL SLC–ICN",
+      "url": "https://info.flightmapper.net/route/Delta_Air_Lines_DL_SLC_ICN",
+      "kind": "schedule_index",
+      "accessed_on": "2026-10-20"
+    },
+    "fm_AC_ICN_YUL_20261020": {
+      "title": "FlightMapper dated passenger schedule: AC ICN–YUL",
+      "url": "https://info.flightmapper.net/route/Air_Canada_AC_ICN_YUL",
+      "kind": "schedule_index",
+      "accessed_on": "2026-10-20"
+    },
+    "fm_AC_YUL_ICN_20261020": {
+      "title": "FlightMapper dated passenger schedule: AC YUL–ICN",
+      "url": "https://info.flightmapper.net/route/Air_Canada_AC_YUL_ICN",
+      "kind": "schedule_index",
+      "accessed_on": "2026-10-20"
+    },
+    "fm_AC_ICN_YVR_20261020": {
+      "title": "FlightMapper dated passenger schedule: AC ICN–YVR",
+      "url": "https://info.flightmapper.net/route/Air_Canada_AC_ICN_YVR",
+      "kind": "schedule_index",
+      "accessed_on": "2026-10-20"
+    },
+    "fm_AC_YVR_ICN_20261020": {
+      "title": "FlightMapper dated passenger schedule: AC YVR–ICN",
+      "url": "https://info.flightmapper.net/route/Air_Canada_AC_YVR_ICN",
+      "kind": "schedule_index",
+      "accessed_on": "2026-10-20"
+    },
+    "fm_KE_ICN_YVR_20261020": {
+      "title": "FlightMapper dated passenger schedule: KE ICN–YVR",
+      "url": "https://info.flightmapper.net/route/Korean_Air_KE_ICN_YVR",
+      "kind": "schedule_index",
+      "accessed_on": "2026-10-20"
+    },
+    "fm_KE_YVR_ICN_20261020": {
+      "title": "FlightMapper dated passenger schedule: KE YVR–ICN",
+      "url": "https://info.flightmapper.net/route/Korean_Air_KE_YVR_ICN",
+      "kind": "schedule_index",
+      "accessed_on": "2026-10-20"
+    },
+    "fm_TW_ICN_YVR_20261020": {
+      "title": "FlightMapper dated passenger schedule: TW ICN–YVR",
+      "url": "https://info.flightmapper.net/route/T_way_Air_TW_ICN_YVR",
+      "kind": "schedule_index",
+      "accessed_on": "2026-10-20"
+    },
+    "fm_TW_YVR_ICN_20261020": {
+      "title": "FlightMapper dated passenger schedule: TW YVR–ICN",
+      "url": "https://info.flightmapper.net/route/T_way_Air_TW_YVR_ICN",
+      "kind": "schedule_index",
+      "accessed_on": "2026-10-20"
+    },
+    "fm_WS_ICN_YYC_20261020": {
+      "title": "FlightMapper dated passenger schedule: WS ICN–YYC",
+      "url": "https://info.flightmapper.net/route/WestJet_WS_ICN_YYC",
+      "kind": "schedule_index",
+      "accessed_on": "2026-10-20"
+    },
+    "fm_WS_YYC_ICN_20261020": {
+      "title": "FlightMapper dated passenger schedule: WS YYC–ICN",
+      "url": "https://info.flightmapper.net/route/WestJet_WS_YYC_ICN",
+      "kind": "schedule_index",
+      "accessed_on": "2026-10-20"
+    },
+    "fm_AC_ICN_YYZ_20261020": {
+      "title": "FlightMapper dated passenger schedule: AC ICN–YYZ",
+      "url": "https://info.flightmapper.net/route/Air_Canada_AC_ICN_YYZ",
+      "kind": "schedule_index",
+      "accessed_on": "2026-10-20"
+    },
+    "fm_AC_YYZ_ICN_20261020": {
+      "title": "FlightMapper dated passenger schedule: AC YYZ–ICN",
+      "url": "https://info.flightmapper.net/route/Air_Canada_AC_YYZ_ICN",
+      "kind": "schedule_index",
+      "accessed_on": "2026-10-20"
+    },
+    "fm_KE_ICN_YYZ_20261020": {
+      "title": "FlightMapper dated passenger schedule: KE ICN–YYZ",
+      "url": "https://info.flightmapper.net/route/Korean_Air_KE_ICN_YYZ",
+      "kind": "schedule_index",
+      "accessed_on": "2026-10-20"
+    },
+    "fm_KE_YYZ_ICN_20261020": {
+      "title": "FlightMapper dated passenger schedule: KE YYZ–ICN",
+      "url": "https://info.flightmapper.net/route/Korean_Air_KE_YYZ_ICN",
+      "kind": "schedule_index",
+      "accessed_on": "2026-10-20"
+    },
+    "fm_AS_KIX_HNL_20261020": {
+      "title": "FlightMapper dated passenger schedule: AS KIX–HNL",
+      "url": "https://info.flightmapper.net/route/Alaska_Airlines_AS_KIX_HNL",
+      "kind": "schedule_index",
+      "accessed_on": "2026-10-20"
+    },
+    "fm_AS_HNL_KIX_20261020": {
+      "title": "FlightMapper dated passenger schedule: AS HNL–KIX",
+      "url": "https://info.flightmapper.net/route/Alaska_Airlines_AS_HNL_KIX",
+      "kind": "schedule_index",
+      "accessed_on": "2026-10-20"
+    },
+    "fm_JL_KIX_HNL_20261020": {
+      "title": "FlightMapper dated passenger schedule: JL KIX–HNL",
+      "url": "https://info.flightmapper.net/route/Japan_Airlines_JL_KIX_HNL",
+      "kind": "schedule_index",
+      "accessed_on": "2026-10-20"
+    },
+    "fm_JL_HNL_KIX_20261020": {
+      "title": "FlightMapper dated passenger schedule: JL HNL–KIX",
+      "url": "https://info.flightmapper.net/route/Japan_Airlines_JL_HNL_KIX",
+      "kind": "schedule_index",
+      "accessed_on": "2026-10-20"
+    },
+    "fm_JL_KIX_LAX_20261020": {
+      "title": "FlightMapper dated passenger schedule: JL KIX–LAX",
+      "url": "https://info.flightmapper.net/route/Japan_Airlines_JL_KIX_LAX",
+      "kind": "schedule_index",
+      "accessed_on": "2026-10-20"
+    },
+    "fm_JL_LAX_KIX_20261020": {
+      "title": "FlightMapper dated passenger schedule: JL LAX–KIX",
+      "url": "https://info.flightmapper.net/route/Japan_Airlines_JL_LAX_KIX",
+      "kind": "schedule_index",
+      "accessed_on": "2026-10-20"
+    },
+    "fm_UA_KIX_SFO_20261020": {
+      "title": "FlightMapper dated passenger schedule: UA KIX–SFO",
+      "url": "https://info.flightmapper.net/route/United_Airlines_UA_KIX_SFO",
+      "kind": "schedule_index",
+      "accessed_on": "2026-10-20"
+    },
+    "fm_UA_SFO_KIX_20261020": {
+      "title": "FlightMapper dated passenger schedule: UA SFO–KIX",
+      "url": "https://info.flightmapper.net/route/United_Airlines_UA_SFO_KIX",
+      "kind": "schedule_index",
+      "accessed_on": "2026-10-20"
+    },
+    "fm_AC_KIX_YVR_20261020": {
+      "title": "FlightMapper dated passenger schedule: AC KIX–YVR",
+      "url": "https://info.flightmapper.net/route/Air_Canada_AC_KIX_YVR",
+      "kind": "schedule_index",
+      "accessed_on": "2026-10-20"
+    },
+    "fm_AC_YVR_KIX_20261020": {
+      "title": "FlightMapper dated passenger schedule: AC YVR–KIX",
+      "url": "https://info.flightmapper.net/route/Air_Canada_AC_YVR_KIX",
+      "kind": "schedule_index",
+      "accessed_on": "2026-10-20"
+    },
+    "fm_AC_KIX_YYZ_20261020": {
+      "title": "FlightMapper dated passenger schedule: AC KIX–YYZ",
+      "url": "https://info.flightmapper.net/route/Air_Canada_AC_KIX_YYZ",
+      "kind": "schedule_index",
+      "accessed_on": "2026-10-20"
+    },
+    "fm_AC_YYZ_KIX_20261020": {
+      "title": "FlightMapper dated passenger schedule: AC YYZ–KIX",
+      "url": "https://info.flightmapper.net/route/Air_Canada_AC_YYZ_KIX",
+      "kind": "schedule_index",
+      "accessed_on": "2026-10-20"
+    },
+    "fm_JL_NGO_HNL_20261020": {
+      "title": "FlightMapper dated passenger schedule: JL NGO–HNL",
+      "url": "https://info.flightmapper.net/route/Japan_Airlines_JL_NGO_HNL",
+      "kind": "schedule_index",
+      "accessed_on": "2026-10-20"
+    },
+    "fm_JL_HNL_NGO_20261020": {
+      "title": "FlightMapper dated passenger schedule: JL HNL–NGO",
+      "url": "https://info.flightmapper.net/route/Japan_Airlines_JL_HNL_NGO",
+      "kind": "schedule_index",
+      "accessed_on": "2026-10-20"
+    },
+    "fm_JL_NRT_BOS_20261020": {
+      "title": "FlightMapper dated passenger schedule: JL NRT–BOS",
+      "url": "https://info.flightmapper.net/route/Japan_Airlines_JL_NRT_BOS",
+      "kind": "schedule_index",
+      "accessed_on": "2026-10-20"
+    },
+    "fm_JL_BOS_NRT_20261020": {
+      "title": "FlightMapper dated passenger schedule: JL BOS–NRT",
+      "url": "https://info.flightmapper.net/route/Japan_Airlines_JL_BOS_NRT",
+      "kind": "schedule_index",
+      "accessed_on": "2026-10-20"
+    },
+    "fm_UA_NRT_DEN_20261020": {
+      "title": "FlightMapper dated passenger schedule: UA NRT–DEN",
+      "url": "https://info.flightmapper.net/route/United_Airlines_UA_NRT_DEN",
+      "kind": "schedule_index",
+      "accessed_on": "2026-10-20"
+    },
+    "fm_UA_DEN_NRT_20261020": {
+      "title": "FlightMapper dated passenger schedule: UA DEN–NRT",
+      "url": "https://info.flightmapper.net/route/United_Airlines_UA_DEN_NRT",
+      "kind": "schedule_index",
+      "accessed_on": "2026-10-20"
+    },
+    "fm_AA_NRT_DFW_20261020": {
+      "title": "FlightMapper dated passenger schedule: AA NRT–DFW",
+      "url": "https://info.flightmapper.net/route/American_Airlines_AA_NRT_DFW",
+      "kind": "schedule_index",
+      "accessed_on": "2026-10-20"
+    },
+    "fm_AA_DFW_NRT_20261020": {
+      "title": "FlightMapper dated passenger schedule: AA DFW–NRT",
+      "url": "https://info.flightmapper.net/route/American_Airlines_AA_DFW_NRT",
+      "kind": "schedule_index",
+      "accessed_on": "2026-10-20"
+    },
+    "fm_UA_NRT_EWR_20261020": {
+      "title": "FlightMapper dated passenger schedule: UA NRT–EWR",
+      "url": "https://info.flightmapper.net/route/United_Airlines_UA_NRT_EWR",
+      "kind": "schedule_index",
+      "accessed_on": "2026-10-20"
+    },
+    "fm_UA_EWR_NRT_20261020": {
+      "title": "FlightMapper dated passenger schedule: UA EWR–NRT",
+      "url": "https://info.flightmapper.net/route/United_Airlines_UA_EWR_NRT",
+      "kind": "schedule_index",
+      "accessed_on": "2026-10-20"
+    },
+    "fm_JL_NRT_HNL_20261020": {
+      "title": "FlightMapper dated passenger schedule: JL NRT–HNL",
+      "url": "https://info.flightmapper.net/route/Japan_Airlines_JL_NRT_HNL",
+      "kind": "schedule_index",
+      "accessed_on": "2026-10-20"
+    },
+    "fm_JL_HNL_NRT_20261020": {
+      "title": "FlightMapper dated passenger schedule: JL HNL–NRT",
+      "url": "https://info.flightmapper.net/route/Japan_Airlines_JL_HNL_NRT",
+      "kind": "schedule_index",
+      "accessed_on": "2026-10-20"
+    },
+    "fm_NH_NRT_HNL_20261020": {
+      "title": "FlightMapper dated passenger schedule: NH NRT–HNL",
+      "url": "https://info.flightmapper.net/route/All_Nippon_Airways_NH_NRT_HNL",
+      "kind": "schedule_index",
+      "accessed_on": "2026-10-20"
+    },
+    "fm_NH_HNL_NRT_20261020": {
+      "title": "FlightMapper dated passenger schedule: NH HNL–NRT",
+      "url": "https://info.flightmapper.net/route/All_Nippon_Airways_NH_HNL_NRT",
+      "kind": "schedule_index",
+      "accessed_on": "2026-10-20"
+    },
+    "fm_UA_NRT_IAH_20261020": {
+      "title": "FlightMapper dated passenger schedule: UA NRT–IAH",
+      "url": "https://info.flightmapper.net/route/United_Airlines_UA_NRT_IAH",
+      "kind": "schedule_index",
+      "accessed_on": "2026-10-20"
+    },
+    "fm_UA_IAH_NRT_20261020": {
+      "title": "FlightMapper dated passenger schedule: UA IAH–NRT",
+      "url": "https://info.flightmapper.net/route/United_Airlines_UA_IAH_NRT",
+      "kind": "schedule_index",
+      "accessed_on": "2026-10-20"
+    },
+    "fm_JL_NRT_LAX_20261020": {
+      "title": "FlightMapper dated passenger schedule: JL NRT–LAX",
+      "url": "https://info.flightmapper.net/route/Japan_Airlines_JL_NRT_LAX",
+      "kind": "schedule_index",
+      "accessed_on": "2026-10-20"
+    },
+    "fm_JL_LAX_NRT_20261020": {
+      "title": "FlightMapper dated passenger schedule: JL LAX–NRT",
+      "url": "https://info.flightmapper.net/route/Japan_Airlines_JL_LAX_NRT",
+      "kind": "schedule_index",
+      "accessed_on": "2026-10-20"
+    },
+    "fm_NH_NRT_LAX_20261020": {
+      "title": "FlightMapper dated passenger schedule: NH NRT–LAX",
+      "url": "https://info.flightmapper.net/route/All_Nippon_Airways_NH_NRT_LAX",
+      "kind": "schedule_index",
+      "accessed_on": "2026-10-20"
+    },
+    "fm_NH_LAX_NRT_20261020": {
+      "title": "FlightMapper dated passenger schedule: NH LAX–NRT",
+      "url": "https://info.flightmapper.net/route/All_Nippon_Airways_NH_LAX_NRT",
+      "kind": "schedule_index",
+      "accessed_on": "2026-10-20"
+    },
+    "fm_SQ_NRT_LAX_20261020": {
+      "title": "FlightMapper dated passenger schedule: SQ NRT–LAX",
+      "url": "https://info.flightmapper.net/route/Singapore_Airlines_SQ_NRT_LAX",
+      "kind": "schedule_index",
+      "accessed_on": "2026-10-20"
+    },
+    "fm_SQ_LAX_NRT_20261020": {
+      "title": "FlightMapper dated passenger schedule: SQ LAX–NRT",
+      "url": "https://info.flightmapper.net/route/Singapore_Airlines_SQ_LAX_NRT",
+      "kind": "schedule_index",
+      "accessed_on": "2026-10-20"
+    },
+    "fm_UA_NRT_LAX_20261020": {
+      "title": "FlightMapper dated passenger schedule: UA NRT–LAX",
+      "url": "https://info.flightmapper.net/route/United_Airlines_UA_NRT_LAX",
+      "kind": "schedule_index",
+      "accessed_on": "2026-10-20"
+    },
+    "fm_UA_LAX_NRT_20261020": {
+      "title": "FlightMapper dated passenger schedule: UA LAX–NRT",
+      "url": "https://info.flightmapper.net/route/United_Airlines_UA_LAX_NRT",
+      "kind": "schedule_index",
+      "accessed_on": "2026-10-20"
+    },
+    "fm_ZG_NRT_LAX_20261020": {
+      "title": "FlightMapper dated passenger schedule: ZG NRT–LAX",
+      "url": "https://info.flightmapper.net/route/ZIPAIR_Tokyo_ZG_NRT_LAX",
+      "kind": "schedule_index",
+      "accessed_on": "2026-10-20"
+    },
+    "fm_ZG_LAX_NRT_20261020": {
+      "title": "FlightMapper dated passenger schedule: ZG LAX–NRT",
+      "url": "https://info.flightmapper.net/route/ZIPAIR_Tokyo_ZG_LAX_NRT",
+      "kind": "schedule_index",
+      "accessed_on": "2026-10-20"
+    },
+    "fm_JL_NRT_ORD_20261020": {
+      "title": "FlightMapper dated passenger schedule: JL NRT–ORD",
+      "url": "https://info.flightmapper.net/route/Japan_Airlines_JL_NRT_ORD",
+      "kind": "schedule_index",
+      "accessed_on": "2026-10-20"
+    },
+    "fm_JL_ORD_NRT_20261020": {
+      "title": "FlightMapper dated passenger schedule: JL ORD–NRT",
+      "url": "https://info.flightmapper.net/route/Japan_Airlines_JL_ORD_NRT",
+      "kind": "schedule_index",
+      "accessed_on": "2026-10-20"
+    },
+    "fm_NH_NRT_ORD_20261020": {
+      "title": "FlightMapper dated passenger schedule: NH NRT–ORD",
+      "url": "https://info.flightmapper.net/route/All_Nippon_Airways_NH_NRT_ORD",
+      "kind": "schedule_index",
+      "accessed_on": "2026-10-20"
+    },
+    "fm_NH_ORD_NRT_20261020": {
+      "title": "FlightMapper dated passenger schedule: NH ORD–NRT",
+      "url": "https://info.flightmapper.net/route/All_Nippon_Airways_NH_ORD_NRT",
+      "kind": "schedule_index",
+      "accessed_on": "2026-10-20"
+    },
+    "fm_JL_NRT_SAN_20261020": {
+      "title": "FlightMapper dated passenger schedule: JL NRT–SAN",
+      "url": "https://info.flightmapper.net/route/Japan_Airlines_JL_NRT_SAN",
+      "kind": "schedule_index",
+      "accessed_on": "2026-10-20"
+    },
+    "fm_JL_SAN_NRT_20261020": {
+      "title": "FlightMapper dated passenger schedule: JL SAN–NRT",
+      "url": "https://info.flightmapper.net/route/Japan_Airlines_JL_SAN_NRT",
+      "kind": "schedule_index",
+      "accessed_on": "2026-10-20"
+    },
+    "fm_AS_NRT_SEA_20261020": {
+      "title": "FlightMapper dated passenger schedule: AS NRT–SEA",
+      "url": "https://info.flightmapper.net/route/Alaska_Airlines_AS_NRT_SEA",
+      "kind": "schedule_index",
+      "accessed_on": "2026-10-20"
+    },
+    "fm_AS_SEA_NRT_20261020": {
+      "title": "FlightMapper dated passenger schedule: AS SEA–NRT",
+      "url": "https://info.flightmapper.net/route/Alaska_Airlines_AS_SEA_NRT",
+      "kind": "schedule_index",
+      "accessed_on": "2026-10-20"
+    },
+    "fm_JL_NRT_SEA_20261020": {
+      "title": "FlightMapper dated passenger schedule: JL NRT–SEA",
+      "url": "https://info.flightmapper.net/route/Japan_Airlines_JL_NRT_SEA",
+      "kind": "schedule_index",
+      "accessed_on": "2026-10-20"
+    },
+    "fm_JL_SEA_NRT_20261020": {
+      "title": "FlightMapper dated passenger schedule: JL SEA–NRT",
+      "url": "https://info.flightmapper.net/route/Japan_Airlines_JL_SEA_NRT",
+      "kind": "schedule_index",
+      "accessed_on": "2026-10-20"
+    },
+    "fm_JL_NRT_SFO_20261020": {
+      "title": "FlightMapper dated passenger schedule: JL NRT–SFO",
+      "url": "https://info.flightmapper.net/route/Japan_Airlines_JL_NRT_SFO",
+      "kind": "schedule_index",
+      "accessed_on": "2026-10-20"
+    },
+    "fm_JL_SFO_NRT_20261020": {
+      "title": "FlightMapper dated passenger schedule: JL SFO–NRT",
+      "url": "https://info.flightmapper.net/route/Japan_Airlines_JL_SFO_NRT",
+      "kind": "schedule_index",
+      "accessed_on": "2026-10-20"
+    },
+    "fm_NH_NRT_SFO_20261020": {
+      "title": "FlightMapper dated passenger schedule: NH NRT–SFO",
+      "url": "https://info.flightmapper.net/route/All_Nippon_Airways_NH_NRT_SFO",
+      "kind": "schedule_index",
+      "accessed_on": "2026-10-20"
+    },
+    "fm_NH_SFO_NRT_20261020": {
+      "title": "FlightMapper dated passenger schedule: NH SFO–NRT",
+      "url": "https://info.flightmapper.net/route/All_Nippon_Airways_NH_SFO_NRT",
+      "kind": "schedule_index",
+      "accessed_on": "2026-10-20"
+    },
+    "fm_UA_NRT_SFO_20261020": {
+      "title": "FlightMapper dated passenger schedule: UA NRT–SFO",
+      "url": "https://info.flightmapper.net/route/United_Airlines_UA_NRT_SFO",
+      "kind": "schedule_index",
+      "accessed_on": "2026-10-20"
+    },
+    "fm_UA_SFO_NRT_20261020": {
+      "title": "FlightMapper dated passenger schedule: UA SFO–NRT",
+      "url": "https://info.flightmapper.net/route/United_Airlines_UA_SFO_NRT",
+      "kind": "schedule_index",
+      "accessed_on": "2026-10-20"
+    },
+    "fm_ZG_NRT_SFO_20261020": {
+      "title": "FlightMapper dated passenger schedule: ZG NRT–SFO",
+      "url": "https://info.flightmapper.net/route/ZIPAIR_Tokyo_ZG_NRT_SFO",
+      "kind": "schedule_index",
+      "accessed_on": "2026-10-20"
+    },
+    "fm_ZG_SFO_NRT_20261020": {
+      "title": "FlightMapper dated passenger schedule: ZG SFO–NRT",
+      "url": "https://info.flightmapper.net/route/ZIPAIR_Tokyo_ZG_SFO_NRT",
+      "kind": "schedule_index",
+      "accessed_on": "2026-10-20"
+    },
+    "fm_AC_NRT_YUL_20261020": {
+      "title": "FlightMapper dated passenger schedule: AC NRT–YUL",
+      "url": "https://info.flightmapper.net/route/Air_Canada_AC_NRT_YUL",
+      "kind": "schedule_index",
+      "accessed_on": "2026-10-20"
+    },
+    "fm_AC_YUL_NRT_20261020": {
+      "title": "FlightMapper dated passenger schedule: AC YUL–NRT",
+      "url": "https://info.flightmapper.net/route/Air_Canada_AC_YUL_NRT",
+      "kind": "schedule_index",
+      "accessed_on": "2026-10-20"
+    },
+    "fm_AC_NRT_YVR_20261020": {
+      "title": "FlightMapper dated passenger schedule: AC NRT–YVR",
+      "url": "https://info.flightmapper.net/route/Air_Canada_AC_NRT_YVR",
+      "kind": "schedule_index",
+      "accessed_on": "2026-10-20"
+    },
+    "fm_AC_YVR_NRT_20261020": {
+      "title": "FlightMapper dated passenger schedule: AC YVR–NRT",
+      "url": "https://info.flightmapper.net/route/Air_Canada_AC_YVR_NRT",
+      "kind": "schedule_index",
+      "accessed_on": "2026-10-20"
+    },
+    "fm_JL_NRT_YVR_20261020": {
+      "title": "FlightMapper dated passenger schedule: JL NRT–YVR",
+      "url": "https://info.flightmapper.net/route/Japan_Airlines_JL_NRT_YVR",
+      "kind": "schedule_index",
+      "accessed_on": "2026-10-20"
+    },
+    "fm_JL_YVR_NRT_20261020": {
+      "title": "FlightMapper dated passenger schedule: JL YVR–NRT",
+      "url": "https://info.flightmapper.net/route/Japan_Airlines_JL_YVR_NRT",
+      "kind": "schedule_index",
+      "accessed_on": "2026-10-20"
+    },
+    "fm_WS_NRT_YYC_20261020": {
+      "title": "FlightMapper dated passenger schedule: WS NRT–YYC",
+      "url": "https://info.flightmapper.net/route/WestJet_WS_NRT_YYC",
+      "kind": "schedule_index",
+      "accessed_on": "2026-10-20"
+    },
+    "fm_WS_YYC_NRT_20261020": {
+      "title": "FlightMapper dated passenger schedule: WS YYC–NRT",
+      "url": "https://info.flightmapper.net/route/WestJet_WS_YYC_NRT",
+      "kind": "schedule_index",
+      "accessed_on": "2026-10-20"
+    },
+    "fm_AC_NRT_YYZ_20261020": {
+      "title": "FlightMapper dated passenger schedule: AC NRT–YYZ",
+      "url": "https://info.flightmapper.net/route/Air_Canada_AC_NRT_YYZ",
+      "kind": "schedule_index",
+      "accessed_on": "2026-10-20"
+    },
+    "fm_AC_YYZ_NRT_20261020": {
+      "title": "FlightMapper dated passenger schedule: AC YYZ–NRT",
+      "url": "https://info.flightmapper.net/route/Air_Canada_AC_YYZ_NRT",
+      "kind": "schedule_index",
+      "accessed_on": "2026-10-20"
+    },
+    "fm_HU_PEK_BOS_20261020": {
+      "title": "FlightMapper dated passenger schedule: HU PEK–BOS",
+      "url": "https://info.flightmapper.net/route/Hainan_Airlines_HU_PEK_BOS",
+      "kind": "schedule_index",
+      "accessed_on": "2026-10-20"
+    },
+    "fm_CA_PEK_IAD_20261020": {
+      "title": "FlightMapper dated passenger schedule: CA PEK–IAD",
+      "url": "https://info.flightmapper.net/route/Air_China_CA_PEK_IAD",
+      "kind": "schedule_index",
+      "accessed_on": "2026-10-20"
+    },
+    "fm_CA_IAD_PEK_20261020": {
+      "title": "FlightMapper dated passenger schedule: CA IAD–PEK",
+      "url": "https://info.flightmapper.net/route/Air_China_CA_IAD_PEK",
+      "kind": "schedule_index",
+      "accessed_on": "2026-10-20"
+    },
+    "fm_CA_PEK_JFK_20261020": {
+      "title": "FlightMapper dated passenger schedule: CA PEK–JFK",
+      "url": "https://info.flightmapper.net/route/Air_China_CA_PEK_JFK",
+      "kind": "schedule_index",
+      "accessed_on": "2026-10-20"
+    },
+    "fm_CA_JFK_PEK_20261020": {
+      "title": "FlightMapper dated passenger schedule: CA JFK–PEK",
+      "url": "https://info.flightmapper.net/route/Air_China_CA_JFK_PEK",
+      "kind": "schedule_index",
+      "accessed_on": "2026-10-20"
+    },
+    "fm_CA_PEK_LAX_20261020": {
+      "title": "FlightMapper dated passenger schedule: CA PEK–LAX",
+      "url": "https://info.flightmapper.net/route/Air_China_CA_PEK_LAX",
+      "kind": "schedule_index",
+      "accessed_on": "2026-10-20"
+    },
+    "fm_CA_LAX_PEK_20261020": {
+      "title": "FlightMapper dated passenger schedule: CA LAX–PEK",
+      "url": "https://info.flightmapper.net/route/Air_China_CA_LAX_PEK",
+      "kind": "schedule_index",
+      "accessed_on": "2026-10-20"
+    },
+    "fm_UA_PEK_LAX_20261020": {
+      "title": "FlightMapper dated passenger schedule: UA PEK–LAX",
+      "url": "https://info.flightmapper.net/route/United_Airlines_UA_PEK_LAX",
+      "kind": "schedule_index",
+      "accessed_on": "2026-10-20"
+    },
+    "fm_UA_LAX_PEK_20261020": {
+      "title": "FlightMapper dated passenger schedule: UA LAX–PEK",
+      "url": "https://info.flightmapper.net/route/United_Airlines_UA_LAX_PEK",
+      "kind": "schedule_index",
+      "accessed_on": "2026-10-20"
+    },
+    "fm_HU_PEK_SEA_20261020": {
+      "title": "FlightMapper dated passenger schedule: HU PEK–SEA",
+      "url": "https://info.flightmapper.net/route/Hainan_Airlines_HU_PEK_SEA",
+      "kind": "schedule_index",
+      "accessed_on": "2026-10-20"
+    },
+    "fm_HU_SEA_PEK_20261020": {
+      "title": "FlightMapper dated passenger schedule: HU SEA–PEK",
+      "url": "https://info.flightmapper.net/route/Hainan_Airlines_HU_SEA_PEK",
+      "kind": "schedule_index",
+      "accessed_on": "2026-10-20"
+    },
+    "fm_CA_PEK_SFO_20261020": {
+      "title": "FlightMapper dated passenger schedule: CA PEK–SFO",
+      "url": "https://info.flightmapper.net/route/Air_China_CA_PEK_SFO",
+      "kind": "schedule_index",
+      "accessed_on": "2026-10-20"
+    },
+    "fm_CA_SFO_PEK_20261020": {
+      "title": "FlightMapper dated passenger schedule: CA SFO–PEK",
+      "url": "https://info.flightmapper.net/route/Air_China_CA_SFO_PEK",
+      "kind": "schedule_index",
+      "accessed_on": "2026-10-20"
+    },
+    "fm_UA_PEK_SFO_20261020": {
+      "title": "FlightMapper dated passenger schedule: UA PEK–SFO",
+      "url": "https://info.flightmapper.net/route/United_Airlines_UA_PEK_SFO",
+      "kind": "schedule_index",
+      "accessed_on": "2026-10-20"
+    },
+    "fm_UA_SFO_PEK_20261020": {
+      "title": "FlightMapper dated passenger schedule: UA SFO–PEK",
+      "url": "https://info.flightmapper.net/route/United_Airlines_UA_SFO_PEK",
+      "kind": "schedule_index",
+      "accessed_on": "2026-10-20"
+    },
+    "fm_AC_PEK_YVR_20261020": {
+      "title": "FlightMapper dated passenger schedule: AC PEK–YVR",
+      "url": "https://info.flightmapper.net/route/Air_Canada_AC_PEK_YVR",
+      "kind": "schedule_index",
+      "accessed_on": "2026-10-20"
+    },
+    "fm_AC_YVR_PEK_20261020": {
+      "title": "FlightMapper dated passenger schedule: AC YVR–PEK",
+      "url": "https://info.flightmapper.net/route/Air_Canada_AC_YVR_PEK",
+      "kind": "schedule_index",
+      "accessed_on": "2026-10-20"
+    },
+    "fm_CA_PEK_YVR_20261020": {
+      "title": "FlightMapper dated passenger schedule: CA PEK–YVR",
+      "url": "https://info.flightmapper.net/route/Air_China_CA_PEK_YVR",
+      "kind": "schedule_index",
+      "accessed_on": "2026-10-20"
+    },
+    "fm_CA_YVR_PEK_20261020": {
+      "title": "FlightMapper dated passenger schedule: CA YVR–PEK",
+      "url": "https://info.flightmapper.net/route/Air_China_CA_YVR_PEK",
+      "kind": "schedule_index",
+      "accessed_on": "2026-10-20"
+    },
+    "fm_CA_PEK_YYZ_20261020": {
+      "title": "FlightMapper dated passenger schedule: CA PEK–YYZ",
+      "url": "https://info.flightmapper.net/route/Air_China_CA_PEK_YYZ",
+      "kind": "schedule_index",
+      "accessed_on": "2026-10-20"
+    },
+    "fm_CA_YYZ_PEK_20261020": {
+      "title": "FlightMapper dated passenger schedule: CA YYZ–PEK",
+      "url": "https://info.flightmapper.net/route/Air_China_CA_YYZ_PEK",
+      "kind": "schedule_index",
+      "accessed_on": "2026-10-20"
+    },
+    "fm_HU_PEK_YYZ_20261020": {
+      "title": "FlightMapper dated passenger schedule: HU PEK–YYZ",
+      "url": "https://info.flightmapper.net/route/Hainan_Airlines_HU_PEK_YYZ",
+      "kind": "schedule_index",
+      "accessed_on": "2026-10-20"
+    },
+    "fm_HU_YYZ_PEK_20261020": {
+      "title": "FlightMapper dated passenger schedule: HU YYZ–PEK",
+      "url": "https://info.flightmapper.net/route/Hainan_Airlines_HU_YYZ_PEK",
+      "kind": "schedule_index",
+      "accessed_on": "2026-10-20"
+    },
+    "fm_AA_PVG_DFW_20261020": {
+      "title": "FlightMapper dated passenger schedule: AA PVG–DFW",
+      "url": "https://info.flightmapper.net/route/American_Airlines_AA_PVG_DFW",
+      "kind": "schedule_index",
+      "accessed_on": "2026-10-20"
+    },
+    "fm_AA_DFW_PVG_20261020": {
+      "title": "FlightMapper dated passenger schedule: AA DFW–PVG",
+      "url": "https://info.flightmapper.net/route/American_Airlines_AA_DFW_PVG",
+      "kind": "schedule_index",
+      "accessed_on": "2026-10-20"
+    },
+    "fm_DL_PVG_DTW_20261020": {
+      "title": "FlightMapper dated passenger schedule: DL PVG–DTW",
+      "url": "https://info.flightmapper.net/route/Delta_Air_Lines_DL_PVG_DTW",
+      "kind": "schedule_index",
+      "accessed_on": "2026-10-20"
+    },
+    "fm_DL_DTW_PVG_20261020": {
+      "title": "FlightMapper dated passenger schedule: DL DTW–PVG",
+      "url": "https://info.flightmapper.net/route/Delta_Air_Lines_DL_DTW_PVG",
+      "kind": "schedule_index",
+      "accessed_on": "2026-10-20"
+    },
+    "fm_MU_PVG_JFK_20261020": {
+      "title": "FlightMapper dated passenger schedule: MU PVG–JFK",
+      "url": "https://info.flightmapper.net/route/China_Eastern_Airlines_MU_PVG_JFK",
+      "kind": "schedule_index",
+      "accessed_on": "2026-10-20"
+    },
+    "fm_MU_JFK_PVG_20261020": {
+      "title": "FlightMapper dated passenger schedule: MU JFK–PVG",
+      "url": "https://info.flightmapper.net/route/China_Eastern_Airlines_MU_JFK_PVG",
+      "kind": "schedule_index",
+      "accessed_on": "2026-10-20"
+    },
+    "fm_DL_PVG_LAX_20261020": {
+      "title": "FlightMapper dated passenger schedule: DL PVG–LAX",
+      "url": "https://info.flightmapper.net/route/Delta_Air_Lines_DL_PVG_LAX",
+      "kind": "schedule_index",
+      "accessed_on": "2026-10-20"
+    },
+    "fm_DL_LAX_PVG_20261020": {
+      "title": "FlightMapper dated passenger schedule: DL LAX–PVG",
+      "url": "https://info.flightmapper.net/route/Delta_Air_Lines_DL_LAX_PVG",
+      "kind": "schedule_index",
+      "accessed_on": "2026-10-20"
+    },
+    "fm_MU_PVG_LAX_20261020": {
+      "title": "FlightMapper dated passenger schedule: MU PVG–LAX",
+      "url": "https://info.flightmapper.net/route/China_Eastern_Airlines_MU_PVG_LAX",
+      "kind": "schedule_index",
+      "accessed_on": "2026-10-20"
+    },
+    "fm_MU_LAX_PVG_20261020": {
+      "title": "FlightMapper dated passenger schedule: MU LAX–PVG",
+      "url": "https://info.flightmapper.net/route/China_Eastern_Airlines_MU_LAX_PVG",
+      "kind": "schedule_index",
+      "accessed_on": "2026-10-20"
+    },
+    "fm_UA_PVG_LAX_20261020": {
+      "title": "FlightMapper dated passenger schedule: UA PVG–LAX",
+      "url": "https://info.flightmapper.net/route/United_Airlines_UA_PVG_LAX",
+      "kind": "schedule_index",
+      "accessed_on": "2026-10-20"
+    },
+    "fm_UA_LAX_PVG_20261020": {
+      "title": "FlightMapper dated passenger schedule: UA LAX–PVG",
+      "url": "https://info.flightmapper.net/route/United_Airlines_UA_LAX_PVG",
+      "kind": "schedule_index",
+      "accessed_on": "2026-10-20"
+    },
+    "fm_DL_PVG_SEA_20261020": {
+      "title": "FlightMapper dated passenger schedule: DL PVG–SEA",
+      "url": "https://info.flightmapper.net/route/Delta_Air_Lines_DL_PVG_SEA",
+      "kind": "schedule_index",
+      "accessed_on": "2026-10-20"
+    },
+    "fm_DL_SEA_PVG_20261020": {
+      "title": "FlightMapper dated passenger schedule: DL SEA–PVG",
+      "url": "https://info.flightmapper.net/route/Delta_Air_Lines_DL_SEA_PVG",
+      "kind": "schedule_index",
+      "accessed_on": "2026-10-20"
+    },
+    "fm_MU_PVG_SFO_20261020": {
+      "title": "FlightMapper dated passenger schedule: MU PVG–SFO",
+      "url": "https://info.flightmapper.net/route/China_Eastern_Airlines_MU_PVG_SFO",
+      "kind": "schedule_index",
+      "accessed_on": "2026-10-20"
+    },
+    "fm_MU_SFO_PVG_20261020": {
+      "title": "FlightMapper dated passenger schedule: MU SFO–PVG",
+      "url": "https://info.flightmapper.net/route/China_Eastern_Airlines_MU_SFO_PVG",
+      "kind": "schedule_index",
+      "accessed_on": "2026-10-20"
+    },
+    "fm_UA_PVG_SFO_20261020": {
+      "title": "FlightMapper dated passenger schedule: UA PVG–SFO",
+      "url": "https://info.flightmapper.net/route/United_Airlines_UA_PVG_SFO",
+      "kind": "schedule_index",
+      "accessed_on": "2026-10-20"
+    },
+    "fm_UA_SFO_PVG_20261020": {
+      "title": "FlightMapper dated passenger schedule: UA SFO–PVG",
+      "url": "https://info.flightmapper.net/route/United_Airlines_UA_SFO_PVG",
+      "kind": "schedule_index",
+      "accessed_on": "2026-10-20"
+    },
+    "fm_AC_PVG_YVR_20261020": {
+      "title": "FlightMapper dated passenger schedule: AC PVG–YVR",
+      "url": "https://info.flightmapper.net/route/Air_Canada_AC_PVG_YVR",
+      "kind": "schedule_index",
+      "accessed_on": "2026-10-20"
+    },
+    "fm_AC_YVR_PVG_20261020": {
+      "title": "FlightMapper dated passenger schedule: AC YVR–PVG",
+      "url": "https://info.flightmapper.net/route/Air_Canada_AC_YVR_PVG",
+      "kind": "schedule_index",
+      "accessed_on": "2026-10-20"
+    },
+    "fm_MU_PVG_YVR_20261020": {
+      "title": "FlightMapper dated passenger schedule: MU PVG–YVR",
+      "url": "https://info.flightmapper.net/route/China_Eastern_Airlines_MU_PVG_YVR",
+      "kind": "schedule_index",
+      "accessed_on": "2026-10-20"
+    },
+    "fm_MU_YVR_PVG_20261020": {
+      "title": "FlightMapper dated passenger schedule: MU YVR–PVG",
+      "url": "https://info.flightmapper.net/route/China_Eastern_Airlines_MU_YVR_PVG",
+      "kind": "schedule_index",
+      "accessed_on": "2026-10-20"
+    },
+    "fm_AC_PVG_YYZ_20261020": {
+      "title": "FlightMapper dated passenger schedule: AC PVG–YYZ",
+      "url": "https://info.flightmapper.net/route/Air_Canada_AC_PVG_YYZ",
+      "kind": "schedule_index",
+      "accessed_on": "2026-10-20"
+    },
+    "fm_AC_YYZ_PVG_20261020": {
+      "title": "FlightMapper dated passenger schedule: AC YYZ–PVG",
+      "url": "https://info.flightmapper.net/route/Air_Canada_AC_YYZ_PVG",
+      "kind": "schedule_index",
+      "accessed_on": "2026-10-20"
+    },
+    "fm_MU_PVG_YYZ_20261020": {
+      "title": "FlightMapper dated passenger schedule: MU PVG–YYZ",
+      "url": "https://info.flightmapper.net/route/China_Eastern_Airlines_MU_PVG_YYZ",
+      "kind": "schedule_index",
+      "accessed_on": "2026-10-20"
+    },
+    "fm_MU_YYZ_PVG_20261020": {
+      "title": "FlightMapper dated passenger schedule: MU YYZ–PVG",
+      "url": "https://info.flightmapper.net/route/China_Eastern_Airlines_MU_YYZ_PVG",
+      "kind": "schedule_index",
+      "accessed_on": "2026-10-20"
+    },
+    "fm_SQ_SIN_EWR_20261020": {
+      "title": "FlightMapper dated passenger schedule: SQ SIN–EWR",
+      "url": "https://info.flightmapper.net/route/Singapore_Airlines_SQ_SIN_EWR",
+      "kind": "schedule_index",
+      "accessed_on": "2026-10-20"
+    },
+    "fm_SQ_EWR_SIN_20261020": {
+      "title": "FlightMapper dated passenger schedule: SQ EWR–SIN",
+      "url": "https://info.flightmapper.net/route/Singapore_Airlines_SQ_EWR_SIN",
+      "kind": "schedule_index",
+      "accessed_on": "2026-10-20"
+    },
+    "fm_SQ_SIN_JFK_20261020": {
+      "title": "FlightMapper dated passenger schedule: SQ SIN–JFK",
+      "url": "https://info.flightmapper.net/route/Singapore_Airlines_SQ_SIN_JFK",
+      "kind": "schedule_index",
+      "accessed_on": "2026-10-20"
+    },
+    "fm_SQ_JFK_SIN_20261020": {
+      "title": "FlightMapper dated passenger schedule: SQ JFK–SIN",
+      "url": "https://info.flightmapper.net/route/Singapore_Airlines_SQ_JFK_SIN",
+      "kind": "schedule_index",
+      "accessed_on": "2026-10-20"
+    },
+    "fm_SQ_SIN_LAX_20261020": {
+      "title": "FlightMapper dated passenger schedule: SQ SIN–LAX",
+      "url": "https://info.flightmapper.net/route/Singapore_Airlines_SQ_SIN_LAX",
+      "kind": "schedule_index",
+      "accessed_on": "2026-10-20"
+    },
+    "fm_SQ_LAX_SIN_20261020": {
+      "title": "FlightMapper dated passenger schedule: SQ LAX–SIN",
+      "url": "https://info.flightmapper.net/route/Singapore_Airlines_SQ_LAX_SIN",
+      "kind": "schedule_index",
+      "accessed_on": "2026-10-20"
+    },
+    "fm_SQ_SIN_SEA_20261020": {
+      "title": "FlightMapper dated passenger schedule: SQ SIN–SEA",
+      "url": "https://info.flightmapper.net/route/Singapore_Airlines_SQ_SIN_SEA",
+      "kind": "schedule_index",
+      "accessed_on": "2026-10-20"
+    },
+    "fm_SQ_SEA_SIN_20261020": {
+      "title": "FlightMapper dated passenger schedule: SQ SEA–SIN",
+      "url": "https://info.flightmapper.net/route/Singapore_Airlines_SQ_SEA_SIN",
+      "kind": "schedule_index",
+      "accessed_on": "2026-10-20"
+    },
+    "fm_SQ_SIN_SFO_20261020": {
+      "title": "FlightMapper dated passenger schedule: SQ SIN–SFO",
+      "url": "https://info.flightmapper.net/route/Singapore_Airlines_SQ_SIN_SFO",
+      "kind": "schedule_index",
+      "accessed_on": "2026-10-20"
+    },
+    "fm_SQ_SFO_SIN_20261020": {
+      "title": "FlightMapper dated passenger schedule: SQ SFO–SIN",
+      "url": "https://info.flightmapper.net/route/Singapore_Airlines_SQ_SFO_SIN",
+      "kind": "schedule_index",
+      "accessed_on": "2026-10-20"
+    },
+    "fm_UA_SIN_SFO_20261020": {
+      "title": "FlightMapper dated passenger schedule: UA SIN–SFO",
+      "url": "https://info.flightmapper.net/route/United_Airlines_UA_SIN_SFO",
+      "kind": "schedule_index",
+      "accessed_on": "2026-10-20"
+    },
+    "fm_UA_SFO_SIN_20261020": {
+      "title": "FlightMapper dated passenger schedule: UA SFO–SIN",
+      "url": "https://info.flightmapper.net/route/United_Airlines_UA_SFO_SIN",
+      "kind": "schedule_index",
+      "accessed_on": "2026-10-20"
+    },
+    "fm_AC_SIN_YVR_20261020": {
+      "title": "FlightMapper dated passenger schedule: AC SIN–YVR",
+      "url": "https://info.flightmapper.net/route/Air_Canada_AC_SIN_YVR",
+      "kind": "schedule_index",
+      "accessed_on": "2026-10-20"
+    },
+    "fm_AC_YVR_SIN_20261020": {
+      "title": "FlightMapper dated passenger schedule: AC YVR–SIN",
+      "url": "https://info.flightmapper.net/route/Air_Canada_AC_YVR_SIN",
+      "kind": "schedule_index",
+      "accessed_on": "2026-10-20"
+    },
+    "fm_CA_SZX_LAX_20261020": {
+      "title": "FlightMapper dated passenger schedule: CA SZX–LAX",
+      "url": "https://info.flightmapper.net/route/Air_China_CA_SZX_LAX",
+      "kind": "schedule_index",
+      "accessed_on": "2026-10-20"
+    },
+    "fm_CA_LAX_SZX_20261020": {
+      "title": "FlightMapper dated passenger schedule: CA LAX–SZX",
+      "url": "https://info.flightmapper.net/route/Air_China_CA_LAX_SZX",
+      "kind": "schedule_index",
+      "accessed_on": "2026-10-20"
+    },
+    "fm_HU_SZX_YVR_20261020": {
+      "title": "FlightMapper dated passenger schedule: HU SZX–YVR",
+      "url": "https://info.flightmapper.net/route/Hainan_Airlines_HU_SZX_YVR",
+      "kind": "schedule_index",
+      "accessed_on": "2026-10-20"
+    },
+    "fm_HU_YVR_SZX_20261020": {
+      "title": "FlightMapper dated passenger schedule: HU YVR–SZX",
+      "url": "https://info.flightmapper.net/route/Hainan_Airlines_HU_YVR_SZX",
+      "kind": "schedule_index",
+      "accessed_on": "2026-10-20"
+    },
+    "fm_3U_TFU_LAX_20261020": {
+      "title": "FlightMapper dated passenger schedule: 3U TFU–LAX",
+      "url": "https://info.flightmapper.net/route/Sichuan_Airlines_3U_TFU_LAX",
+      "kind": "schedule_index",
+      "accessed_on": "2026-10-20"
+    },
+    "fm_3U_LAX_TFU_20261020": {
+      "title": "FlightMapper dated passenger schedule: 3U LAX–TFU",
+      "url": "https://info.flightmapper.net/route/Sichuan_Airlines_3U_LAX_TFU",
+      "kind": "schedule_index",
+      "accessed_on": "2026-10-20"
+    },
+    "fm_3U_TFU_YVR_20261020": {
+      "title": "FlightMapper dated passenger schedule: 3U TFU–YVR",
+      "url": "https://info.flightmapper.net/route/Sichuan_Airlines_3U_TFU_YVR",
+      "kind": "schedule_index",
+      "accessed_on": "2026-10-20"
+    },
+    "fm_3U_YVR_TFU_20261020": {
+      "title": "FlightMapper dated passenger schedule: 3U YVR–TFU",
+      "url": "https://info.flightmapper.net/route/Sichuan_Airlines_3U_YVR_TFU",
+      "kind": "schedule_index",
+      "accessed_on": "2026-10-20"
+    },
+    "fm_BR_TPE_DFW_20261020": {
+      "title": "FlightMapper dated passenger schedule: BR TPE–DFW",
+      "url": "https://info.flightmapper.net/route/EVA_Air_BR_TPE_DFW",
+      "kind": "schedule_index",
+      "accessed_on": "2026-10-20"
+    },
+    "fm_BR_DFW_TPE_20261020": {
+      "title": "FlightMapper dated passenger schedule: BR DFW–TPE",
+      "url": "https://info.flightmapper.net/route/EVA_Air_BR_DFW_TPE",
+      "kind": "schedule_index",
+      "accessed_on": "2026-10-20"
+    },
+    "fm_BR_TPE_IAH_20261020": {
+      "title": "FlightMapper dated passenger schedule: BR TPE–IAH",
+      "url": "https://info.flightmapper.net/route/EVA_Air_BR_TPE_IAH",
+      "kind": "schedule_index",
+      "accessed_on": "2026-10-20"
+    },
+    "fm_BR_IAH_TPE_20261020": {
+      "title": "FlightMapper dated passenger schedule: BR IAH–TPE",
+      "url": "https://info.flightmapper.net/route/EVA_Air_BR_IAH_TPE",
+      "kind": "schedule_index",
+      "accessed_on": "2026-10-20"
+    },
+    "fm_BR_TPE_JFK_20261020": {
+      "title": "FlightMapper dated passenger schedule: BR TPE–JFK",
+      "url": "https://info.flightmapper.net/route/EVA_Air_BR_TPE_JFK",
+      "kind": "schedule_index",
+      "accessed_on": "2026-10-20"
+    },
+    "fm_BR_JFK_TPE_20261020": {
+      "title": "FlightMapper dated passenger schedule: BR JFK–TPE",
+      "url": "https://info.flightmapper.net/route/EVA_Air_BR_JFK_TPE",
+      "kind": "schedule_index",
+      "accessed_on": "2026-10-20"
+    },
+    "fm_CI_TPE_JFK_20261020": {
+      "title": "FlightMapper dated passenger schedule: CI TPE–JFK",
+      "url": "https://info.flightmapper.net/route/China_Airlines_CI_TPE_JFK",
+      "kind": "schedule_index",
+      "accessed_on": "2026-10-20"
+    },
+    "fm_CI_JFK_TPE_20261020": {
+      "title": "FlightMapper dated passenger schedule: CI JFK–TPE",
+      "url": "https://info.flightmapper.net/route/China_Airlines_CI_JFK_TPE",
+      "kind": "schedule_index",
+      "accessed_on": "2026-10-20"
+    },
+    "fm_BR_TPE_LAX_20261020": {
+      "title": "FlightMapper dated passenger schedule: BR TPE–LAX",
+      "url": "https://info.flightmapper.net/route/EVA_Air_BR_TPE_LAX",
+      "kind": "schedule_index",
+      "accessed_on": "2026-10-20"
+    },
+    "fm_BR_LAX_TPE_20261020": {
+      "title": "FlightMapper dated passenger schedule: BR LAX–TPE",
+      "url": "https://info.flightmapper.net/route/EVA_Air_BR_LAX_TPE",
+      "kind": "schedule_index",
+      "accessed_on": "2026-10-20"
+    },
+    "fm_CI_TPE_LAX_20261020": {
+      "title": "FlightMapper dated passenger schedule: CI TPE–LAX",
+      "url": "https://info.flightmapper.net/route/China_Airlines_CI_TPE_LAX",
+      "kind": "schedule_index",
+      "accessed_on": "2026-10-20"
+    },
+    "fm_CI_LAX_TPE_20261020": {
+      "title": "FlightMapper dated passenger schedule: CI LAX–TPE",
+      "url": "https://info.flightmapper.net/route/China_Airlines_CI_LAX_TPE",
+      "kind": "schedule_index",
+      "accessed_on": "2026-10-20"
+    },
+    "fm_JX_TPE_LAX_20261020": {
+      "title": "FlightMapper dated passenger schedule: JX TPE–LAX",
+      "url": "https://info.flightmapper.net/route/STARLUX_Airlines_JX_TPE_LAX",
+      "kind": "schedule_index",
+      "accessed_on": "2026-10-20"
+    },
+    "fm_JX_LAX_TPE_20261020": {
+      "title": "FlightMapper dated passenger schedule: JX LAX–TPE",
+      "url": "https://info.flightmapper.net/route/STARLUX_Airlines_JX_LAX_TPE",
+      "kind": "schedule_index",
+      "accessed_on": "2026-10-20"
+    },
+    "fm_CI_TPE_ONT_20261020": {
+      "title": "FlightMapper dated passenger schedule: CI TPE–ONT",
+      "url": "https://info.flightmapper.net/route/China_Airlines_CI_TPE_ONT",
+      "kind": "schedule_index",
+      "accessed_on": "2026-10-20"
+    },
+    "fm_CI_ONT_TPE_20261020": {
+      "title": "FlightMapper dated passenger schedule: CI ONT–TPE",
+      "url": "https://info.flightmapper.net/route/China_Airlines_CI_ONT_TPE",
+      "kind": "schedule_index",
+      "accessed_on": "2026-10-20"
+    },
+    "fm_JX_TPE_ONT_20261020": {
+      "title": "FlightMapper dated passenger schedule: JX TPE–ONT",
+      "url": "https://info.flightmapper.net/route/STARLUX_Airlines_JX_TPE_ONT",
+      "kind": "schedule_index",
+      "accessed_on": "2026-10-20"
+    },
+    "fm_JX_ONT_TPE_20261020": {
+      "title": "FlightMapper dated passenger schedule: JX ONT–TPE",
+      "url": "https://info.flightmapper.net/route/STARLUX_Airlines_JX_ONT_TPE",
+      "kind": "schedule_index",
+      "accessed_on": "2026-10-20"
+    },
+    "fm_BR_TPE_ORD_20261020": {
+      "title": "FlightMapper dated passenger schedule: BR TPE–ORD",
+      "url": "https://info.flightmapper.net/route/EVA_Air_BR_TPE_ORD",
+      "kind": "schedule_index",
+      "accessed_on": "2026-10-20"
+    },
+    "fm_BR_ORD_TPE_20261020": {
+      "title": "FlightMapper dated passenger schedule: BR ORD–TPE",
+      "url": "https://info.flightmapper.net/route/EVA_Air_BR_ORD_TPE",
+      "kind": "schedule_index",
+      "accessed_on": "2026-10-20"
+    },
+    "fm_CI_TPE_PHX_20261020": {
+      "title": "FlightMapper dated passenger schedule: CI TPE–PHX",
+      "url": "https://info.flightmapper.net/route/China_Airlines_CI_TPE_PHX",
+      "kind": "schedule_index",
+      "accessed_on": "2026-10-20"
+    },
+    "fm_CI_PHX_TPE_20261020": {
+      "title": "FlightMapper dated passenger schedule: CI PHX–TPE",
+      "url": "https://info.flightmapper.net/route/China_Airlines_CI_PHX_TPE",
+      "kind": "schedule_index",
+      "accessed_on": "2026-10-20"
+    },
+    "fm_JX_TPE_PHX_20261020": {
+      "title": "FlightMapper dated passenger schedule: JX TPE–PHX",
+      "url": "https://info.flightmapper.net/route/STARLUX_Airlines_JX_TPE_PHX",
+      "kind": "schedule_index",
+      "accessed_on": "2026-10-20"
+    },
+    "fm_JX_PHX_TPE_20261020": {
+      "title": "FlightMapper dated passenger schedule: JX PHX–TPE",
+      "url": "https://info.flightmapper.net/route/STARLUX_Airlines_JX_PHX_TPE",
+      "kind": "schedule_index",
+      "accessed_on": "2026-10-20"
+    },
+    "fm_BR_TPE_SEA_20261020": {
+      "title": "FlightMapper dated passenger schedule: BR TPE–SEA",
+      "url": "https://info.flightmapper.net/route/EVA_Air_BR_TPE_SEA",
+      "kind": "schedule_index",
+      "accessed_on": "2026-10-20"
+    },
+    "fm_BR_SEA_TPE_20261020": {
+      "title": "FlightMapper dated passenger schedule: BR SEA–TPE",
+      "url": "https://info.flightmapper.net/route/EVA_Air_BR_SEA_TPE",
+      "kind": "schedule_index",
+      "accessed_on": "2026-10-20"
+    },
+    "fm_CI_TPE_SEA_20261020": {
+      "title": "FlightMapper dated passenger schedule: CI TPE–SEA",
+      "url": "https://info.flightmapper.net/route/China_Airlines_CI_TPE_SEA",
+      "kind": "schedule_index",
+      "accessed_on": "2026-10-20"
+    },
+    "fm_CI_SEA_TPE_20261020": {
+      "title": "FlightMapper dated passenger schedule: CI SEA–TPE",
+      "url": "https://info.flightmapper.net/route/China_Airlines_CI_SEA_TPE",
+      "kind": "schedule_index",
+      "accessed_on": "2026-10-20"
+    },
+    "fm_DL_TPE_SEA_20261020": {
+      "title": "FlightMapper dated passenger schedule: DL TPE–SEA",
+      "url": "https://info.flightmapper.net/route/Delta_Air_Lines_DL_TPE_SEA",
+      "kind": "schedule_index",
+      "accessed_on": "2026-10-20"
+    },
+    "fm_DL_SEA_TPE_20261020": {
+      "title": "FlightMapper dated passenger schedule: DL SEA–TPE",
+      "url": "https://info.flightmapper.net/route/Delta_Air_Lines_DL_SEA_TPE",
+      "kind": "schedule_index",
+      "accessed_on": "2026-10-20"
+    },
+    "fm_JX_TPE_SEA_20261020": {
+      "title": "FlightMapper dated passenger schedule: JX TPE–SEA",
+      "url": "https://info.flightmapper.net/route/STARLUX_Airlines_JX_TPE_SEA",
+      "kind": "schedule_index",
+      "accessed_on": "2026-10-20"
+    },
+    "fm_JX_SEA_TPE_20261020": {
+      "title": "FlightMapper dated passenger schedule: JX SEA–TPE",
+      "url": "https://info.flightmapper.net/route/STARLUX_Airlines_JX_SEA_TPE",
+      "kind": "schedule_index",
+      "accessed_on": "2026-10-20"
+    },
+    "fm_BR_TPE_SFO_20261020": {
+      "title": "FlightMapper dated passenger schedule: BR TPE–SFO",
+      "url": "https://info.flightmapper.net/route/EVA_Air_BR_TPE_SFO",
+      "kind": "schedule_index",
+      "accessed_on": "2026-10-20"
+    },
+    "fm_BR_SFO_TPE_20261020": {
+      "title": "FlightMapper dated passenger schedule: BR SFO–TPE",
+      "url": "https://info.flightmapper.net/route/EVA_Air_BR_SFO_TPE",
+      "kind": "schedule_index",
+      "accessed_on": "2026-10-20"
+    },
+    "fm_CI_TPE_SFO_20261020": {
+      "title": "FlightMapper dated passenger schedule: CI TPE–SFO",
+      "url": "https://info.flightmapper.net/route/China_Airlines_CI_TPE_SFO",
+      "kind": "schedule_index",
+      "accessed_on": "2026-10-20"
+    },
+    "fm_CI_SFO_TPE_20261020": {
+      "title": "FlightMapper dated passenger schedule: CI SFO–TPE",
+      "url": "https://info.flightmapper.net/route/China_Airlines_CI_SFO_TPE",
+      "kind": "schedule_index",
+      "accessed_on": "2026-10-20"
+    },
+    "fm_JX_TPE_SFO_20261020": {
+      "title": "FlightMapper dated passenger schedule: JX TPE–SFO",
+      "url": "https://info.flightmapper.net/route/STARLUX_Airlines_JX_TPE_SFO",
+      "kind": "schedule_index",
+      "accessed_on": "2026-10-20"
+    },
+    "fm_JX_SFO_TPE_20261020": {
+      "title": "FlightMapper dated passenger schedule: JX SFO–TPE",
+      "url": "https://info.flightmapper.net/route/STARLUX_Airlines_JX_SFO_TPE",
+      "kind": "schedule_index",
+      "accessed_on": "2026-10-20"
+    },
+    "fm_UA_TPE_SFO_20261020": {
+      "title": "FlightMapper dated passenger schedule: UA TPE–SFO",
+      "url": "https://info.flightmapper.net/route/United_Airlines_UA_TPE_SFO",
+      "kind": "schedule_index",
+      "accessed_on": "2026-10-20"
+    },
+    "fm_UA_SFO_TPE_20261020": {
+      "title": "FlightMapper dated passenger schedule: UA SFO–TPE",
+      "url": "https://info.flightmapper.net/route/United_Airlines_UA_SFO_TPE",
+      "kind": "schedule_index",
+      "accessed_on": "2026-10-20"
+    },
+    "fm_BR_TPE_YVR_20261020": {
+      "title": "FlightMapper dated passenger schedule: BR TPE–YVR",
+      "url": "https://info.flightmapper.net/route/EVA_Air_BR_TPE_YVR",
+      "kind": "schedule_index",
+      "accessed_on": "2026-10-20"
+    },
+    "fm_BR_YVR_TPE_20261020": {
+      "title": "FlightMapper dated passenger schedule: BR YVR–TPE",
+      "url": "https://info.flightmapper.net/route/EVA_Air_BR_YVR_TPE",
+      "kind": "schedule_index",
+      "accessed_on": "2026-10-20"
+    },
+    "fm_CI_TPE_YVR_20261020": {
+      "title": "FlightMapper dated passenger schedule: CI TPE–YVR",
+      "url": "https://info.flightmapper.net/route/China_Airlines_CI_TPE_YVR",
+      "kind": "schedule_index",
+      "accessed_on": "2026-10-20"
+    },
+    "fm_CI_YVR_TPE_20261020": {
+      "title": "FlightMapper dated passenger schedule: CI YVR–TPE",
+      "url": "https://info.flightmapper.net/route/China_Airlines_CI_YVR_TPE",
+      "kind": "schedule_index",
+      "accessed_on": "2026-10-20"
+    },
+    "fm_BR_TPE_YYZ_20261020": {
+      "title": "FlightMapper dated passenger schedule: BR TPE–YYZ",
+      "url": "https://info.flightmapper.net/route/EVA_Air_BR_TPE_YYZ",
+      "kind": "schedule_index",
+      "accessed_on": "2026-10-20"
+    },
+    "fm_BR_YYZ_TPE_20261020": {
+      "title": "FlightMapper dated passenger schedule: BR YYZ–TPE",
+      "url": "https://info.flightmapper.net/route/EVA_Air_BR_YYZ_TPE",
+      "kind": "schedule_index",
+      "accessed_on": "2026-10-20"
+    },
+    "fm_CZ_WUH_SFO_20261020": {
+      "title": "FlightMapper dated passenger schedule: CZ WUH–SFO",
+      "url": "https://info.flightmapper.net/route/China_Southern_Airlines_CZ_WUH_SFO",
+      "kind": "schedule_index",
+      "accessed_on": "2026-10-20"
+    },
+    "fm_CZ_SFO_WUH_20261020": {
+      "title": "FlightMapper dated passenger schedule: CZ SFO–WUH",
+      "url": "https://info.flightmapper.net/route/China_Southern_Airlines_CZ_SFO_WUH",
+      "kind": "schedule_index",
+      "accessed_on": "2026-10-20"
+    },
+    "fm_MF_XMN_LAX_20261020": {
+      "title": "FlightMapper dated passenger schedule: MF XMN–LAX",
+      "url": "https://info.flightmapper.net/route/XiamenAir_MF_XMN_LAX",
+      "kind": "schedule_index",
+      "accessed_on": "2026-10-20"
+    },
+    "fm_MF_LAX_XMN_20261020": {
+      "title": "FlightMapper dated passenger schedule: MF LAX–XMN",
+      "url": "https://info.flightmapper.net/route/XiamenAir_MF_LAX_XMN",
+      "kind": "schedule_index",
+      "accessed_on": "2026-10-20"
+    },
+    "fm_MF_XMN_YVR_20261020": {
+      "title": "FlightMapper dated passenger schedule: MF XMN–YVR",
+      "url": "https://info.flightmapper.net/route/XiamenAir_MF_XMN_YVR",
+      "kind": "schedule_index",
+      "accessed_on": "2026-10-20"
+    },
+    "fm_MF_YVR_XMN_20261020": {
+      "title": "FlightMapper dated passenger schedule: MF YVR–XMN",
+      "url": "https://info.flightmapper.net/route/XiamenAir_MF_YVR_XMN",
+      "kind": "schedule_index",
+      "accessed_on": "2026-10-20"
+    },
+    "ac_operating_20261020": {
+      "title": "Air Canada Asia operating schedule, checked 2026-10-20",
+      "url": "https://vacations.aircanada.com/en/travel-info/where-we-fly/files/EN-ASIA-Asia.pdf",
+      "kind": "primary",
+      "accessed_on": "2026-10-20"
+    },
+    "eva_northamerica_20261020": {
+      "title": "EVA official North America aircraft information, including BR08/07",
+      "url": "https://flights.evaair.com/zh-tw/northamerica",
+      "kind": "primary",
+      "accessed_on": "2026-10-20"
+    },
+    "eva_iad_schedule_20261020": {
+      "title": "EVA official Taipei–Washington operating days, flight numbers and Boeing 787-9",
+      "url": "https://www.evaair.com/en-sg/about-eva-air/news/news-releases/2026-02-11-evaair-new-route-taipei-to-washington-dc.html",
+      "kind": "primary",
+      "accessed_on": "2026-10-20"
+    },
+    "jx_phx_schedule_20261020": {
+      "title": "STARLUX Phoenix official timetable and A350-1000 aircraft",
+      "url": "https://www.starlux-airlines.com/flights/zh-tw/flights-from-taipei-to-phoenix",
+      "kind": "primary",
+      "accessed_on": "2026-10-20"
+    },
+    "jal_aircraft_20261020": {
+      "title": "JAL US/Canada official summer operating table and A350-1000 aircraft",
+      "url": "https://www.jal.co.jp/flights/en-us/flight-resumption",
+      "kind": "primary",
+      "accessed_on": "2026-10-20"
+    },
+    "ana_honu_20261020": {
+      "title": "ANA A380 Honolulu official dated operating table",
+      "url": "https://www.ana.co.jp/en/jp/international/area/hawaii/a380/",
+      "kind": "primary",
+      "accessed_on": "2026-10-20"
+    },
+    "zg_hnl_20261020": {
+      "title": "ZIPAIR official summer Honolulu operating table (image inspected)",
+      "url": "https://www.zipair.net/ja/notification/375",
+      "kind": "primary",
+      "accessed_on": "2026-10-20"
+    },
+    "zg_fleet_20261020": {
+      "title": "ZIPAIR official fleet: Boeing 787-8 passenger aircraft",
+      "url": "https://corporate.zipair.net/ja/company/",
+      "kind": "primary",
+      "accessed_on": "2026-10-20"
+    },
+    "zg_iah_20261020": {
+      "title": "TRAICY: ZIPAIR September–October 2026 Houston operating table",
+      "url": "https://www.traicy.com/posts/20260309364867/",
+      "kind": "schedule_report",
+      "accessed_on": "2026-10-20"
+    },
+    "zg_yvr_20261020": {
+      "title": "ZIPAIR official Vancouver Tuesday addition through October 20 (image inspected)",
+      "url": "https://www.zipair.net/ja/notification/372",
+      "kind": "primary",
+      "accessed_on": "2026-10-20"
+    },
+    "zg_yvr_base_20261020": {
+      "title": "ZIPAIR Vancouver base weekdays and 2026 summer fifth weekly flight",
+      "url": "https://sky-budget.com/2026/02/08/zipair-increase-nrt-yvr-2026summer/",
+      "kind": "schedule_report",
+      "accessed_on": "2026-10-20"
+    },
+    "hu730_current_20261020": {
+      "title": "HU730 current Boston–Beijing nonstop Boeing 787-9 operating table",
+      "url": "https://www.flight.info/HU730",
+      "kind": "schedule_index",
+      "accessed_on": "2026-10-20"
+    },
+    "jd_tao_yvr_aircraft_20261020": {
+      "title": "Capital Airlines Qingdao–Vancouver JD471/472 passenger route and A330-200",
+      "url": "https://www.directflights.com/TAO-YVR",
+      "kind": "schedule_index",
+      "accessed_on": "2026-10-20"
+    },
+    "jd_yvr_tao_aircraft_20261020": {
+      "title": "Capital Airlines Vancouver–Qingdao JD472 passenger route and A330-200",
+      "url": "https://www.directflights.com/YVR-TAO",
+      "kind": "schedule_index",
+      "accessed_on": "2026-10-20"
+    },
+    "piao_canada_table_20261020": {
+      "title": "票帝中加班表图片：JD471/472周五，经停青岛上下客；10月2日起恢复",
+      "url": "https://piao.tips/wp-content/uploads/2026/09/wx_fmtpngampfromappmsg-141.png",
+      "kind": "schedule_reference",
+      "accessed_on": "2026-10-20"
+    },
+    "ua_kix_lax_2027": {
+      "title": "United official new Los Angeles–Osaka service starts March 27, 2027",
+      "url": "https://united.mediaroom.com/2026-08-25-United-Adds-10-International-Cities-for-2027-Largest-Expansion-in-Airlines-History",
+      "kind": "primary",
+      "accessed_on": "2026-10-20"
+    },
+    "zg_sjc_20261020": {
+      "title": "ZIPAIR official 2026–27 San Jose seasonal periods and weekdays (image inspected)",
+      "url": "https://www.zipair.net/ja/notification/428",
+      "kind": "primary",
+      "accessed_on": "2026-10-20"
+    },
+    "review_BR0031_20261020": {
+      "title": "逐航班补充核查",
+      "url": "https://www.flight.info/BR31",
+      "kind": "secondary",
+      "accessed_on": "2026-10-20"
+    },
+    "review_BR0055_20261020": {
+      "title": "逐航班补充核查",
+      "url": "https://www.flight.info/BR55",
+      "kind": "secondary",
+      "accessed_on": "2026-10-20"
+    },
+    "review_CA0769_20261020": {
+      "title": "逐航班补充核查",
+      "url": "https://info.flightmapper.net/flight/Air_China_CCA_769",
+      "kind": "secondary",
+      "accessed_on": "2026-10-20"
+    },
+    "review_CI0023_20261020": {
+      "title": "逐航班补充核查",
+      "url": "https://www.flight.info/CI23",
+      "kind": "secondary",
+      "accessed_on": "2026-10-20"
+    },
+    "review_CI0024_20261020": {
+      "title": "逐航班补充核查",
+      "url": "https://www.flight.info/CI24",
+      "kind": "secondary",
+      "accessed_on": "2026-10-20"
+    },
+    "review_JX0001_20261020": {
+      "title": "逐航班补充核查",
+      "url": "https://www.flight.info/JX1",
+      "kind": "secondary",
+      "accessed_on": "2026-10-20"
+    },
+    "review_JX0009_20261020": {
+      "title": "逐航班补充核查",
+      "url": "https://www.flight.info/JX9",
+      "kind": "secondary",
+      "accessed_on": "2026-10-20"
+    },
+    "review_MF0806_20261020": {
+      "title": "逐航班补充核查",
+      "url": "https://www.flight.info/MF806",
+      "kind": "secondary",
+      "accessed_on": "2026-10-20"
     }
   },
   "counts": {
@@ -418,9 +2746,31 @@
   ],
   "schedule_file": "flights.json",
   "route_snapshot": {
-    "checked_on": "2026-10-19",
+    "checked_on": "2026-10-20",
     "records": 194,
     "airport_pairs": 114,
     "policy": "人工核查的定期客运不停站机场对，含季节性；未来开航不显示为现役。航线资格与历史班表独立，未核实的航班号、机型、时刻和班次不补造。"
+  },
+  "timetable_snapshot": {
+    "checked_on": "2026-10-20",
+    "review_by": "2026-10-24",
+    "import_batch": "passenger_snapshot_20261020",
+    "records": 446,
+    "airline_route_records": 185,
+    "airport_pairs": 112,
+    "airlines": 26,
+    "missing_airline_routes": [
+      "AC:ICN-YUL",
+      "ZG:NRT-SJC"
+    ],
+    "seasonal_plan_records": 10,
+    "seasonal_plan_import_batch": "seasonal_plans_20261020",
+    "departure_window": {
+      "valid_from": "2026-10-20",
+      "valid_to": "2026-10-24",
+      "departures": 1840,
+      "records_without_departures": 3
+    },
+    "policy": "核查日适用的有方向不停站客运班表；以现有航线资格为边界。官方资料优先，机型可因调度变化；起降时间不录入。为避免把夏季班表外推至冬季，新批次最多适用至10月24日。旧记录逐条保留，同方向已有本批次资料时不再重复显示旧班表。"
   }
 }
