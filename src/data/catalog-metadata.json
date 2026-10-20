@@ -1,0 +1,426 @@
+{
+  "schema_version": 1,
+  "checked_on": "2026-10-19",
+  "regions": {
+    "asia_pacific": {
+      "name_cn": "亚太区",
+      "countries_or_regions": [
+        "CHN",
+        "HKG",
+        "MAC",
+        "TWN",
+        "SGP",
+        "JPN",
+        "KOR",
+        "PRK"
+      ]
+    },
+    "north_america": {
+      "name_cn": "北美区",
+      "countries_or_regions": [
+        "USA",
+        "CAN"
+      ],
+      "includes": [
+        "美国本土",
+        "阿拉斯加",
+        "夏威夷"
+      ],
+      "excludes": [
+        "关岛",
+        "北马里亚纳群岛",
+        "其他美国海外属地",
+        "墨西哥"
+      ]
+    }
+  },
+  "inclusion_rule": "至少有一条亚太区与北美区之间的不停站定期客运航段；含季节性服务，不含纯货运、包机、代码共享营销航司和经停全程。已公布未开航单独标注。",
+  "sources": {
+    "airport_codes": {
+      "title": "OurAirports-derived Airport Codes dataset",
+      "url": "https://github.com/datasets/airport-codes/blob/main/data/airport-codes.csv",
+      "kind": "airport_reference",
+      "accessed_on": "2026-10-19"
+    },
+    "yvr_network": {
+      "title": "YVR July 2026 nonstop destinations brochure",
+      "url": "https://www.yvr.ca/-/media/yvr/documents/maps/routes-brochure-2024/2026_routebrochure_july_english_adjusted.pdf",
+      "kind": "primary",
+      "accessed_on": "2026-10-19"
+    },
+    "yvr_airlines": {
+      "title": "YVR airlines and destinations",
+      "url": "https://www.yvr.ca/en/passengers/flights/airlines-and-destinations",
+      "kind": "primary",
+      "accessed_on": "2026-10-19"
+    },
+    "ac_sapporo": {
+      "title": "Air Canada winter 2026 Sapporo announcement",
+      "url": "https://www.aircanada.com/media/epic-snow-ramen-legendary-beer-air-canada-unveils-its-first-ever-winter-seasonal-service-to-sapporo/",
+      "kind": "primary",
+      "accessed_on": "2026-10-19"
+    },
+    "ws_asia": {
+      "title": "WestJet Tokyo and Seoul direct services",
+      "url": "https://www.westjet.com/en-ca/best-of-travel/asia",
+      "kind": "primary",
+      "accessed_on": "2026-10-19"
+    },
+    "yp_airports": {
+      "title": "Air Premia North American destination airports",
+      "url": "https://www.airpremia.com/a/en/support/airport/USA/EWR",
+      "kind": "primary",
+      "accessed_on": "2026-10-19"
+    },
+    "tw_yvr": {
+      "title": "YVR welcomes regular Tway Seoul service",
+      "url": "https://news.yvr.ca/yvr-celebrates-inaugural-tway-flight-to-seoul/",
+      "kind": "primary",
+      "accessed_on": "2026-10-19"
+    },
+    "zg_network": {
+      "title": "ZIPAIR scheduled Americas network",
+      "url": "https://flights.zipair.net/en/",
+      "kind": "primary",
+      "accessed_on": "2026-10-19"
+    },
+    "zg_iah": {
+      "title": "ZIPAIR winter Honolulu, Vancouver and Houston services",
+      "url": "https://www.zipair.net/en/notification/336",
+      "kind": "primary",
+      "accessed_on": "2026-10-19"
+    },
+    "ci_network": {
+      "title": "China Airlines seven nonstop North American gateways, May 2026",
+      "url": "https://www.china-airlines.com/us/en/about-china-airlines/media/news/20260506",
+      "kind": "primary",
+      "accessed_on": "2026-10-19"
+    },
+    "jx_network": {
+      "title": "STARLUX five US gateways, September 2026",
+      "url": "https://www.starlux-airlines.com/flights/en-us/flights-from-ontario",
+      "kind": "primary",
+      "accessed_on": "2026-10-19"
+    },
+    "cx_network": {
+      "title": "Cathay Pacific summer 2026 North America network",
+      "url": "https://news.cathaypacific.com/cathay-pacific-returns-to-seattle-with-five-non-stop-return-flights-per-week",
+      "kind": "primary",
+      "accessed_on": "2026-10-19"
+    },
+    "sq_sfo": {
+      "title": "Singapore Airlines confirms nonstop SIN-SFO service",
+      "url": "https://www.singaporeair.com/en-ph/flights-from-singapore-to-san-francisco",
+      "kind": "primary",
+      "accessed_on": "2026-10-19"
+    },
+    "hu_ckg": {
+      "title": "Hainan October-December 2026 Chongqing-Seattle offers",
+      "url": "https://www.hainanairlines.com/CN/US/Offer",
+      "kind": "primary",
+      "accessed_on": "2026-10-19"
+    },
+    "hu_connections": {
+      "title": "Hainan through-check-in route table",
+      "url": "https://www.hainanairlines.com/go/image/TCCI/TCCI_en20251011.pdf",
+      "kind": "primary",
+      "accessed_on": "2026-10-19"
+    },
+    "hx_yvr": {
+      "title": "Hong Kong Airlines 2026 Vancouver services",
+      "url": "https://content.hongkongairlines.com/en_HK/campaign/HXciting",
+      "kind": "primary",
+      "accessed_on": "2026-10-19"
+    },
+    "cz_wuh": {
+      "title": "China Southern Wuhan-San Francisco nonstop segment",
+      "url": "https://www.csair.com/mcms/mcms/US/en/2023/20231012_8/index_us_en.html?country=us&lang=en",
+      "kind": "primary",
+      "accessed_on": "2026-10-19"
+    },
+    "cz_timetable": {
+      "title": "China Southern published international timetable",
+      "url": "https://www.csair.com/en/bookings/flight_times/resource/hangbanshikebiaoyingwenxin.pdf",
+      "kind": "primary",
+      "accessed_on": "2026-10-19"
+    },
+    "jd_yvr": {
+      "title": "Capital Airlines Qingdao-Vancouver nonstop segment; Hangzhou is via Qingdao",
+      "url": "https://news.yvr.ca/yvr-lands-new-carrier-beijing-capital-airlines/",
+      "kind": "primary",
+      "accessed_on": "2026-10-19"
+    },
+    "jal_schedule": {
+      "title": "JAL US and Canada flight schedules, including NGO-HNL",
+      "url": "https://www.jal.co.jp/flights/en-ca/flight-resumption",
+      "kind": "primary",
+      "accessed_on": "2026-10-19"
+    },
+    "jal_network": {
+      "title": "JAL network; codeshares and suspended routes explicitly marked",
+      "url": "https://www.jal.com/en-jp/about/air/route.html",
+      "kind": "primary",
+      "accessed_on": "2026-10-19"
+    },
+    "dl_slc": {
+      "title": "Delta Salt Lake City-Seoul nonstop launch",
+      "url": "https://news.delta.com/mediakit/salt-lake-city-international-airport",
+      "kind": "primary",
+      "accessed_on": "2026-10-19"
+    },
+    "ac_yul": {
+      "title": "Air Canada Montreal-Narita nonstop service",
+      "url": "https://www.aircanada.com/ca/zh/aco/home/book/special-offers/montreal-narita.html",
+      "kind": "primary",
+      "accessed_on": "2026-10-19"
+    },
+    "as_ha": {
+      "title": "Alaska/Hawaiian single PSS and flight-code integration, April 2026",
+      "url": "https://news.alaskaair.com/company/alaska-airlines-hawaiian-airlines-transition-to-shared-passenger-service-system-to-deliver-a-more-seamless-guest-experience/",
+      "kind": "primary",
+      "accessed_on": "2026-10-19"
+    },
+    "ha_brand": {
+      "title": "Hawaiian brand and single operating certificate explanation",
+      "url": "https://www.hawaiianairlines.com/content/hawaiian-is-here-to-stay",
+      "kind": "primary",
+      "accessed_on": "2026-10-19"
+    },
+    "ha_suspensions": {
+      "title": "Alaska/Hawaiian Honolulu-Fukuoka and Honolulu-Incheon suspension announcement",
+      "url": "https://news.alaskaair.com/page/18/?search=Mary+Staples",
+      "kind": "primary",
+      "accessed_on": "2026-10-19"
+    },
+    "oz_merger": {
+      "title": "Asiana Star Alliance exit planned for December 16, 2026",
+      "url": "https://m.flyasiana.com/C/TW/ZH/customer/notice/detail?id=CM202606090002529359",
+      "kind": "primary",
+      "accessed_on": "2026-10-19"
+    },
+    "nq_brand": {
+      "title": "Air Japan company profile: own brand suspended March 2026; ANA operations continue",
+      "url": "https://www.air-japan.co.jp/en/company/",
+      "kind": "primary",
+      "accessed_on": "2026-10-19"
+    },
+    "nq_operations": {
+      "title": "ANA guidance on Air Japan-operated services",
+      "url": "https://cad.www.ana.co.jp/ja/jp/guide/plan/airjapan/",
+      "kind": "primary",
+      "accessed_on": "2026-10-19"
+    },
+    "fc_pek": {
+      "title": "FlightConnections nonstop passenger route index: beijing-pek",
+      "url": "https://www.flightconnections.com/flights-from-beijing-pek",
+      "kind": "schedule_index",
+      "accessed_on": "2026-10-19"
+    },
+    "fc_foc": {
+      "title": "FlightConnections nonstop passenger route index: fuzhou-foc",
+      "url": "https://www.flightconnections.com/flights-from-fuzhou-foc",
+      "kind": "schedule_index",
+      "accessed_on": "2026-10-19"
+    },
+    "fc_wuh": {
+      "title": "FlightConnections nonstop passenger route index: wuhan-wuh",
+      "url": "https://www.flightconnections.com/flights-from-wuhan-wuh",
+      "kind": "schedule_index",
+      "accessed_on": "2026-10-19"
+    },
+    "fc_icn": {
+      "title": "FlightConnections nonstop passenger route index: seoul-icn",
+      "url": "https://www.flightconnections.com/flights-from-seoul-icn",
+      "kind": "schedule_index",
+      "accessed_on": "2026-10-19"
+    },
+    "fc_nrt": {
+      "title": "FlightConnections nonstop passenger route index: tokyo-nrt",
+      "url": "https://www.flightconnections.com/flights-from-tokyo-nrt",
+      "kind": "schedule_index",
+      "accessed_on": "2026-10-19"
+    },
+    "fc_hnd": {
+      "title": "FlightConnections nonstop passenger route index: tokyo-hnd",
+      "url": "https://www.flightconnections.com/flights-from-tokyo-hnd",
+      "kind": "schedule_index",
+      "accessed_on": "2026-10-19"
+    },
+    "fc_yvr": {
+      "title": "FlightConnections nonstop passenger route index: vancouver-yvr",
+      "url": "https://www.flightconnections.com/flights-to-vancouver-yvr",
+      "kind": "schedule_index",
+      "accessed_on": "2026-10-19"
+    },
+    "fc_yyz": {
+      "title": "FlightConnections nonstop passenger route index: toronto-yyz",
+      "url": "https://www.flightconnections.com/flights-to-toronto-yyz",
+      "kind": "schedule_index",
+      "accessed_on": "2026-10-19"
+    },
+    "fc_lax": {
+      "title": "FlightConnections nonstop passenger route index: los-angeles-lax",
+      "url": "https://www.flightconnections.com/flights-to-los-angeles-lax",
+      "kind": "schedule_index",
+      "accessed_on": "2026-10-19"
+    },
+    "fc_hnl": {
+      "title": "FlightConnections nonstop passenger route index: honolulu-hnl",
+      "url": "https://www.flightconnections.com/flights-to-honolulu-hnl",
+      "kind": "schedule_index",
+      "accessed_on": "2026-10-19"
+    },
+    "fc_koa": {
+      "title": "Kona-Haneda currently requires a connection",
+      "url": "https://www.flightconnections.com/flights-from-koa-to-hnd",
+      "kind": "schedule_index",
+      "accessed_on": "2026-10-19"
+    },
+    "piao_nonstop_202609": {
+      "title": "票帝：中国—北美直航表（2026年9月更新，含后续计划）",
+      "url": "https://piao.tips/uschinanonstop/",
+      "kind": "schedule_reference",
+      "accessed_on": "2026-10-19"
+    },
+    "eva_network_202609": {
+      "title": "EVA Air passenger network as of September 2026",
+      "url": "https://www.evaair.com/en-global/about-eva-air/about-us/market-and-sales-overview/main-business-and-services/",
+      "kind": "primary",
+      "accessed_on": "2026-10-19"
+    },
+    "eva_iad_2026": {
+      "title": "EVA Air ten nonstop North American gateways",
+      "url": "https://www.evaair.com/en-sg/about-eva-air/news/news-releases/2026-02-11-evaair-new-route-taipei-to-washington-dc.html",
+      "kind": "primary",
+      "accessed_on": "2026-10-19"
+    },
+    "ana_routes_2026": {
+      "title": "ANA 2026 international operating routes and seasonal dates",
+      "url": "https://www.ana.co.jp/en/us/plan-book/routes/international-route-information/",
+      "kind": "primary",
+      "accessed_on": "2026-10-19"
+    },
+    "ac_asia_2026": {
+      "title": "Air Canada published Asia operating schedule",
+      "url": "https://vacations.aircanada.com/en/travel-info/where-we-fly/files/EN-ASIA-Asia.pdf",
+      "kind": "primary",
+      "accessed_on": "2026-10-19"
+    },
+    "zg_network_2026": {
+      "title": "ZIPAIR network and approval-pending routes",
+      "url": "https://www.zipair.net/en/about",
+      "kind": "primary",
+      "accessed_on": "2026-10-19"
+    },
+    "zg_notices_2026": {
+      "title": "ZIPAIR 2026 route sales; Orlando and Las Vegas identified as charters",
+      "url": "https://www.zipair.net/en/notification",
+      "kind": "primary",
+      "accessed_on": "2026-10-19"
+    },
+    "jx_network_2026": {
+      "title": "STARLUX five US destinations",
+      "url": "https://www.starlux-airlines.com/flights/en-th/starlux-king-power-collab",
+      "kind": "primary",
+      "accessed_on": "2026-10-19"
+    },
+    "dl_tokyo_2026": {
+      "title": "Delta current Haneda network and March 2027 Narita launch",
+      "url": "https://news.delta.com/new-way-tokyo-delta-launch-new-seattle-tokyo-narita-service-march-2027",
+      "kind": "primary",
+      "accessed_on": "2026-10-19"
+    },
+    "as_asia_2026": {
+      "title": "Alaska/Hawaiian Seattle Narita and Incheon services",
+      "url": "https://news.alaskaair.com/destinations/more-seats-and-routes-as-alaska-and-hawaiian-scale-up-for-largest-spring-break-operation-ever/",
+      "kind": "primary",
+      "accessed_on": "2026-10-19"
+    },
+    "hu_network_2026": {
+      "title": "Hainan 2026–2027 North America business fare routes",
+      "url": "https://www.hainanairlines.com/HUPortal/dyn/portal/DisplayPage?COUNTRY_SITE=CN&LANGUAGE=CN&PAGE=TPTU&SITE=CBHZCBHZ",
+      "kind": "primary",
+      "accessed_on": "2026-10-19"
+    },
+    "mu_network_2026": {
+      "title": "China Eastern June 2026 Pudong connecting network",
+      "url": "https://globalgt.ceair.com/global/static/Announcement/AnnouncementMessage/chinaeasternnewstest/202606/t20260618_30045.html",
+      "kind": "primary",
+      "accessed_on": "2026-10-19"
+    },
+    "fc_sin": {
+      "title": "FlightConnections Singapore nonstop passenger routes",
+      "url": "https://www.flightconnections.com/flights-from-singapore-sin",
+      "kind": "schedule_index",
+      "accessed_on": "2026-10-19"
+    },
+    "fc_kix": {
+      "title": "FlightConnections Kansai nonstop passenger routes",
+      "url": "https://www.flightconnections.com/flights-from-osaka-kix",
+      "kind": "schedule_index",
+      "accessed_on": "2026-10-19"
+    }
+  },
+  "counts": {
+    "airports": 44,
+    "current_airports": 43,
+    "announced_airports": 1,
+    "independent_airlines": 26,
+    "operating_affiliates": 1
+  },
+  "completeness_note": "截至核查日的人工研究快照，按区域航线索引与航司／机场官方资料交叉核对；不是实时航班数据库，不承诺覆盖之后的开停航变化。每条 qualifying_service 只用于证明纳入资格，不代表完整航线表。",
+  "exclusions": [
+    {
+      "iata_code": "GUM",
+      "reason": "不属于用户定义的北美区；原 flights.json 两条 GUM-TPE 记录保留但不在当前区域地图展示。"
+    },
+    {
+      "iata_code": "CTU",
+      "reason": "双流机场；旧表误写为天府。当前纳入的是有跨太平洋不停站服务的 TFU，不能把两个代码当作别名。"
+    },
+    {
+      "iata_code": "HGH",
+      "reason": "经 TAO 前往 YVR 不等于 HGH-YVR 不停站，未纳入。"
+    },
+    {
+      "iata_code": "FUK",
+      "reason": "历史 HNL 不停站已公布暂停；售票网站仍有联程票不能证明现役直飞。",
+      "source_ids": [
+        "ha_suspensions"
+      ]
+    },
+    {
+      "iata_code": "KOA",
+      "reason": "未确认核查日仍有定期跨太平洋不停站；旧网络图含停飞航点，不作为现役证据。",
+      "source_ids": [
+        "fc_koa",
+        "jal_network"
+      ]
+    },
+    {
+      "iata_code": "HA",
+      "reason": "历史航司代码；当前 Hawaiian 品牌归入 AS，不删除历史原表。",
+      "source_ids": [
+        "as_ha",
+        "ha_brand"
+      ]
+    },
+    {
+      "iata_code": "ANC",
+      "reason": "跨太平洋货运和包机不能作为定期客运纳入依据。"
+    }
+  ],
+  "retired_files": [
+    "airports.csv",
+    "airlines.csv",
+    "airport-locations.json",
+    "flights.csv"
+  ],
+  "schedule_file": "flights.json",
+  "route_snapshot": {
+    "checked_on": "2026-10-19",
+    "records": 194,
+    "airport_pairs": 114,
+    "policy": "人工核查的定期客运不停站机场对，含季节性；未来开航不显示为现役。航线资格与历史班表独立，未核实的航班号、机型、时刻和班次不补造。"
+  }
+}

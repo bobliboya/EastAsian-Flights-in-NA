@@ -1,0 +1,48 @@
+<!doctype html>
+<html lang="zh-CN">
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>跨太平洋 · 直飞航线地图</title>
+  <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css">
+  <link rel="stylesheet" href="src/css/style.css">
+  <script defer src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"></script>
+  <script defer src="src/js/app.js"></script>
+</head>
+
+<body>
+  <header class="topbar">
+    <div class="brand"><span class="eyebrow">PACIFIC ROUTES</span>
+      <h1>跨太平洋 <span class="accent">/</span> 直飞航线</h1>
+    </div>
+      <div id="stats" class="stats" aria-live="polite">正在读取航线…</div>
+  </header>
+  <main>
+    <div id="map" aria-label="跨太平洋直飞航线交互地图"></div>
+    <div id="status" role="status"></div>
+  </main>
+  <aside class="sidebar" aria-label="航班筛选与结果">
+    <div class="filters" id="filter-controls">
+      <div class="filter"><label id="airline-label">航空公司</label><div id="airline" class="airport-multiselect" aria-labelledby="airline-label"></div></div>
+      <div class="filter airport-filter"><label id="asia-airport-label">亚太区机场</label><div id="asia-airport" class="airport-multiselect" aria-labelledby="asia-airport-label"></div></div>
+      <div class="filter airport-filter"><label id="north-america-airport-label">北美区机场</label><div id="north-america-airport" class="airport-multiselect" aria-labelledby="north-america-airport-label"></div></div>
+      <div class="filter-actions"><button id="reset" type="button">重置筛选</button></div>
+    </div>
+  <div class="information">
+    <div class="panel-heading"><button id="filter-back" type="button" disabled>返回</button><span>航班</span><small id="flight-summary" aria-live="polite"></small></div>
+    <div id="route-list-actions" class="route-list-actions" hidden><button id="expand-all-routes" type="button">全部展开</button><button id="collapse-all-routes" type="button">全部折叠</button></div>
+    <div id="detail-content" class="panel-scroll">
+      <section id="details" aria-live="polite">
+        <h2>选择一个机场或一条航线</h2>
+        <p>点击地图上的圆点，查看连接目的地；点击航线，查看航班、机型与每周班次。</p>
+      </section>
+      <footer>
+        <p id="catalog-note"></p>标注“历史”的班表保留自原始资料，不能作为当前时刻表。新增班表注明有效期。曲线不代表实际飞行轨迹。灰色圆点表示当前筛选下没有已收录的航线。
+      </footer>
+    </div>
+  </div>
+  </aside>
+</body>
+
+</html>

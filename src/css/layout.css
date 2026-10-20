@@ -1,0 +1,51 @@
+/* PC：地图与右侧固定面板各占独立空间。 */
+.topbar {
+    position: fixed;
+    inset: 0 0 auto;
+    height: var(--header-height);
+    z-index: 1100;
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    padding: 10px 22px;
+    background: var(--color-heading);
+    border-bottom: 1px solid var(--color-border);
+}
+.brand { display: flex; align-items: center; gap: 20px; }
+.eyebrow { font-size: var(--font-size-base); font-weight: 800; letter-spacing: 2px; color: var(--color-accent); }
+.accent { padding: 0 5px; color: var(--color-accent); }
+main { position: fixed; inset: var(--header-height) var(--sidebar-width) 0 0; }
+.sidebar {
+    position: fixed;
+    inset: var(--header-height) 0 0 auto;
+    width: var(--sidebar-width);
+    display: flex;
+    flex-direction: column;
+    gap: var(--panel-gap);
+    padding: var(--panel-gap);
+    overflow: hidden;
+    z-index: 1000;
+    background: var(--color-background);
+    border-left: 1px solid var(--color-border);
+}
+.filters { flex-shrink: 0; }
+.information { display: flex; flex: 1; flex-direction: column; min-height: 0; overflow: hidden; }
+.panel-heading { display: flex; align-items: center; gap: 10px; flex-shrink: 0; }
+.panel-heading > span { flex: 1; }
+.panel-scroll { flex: 1; min-height: 0; overflow: auto; overscroll-behavior: contain; }
+
+/* 小型桌面仍固定右侧；手机改成上地图、下控制面板。 */
+@media (min-width: 721px) and (max-width: 1000px) {
+    :root { --sidebar-width: 380px; }
+}
+@media (max-width: 720px) {
+    :root { --panel-gap: 8px; --panel-padding: 10px; }
+    .topbar { padding: 10px 12px; }
+    .brand { display: block; }
+    .eyebrow { font-size: var(--font-size-base); }
+    h1 { margin-top: 4px; font-size: var(--font-size-medium); }
+    .topbar { gap: 8px; }
+    .topbar .stats { white-space: normal; text-align: right; }
+    main { inset: var(--header-height) 0 46dvh; }
+    .sidebar { inset: auto 0 0; width: auto; height: 46dvh; border-left: 0; border-top: 1px solid var(--color-border); }
+}
