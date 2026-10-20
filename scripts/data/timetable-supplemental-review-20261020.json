@@ -1,0 +1,118 @@
+{
+  "checked_on": "2026-10-20",
+  "supplemental": [
+    {
+      "airline": "CA",
+      "flight_number": "0769",
+      "origin": "SZX",
+      "destination": "LAX",
+      "aircraft": "B773",
+      "dates": [
+        "2026-10-20"
+      ],
+      "url": "https://info.flightmapper.net/flight/Air_China_CCA_769"
+    },
+    {
+      "airline": "BR",
+      "flight_number": "0031",
+      "origin": "JFK",
+      "destination": "TPE",
+      "aircraft": "B77W",
+      "dates": [
+        "2026-10-20",
+        "2026-10-21",
+        "2026-10-22",
+        "2026-10-23",
+        "2026-10-24"
+      ],
+      "url": "https://www.flight.info/BR31"
+    },
+    {
+      "airline": "BR",
+      "flight_number": "0055",
+      "origin": "ORD",
+      "destination": "TPE",
+      "aircraft": "B77W",
+      "dates": [
+        "2026-10-20",
+        "2026-10-21",
+        "2026-10-22",
+        "2026-10-23",
+        "2026-10-24"
+      ],
+      "url": "https://www.flight.info/BR55"
+    },
+    {
+      "airline": "JX",
+      "flight_number": "0001",
+      "origin": "LAX",
+      "destination": "TPE",
+      "aircraft": "A359",
+      "dates": [
+        "2026-10-20",
+        "2026-10-21",
+        "2026-10-22",
+        "2026-10-23",
+        "2026-10-24"
+      ],
+      "url": "https://www.flight.info/JX1"
+    },
+    {
+      "airline": "JX",
+      "flight_number": "0009",
+      "origin": "ONT",
+      "destination": "TPE",
+      "aircraft": "A359",
+      "dates": [
+        "2026-10-21",
+        "2026-10-23",
+        "2026-10-24"
+      ],
+      "url": "https://www.flight.info/JX9",
+      "append_period": {
+        "valid_from": "2026-10-24",
+        "valid_to": "2026-10-31",
+        "weekdays": "1356",
+        "aircraft": "A359"
+      }
+    },
+    {
+      "airline": "MF",
+      "flight_number": "0806",
+      "origin": "YVR",
+      "destination": "XMN",
+      "aircraft": "B789",
+      "dates": [
+        "2026-10-20",
+        "2026-10-24"
+      ],
+      "url": "https://www.flight.info/MF806",
+      "conflict_note": "班期来源存在分歧：FlightMapper 为周二、周五，Flight.info 为周二、周六；10月23／24日待航司核实。"
+    }
+  ],
+  "aircraft_conflicts": [
+    {
+      "airline": "CI",
+      "flight_number": "0023",
+      "origin": "ONT",
+      "destination": "TPE",
+      "dates": [
+        "2026-10-21",
+        "2026-10-23"
+      ],
+      "url": "https://www.flight.info/CI23"
+    },
+    {
+      "airline": "CI",
+      "flight_number": "0024",
+      "origin": "TPE",
+      "destination": "ONT",
+      "dates": [
+        "2026-10-20",
+        "2026-10-22",
+        "2026-10-24"
+      ],
+      "url": "https://www.flight.info/CI24"
+    }
+  ]
+}

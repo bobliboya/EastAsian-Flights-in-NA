@@ -13,6 +13,7 @@
 .leaflet-tooltip { width: max-content; max-width: none; white-space: nowrap; overflow-wrap: normal; }
 .edge-adjusted .leaflet-popup-tip-container { display: none; }
 .leaflet-container a.leaflet-popup-close-button { color: var(--color-muted); }
+.leaflet-control-attribution a, .leaflet-control-attribution a:hover { color: var(--color-map-link); }
 .leaflet-control-attribution { font-size: var(--font-size-base) !important; }
 #status { position: absolute; z-index: 1000; left: 18px; bottom: 35px; max-width: 85%; padding: 10px; border-radius: 5px; background: var(--color-background); color: var(--color-accent); font-size: var(--font-size-base); }
 #status:empty { display: none; }

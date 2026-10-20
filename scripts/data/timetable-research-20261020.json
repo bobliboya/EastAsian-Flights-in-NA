@@ -1,0 +1,6943 @@
+[
+  {
+    "airline": "CZ",
+    "origin": "CAN",
+    "destination": "JFK",
+    "url": "https://info.flightmapper.net/route/China_Southern_Airlines_CZ_CAN_JFK",
+    "checked_on": "2026-10-20",
+    "rows": [
+      {
+        "flight_number": "0699",
+        "aircraft_name": "Boeing 777-300ER",
+        "aircraft_iata": "77W",
+        "days": "4",
+        "source_valid_from": "2026-04-02",
+        "source_valid_to": "2026-10-22"
+      }
+    ]
+  },
+  {
+    "airline": "CZ",
+    "origin": "JFK",
+    "destination": "CAN",
+    "url": "https://info.flightmapper.net/route/China_Southern_Airlines_CZ_JFK_CAN",
+    "checked_on": "2026-10-20",
+    "rows": [
+      {
+        "flight_number": "0600",
+        "aircraft_name": "Boeing 777-300ER",
+        "aircraft_iata": "77W",
+        "days": "6",
+        "source_valid_from": "2026-04-04",
+        "source_valid_to": "2026-10-24"
+      }
+    ]
+  },
+  {
+    "airline": "CZ",
+    "origin": "CAN",
+    "destination": "LAX",
+    "url": "https://info.flightmapper.net/route/China_Southern_Airlines_CZ_CAN_LAX",
+    "checked_on": "2026-10-20",
+    "rows": [
+      {
+        "flight_number": "0327",
+        "aircraft_name": "Boeing 777-300ER",
+        "aircraft_iata": "77W",
+        "days": "13567",
+        "source_valid_from": "2026-03-29",
+        "source_valid_to": "2026-10-24"
+      }
+    ]
+  },
+  {
+    "airline": "CZ",
+    "origin": "LAX",
+    "destination": "CAN",
+    "url": "https://info.flightmapper.net/route/China_Southern_Airlines_CZ_LAX_CAN",
+    "checked_on": "2026-10-20",
+    "rows": [
+      {
+        "flight_number": "0328",
+        "aircraft_name": "Boeing 777-300ER",
+        "aircraft_iata": "77W",
+        "days": "13567",
+        "source_valid_from": "2026-03-28",
+        "source_valid_to": "2026-10-23"
+      }
+    ]
+  },
+  {
+    "airline": "CZ",
+    "origin": "CAN",
+    "destination": "SFO",
+    "url": "https://info.flightmapper.net/route/China_Southern_Airlines_CZ_CAN_SFO",
+    "checked_on": "2026-10-20",
+    "rows": [
+      {
+        "flight_number": "0657",
+        "aircraft_name": "Boeing 777-300ER",
+        "aircraft_iata": "77W",
+        "days": "26",
+        "source_valid_from": "2026-03-31",
+        "source_valid_to": "2026-10-24"
+      }
+    ]
+  },
+  {
+    "airline": "CZ",
+    "origin": "SFO",
+    "destination": "CAN",
+    "url": "https://info.flightmapper.net/route/China_Southern_Airlines_CZ_SFO_CAN",
+    "checked_on": "2026-10-20",
+    "rows": [
+      {
+        "flight_number": "0658",
+        "aircraft_name": "Boeing 777-300ER",
+        "aircraft_iata": "77W",
+        "days": "37",
+        "source_valid_from": "2026-03-29",
+        "source_valid_to": "2026-10-21"
+      }
+    ]
+  },
+  {
+    "airline": "CZ",
+    "origin": "CAN",
+    "destination": "YVR",
+    "url": "https://info.flightmapper.net/route/China_Southern_Airlines_CZ_CAN_YVR",
+    "checked_on": "2026-10-20",
+    "rows": [
+      {
+        "flight_number": "0329",
+        "aircraft_name": "Boeing 777-300ER",
+        "aircraft_iata": "77W",
+        "days": "25",
+        "source_valid_from": "2026-03-31",
+        "source_valid_to": "2026-10-23"
+      }
+    ]
+  },
+  {
+    "airline": "CZ",
+    "origin": "YVR",
+    "destination": "CAN",
+    "url": "https://info.flightmapper.net/route/China_Southern_Airlines_CZ_YVR_CAN",
+    "checked_on": "2026-10-20",
+    "rows": [
+      {
+        "flight_number": "0330",
+        "aircraft_name": "Boeing 777-300ER",
+        "aircraft_iata": "77W",
+        "days": "25",
+        "source_valid_from": "2026-03-31",
+        "source_valid_to": "2026-10-23"
+      }
+    ]
+  },
+  {
+    "airline": "CZ",
+    "origin": "CAN",
+    "destination": "YYZ",
+    "url": "https://info.flightmapper.net/route/China_Southern_Airlines_CZ_CAN_YYZ",
+    "checked_on": "2026-10-20",
+    "rows": [
+      {
+        "flight_number": "0311",
+        "aircraft_name": "Boeing 777-300ER",
+        "aircraft_iata": "77W",
+        "days": "2467",
+        "source_valid_from": "2026-03-29",
+        "source_valid_to": "2026-10-24"
+      }
+    ]
+  },
+  {
+    "airline": "CZ",
+    "origin": "YYZ",
+    "destination": "CAN",
+    "url": "https://info.flightmapper.net/route/China_Southern_Airlines_CZ_YYZ_CAN",
+    "checked_on": "2026-10-20",
+    "rows": [
+      {
+        "flight_number": "0312",
+        "aircraft_name": "Boeing 777-300ER",
+        "aircraft_iata": "77W",
+        "days": "1357",
+        "source_valid_from": "2026-03-29",
+        "source_valid_to": "2026-10-23"
+      }
+    ]
+  },
+  {
+    "airline": "HU",
+    "origin": "CKG",
+    "destination": "SEA",
+    "url": "https://info.flightmapper.net/route/Hainan_Airlines_HU_CKG_SEA",
+    "checked_on": "2026-10-20",
+    "rows": [
+      {
+        "flight_number": "0445",
+        "aircraft_name": "Boeing 787-9",
+        "aircraft_iata": "789",
+        "days": "4",
+        "source_valid_from": "2026-09-03",
+        "source_valid_to": "2026-10-29"
+      }
+    ]
+  },
+  {
+    "airline": "HU",
+    "origin": "SEA",
+    "destination": "CKG",
+    "url": "https://info.flightmapper.net/route/Hainan_Airlines_HU_SEA_CKG",
+    "checked_on": "2026-10-20",
+    "rows": [
+      {
+        "flight_number": "0446",
+        "aircraft_name": "Boeing 787-9",
+        "aircraft_iata": "789",
+        "days": "4",
+        "source_valid_from": "2026-09-03",
+        "source_valid_to": "2026-10-29"
+      }
+    ]
+  },
+  {
+    "airline": "MF",
+    "origin": "FOC",
+    "destination": "JFK",
+    "url": "https://info.flightmapper.net/route/XiamenAir_MF_FOC_JFK",
+    "checked_on": "2026-10-20",
+    "rows": [
+      {
+        "flight_number": "0849",
+        "aircraft_name": "Boeing 787-9",
+        "aircraft_iata": "789",
+        "days": "15",
+        "source_valid_from": "2026-03-30",
+        "source_valid_to": "2026-10-23"
+      }
+    ]
+  },
+  {
+    "airline": "MF",
+    "origin": "JFK",
+    "destination": "FOC",
+    "url": "https://info.flightmapper.net/route/XiamenAir_MF_JFK_FOC",
+    "checked_on": "2026-10-20",
+    "rows": [
+      {
+        "flight_number": "0850",
+        "aircraft_name": "Boeing 787-9",
+        "aircraft_iata": "789",
+        "days": "15",
+        "source_valid_from": "2026-03-30",
+        "source_valid_to": "2026-10-23"
+      }
+    ]
+  },
+  {
+    "airline": "CX",
+    "origin": "HKG",
+    "destination": "BOS",
+    "url": "https://info.flightmapper.net/route/Cathay_Pacific_CX_HKG_BOS",
+    "checked_on": "2026-10-20",
+    "rows": [
+      {
+        "flight_number": "0812",
+        "aircraft_name": "Airbus A350-900",
+        "aircraft_iata": "359",
+        "days": "1234567",
+        "source_valid_from": "2026-03-29",
+        "source_valid_to": "2026-10-24"
+      }
+    ]
+  },
+  {
+    "airline": "CX",
+    "origin": "BOS",
+    "destination": "HKG",
+    "url": "https://info.flightmapper.net/route/Cathay_Pacific_CX_BOS_HKG",
+    "checked_on": "2026-10-20",
+    "rows": [
+      {
+        "flight_number": "0811",
+        "aircraft_name": "Airbus A350-900",
+        "aircraft_iata": "359",
+        "days": "1234567",
+        "source_valid_from": "2026-03-29",
+        "source_valid_to": "2026-10-24"
+      }
+    ]
+  },
+  {
+    "airline": "CX",
+    "origin": "HKG",
+    "destination": "DFW",
+    "url": "https://info.flightmapper.net/route/Cathay_Pacific_CX_HKG_DFW",
+    "checked_on": "2026-10-20",
+    "rows": [
+      {
+        "flight_number": "0876",
+        "aircraft_name": "Airbus A350-900",
+        "aircraft_iata": "359",
+        "days": "1234567",
+        "source_valid_from": "2026-03-29",
+        "source_valid_to": "2026-10-24"
+      }
+    ]
+  },
+  {
+    "airline": "CX",
+    "origin": "DFW",
+    "destination": "HKG",
+    "url": "https://info.flightmapper.net/route/Cathay_Pacific_CX_DFW_HKG",
+    "checked_on": "2026-10-20",
+    "rows": [
+      {
+        "flight_number": "0875",
+        "aircraft_name": "Airbus A350-900",
+        "aircraft_iata": "359",
+        "days": "1234567",
+        "source_valid_from": "2026-03-28",
+        "source_valid_to": null
+      }
+    ]
+  },
+  {
+    "airline": "CX",
+    "origin": "HKG",
+    "destination": "JFK",
+    "url": "https://info.flightmapper.net/route/Cathay_Pacific_CX_HKG_JFK",
+    "checked_on": "2026-10-20",
+    "rows": [
+      {
+        "flight_number": "0830",
+        "aircraft_name": "Boeing 777-300ER",
+        "aircraft_iata": "77W",
+        "days": "1234567",
+        "source_valid_from": "2026-03-29",
+        "source_valid_to": "2026-10-24"
+      },
+      {
+        "flight_number": "0840",
+        "aircraft_name": "Airbus A350-900",
+        "aircraft_iata": "359",
+        "days": "1234567",
+        "source_valid_from": "2026-03-29",
+        "source_valid_to": "2026-10-24"
+      },
+      {
+        "flight_number": "0844",
+        "aircraft_name": "Airbus A350-900",
+        "aircraft_iata": "359",
+        "days": "1234567",
+        "source_valid_from": "2026-03-30",
+        "source_valid_to": "2026-10-25"
+      }
+    ]
+  },
+  {
+    "airline": "CX",
+    "origin": "JFK",
+    "destination": "HKG",
+    "url": "https://info.flightmapper.net/route/Cathay_Pacific_CX_JFK_HKG",
+    "checked_on": "2026-10-20",
+    "rows": [
+      {
+        "flight_number": "0831",
+        "aircraft_name": "Boeing 777-300ER",
+        "aircraft_iata": "77W",
+        "days": "1234567",
+        "source_valid_from": "2026-03-29",
+        "source_valid_to": "2026-10-24"
+      },
+      {
+        "flight_number": "0841",
+        "aircraft_name": "Airbus A350-900",
+        "aircraft_iata": "359",
+        "days": "1234567",
+        "source_valid_from": "2026-09-24",
+        "source_valid_to": "2026-10-24"
+      },
+      {
+        "flight_number": "0843",
+        "aircraft_name": "Airbus A350-900",
+        "aircraft_iata": "359",
+        "days": "1234567",
+        "source_valid_from": "2026-03-29",
+        "source_valid_to": "2026-10-24"
+      }
+    ]
+  },
+  {
+    "airline": "CX",
+    "origin": "HKG",
+    "destination": "LAX",
+    "url": "https://info.flightmapper.net/route/Cathay_Pacific_CX_HKG_LAX",
+    "checked_on": "2026-10-20",
+    "rows": [
+      {
+        "flight_number": "0880",
+        "aircraft_name": "Airbus A350-900",
+        "aircraft_iata": "359",
+        "days": "1234567",
+        "source_valid_from": "2026-09-16",
+        "source_valid_to": "2026-10-25"
+      },
+      {
+        "flight_number": "0882",
+        "aircraft_name": "Airbus A350-900",
+        "aircraft_iata": "359",
+        "days": "1234567",
+        "source_valid_from": "2026-09-16",
+        "source_valid_to": "2026-10-24"
+      },
+      {
+        "flight_number": "0884",
+        "aircraft_name": "Airbus A350-900",
+        "aircraft_iata": "359",
+        "days": "1234567",
+        "source_valid_from": "2026-09-16",
+        "source_valid_to": "2026-10-24"
+      }
+    ]
+  },
+  {
+    "airline": "CX",
+    "origin": "LAX",
+    "destination": "HKG",
+    "url": "https://info.flightmapper.net/route/Cathay_Pacific_CX_LAX_HKG",
+    "checked_on": "2026-10-20",
+    "rows": [
+      {
+        "flight_number": "0881",
+        "aircraft_name": "Airbus A350-900",
+        "aircraft_iata": "359",
+        "days": "1234567",
+        "source_valid_from": "2026-09-16",
+        "source_valid_to": "2026-10-23"
+      },
+      {
+        "flight_number": "0883",
+        "aircraft_name": "Airbus A350-900",
+        "aircraft_iata": "359",
+        "days": "1234567",
+        "source_valid_from": "2026-09-16",
+        "source_valid_to": "2026-10-23"
+      },
+      {
+        "flight_number": "0885",
+        "aircraft_name": "Airbus A350-900",
+        "aircraft_iata": "359",
+        "days": "1234567",
+        "source_valid_from": "2026-09-16",
+        "source_valid_to": "2026-10-24"
+      }
+    ]
+  },
+  {
+    "airline": "DL",
+    "origin": "HKG",
+    "destination": "LAX",
+    "url": "https://info.flightmapper.net/route/Delta_Air_Lines_DL_HKG_LAX",
+    "checked_on": "2026-10-20",
+    "rows": [
+      {
+        "flight_number": "0088",
+        "aircraft_name": "Airbus A350-900",
+        "aircraft_iata": "359",
+        "days": "1234567",
+        "source_valid_from": "2026-06-08",
+        "source_valid_to": "2026-10-24"
+      }
+    ]
+  },
+  {
+    "airline": "DL",
+    "origin": "LAX",
+    "destination": "HKG",
+    "url": "https://info.flightmapper.net/route/Delta_Air_Lines_DL_LAX_HKG",
+    "checked_on": "2026-10-20",
+    "rows": [
+      {
+        "flight_number": "0089",
+        "aircraft_name": "Airbus A350-900",
+        "aircraft_iata": "359",
+        "days": "1234567",
+        "source_valid_from": "2026-06-06",
+        "source_valid_to": "2026-10-23"
+      }
+    ]
+  },
+  {
+    "airline": "UA",
+    "origin": "HKG",
+    "destination": "LAX",
+    "url": "https://info.flightmapper.net/route/United_Airlines_UA_HKG_LAX",
+    "checked_on": "2026-10-20",
+    "rows": [
+      {
+        "flight_number": "0153",
+        "aircraft_name": "Boeing 787-9",
+        "aircraft_iata": "789",
+        "days": "1234567",
+        "source_valid_from": "2026-09-08",
+        "source_valid_to": "2026-10-24"
+      },
+      {
+        "flight_number": "0821",
+        "aircraft_name": "Boeing 787-9",
+        "aircraft_iata": "789",
+        "days": "1234567",
+        "source_valid_from": "2026-09-08",
+        "source_valid_to": "2026-10-24"
+      }
+    ]
+  },
+  {
+    "airline": "UA",
+    "origin": "LAX",
+    "destination": "HKG",
+    "url": "https://info.flightmapper.net/route/United_Airlines_UA_LAX_HKG",
+    "checked_on": "2026-10-20",
+    "rows": [
+      {
+        "flight_number": "0152",
+        "aircraft_name": "Boeing 787-9",
+        "aircraft_iata": "789",
+        "days": "1234567",
+        "source_valid_from": "2026-09-08",
+        "source_valid_to": "2026-10-23"
+      },
+      {
+        "flight_number": "0820",
+        "aircraft_name": "Boeing 787-9",
+        "aircraft_iata": "789",
+        "days": "1234567",
+        "source_valid_from": "2026-09-08",
+        "source_valid_to": "2026-10-23"
+      }
+    ]
+  },
+  {
+    "airline": "CX",
+    "origin": "HKG",
+    "destination": "ORD",
+    "url": "https://info.flightmapper.net/route/Cathay_Pacific_CX_HKG_ORD",
+    "checked_on": "2026-10-20",
+    "rows": [
+      {
+        "flight_number": "0806",
+        "aircraft_name": "Airbus A350-900",
+        "aircraft_iata": "359",
+        "days": "1234567",
+        "source_valid_from": "2026-03-29",
+        "source_valid_to": "2026-10-24"
+      }
+    ]
+  },
+  {
+    "airline": "CX",
+    "origin": "ORD",
+    "destination": "HKG",
+    "url": "https://info.flightmapper.net/route/Cathay_Pacific_CX_ORD_HKG",
+    "checked_on": "2026-10-20",
+    "rows": [
+      {
+        "flight_number": "0801",
+        "aircraft_name": "Airbus A350-900",
+        "aircraft_iata": "359",
+        "days": "1234567",
+        "source_valid_from": "2026-03-29",
+        "source_valid_to": "2026-10-24"
+      }
+    ]
+  },
+  {
+    "airline": "CX",
+    "origin": "HKG",
+    "destination": "SEA",
+    "url": "https://info.flightmapper.net/route/Cathay_Pacific_CX_HKG_SEA",
+    "checked_on": "2026-10-20",
+    "rows": [
+      {
+        "flight_number": "0852",
+        "aircraft_name": "Airbus A350-900",
+        "aircraft_iata": "359",
+        "days": "12346",
+        "source_valid_from": "2026-09-16",
+        "source_valid_to": null
+      }
+    ]
+  },
+  {
+    "airline": "CX",
+    "origin": "SEA",
+    "destination": "HKG",
+    "url": "https://info.flightmapper.net/route/Cathay_Pacific_CX_SEA_HKG",
+    "checked_on": "2026-10-20",
+    "rows": [
+      {
+        "flight_number": "0853",
+        "aircraft_name": "Airbus A350-900",
+        "aircraft_iata": "359",
+        "days": "12346",
+        "source_valid_from": "2026-09-16",
+        "source_valid_to": null
+      }
+    ]
+  },
+  {
+    "airline": "CX",
+    "origin": "HKG",
+    "destination": "SFO",
+    "url": "https://info.flightmapper.net/route/Cathay_Pacific_CX_HKG_SFO",
+    "checked_on": "2026-10-20",
+    "rows": [
+      {
+        "flight_number": "0870",
+        "aircraft_name": "Airbus A350-900",
+        "aircraft_iata": "359",
+        "days": "1234567",
+        "source_valid_from": "2026-09-16",
+        "source_valid_to": "2026-10-24"
+      },
+      {
+        "flight_number": "0872",
+        "aircraft_name": "Airbus A350-900",
+        "aircraft_iata": "359",
+        "days": "1234567",
+        "source_valid_from": "2026-09-16",
+        "source_valid_to": "2026-10-25"
+      },
+      {
+        "flight_number": "0892",
+        "aircraft_name": "Airbus A350-900",
+        "aircraft_iata": "359",
+        "days": "1234567",
+        "source_valid_from": "2026-09-16",
+        "source_valid_to": "2026-10-24"
+      }
+    ]
+  },
+  {
+    "airline": "CX",
+    "origin": "SFO",
+    "destination": "HKG",
+    "url": "https://info.flightmapper.net/route/Cathay_Pacific_CX_SFO_HKG",
+    "checked_on": "2026-10-20",
+    "rows": [
+      {
+        "flight_number": "0851",
+        "aircraft_name": "Airbus A350-900",
+        "aircraft_iata": "359",
+        "days": "1234567",
+        "source_valid_from": "2026-09-16",
+        "source_valid_to": "2026-10-23"
+      },
+      {
+        "flight_number": "0873",
+        "aircraft_name": "Airbus A350-900",
+        "aircraft_iata": "359",
+        "days": "1234567",
+        "source_valid_from": "2026-09-16",
+        "source_valid_to": "2026-10-23"
+      },
+      {
+        "flight_number": "0879",
+        "aircraft_name": "Airbus A350-900",
+        "aircraft_iata": "359",
+        "days": "1234567",
+        "source_valid_from": "2026-09-16",
+        "source_valid_to": "2026-10-24"
+      }
+    ]
+  },
+  {
+    "airline": "UA",
+    "origin": "HKG",
+    "destination": "SFO",
+    "url": "https://info.flightmapper.net/route/United_Airlines_UA_HKG_SFO",
+    "checked_on": "2026-10-20",
+    "rows": [
+      {
+        "flight_number": "0862",
+        "aircraft_name": "Boeing 777-300ER",
+        "aircraft_iata": "77W",
+        "days": "1234567",
+        "source_valid_from": "2026-09-08",
+        "source_valid_to": "2026-10-24"
+      },
+      {
+        "flight_number": "0878",
+        "aircraft_name": "Boeing 777-300ER",
+        "aircraft_iata": "77W",
+        "days": "1234567",
+        "source_valid_from": "2026-09-08",
+        "source_valid_to": "2026-10-24"
+      }
+    ]
+  },
+  {
+    "airline": "UA",
+    "origin": "SFO",
+    "destination": "HKG",
+    "url": "https://info.flightmapper.net/route/United_Airlines_UA_SFO_HKG",
+    "checked_on": "2026-10-20",
+    "rows": [
+      {
+        "flight_number": "0869",
+        "aircraft_name": "Boeing 777-300ER",
+        "aircraft_iata": "77W",
+        "days": "1234567",
+        "source_valid_from": "2026-09-08",
+        "source_valid_to": "2026-10-23"
+      },
+      {
+        "flight_number": "0877",
+        "aircraft_name": "Boeing 777-300ER",
+        "aircraft_iata": "77W",
+        "days": "1234567",
+        "source_valid_from": "2026-09-08",
+        "source_valid_to": "2026-10-23"
+      }
+    ]
+  },
+  {
+    "airline": "AC",
+    "origin": "HKG",
+    "destination": "YVR",
+    "url": "https://info.flightmapper.net/route/Air_Canada_AC_HKG_YVR",
+    "checked_on": "2026-10-20",
+    "rows": [
+      {
+        "flight_number": "0008",
+        "aircraft_name": "Boeing 787-9",
+        "aircraft_iata": "789",
+        "days": "1234567",
+        "source_valid_from": "2026-09-08",
+        "source_valid_to": "2026-10-24"
+      }
+    ]
+  },
+  {
+    "airline": "AC",
+    "origin": "YVR",
+    "destination": "HKG",
+    "url": "https://info.flightmapper.net/route/Air_Canada_AC_YVR_HKG",
+    "checked_on": "2026-10-20",
+    "rows": [
+      {
+        "flight_number": "0007",
+        "aircraft_name": "Boeing 787-9",
+        "aircraft_iata": "789",
+        "days": "1234567",
+        "source_valid_from": "2026-09-08",
+        "source_valid_to": "2026-10-23"
+      }
+    ]
+  },
+  {
+    "airline": "CX",
+    "origin": "HKG",
+    "destination": "YVR",
+    "url": "https://info.flightmapper.net/route/Cathay_Pacific_CX_HKG_YVR",
+    "checked_on": "2026-10-20",
+    "rows": [
+      {
+        "flight_number": "0810",
+        "aircraft_name": "Airbus A350-900",
+        "aircraft_iata": "359",
+        "days": "1234567",
+        "source_valid_from": "2026-09-16",
+        "source_valid_to": "2026-10-24"
+      },
+      {
+        "flight_number": "0814",
+        "aircraft_name": "Airbus A350-900",
+        "aircraft_iata": "359",
+        "days": "135",
+        "source_valid_from": "2026-09-16",
+        "source_valid_to": "2026-10-23"
+      },
+      {
+        "flight_number": "0888",
+        "aircraft_name": "Airbus A350-900",
+        "aircraft_iata": "359",
+        "days": "1234567",
+        "source_valid_from": "2026-09-16",
+        "source_valid_to": "2026-10-25"
+      }
+    ]
+  },
+  {
+    "airline": "CX",
+    "origin": "YVR",
+    "destination": "HKG",
+    "url": "https://info.flightmapper.net/route/Cathay_Pacific_CX_YVR_HKG",
+    "checked_on": "2026-10-20",
+    "rows": [
+      {
+        "flight_number": "0815",
+        "aircraft_name": "Airbus A350-900",
+        "aircraft_iata": "359",
+        "days": "135",
+        "source_valid_from": "2026-09-16",
+        "source_valid_to": "2026-10-23"
+      },
+      {
+        "flight_number": "0865",
+        "aircraft_name": "Airbus A350-900",
+        "aircraft_iata": "359",
+        "days": "1234567",
+        "source_valid_from": "2026-09-16",
+        "source_valid_to": "2026-10-24"
+      },
+      {
+        "flight_number": "0867",
+        "aircraft_name": "Airbus A350-900",
+        "aircraft_iata": "359",
+        "days": "1234567",
+        "source_valid_from": "2026-09-16",
+        "source_valid_to": "2026-10-24"
+      }
+    ]
+  },
+  {
+    "airline": "HX",
+    "origin": "HKG",
+    "destination": "YVR",
+    "url": "https://info.flightmapper.net/route/Hong_Kong_Airlines_HX_HKG_YVR",
+    "checked_on": "2026-10-20",
+    "rows": [
+      {
+        "flight_number": "0080",
+        "aircraft_name": "Airbus A330-300",
+        "aircraft_iata": "333",
+        "days": "1357",
+        "source_valid_from": "2026-10-02",
+        "source_valid_to": null
+      }
+    ]
+  },
+  {
+    "airline": "HX",
+    "origin": "YVR",
+    "destination": "HKG",
+    "url": "https://info.flightmapper.net/route/Hong_Kong_Airlines_HX_YVR_HKG",
+    "checked_on": "2026-10-20",
+    "rows": [
+      {
+        "flight_number": "0081",
+        "aircraft_name": "Airbus A330-300",
+        "aircraft_iata": "333",
+        "days": "1246",
+        "source_valid_from": "2026-10-03",
+        "source_valid_to": null
+      }
+    ]
+  },
+  {
+    "airline": "CX",
+    "origin": "HKG",
+    "destination": "YYZ",
+    "url": "https://info.flightmapper.net/route/Cathay_Pacific_CX_HKG_YYZ",
+    "checked_on": "2026-10-20",
+    "rows": [
+      {
+        "flight_number": "0820",
+        "aircraft_name": "Airbus A350-900",
+        "aircraft_iata": "359",
+        "days": "1346",
+        "source_valid_from": "2026-03-30",
+        "source_valid_to": "2026-10-24"
+      },
+      {
+        "flight_number": "0826",
+        "aircraft_name": "Airbus A350-900",
+        "aircraft_iata": "359",
+        "days": "1234567",
+        "source_valid_from": "2026-03-29",
+        "source_valid_to": "2026-10-24"
+      },
+      {
+        "flight_number": "0828",
+        "aircraft_name": "Airbus A350-900",
+        "aircraft_iata": "359",
+        "days": "1234567",
+        "source_valid_from": "2026-03-29",
+        "source_valid_to": "2026-10-24"
+      }
+    ]
+  },
+  {
+    "airline": "CX",
+    "origin": "YYZ",
+    "destination": "HKG",
+    "url": "https://info.flightmapper.net/route/Cathay_Pacific_CX_YYZ_HKG",
+    "checked_on": "2026-10-20",
+    "rows": [
+      {
+        "flight_number": "0805",
+        "aircraft_name": "Airbus A350-900",
+        "aircraft_iata": "359",
+        "days": "1234567",
+        "source_valid_from": "2026-03-29",
+        "source_valid_to": "2026-10-24"
+      },
+      {
+        "flight_number": "0821",
+        "aircraft_name": "Airbus A350-900",
+        "aircraft_iata": "359",
+        "days": "1346",
+        "source_valid_from": "2026-03-30",
+        "source_valid_to": "2026-10-24"
+      },
+      {
+        "flight_number": "0829",
+        "aircraft_name": "Airbus A350-900",
+        "aircraft_iata": "359",
+        "days": "1234567",
+        "source_valid_from": "2026-03-29",
+        "source_valid_to": "2026-10-24"
+      }
+    ]
+  },
+  {
+    "airline": "DL",
+    "origin": "HND",
+    "destination": "ATL",
+    "url": "https://info.flightmapper.net/route/Delta_Air_Lines_DL_HND_ATL",
+    "checked_on": "2026-10-20",
+    "rows": [
+      {
+        "flight_number": "0294",
+        "aircraft_name": "Airbus A350-900",
+        "aircraft_iata": "359",
+        "days": "12457",
+        "source_valid_from": "2026-10-01",
+        "source_valid_to": "2026-10-23"
+      },
+      {
+        "flight_number": "0294",
+        "aircraft_name": "Airbus A350-900",
+        "aircraft_iata": "359",
+        "days": "36",
+        "source_valid_from": "2026-10-03",
+        "source_valid_to": "2026-10-24"
+      }
+    ]
+  },
+  {
+    "airline": "DL",
+    "origin": "ATL",
+    "destination": "HND",
+    "url": "https://info.flightmapper.net/route/Delta_Air_Lines_DL_ATL_HND",
+    "checked_on": "2026-10-20",
+    "rows": [
+      {
+        "flight_number": "0295",
+        "aircraft_name": "Airbus A350-900",
+        "aircraft_iata": "359",
+        "days": "1234567",
+        "source_valid_from": "2026-10-01",
+        "source_valid_to": "2026-10-23"
+      }
+    ]
+  },
+  {
+    "airline": "AA",
+    "origin": "HND",
+    "destination": "DFW",
+    "url": "https://info.flightmapper.net/route/American_Airlines_AA_HND_DFW",
+    "checked_on": "2026-10-20",
+    "rows": [
+      {
+        "flight_number": "0176",
+        "aircraft_name": "Boeing 777-300ER",
+        "aircraft_iata": "77W",
+        "days": "1234567",
+        "source_valid_from": "2026-03-29",
+        "source_valid_to": "2026-10-24"
+      }
+    ]
+  },
+  {
+    "airline": "AA",
+    "origin": "DFW",
+    "destination": "HND",
+    "url": "https://info.flightmapper.net/route/American_Airlines_AA_DFW_HND",
+    "checked_on": "2026-10-20",
+    "rows": [
+      {
+        "flight_number": "0175",
+        "aircraft_name": "Boeing 777-300ER",
+        "aircraft_iata": "77W",
+        "days": "1234567",
+        "source_valid_from": "2026-03-29",
+        "source_valid_to": "2026-10-24"
+      }
+    ]
+  },
+  {
+    "airline": "JL",
+    "origin": "HND",
+    "destination": "DFW",
+    "url": "https://info.flightmapper.net/route/Japan_Airlines_JL_HND_DFW",
+    "checked_on": "2026-10-20",
+    "rows": [
+      {
+        "flight_number": "0012",
+        "aircraft_name": "Airbus A350-1000",
+        "aircraft_iata": "351",
+        "days": "1234567",
+        "source_valid_from": "2026-10-01",
+        "source_valid_to": "2026-10-24"
+      }
+    ]
+  },
+  {
+    "airline": "JL",
+    "origin": "DFW",
+    "destination": "HND",
+    "url": "https://info.flightmapper.net/route/Japan_Airlines_JL_DFW_HND",
+    "checked_on": "2026-10-20",
+    "rows": [
+      {
+        "flight_number": "0011",
+        "aircraft_name": "Airbus A350-1000",
+        "aircraft_iata": "351",
+        "days": "1234567",
+        "source_valid_from": "2026-10-01",
+        "source_valid_to": "2026-10-24"
+      }
+    ]
+  },
+  {
+    "airline": "DL",
+    "origin": "HND",
+    "destination": "DTW",
+    "url": "https://info.flightmapper.net/route/Delta_Air_Lines_DL_HND_DTW",
+    "checked_on": "2026-10-20",
+    "rows": [
+      {
+        "flight_number": "0274",
+        "aircraft_name": "Airbus A350-900",
+        "aircraft_iata": "359",
+        "days": "1234567",
+        "source_valid_from": "2026-10-01",
+        "source_valid_to": "2026-10-24"
+      }
+    ]
+  },
+  {
+    "airline": "DL",
+    "origin": "DTW",
+    "destination": "HND",
+    "url": "https://info.flightmapper.net/route/Delta_Air_Lines_DL_DTW_HND",
+    "checked_on": "2026-10-20",
+    "rows": [
+      {
+        "flight_number": "0275",
+        "aircraft_name": "Airbus A350-900",
+        "aircraft_iata": "359",
+        "days": "1234567",
+        "source_valid_from": "2026-10-01",
+        "source_valid_to": "2026-10-23"
+      }
+    ]
+  },
+  {
+    "airline": "UA",
+    "origin": "HND",
+    "destination": "EWR",
+    "url": "https://info.flightmapper.net/route/United_Airlines_UA_HND_EWR",
+    "checked_on": "2026-10-20",
+    "rows": [
+      {
+        "flight_number": "0130",
+        "aircraft_name": "Boeing 777",
+        "aircraft_iata": "777",
+        "days": "1234567",
+        "source_valid_from": "2026-09-08",
+        "source_valid_to": "2026-10-24"
+      }
+    ]
+  },
+  {
+    "airline": "UA",
+    "origin": "EWR",
+    "destination": "HND",
+    "url": "https://info.flightmapper.net/route/United_Airlines_UA_EWR_HND",
+    "checked_on": "2026-10-20",
+    "rows": [
+      {
+        "flight_number": "0131",
+        "aircraft_name": "Boeing 777",
+        "aircraft_iata": "777",
+        "days": "1234567",
+        "source_valid_from": "2026-09-08",
+        "source_valid_to": "2026-10-23"
+      }
+    ]
+  },
+  {
+    "airline": "AS",
+    "origin": "HND",
+    "destination": "HNL",
+    "url": "https://info.flightmapper.net/route/Alaska_Airlines_AS_HND_HNL",
+    "checked_on": "2026-10-20",
+    "rows": [
+      {
+        "flight_number": "0832",
+        "aircraft_name": "Airbus A330-200",
+        "aircraft_iata": "332",
+        "days": "1234567",
+        "source_valid_from": "2026-04-22",
+        "source_valid_to": "2026-10-24"
+      },
+      {
+        "flight_number": "0864",
+        "aircraft_name": "Airbus A330-200",
+        "aircraft_iata": "332",
+        "days": "1234567",
+        "source_valid_from": "2026-04-23",
+        "source_valid_to": "2026-10-24"
+      }
+    ]
+  },
+  {
+    "airline": "AS",
+    "origin": "HNL",
+    "destination": "HND",
+    "url": "https://info.flightmapper.net/route/Alaska_Airlines_AS_HNL_HND",
+    "checked_on": "2026-10-20",
+    "rows": [
+      {
+        "flight_number": "0831",
+        "aircraft_name": "Airbus A330-200",
+        "aircraft_iata": "332",
+        "days": "1234567",
+        "source_valid_from": "2026-04-22",
+        "source_valid_to": "2026-10-24"
+      },
+      {
+        "flight_number": "0863",
+        "aircraft_name": "Airbus A330-200",
+        "aircraft_iata": "332",
+        "days": "1234567",
+        "source_valid_from": "2026-04-22",
+        "source_valid_to": "2026-10-24"
+      }
+    ]
+  },
+  {
+    "airline": "DL",
+    "origin": "HND",
+    "destination": "HNL",
+    "url": "https://info.flightmapper.net/route/Delta_Air_Lines_DL_HND_HNL",
+    "checked_on": "2026-10-20",
+    "rows": [
+      {
+        "flight_number": "0180",
+        "aircraft_name": "Boeing 767",
+        "aircraft_iata": "76W",
+        "days": "1234567",
+        "source_valid_from": "2026-10-01",
+        "source_valid_to": "2026-10-24"
+      }
+    ]
+  },
+  {
+    "airline": "DL",
+    "origin": "HNL",
+    "destination": "HND",
+    "url": "https://info.flightmapper.net/route/Delta_Air_Lines_DL_HNL_HND",
+    "checked_on": "2026-10-20",
+    "rows": [
+      {
+        "flight_number": "0181",
+        "aircraft_name": "Boeing 767",
+        "aircraft_iata": "76W",
+        "days": "1234567",
+        "source_valid_from": "2026-10-01",
+        "source_valid_to": "2026-10-23"
+      }
+    ]
+  },
+  {
+    "airline": "JL",
+    "origin": "HND",
+    "destination": "HNL",
+    "url": "https://info.flightmapper.net/route/Japan_Airlines_JL_HND_HNL",
+    "checked_on": "2026-10-20",
+    "rows": [
+      {
+        "flight_number": "0072",
+        "aircraft_name": "Boeing 787-9",
+        "aircraft_iata": "789",
+        "days": "1234567",
+        "source_valid_from": "2026-10-01",
+        "source_valid_to": "2026-10-24"
+      },
+      {
+        "flight_number": "0074",
+        "aircraft_name": "Boeing 787-9",
+        "aircraft_iata": "789",
+        "days": "1234567",
+        "source_valid_from": "2026-10-01",
+        "source_valid_to": "2026-10-24"
+      }
+    ]
+  },
+  {
+    "airline": "JL",
+    "origin": "HNL",
+    "destination": "HND",
+    "url": "https://info.flightmapper.net/route/Japan_Airlines_JL_HNL_HND",
+    "checked_on": "2026-10-20",
+    "rows": [
+      {
+        "flight_number": "0071",
+        "aircraft_name": "Boeing 787-9",
+        "aircraft_iata": "789",
+        "days": "1234567",
+        "source_valid_from": "2026-10-01",
+        "source_valid_to": "2026-10-23"
+      },
+      {
+        "flight_number": "0073",
+        "aircraft_name": "Boeing 787-9",
+        "aircraft_iata": "789",
+        "days": "1234567",
+        "source_valid_from": "2026-10-01",
+        "source_valid_to": "2026-10-23"
+      }
+    ]
+  },
+  {
+    "airline": "NH",
+    "origin": "HND",
+    "destination": "HNL",
+    "url": "https://info.flightmapper.net/route/All_Nippon_Airways_NH_HND_HNL",
+    "checked_on": "2026-10-20",
+    "rows": [
+      {
+        "flight_number": "0186",
+        "aircraft_name": "Boeing 787-9",
+        "aircraft_iata": "789",
+        "days": "1234567",
+        "source_valid_from": "2026-07-01",
+        "source_valid_to": "2026-10-24"
+      }
+    ]
+  },
+  {
+    "airline": "NH",
+    "origin": "HNL",
+    "destination": "HND",
+    "url": "https://info.flightmapper.net/route/All_Nippon_Airways_NH_HNL_HND",
+    "checked_on": "2026-10-20",
+    "rows": [
+      {
+        "flight_number": "0185",
+        "aircraft_name": "Boeing 787-9",
+        "aircraft_iata": "789",
+        "days": "1234567",
+        "source_valid_from": "2026-07-01",
+        "source_valid_to": "2026-10-24"
+      }
+    ]
+  },
+  {
+    "airline": "NH",
+    "origin": "HND",
+    "destination": "IAD",
+    "url": "https://info.flightmapper.net/route/All_Nippon_Airways_NH_HND_IAD",
+    "checked_on": "2026-10-20",
+    "rows": [
+      {
+        "flight_number": "0102",
+        "aircraft_name": "Boeing 787-8",
+        "aircraft_iata": "788",
+        "days": "1234567",
+        "source_valid_from": "2026-03-29",
+        "source_valid_to": "2026-10-24"
+      }
+    ]
+  },
+  {
+    "airline": "NH",
+    "origin": "IAD",
+    "destination": "HND",
+    "url": "https://info.flightmapper.net/route/All_Nippon_Airways_NH_IAD_HND",
+    "checked_on": "2026-10-20",
+    "rows": [
+      {
+        "flight_number": "0101",
+        "aircraft_name": "Boeing 787-8",
+        "aircraft_iata": "788",
+        "days": "1234567",
+        "source_valid_from": "2026-03-29",
+        "source_valid_to": "2026-10-24"
+      }
+    ]
+  },
+  {
+    "airline": "UA",
+    "origin": "HND",
+    "destination": "IAD",
+    "url": "https://info.flightmapper.net/route/United_Airlines_UA_HND_IAD",
+    "checked_on": "2026-10-20",
+    "rows": [
+      {
+        "flight_number": "0804",
+        "aircraft_name": "Boeing 777",
+        "aircraft_iata": "777",
+        "days": "1234567",
+        "source_valid_from": "2026-09-08",
+        "source_valid_to": "2026-10-24"
+      }
+    ]
+  },
+  {
+    "airline": "UA",
+    "origin": "IAD",
+    "destination": "HND",
+    "url": "https://info.flightmapper.net/route/United_Airlines_UA_IAD_HND",
+    "checked_on": "2026-10-20",
+    "rows": [
+      {
+        "flight_number": "0803",
+        "aircraft_name": "Boeing 777",
+        "aircraft_iata": "777",
+        "days": "1234567",
+        "source_valid_from": "2026-09-08",
+        "source_valid_to": "2026-10-23"
+      }
+    ]
+  },
+  {
+    "airline": "NH",
+    "origin": "HND",
+    "destination": "IAH",
+    "url": "https://info.flightmapper.net/route/All_Nippon_Airways_NH_HND_IAH",
+    "checked_on": "2026-10-20",
+    "rows": [
+      {
+        "flight_number": "0114",
+        "aircraft_name": "Boeing 787-9",
+        "aircraft_iata": "789",
+        "days": "1234567",
+        "source_valid_from": "2026-03-29",
+        "source_valid_to": "2026-10-24"
+      }
+    ]
+  },
+  {
+    "airline": "NH",
+    "origin": "IAH",
+    "destination": "HND",
+    "url": "https://info.flightmapper.net/route/All_Nippon_Airways_NH_IAH_HND",
+    "checked_on": "2026-10-20",
+    "rows": [
+      {
+        "flight_number": "0113",
+        "aircraft_name": "Boeing 787-9",
+        "aircraft_iata": "789",
+        "days": "1234567",
+        "source_valid_from": "2026-03-29",
+        "source_valid_to": "2026-10-24"
+      }
+    ]
+  },
+  {
+    "airline": "AA",
+    "origin": "HND",
+    "destination": "JFK",
+    "url": "https://info.flightmapper.net/route/American_Airlines_AA_HND_JFK",
+    "checked_on": "2026-10-20",
+    "rows": [
+      {
+        "flight_number": "0168",
+        "aircraft_name": "Boeing 787-9",
+        "aircraft_iata": "789",
+        "days": "1234567",
+        "source_valid_from": "2026-03-29",
+        "source_valid_to": "2026-10-24"
+      }
+    ]
+  },
+  {
+    "airline": "AA",
+    "origin": "JFK",
+    "destination": "HND",
+    "url": "https://info.flightmapper.net/route/American_Airlines_AA_JFK_HND",
+    "checked_on": "2026-10-20",
+    "rows": [
+      {
+        "flight_number": "0167",
+        "aircraft_name": "Boeing 787-9",
+        "aircraft_iata": "789",
+        "days": "1234567",
+        "source_valid_from": "2026-03-28",
+        "source_valid_to": "2026-10-23"
+      }
+    ]
+  },
+  {
+    "airline": "JL",
+    "origin": "HND",
+    "destination": "JFK",
+    "url": "https://info.flightmapper.net/route/Japan_Airlines_JL_HND_JFK",
+    "checked_on": "2026-10-20",
+    "rows": [
+      {
+        "flight_number": "0004",
+        "aircraft_name": "Airbus A350-1000",
+        "aircraft_iata": "351",
+        "days": "1234567",
+        "source_valid_from": "2026-09-01",
+        "source_valid_to": "2026-10-24"
+      },
+      {
+        "flight_number": "0006",
+        "aircraft_name": "Airbus A350-1000",
+        "aircraft_iata": "351",
+        "days": "1234567",
+        "source_valid_from": "2026-09-01",
+        "source_valid_to": "2026-10-24"
+      }
+    ]
+  },
+  {
+    "airline": "JL",
+    "origin": "JFK",
+    "destination": "HND",
+    "url": "https://info.flightmapper.net/route/Japan_Airlines_JL_JFK_HND",
+    "checked_on": "2026-10-20",
+    "rows": [
+      {
+        "flight_number": "0003",
+        "aircraft_name": "Airbus A350-1000",
+        "aircraft_iata": "351",
+        "days": "1234567",
+        "source_valid_from": "2026-09-01",
+        "source_valid_to": "2026-10-24"
+      },
+      {
+        "flight_number": "0005",
+        "aircraft_name": "Airbus A350-1000",
+        "aircraft_iata": "351",
+        "days": "1234567",
+        "source_valid_from": "2026-09-01",
+        "source_valid_to": "2026-10-23"
+      }
+    ]
+  },
+  {
+    "airline": "NH",
+    "origin": "HND",
+    "destination": "JFK",
+    "url": "https://info.flightmapper.net/route/All_Nippon_Airways_NH_HND_JFK",
+    "checked_on": "2026-10-20",
+    "rows": [
+      {
+        "flight_number": "0110",
+        "aircraft_name": "Boeing 777-300ER",
+        "aircraft_iata": "77W",
+        "days": "1234567",
+        "source_valid_from": "2026-03-29",
+        "source_valid_to": "2026-10-24"
+      },
+      {
+        "flight_number": "0160",
+        "aircraft_name": "Boeing 777-300ER",
+        "aircraft_iata": "77W",
+        "days": "1234567",
+        "source_valid_from": "2026-03-29",
+        "source_valid_to": "2026-10-24"
+      }
+    ]
+  },
+  {
+    "airline": "NH",
+    "origin": "JFK",
+    "destination": "HND",
+    "url": "https://info.flightmapper.net/route/All_Nippon_Airways_NH_JFK_HND",
+    "checked_on": "2026-10-20",
+    "rows": [
+      {
+        "flight_number": "0109",
+        "aircraft_name": "Boeing 777-300ER",
+        "aircraft_iata": "77W",
+        "days": "1234567",
+        "source_valid_from": "2026-03-29",
+        "source_valid_to": "2026-10-24"
+      },
+      {
+        "flight_number": "0159",
+        "aircraft_name": "Boeing 777-300ER",
+        "aircraft_iata": "77W",
+        "days": "1234567",
+        "source_valid_from": "2026-10-01",
+        "source_valid_to": "2026-10-24"
+      }
+    ]
+  },
+  {
+    "airline": "AA",
+    "origin": "HND",
+    "destination": "LAX",
+    "url": "https://info.flightmapper.net/route/American_Airlines_AA_HND_LAX",
+    "checked_on": "2026-10-20",
+    "rows": [
+      {
+        "flight_number": "0026",
+        "aircraft_name": "Boeing 787-9",
+        "aircraft_iata": "789",
+        "days": "1234567",
+        "source_valid_from": "2026-03-29",
+        "source_valid_to": "2026-10-24"
+      },
+      {
+        "flight_number": "0170",
+        "aircraft_name": "Boeing 787-9",
+        "aircraft_iata": "789",
+        "days": "1234567",
+        "source_valid_from": "2026-03-29",
+        "source_valid_to": "2026-10-24"
+      }
+    ]
+  },
+  {
+    "airline": "AA",
+    "origin": "LAX",
+    "destination": "HND",
+    "url": "https://info.flightmapper.net/route/American_Airlines_AA_LAX_HND",
+    "checked_on": "2026-10-20",
+    "rows": [
+      {
+        "flight_number": "0027",
+        "aircraft_name": "Boeing 787-9",
+        "aircraft_iata": "789",
+        "days": "1234567",
+        "source_valid_from": "2026-03-29",
+        "source_valid_to": "2026-10-23"
+      },
+      {
+        "flight_number": "0169",
+        "aircraft_name": "Boeing 787-9",
+        "aircraft_iata": "789",
+        "days": "1234567",
+        "source_valid_from": "2026-03-28",
+        "source_valid_to": "2026-10-23"
+      }
+    ]
+  },
+  {
+    "airline": "DL",
+    "origin": "HND",
+    "destination": "LAX",
+    "url": "https://info.flightmapper.net/route/Delta_Air_Lines_DL_HND_LAX",
+    "checked_on": "2026-10-20",
+    "rows": [
+      {
+        "flight_number": "0008",
+        "aircraft_name": "Airbus A350-900",
+        "aircraft_iata": "359",
+        "days": "36",
+        "source_valid_from": "2026-10-03",
+        "source_valid_to": "2026-10-24"
+      },
+      {
+        "flight_number": "0008",
+        "aircraft_name": "Airbus A350-900",
+        "aircraft_iata": "359",
+        "days": "12457",
+        "source_valid_from": "2026-10-01",
+        "source_valid_to": "2026-10-23"
+      }
+    ]
+  },
+  {
+    "airline": "DL",
+    "origin": "LAX",
+    "destination": "HND",
+    "url": "https://info.flightmapper.net/route/Delta_Air_Lines_DL_LAX_HND",
+    "checked_on": "2026-10-20",
+    "rows": [
+      {
+        "flight_number": "0007",
+        "aircraft_name": "Airbus A350-900",
+        "aircraft_iata": "359",
+        "days": "1234567",
+        "source_valid_from": "2026-10-01",
+        "source_valid_to": "2026-10-23"
+      }
+    ]
+  },
+  {
+    "airline": "JL",
+    "origin": "HND",
+    "destination": "LAX",
+    "url": "https://info.flightmapper.net/route/Japan_Airlines_JL_HND_LAX",
+    "checked_on": "2026-10-20",
+    "rows": [
+      {
+        "flight_number": "0016",
+        "aircraft_name": "Airbus A350-1000",
+        "aircraft_iata": "351",
+        "days": "1234567",
+        "source_valid_from": "2026-10-01",
+        "source_valid_to": "2026-10-24"
+      }
+    ]
+  },
+  {
+    "airline": "JL",
+    "origin": "LAX",
+    "destination": "HND",
+    "url": "https://info.flightmapper.net/route/Japan_Airlines_JL_LAX_HND",
+    "checked_on": "2026-10-20",
+    "rows": [
+      {
+        "flight_number": "0015",
+        "aircraft_name": "Airbus A350-1000",
+        "aircraft_iata": "351",
+        "days": "1234567",
+        "source_valid_from": "2026-10-01",
+        "source_valid_to": "2026-10-23"
+      }
+    ]
+  },
+  {
+    "airline": "NH",
+    "origin": "HND",
+    "destination": "LAX",
+    "url": "https://info.flightmapper.net/route/All_Nippon_Airways_NH_HND_LAX",
+    "checked_on": "2026-10-20",
+    "rows": [
+      {
+        "flight_number": "0106",
+        "aircraft_name": "Boeing 787-8",
+        "aircraft_iata": "788",
+        "days": "1234567",
+        "source_valid_from": "2026-09-02",
+        "source_valid_to": "2026-10-24"
+      },
+      {
+        "flight_number": "0126",
+        "aircraft_name": "Boeing 787-9",
+        "aircraft_iata": "789",
+        "days": "1234567",
+        "source_valid_from": "2026-09-01",
+        "source_valid_to": "2026-10-24"
+      }
+    ]
+  },
+  {
+    "airline": "NH",
+    "origin": "LAX",
+    "destination": "HND",
+    "url": "https://info.flightmapper.net/route/All_Nippon_Airways_NH_LAX_HND",
+    "checked_on": "2026-10-20",
+    "rows": [
+      {
+        "flight_number": "0105",
+        "aircraft_name": "Boeing 787-8",
+        "aircraft_iata": "788",
+        "days": "1234567",
+        "source_valid_from": "2026-09-01",
+        "source_valid_to": null
+      },
+      {
+        "flight_number": "0125",
+        "aircraft_name": "Boeing 787-9",
+        "aircraft_iata": "789",
+        "days": "1234567",
+        "source_valid_from": "2026-09-02",
+        "source_valid_to": "2026-10-24"
+      }
+    ]
+  },
+  {
+    "airline": "UA",
+    "origin": "HND",
+    "destination": "LAX",
+    "url": "https://info.flightmapper.net/route/United_Airlines_UA_HND_LAX",
+    "checked_on": "2026-10-20",
+    "rows": [
+      {
+        "flight_number": "0038",
+        "aircraft_name": "Boeing 787-10",
+        "aircraft_iata": "781",
+        "days": "1234567",
+        "source_valid_from": "2026-09-08",
+        "source_valid_to": "2026-10-24"
+      }
+    ]
+  },
+  {
+    "airline": "UA",
+    "origin": "LAX",
+    "destination": "HND",
+    "url": "https://info.flightmapper.net/route/United_Airlines_UA_LAX_HND",
+    "checked_on": "2026-10-20",
+    "rows": [
+      {
+        "flight_number": "0039",
+        "aircraft_name": "Boeing 787-10",
+        "aircraft_iata": "781",
+        "days": "1234567",
+        "source_valid_from": "2026-09-08",
+        "source_valid_to": "2026-10-23"
+      }
+    ]
+  },
+  {
+    "airline": "DL",
+    "origin": "HND",
+    "destination": "MSP",
+    "url": "https://info.flightmapper.net/route/Delta_Air_Lines_DL_HND_MSP",
+    "checked_on": "2026-10-20",
+    "rows": [
+      {
+        "flight_number": "0120",
+        "aircraft_name": "Airbus A350-900",
+        "aircraft_iata": "359",
+        "days": "1234567",
+        "source_valid_from": "2026-10-01",
+        "source_valid_to": "2026-10-24"
+      }
+    ]
+  },
+  {
+    "airline": "DL",
+    "origin": "MSP",
+    "destination": "HND",
+    "url": "https://info.flightmapper.net/route/Delta_Air_Lines_DL_MSP_HND",
+    "checked_on": "2026-10-20",
+    "rows": [
+      {
+        "flight_number": "0121",
+        "aircraft_name": "Airbus A350-900",
+        "aircraft_iata": "359",
+        "days": "1234567",
+        "source_valid_from": "2026-10-01",
+        "source_valid_to": "2026-10-23"
+      }
+    ]
+  },
+  {
+    "airline": "JL",
+    "origin": "HND",
+    "destination": "ORD",
+    "url": "https://info.flightmapper.net/route/Japan_Airlines_JL_HND_ORD",
+    "checked_on": "2026-10-20",
+    "rows": [
+      {
+        "flight_number": "0010",
+        "aircraft_name": "Boeing 777-300ER",
+        "aircraft_iata": "77W",
+        "days": "1234567",
+        "source_valid_from": "2026-09-01",
+        "source_valid_to": "2026-10-24"
+      }
+    ]
+  },
+  {
+    "airline": "JL",
+    "origin": "ORD",
+    "destination": "HND",
+    "url": "https://info.flightmapper.net/route/Japan_Airlines_JL_ORD_HND",
+    "checked_on": "2026-10-20",
+    "rows": [
+      {
+        "flight_number": "0009",
+        "aircraft_name": "Boeing 777-300ER",
+        "aircraft_iata": "77W",
+        "days": "1234567",
+        "source_valid_from": "2026-09-01",
+        "source_valid_to": "2026-10-24"
+      }
+    ]
+  },
+  {
+    "airline": "NH",
+    "origin": "HND",
+    "destination": "ORD",
+    "url": "https://info.flightmapper.net/route/All_Nippon_Airways_NH_HND_ORD",
+    "checked_on": "2026-10-20",
+    "rows": [
+      {
+        "flight_number": "0112",
+        "aircraft_name": "Boeing 777-300ER",
+        "aircraft_iata": "77W",
+        "days": "1234567",
+        "source_valid_from": "2026-03-29",
+        "source_valid_to": "2026-10-24"
+      }
+    ]
+  },
+  {
+    "airline": "NH",
+    "origin": "ORD",
+    "destination": "HND",
+    "url": "https://info.flightmapper.net/route/All_Nippon_Airways_NH_ORD_HND",
+    "checked_on": "2026-10-20",
+    "rows": [
+      {
+        "flight_number": "0111",
+        "aircraft_name": "Boeing 777-300ER",
+        "aircraft_iata": "77W",
+        "days": "1234567",
+        "source_valid_from": "2026-03-29",
+        "source_valid_to": "2026-10-24"
+      }
+    ]
+  },
+  {
+    "airline": "UA",
+    "origin": "HND",
+    "destination": "ORD",
+    "url": "https://info.flightmapper.net/route/United_Airlines_UA_HND_ORD",
+    "checked_on": "2026-10-20",
+    "rows": [
+      {
+        "flight_number": "0882",
+        "aircraft_name": "Boeing 787-10",
+        "aircraft_iata": "781",
+        "days": "1234567",
+        "source_valid_from": "2026-09-08",
+        "source_valid_to": "2026-10-24"
+      }
+    ]
+  },
+  {
+    "airline": "UA",
+    "origin": "ORD",
+    "destination": "HND",
+    "url": "https://info.flightmapper.net/route/United_Airlines_UA_ORD_HND",
+    "checked_on": "2026-10-20",
+    "rows": [
+      {
+        "flight_number": "0881",
+        "aircraft_name": "Boeing 787-10",
+        "aircraft_iata": "781",
+        "days": "1234567",
+        "source_valid_from": "2026-09-08",
+        "source_valid_to": "2026-10-23"
+      }
+    ]
+  },
+  {
+    "airline": "DL",
+    "origin": "HND",
+    "destination": "SEA",
+    "url": "https://info.flightmapper.net/route/Delta_Air_Lines_DL_HND_SEA",
+    "checked_on": "2026-10-20",
+    "rows": [
+      {
+        "flight_number": "0166",
+        "aircraft_name": "Airbus A350-900",
+        "aircraft_iata": "359",
+        "days": "1234567",
+        "source_valid_from": "2026-09-01",
+        "source_valid_to": "2026-10-24"
+      }
+    ]
+  },
+  {
+    "airline": "DL",
+    "origin": "SEA",
+    "destination": "HND",
+    "url": "https://info.flightmapper.net/route/Delta_Air_Lines_DL_SEA_HND",
+    "checked_on": "2026-10-20",
+    "rows": [
+      {
+        "flight_number": "0167",
+        "aircraft_name": "Airbus A350-900",
+        "aircraft_iata": "359",
+        "days": "1234567",
+        "source_valid_from": "2026-09-01",
+        "source_valid_to": "2026-10-23"
+      }
+    ]
+  },
+  {
+    "airline": "NH",
+    "origin": "HND",
+    "destination": "SEA",
+    "url": "https://info.flightmapper.net/route/All_Nippon_Airways_NH_HND_SEA",
+    "checked_on": "2026-10-20",
+    "rows": [
+      {
+        "flight_number": "0118",
+        "aircraft_name": "Boeing 787-9",
+        "aircraft_iata": "789",
+        "days": "1234567",
+        "source_valid_from": "2026-03-29",
+        "source_valid_to": "2026-10-24"
+      }
+    ]
+  },
+  {
+    "airline": "NH",
+    "origin": "SEA",
+    "destination": "HND",
+    "url": "https://info.flightmapper.net/route/All_Nippon_Airways_NH_SEA_HND",
+    "checked_on": "2026-10-20",
+    "rows": [
+      {
+        "flight_number": "0117",
+        "aircraft_name": "Boeing 787-9",
+        "aircraft_iata": "789",
+        "days": "1234567",
+        "source_valid_from": "2026-03-29",
+        "source_valid_to": "2026-10-24"
+      }
+    ]
+  },
+  {
+    "airline": "JL",
+    "origin": "HND",
+    "destination": "SFO",
+    "url": "https://info.flightmapper.net/route/Japan_Airlines_JL_HND_SFO",
+    "checked_on": "2026-10-20",
+    "rows": [
+      {
+        "flight_number": "0002",
+        "aircraft_name": "Boeing 777-300ER",
+        "aircraft_iata": "77W",
+        "days": "1234567",
+        "source_valid_from": "2026-10-01",
+        "source_valid_to": "2026-10-24"
+      }
+    ]
+  },
+  {
+    "airline": "JL",
+    "origin": "SFO",
+    "destination": "HND",
+    "url": "https://info.flightmapper.net/route/Japan_Airlines_JL_SFO_HND",
+    "checked_on": "2026-10-20",
+    "rows": [
+      {
+        "flight_number": "0001",
+        "aircraft_name": "Boeing 777-300ER",
+        "aircraft_iata": "77W",
+        "days": "1234567",
+        "source_valid_from": "2026-10-01",
+        "source_valid_to": "2026-10-23"
+      }
+    ]
+  },
+  {
+    "airline": "NH",
+    "origin": "HND",
+    "destination": "SFO",
+    "url": "https://info.flightmapper.net/route/All_Nippon_Airways_NH_HND_SFO",
+    "checked_on": "2026-10-20",
+    "rows": [
+      {
+        "flight_number": "0108",
+        "aircraft_name": "Boeing 777-300ER",
+        "aircraft_iata": "77W",
+        "days": "1234567",
+        "source_valid_from": "2026-09-01",
+        "source_valid_to": "2026-10-24"
+      }
+    ]
+  },
+  {
+    "airline": "NH",
+    "origin": "SFO",
+    "destination": "HND",
+    "url": "https://info.flightmapper.net/route/All_Nippon_Airways_NH_SFO_HND",
+    "checked_on": "2026-10-20",
+    "rows": [
+      {
+        "flight_number": "0107",
+        "aircraft_name": "Boeing 777-300ER",
+        "aircraft_iata": "77W",
+        "days": "1234567",
+        "source_valid_from": "2026-09-02",
+        "source_valid_to": "2026-10-24"
+      }
+    ]
+  },
+  {
+    "airline": "UA",
+    "origin": "HND",
+    "destination": "SFO",
+    "url": "https://info.flightmapper.net/route/United_Airlines_UA_HND_SFO",
+    "checked_on": "2026-10-20",
+    "rows": [
+      {
+        "flight_number": "0876",
+        "aircraft_name": "Boeing 777",
+        "aircraft_iata": "777",
+        "days": "1234567",
+        "source_valid_from": "2026-09-08",
+        "source_valid_to": "2026-10-24"
+      }
+    ]
+  },
+  {
+    "airline": "UA",
+    "origin": "SFO",
+    "destination": "HND",
+    "url": "https://info.flightmapper.net/route/United_Airlines_UA_SFO_HND",
+    "checked_on": "2026-10-20",
+    "rows": [
+      {
+        "flight_number": "0875",
+        "aircraft_name": "Boeing 777",
+        "aircraft_iata": "777",
+        "days": "1234567",
+        "source_valid_from": "2026-09-08",
+        "source_valid_to": "2026-10-23"
+      }
+    ]
+  },
+  {
+    "airline": "NH",
+    "origin": "HND",
+    "destination": "YVR",
+    "url": "https://info.flightmapper.net/route/All_Nippon_Airways_NH_HND_YVR",
+    "checked_on": "2026-10-20",
+    "rows": [
+      {
+        "flight_number": "0116",
+        "aircraft_name": "Boeing 787-9",
+        "aircraft_iata": "789",
+        "days": "1234567",
+        "source_valid_from": "2026-03-29",
+        "source_valid_to": "2026-10-24"
+      }
+    ]
+  },
+  {
+    "airline": "NH",
+    "origin": "YVR",
+    "destination": "HND",
+    "url": "https://info.flightmapper.net/route/All_Nippon_Airways_NH_YVR_HND",
+    "checked_on": "2026-10-20",
+    "rows": [
+      {
+        "flight_number": "0115",
+        "aircraft_name": "Boeing 787-9",
+        "aircraft_iata": "789",
+        "days": "1234567",
+        "source_valid_from": "2026-03-29",
+        "source_valid_to": "2026-10-24"
+      }
+    ]
+  },
+  {
+    "airline": "AC",
+    "origin": "HND",
+    "destination": "YYZ",
+    "url": "https://info.flightmapper.net/route/Air_Canada_AC_HND_YYZ",
+    "checked_on": "2026-10-20",
+    "rows": [
+      {
+        "flight_number": "0002",
+        "aircraft_name": "Boeing 777-300ER",
+        "aircraft_iata": "77W",
+        "days": "1234567",
+        "source_valid_from": "2026-09-08",
+        "source_valid_to": "2026-10-24"
+      }
+    ]
+  },
+  {
+    "airline": "AC",
+    "origin": "YYZ",
+    "destination": "HND",
+    "url": "https://info.flightmapper.net/route/Air_Canada_AC_YYZ_HND",
+    "checked_on": "2026-10-20",
+    "rows": [
+      {
+        "flight_number": "0001",
+        "aircraft_name": "Boeing 777-300ER",
+        "aircraft_iata": "77W",
+        "days": "1234567",
+        "source_valid_from": "2026-09-08",
+        "source_valid_to": "2026-10-23"
+      }
+    ]
+  },
+  {
+    "airline": "DL",
+    "origin": "ICN",
+    "destination": "ATL",
+    "url": "https://info.flightmapper.net/route/Delta_Air_Lines_DL_ICN_ATL",
+    "checked_on": "2026-10-20",
+    "rows": [
+      {
+        "flight_number": "0026",
+        "aircraft_name": "Airbus A350-900",
+        "aircraft_iata": "359",
+        "days": "1234567",
+        "source_valid_from": "2026-10-01",
+        "source_valid_to": "2026-10-24"
+      },
+      {
+        "flight_number": "0188",
+        "aircraft_name": "Airbus A350-900",
+        "aircraft_iata": "359",
+        "days": "1234567",
+        "source_valid_from": "2026-10-01",
+        "source_valid_to": "2026-10-24"
+      }
+    ]
+  },
+  {
+    "airline": "DL",
+    "origin": "ATL",
+    "destination": "ICN",
+    "url": "https://info.flightmapper.net/route/Delta_Air_Lines_DL_ATL_ICN",
+    "checked_on": "2026-10-20",
+    "rows": [
+      {
+        "flight_number": "0027",
+        "aircraft_name": "Airbus A350-900",
+        "aircraft_iata": "359",
+        "days": "1234567",
+        "source_valid_from": "2026-10-01",
+        "source_valid_to": "2026-10-23"
+      },
+      {
+        "flight_number": "0189",
+        "aircraft_name": "Airbus A350-900",
+        "aircraft_iata": "359",
+        "days": "1234567",
+        "source_valid_from": "2026-10-01",
+        "source_valid_to": "2026-10-23"
+      }
+    ]
+  },
+  {
+    "airline": "KE",
+    "origin": "ICN",
+    "destination": "ATL",
+    "url": "https://info.flightmapper.net/route/Korean_Air_KE_ICN_ATL",
+    "checked_on": "2026-10-20",
+    "rows": [
+      {
+        "flight_number": "0033",
+        "aircraft_name": "Boeing 777-300ER",
+        "aircraft_iata": "77W",
+        "days": "1234567",
+        "source_valid_from": "2026-09-01",
+        "source_valid_to": "2026-10-24"
+      },
+      {
+        "flight_number": "0035",
+        "aircraft_name": "Boeing 777-300ER",
+        "aircraft_iata": "77W",
+        "days": "1234567",
+        "source_valid_from": "2026-09-01",
+        "source_valid_to": "2026-10-24"
+      }
+    ]
+  },
+  {
+    "airline": "KE",
+    "origin": "ATL",
+    "destination": "ICN",
+    "url": "https://info.flightmapper.net/route/Korean_Air_KE_ATL_ICN",
+    "checked_on": "2026-10-20",
+    "rows": [
+      {
+        "flight_number": "0034",
+        "aircraft_name": "Boeing 777-300ER",
+        "aircraft_iata": "77W",
+        "days": "1234567",
+        "source_valid_from": "2026-05-11",
+        "source_valid_to": "2026-10-24"
+      },
+      {
+        "flight_number": "0036",
+        "aircraft_name": "Boeing 777-300ER",
+        "aircraft_iata": "77W",
+        "days": "1234567",
+        "source_valid_from": "2026-03-29",
+        "source_valid_to": "2026-10-24"
+      }
+    ]
+  },
+  {
+    "airline": "KE",
+    "origin": "ICN",
+    "destination": "BOS",
+    "url": "https://info.flightmapper.net/route/Korean_Air_KE_ICN_BOS",
+    "checked_on": "2026-10-20",
+    "rows": [
+      {
+        "flight_number": "0091",
+        "aircraft_name": "Boeing 777-300ER",
+        "aircraft_iata": "77W",
+        "days": "1234567",
+        "source_valid_from": "2026-09-01",
+        "source_valid_to": "2026-10-24"
+      }
+    ]
+  },
+  {
+    "airline": "KE",
+    "origin": "BOS",
+    "destination": "ICN",
+    "url": "https://info.flightmapper.net/route/Korean_Air_KE_BOS_ICN",
+    "checked_on": "2026-10-20",
+    "rows": [
+      {
+        "flight_number": "0092",
+        "aircraft_name": "Boeing 777-300ER",
+        "aircraft_iata": "77W",
+        "days": "1234567",
+        "source_valid_from": "2026-03-29",
+        "source_valid_to": "2026-10-24"
+      }
+    ]
+  },
+  {
+    "airline": "AA",
+    "origin": "ICN",
+    "destination": "DFW",
+    "url": "https://info.flightmapper.net/route/American_Airlines_AA_ICN_DFW",
+    "checked_on": "2026-10-20",
+    "rows": [
+      {
+        "flight_number": "0280",
+        "aircraft_name": "Boeing 777-200",
+        "aircraft_iata": "772",
+        "days": "1234567",
+        "source_valid_from": "2026-03-29",
+        "source_valid_to": "2026-10-24"
+      }
+    ]
+  },
+  {
+    "airline": "AA",
+    "origin": "DFW",
+    "destination": "ICN",
+    "url": "https://info.flightmapper.net/route/American_Airlines_AA_DFW_ICN",
+    "checked_on": "2026-10-20",
+    "rows": [
+      {
+        "flight_number": "0281",
+        "aircraft_name": "Boeing 777-200",
+        "aircraft_iata": "772",
+        "days": "1234567",
+        "source_valid_from": "2026-03-28",
+        "source_valid_to": "2026-10-23"
+      }
+    ]
+  },
+  {
+    "airline": "KE",
+    "origin": "ICN",
+    "destination": "DFW",
+    "url": "https://info.flightmapper.net/route/Korean_Air_KE_ICN_DFW",
+    "checked_on": "2026-10-20",
+    "rows": [
+      {
+        "flight_number": "0031",
+        "aircraft_name": "Boeing 787-9",
+        "aircraft_iata": "789",
+        "days": "1234567",
+        "source_valid_from": "2026-09-01",
+        "source_valid_to": "2026-10-24"
+      }
+    ]
+  },
+  {
+    "airline": "KE",
+    "origin": "DFW",
+    "destination": "ICN",
+    "url": "https://info.flightmapper.net/route/Korean_Air_KE_DFW_ICN",
+    "checked_on": "2026-10-20",
+    "rows": [
+      {
+        "flight_number": "0032",
+        "aircraft_name": "Boeing 787-9",
+        "aircraft_iata": "789",
+        "days": "1234567",
+        "source_valid_from": "2026-09-01",
+        "source_valid_to": "2026-10-24"
+      }
+    ]
+  },
+  {
+    "airline": "DL",
+    "origin": "ICN",
+    "destination": "DTW",
+    "url": "https://info.flightmapper.net/route/Delta_Air_Lines_DL_ICN_DTW",
+    "checked_on": "2026-10-20",
+    "rows": [
+      {
+        "flight_number": "0158",
+        "aircraft_name": "Airbus A350-900",
+        "aircraft_iata": "359",
+        "days": "1234567",
+        "source_valid_from": "2026-09-01",
+        "source_valid_to": "2026-10-24"
+      }
+    ]
+  },
+  {
+    "airline": "DL",
+    "origin": "DTW",
+    "destination": "ICN",
+    "url": "https://info.flightmapper.net/route/Delta_Air_Lines_DL_DTW_ICN",
+    "checked_on": "2026-10-20",
+    "rows": [
+      {
+        "flight_number": "0159",
+        "aircraft_name": "Airbus A350-900",
+        "aircraft_iata": "359",
+        "days": "1234567",
+        "source_valid_from": "2026-09-01",
+        "source_valid_to": "2026-10-23"
+      }
+    ]
+  },
+  {
+    "airline": "YP",
+    "origin": "ICN",
+    "destination": "EWR",
+    "url": "https://info.flightmapper.net/route/Air_Premia_YP_ICN_EWR",
+    "checked_on": "2026-10-20",
+    "rows": [
+      {
+        "flight_number": "0131",
+        "aircraft_name": "Boeing 787-9",
+        "aircraft_iata": "789",
+        "days": "1234567",
+        "source_valid_from": "2026-10-01",
+        "source_valid_to": "2026-10-24"
+      }
+    ]
+  },
+  {
+    "airline": "YP",
+    "origin": "EWR",
+    "destination": "ICN",
+    "url": "https://info.flightmapper.net/route/Air_Premia_YP_EWR_ICN",
+    "checked_on": "2026-10-20",
+    "rows": [
+      {
+        "flight_number": "0132",
+        "aircraft_name": "Boeing 787-9",
+        "aircraft_iata": "789",
+        "days": "1234567",
+        "source_valid_from": "2026-10-02",
+        "source_valid_to": "2026-10-25"
+      }
+    ]
+  },
+  {
+    "airline": "KE",
+    "origin": "ICN",
+    "destination": "HNL",
+    "url": "https://info.flightmapper.net/route/Korean_Air_KE_ICN_HNL",
+    "checked_on": "2026-10-20",
+    "rows": [
+      {
+        "flight_number": "0053",
+        "aircraft_name": "Boeing 787-10",
+        "aircraft_iata": "781",
+        "days": "1234567",
+        "source_valid_from": "2026-07-01",
+        "source_valid_to": "2026-10-24"
+      }
+    ]
+  },
+  {
+    "airline": "KE",
+    "origin": "HNL",
+    "destination": "ICN",
+    "url": "https://info.flightmapper.net/route/Korean_Air_KE_HNL_ICN",
+    "checked_on": "2026-10-20",
+    "rows": [
+      {
+        "flight_number": "0054",
+        "aircraft_name": "Boeing 787-10",
+        "aircraft_iata": "781",
+        "days": "1234567",
+        "source_valid_from": "2026-06-01",
+        "source_valid_to": "2026-10-24"
+      }
+    ]
+  },
+  {
+    "airline": "YP",
+    "origin": "ICN",
+    "destination": "HNL",
+    "url": "https://info.flightmapper.net/route/Air_Premia_YP_ICN_HNL",
+    "checked_on": "2026-10-20",
+    "rows": [
+      {
+        "flight_number": "0151",
+        "aircraft_name": "Boeing 787-9",
+        "aircraft_iata": "789",
+        "days": "1357",
+        "source_valid_from": "2026-03-29",
+        "source_valid_to": "2026-10-23"
+      }
+    ]
+  },
+  {
+    "airline": "YP",
+    "origin": "HNL",
+    "destination": "ICN",
+    "url": "https://info.flightmapper.net/route/Air_Premia_YP_HNL_ICN",
+    "checked_on": "2026-10-20",
+    "rows": [
+      {
+        "flight_number": "0152",
+        "aircraft_name": "Boeing 787-9",
+        "aircraft_iata": "789",
+        "days": "1357",
+        "source_valid_from": "2026-03-29",
+        "source_valid_to": "2026-10-23"
+      }
+    ]
+  },
+  {
+    "airline": "KE",
+    "origin": "ICN",
+    "destination": "IAD",
+    "url": "https://info.flightmapper.net/route/Korean_Air_KE_ICN_IAD",
+    "checked_on": "2026-10-20",
+    "rows": [
+      {
+        "flight_number": "0093",
+        "aircraft_name": "Boeing 777-300ER",
+        "aircraft_iata": "77W",
+        "days": "1234567",
+        "source_valid_from": "2026-09-01",
+        "source_valid_to": "2026-10-24"
+      }
+    ]
+  },
+  {
+    "airline": "KE",
+    "origin": "IAD",
+    "destination": "ICN",
+    "url": "https://info.flightmapper.net/route/Korean_Air_KE_IAD_ICN",
+    "checked_on": "2026-10-20",
+    "rows": [
+      {
+        "flight_number": "0094",
+        "aircraft_name": "Boeing 777-300ER",
+        "aircraft_iata": "77W",
+        "days": "1234567",
+        "source_valid_from": "2026-09-01",
+        "source_valid_to": "2026-10-24"
+      }
+    ]
+  },
+  {
+    "airline": "YP",
+    "origin": "ICN",
+    "destination": "IAD",
+    "url": "https://info.flightmapper.net/route/Air_Premia_YP_ICN_IAD",
+    "checked_on": "2026-10-20",
+    "rows": [
+      {
+        "flight_number": "0135",
+        "aircraft_name": "Boeing 787-9",
+        "aircraft_iata": "789",
+        "days": "1357",
+        "source_valid_from": "2026-04-24",
+        "source_valid_to": "2026-10-23"
+      }
+    ]
+  },
+  {
+    "airline": "YP",
+    "origin": "IAD",
+    "destination": "ICN",
+    "url": "https://info.flightmapper.net/route/Air_Premia_YP_IAD_ICN",
+    "checked_on": "2026-10-20",
+    "rows": [
+      {
+        "flight_number": "0136",
+        "aircraft_name": "Boeing 787-9",
+        "aircraft_iata": "789",
+        "days": "1357",
+        "source_valid_from": "2026-04-24",
+        "source_valid_to": "2026-10-23"
+      }
+    ]
+  },
+  {
+    "airline": "KE",
+    "origin": "ICN",
+    "destination": "JFK",
+    "url": "https://info.flightmapper.net/route/Korean_Air_KE_ICN_JFK",
+    "checked_on": "2026-10-20",
+    "rows": [
+      {
+        "flight_number": "0081",
+        "aircraft_name": "Boeing 777-300ER",
+        "aircraft_iata": "77W",
+        "days": "1234567",
+        "source_valid_from": "2026-09-01",
+        "source_valid_to": null
+      },
+      {
+        "flight_number": "0085",
+        "aircraft_name": "Boeing 777-300ER",
+        "aircraft_iata": "77W",
+        "days": "1234567",
+        "source_valid_from": "2026-03-29",
+        "source_valid_to": "2026-10-24"
+      }
+    ]
+  },
+  {
+    "airline": "KE",
+    "origin": "JFK",
+    "destination": "ICN",
+    "url": "https://info.flightmapper.net/route/Korean_Air_KE_JFK_ICN",
+    "checked_on": "2026-10-20",
+    "rows": [
+      {
+        "flight_number": "0082",
+        "aircraft_name": "Boeing 777-300ER",
+        "aircraft_iata": "77W",
+        "days": "1234567",
+        "source_valid_from": "2026-09-01",
+        "source_valid_to": "2026-10-24"
+      },
+      {
+        "flight_number": "0086",
+        "aircraft_name": "Boeing 777-300ER",
+        "aircraft_iata": "77W",
+        "days": "1234567",
+        "source_valid_from": "2026-09-02",
+        "source_valid_to": "2026-10-25"
+      }
+    ]
+  },
+  {
+    "airline": "OZ",
+    "origin": "ICN",
+    "destination": "JFK",
+    "url": "https://info.flightmapper.net/route/Asiana_Airlines_OZ_ICN_JFK",
+    "checked_on": "2026-10-20",
+    "rows": [
+      {
+        "flight_number": "0222",
+        "aircraft_name": "Airbus A350-900",
+        "aircraft_iata": "359",
+        "days": "1234567",
+        "source_valid_from": "2026-03-29",
+        "source_valid_to": "2026-10-24"
+      },
+      {
+        "flight_number": "0224",
+        "aircraft_name": "Airbus A350-900",
+        "aircraft_iata": "359",
+        "days": "1234567",
+        "source_valid_from": "2026-03-29",
+        "source_valid_to": "2026-10-24"
+      }
+    ]
+  },
+  {
+    "airline": "OZ",
+    "origin": "JFK",
+    "destination": "ICN",
+    "url": "https://info.flightmapper.net/route/Asiana_Airlines_OZ_JFK_ICN",
+    "checked_on": "2026-10-20",
+    "rows": [
+      {
+        "flight_number": "0221",
+        "aircraft_name": "Airbus A350-900",
+        "aircraft_iata": "359",
+        "days": "1234567",
+        "source_valid_from": "2026-03-29",
+        "source_valid_to": "2026-10-24"
+      },
+      {
+        "flight_number": "0223",
+        "aircraft_name": "Airbus A350-900",
+        "aircraft_iata": "359",
+        "days": "1234567",
+        "source_valid_from": "2026-03-30",
+        "source_valid_to": "2026-10-25"
+      }
+    ]
+  },
+  {
+    "airline": "KE",
+    "origin": "ICN",
+    "destination": "LAS",
+    "url": "https://info.flightmapper.net/route/Korean_Air_KE_ICN_LAS",
+    "checked_on": "2026-10-20",
+    "rows": [
+      {
+        "flight_number": "0005",
+        "aircraft_name": "Boeing 777-300ER",
+        "aircraft_iata": "77W",
+        "days": "1234567",
+        "source_valid_from": "2026-09-01",
+        "source_valid_to": "2026-10-24"
+      }
+    ]
+  },
+  {
+    "airline": "KE",
+    "origin": "LAS",
+    "destination": "ICN",
+    "url": "https://info.flightmapper.net/route/Korean_Air_KE_LAS_ICN",
+    "checked_on": "2026-10-20",
+    "rows": [
+      {
+        "flight_number": "0006",
+        "aircraft_name": "Boeing 777-300ER",
+        "aircraft_iata": "77W",
+        "days": "1234567",
+        "source_valid_from": "2026-09-01",
+        "source_valid_to": "2026-10-24"
+      }
+    ]
+  },
+  {
+    "airline": "KE",
+    "origin": "ICN",
+    "destination": "LAX",
+    "url": "https://info.flightmapper.net/route/Korean_Air_KE_ICN_LAX",
+    "checked_on": "2026-10-20",
+    "rows": [
+      {
+        "flight_number": "0011",
+        "aircraft_name": "Boeing 747-8I",
+        "aircraft_iata": "74H",
+        "days": "1234567",
+        "source_valid_from": "2026-09-01",
+        "source_valid_to": "2026-10-24"
+      },
+      {
+        "flight_number": "0017",
+        "aircraft_name": "Boeing 747-8I",
+        "aircraft_iata": "74H",
+        "days": "1234567",
+        "source_valid_from": "2026-09-01",
+        "source_valid_to": "2026-10-24"
+      }
+    ]
+  },
+  {
+    "airline": "KE",
+    "origin": "LAX",
+    "destination": "ICN",
+    "url": "https://info.flightmapper.net/route/Korean_Air_KE_LAX_ICN",
+    "checked_on": "2026-10-20",
+    "rows": [
+      {
+        "flight_number": "0012",
+        "aircraft_name": "Boeing 747-8I",
+        "aircraft_iata": "74H",
+        "days": "1234567",
+        "source_valid_from": "2026-09-01",
+        "source_valid_to": "2026-10-24"
+      },
+      {
+        "flight_number": "0018",
+        "aircraft_name": "Boeing 747-8I",
+        "aircraft_iata": "74H",
+        "days": "1234567",
+        "source_valid_from": "2026-09-01",
+        "source_valid_to": "2026-10-24"
+      }
+    ]
+  },
+  {
+    "airline": "OZ",
+    "origin": "ICN",
+    "destination": "LAX",
+    "url": "https://info.flightmapper.net/route/Asiana_Airlines_OZ_ICN_LAX",
+    "checked_on": "2026-10-20",
+    "rows": [
+      {
+        "flight_number": "0202",
+        "aircraft_name": "Airbus A380",
+        "aircraft_iata": "388",
+        "days": "1234567",
+        "source_valid_from": "2026-07-02",
+        "source_valid_to": "2026-10-24"
+      },
+      {
+        "flight_number": "0204",
+        "aircraft_name": "Airbus A350-900",
+        "aircraft_iata": "359",
+        "days": "1234567",
+        "source_valid_from": "2026-10-06",
+        "source_valid_to": "2026-10-24"
+      }
+    ]
+  },
+  {
+    "airline": "OZ",
+    "origin": "LAX",
+    "destination": "ICN",
+    "url": "https://info.flightmapper.net/route/Asiana_Airlines_OZ_LAX_ICN",
+    "checked_on": "2026-10-20",
+    "rows": [
+      {
+        "flight_number": "0201",
+        "aircraft_name": "Airbus A380",
+        "aircraft_iata": "388",
+        "days": "1234567",
+        "source_valid_from": "2026-07-02",
+        "source_valid_to": "2026-10-24"
+      },
+      {
+        "flight_number": "0203",
+        "aircraft_name": "Airbus A350-900",
+        "aircraft_iata": "359",
+        "days": "1234567",
+        "source_valid_from": "2026-10-06",
+        "source_valid_to": "2026-10-24"
+      }
+    ]
+  },
+  {
+    "airline": "YP",
+    "origin": "ICN",
+    "destination": "LAX",
+    "url": "https://info.flightmapper.net/route/Air_Premia_YP_ICN_LAX",
+    "checked_on": "2026-10-20",
+    "rows": [
+      {
+        "flight_number": "0101",
+        "aircraft_name": "Boeing 787-9",
+        "aircraft_iata": "789",
+        "days": "1234567",
+        "source_valid_from": "2026-10-01",
+        "source_valid_to": "2026-10-24"
+      },
+      {
+        "flight_number": "0103",
+        "aircraft_name": "Boeing 787-9",
+        "aircraft_iata": "789",
+        "days": "1356",
+        "source_valid_from": "2026-10-05",
+        "source_valid_to": "2026-10-24"
+      }
+    ]
+  },
+  {
+    "airline": "YP",
+    "origin": "LAX",
+    "destination": "ICN",
+    "url": "https://info.flightmapper.net/route/Air_Premia_YP_LAX_ICN",
+    "checked_on": "2026-10-20",
+    "rows": [
+      {
+        "flight_number": "0102",
+        "aircraft_name": "Boeing 787-9",
+        "aircraft_iata": "789",
+        "days": "1234567",
+        "source_valid_from": "2026-10-01",
+        "source_valid_to": "2026-10-24"
+      },
+      {
+        "flight_number": "0104",
+        "aircraft_name": "Boeing 787-9",
+        "aircraft_iata": "789",
+        "days": "1356",
+        "source_valid_from": "2026-10-05",
+        "source_valid_to": "2026-10-24"
+      }
+    ]
+  },
+  {
+    "airline": "DL",
+    "origin": "ICN",
+    "destination": "MSP",
+    "url": "https://info.flightmapper.net/route/Delta_Air_Lines_DL_ICN_MSP",
+    "checked_on": "2026-10-20",
+    "rows": [
+      {
+        "flight_number": "0170",
+        "aircraft_name": "Airbus A350-900",
+        "aircraft_iata": "359",
+        "days": "1234567",
+        "source_valid_from": "2026-10-01",
+        "source_valid_to": "2026-10-24"
+      }
+    ]
+  },
+  {
+    "airline": "DL",
+    "origin": "MSP",
+    "destination": "ICN",
+    "url": "https://info.flightmapper.net/route/Delta_Air_Lines_DL_MSP_ICN",
+    "checked_on": "2026-10-20",
+    "rows": [
+      {
+        "flight_number": "0171",
+        "aircraft_name": "Airbus A350-900",
+        "aircraft_iata": "359",
+        "days": "1234567",
+        "source_valid_from": "2026-10-01",
+        "source_valid_to": "2026-10-23"
+      }
+    ]
+  },
+  {
+    "airline": "KE",
+    "origin": "ICN",
+    "destination": "ORD",
+    "url": "https://info.flightmapper.net/route/Korean_Air_KE_ICN_ORD",
+    "checked_on": "2026-10-20",
+    "rows": [
+      {
+        "flight_number": "0037",
+        "aircraft_name": "Boeing 777-300ER",
+        "aircraft_iata": "77W",
+        "days": "1234567",
+        "source_valid_from": "2026-09-01",
+        "source_valid_to": null
+      }
+    ]
+  },
+  {
+    "airline": "KE",
+    "origin": "ORD",
+    "destination": "ICN",
+    "url": "https://info.flightmapper.net/route/Korean_Air_KE_ORD_ICN",
+    "checked_on": "2026-10-20",
+    "rows": [
+      {
+        "flight_number": "0038",
+        "aircraft_name": "Boeing 777-300ER",
+        "aircraft_iata": "77W",
+        "days": "1234567",
+        "source_valid_from": "2026-09-01",
+        "source_valid_to": "2026-10-24"
+      }
+    ]
+  },
+  {
+    "airline": "AS",
+    "origin": "ICN",
+    "destination": "SEA",
+    "url": "https://info.flightmapper.net/route/Alaska_Airlines_AS_ICN_SEA",
+    "checked_on": "2026-10-20",
+    "rows": [
+      {
+        "flight_number": "0172",
+        "aircraft_name": "Boeing 787-9",
+        "aircraft_iata": "789",
+        "days": "134567",
+        "source_valid_from": "2026-04-22",
+        "source_valid_to": "2026-10-24"
+      }
+    ]
+  },
+  {
+    "airline": "AS",
+    "origin": "SEA",
+    "destination": "ICN",
+    "url": "https://info.flightmapper.net/route/Alaska_Airlines_AS_SEA_ICN",
+    "checked_on": "2026-10-20",
+    "rows": [
+      {
+        "flight_number": "0171",
+        "aircraft_name": "Boeing 787-9",
+        "aircraft_iata": "789",
+        "days": "134567",
+        "source_valid_from": "2026-04-22",
+        "source_valid_to": "2026-10-25"
+      }
+    ]
+  },
+  {
+    "airline": "DL",
+    "origin": "ICN",
+    "destination": "SEA",
+    "url": "https://info.flightmapper.net/route/Delta_Air_Lines_DL_ICN_SEA",
+    "checked_on": "2026-10-20",
+    "rows": [
+      {
+        "flight_number": "0196",
+        "aircraft_name": "Airbus A350-900",
+        "aircraft_iata": "359",
+        "days": "1234567",
+        "source_valid_from": "2026-10-01",
+        "source_valid_to": "2026-10-24"
+      }
+    ]
+  },
+  {
+    "airline": "DL",
+    "origin": "SEA",
+    "destination": "ICN",
+    "url": "https://info.flightmapper.net/route/Delta_Air_Lines_DL_SEA_ICN",
+    "checked_on": "2026-10-20",
+    "rows": [
+      {
+        "flight_number": "0197",
+        "aircraft_name": "Airbus A350-900",
+        "aircraft_iata": "359",
+        "days": "1234567",
+        "source_valid_from": "2026-10-01",
+        "source_valid_to": "2026-10-23"
+      }
+    ]
+  },
+  {
+    "airline": "KE",
+    "origin": "ICN",
+    "destination": "SEA",
+    "url": "https://info.flightmapper.net/route/Korean_Air_KE_ICN_SEA",
+    "checked_on": "2026-10-20",
+    "rows": [
+      {
+        "flight_number": "0041",
+        "aircraft_name": "Boeing 787-10",
+        "aircraft_iata": "781",
+        "days": "1234567",
+        "source_valid_from": "2026-09-01",
+        "source_valid_to": "2026-10-24"
+      }
+    ]
+  },
+  {
+    "airline": "KE",
+    "origin": "SEA",
+    "destination": "ICN",
+    "url": "https://info.flightmapper.net/route/Korean_Air_KE_SEA_ICN",
+    "checked_on": "2026-10-20",
+    "rows": [
+      {
+        "flight_number": "0042",
+        "aircraft_name": "Boeing 787-10",
+        "aircraft_iata": "781",
+        "days": "1234567",
+        "source_valid_from": "2026-09-01",
+        "source_valid_to": "2026-10-24"
+      }
+    ]
+  },
+  {
+    "airline": "KE",
+    "origin": "ICN",
+    "destination": "SFO",
+    "url": "https://info.flightmapper.net/route/Korean_Air_KE_ICN_SFO",
+    "checked_on": "2026-10-20",
+    "rows": [
+      {
+        "flight_number": "0023",
+        "aircraft_name": "Boeing 787-10",
+        "aircraft_iata": "781",
+        "days": "1234567",
+        "source_valid_from": "2026-09-01",
+        "source_valid_to": "2026-10-24"
+      }
+    ]
+  },
+  {
+    "airline": "KE",
+    "origin": "SFO",
+    "destination": "ICN",
+    "url": "https://info.flightmapper.net/route/Korean_Air_KE_SFO_ICN",
+    "checked_on": "2026-10-20",
+    "rows": [
+      {
+        "flight_number": "0024",
+        "aircraft_name": "Boeing 787-10",
+        "aircraft_iata": "781",
+        "days": "1234567",
+        "source_valid_from": "2026-09-01",
+        "source_valid_to": "2026-10-24"
+      }
+    ]
+  },
+  {
+    "airline": "OZ",
+    "origin": "ICN",
+    "destination": "SFO",
+    "url": "https://info.flightmapper.net/route/Asiana_Airlines_OZ_ICN_SFO",
+    "checked_on": "2026-10-20",
+    "rows": [
+      {
+        "flight_number": "0212",
+        "aircraft_name": "Airbus A350-900",
+        "aircraft_iata": "359",
+        "days": "1234567",
+        "source_valid_from": "2026-03-29",
+        "source_valid_to": "2026-10-24"
+      }
+    ]
+  },
+  {
+    "airline": "OZ",
+    "origin": "SFO",
+    "destination": "ICN",
+    "url": "https://info.flightmapper.net/route/Asiana_Airlines_OZ_SFO_ICN",
+    "checked_on": "2026-10-20",
+    "rows": [
+      {
+        "flight_number": "0211",
+        "aircraft_name": "Airbus A350-900",
+        "aircraft_iata": "359",
+        "days": "1234567",
+        "source_valid_from": "2026-03-29",
+        "source_valid_to": "2026-10-24"
+      }
+    ]
+  },
+  {
+    "airline": "UA",
+    "origin": "ICN",
+    "destination": "SFO",
+    "url": "https://info.flightmapper.net/route/United_Airlines_UA_ICN_SFO",
+    "checked_on": "2026-10-20",
+    "rows": [
+      {
+        "flight_number": "0806",
+        "aircraft_name": "Boeing 787-9",
+        "aircraft_iata": "789",
+        "days": "1234567",
+        "source_valid_from": "2026-09-08",
+        "source_valid_to": "2026-10-24"
+      },
+      {
+        "flight_number": "0892",
+        "aircraft_name": "Boeing 787-9",
+        "aircraft_iata": "789",
+        "days": "1234567",
+        "source_valid_from": "2026-09-08",
+        "source_valid_to": "2026-10-24"
+      }
+    ]
+  },
+  {
+    "airline": "UA",
+    "origin": "SFO",
+    "destination": "ICN",
+    "url": "https://info.flightmapper.net/route/United_Airlines_UA_SFO_ICN",
+    "checked_on": "2026-10-20",
+    "rows": [
+      {
+        "flight_number": "0805",
+        "aircraft_name": "Boeing 787-9",
+        "aircraft_iata": "789",
+        "days": "1234567",
+        "source_valid_from": "2026-09-08",
+        "source_valid_to": "2026-10-23"
+      },
+      {
+        "flight_number": "0893",
+        "aircraft_name": "Boeing 787-9",
+        "aircraft_iata": "789",
+        "days": "1234567",
+        "source_valid_from": "2026-09-08",
+        "source_valid_to": "2026-10-23"
+      }
+    ]
+  },
+  {
+    "airline": "YP",
+    "origin": "ICN",
+    "destination": "SFO",
+    "url": "https://info.flightmapper.net/route/Air_Premia_YP_ICN_SFO",
+    "checked_on": "2026-10-20",
+    "rows": [
+      {
+        "flight_number": "0111",
+        "aircraft_name": "Boeing 787-9",
+        "aircraft_iata": "789",
+        "days": "13567",
+        "source_valid_from": "2026-03-29",
+        "source_valid_to": "2026-10-24"
+      }
+    ]
+  },
+  {
+    "airline": "YP",
+    "origin": "SFO",
+    "destination": "ICN",
+    "url": "https://info.flightmapper.net/route/Air_Premia_YP_SFO_ICN",
+    "checked_on": "2026-10-20",
+    "rows": [
+      {
+        "flight_number": "0112",
+        "aircraft_name": "Boeing 787-9",
+        "aircraft_iata": "789",
+        "days": "13567",
+        "source_valid_from": "2026-04-04",
+        "source_valid_to": "2026-10-24"
+      }
+    ]
+  },
+  {
+    "airline": "DL",
+    "origin": "ICN",
+    "destination": "SLC",
+    "url": "https://info.flightmapper.net/route/Delta_Air_Lines_DL_ICN_SLC",
+    "checked_on": "2026-10-20",
+    "rows": [
+      {
+        "flight_number": "0172",
+        "aircraft_name": "Airbus A350-900",
+        "aircraft_iata": "359",
+        "days": "1234567",
+        "source_valid_from": "2026-10-01",
+        "source_valid_to": "2026-10-24"
+      }
+    ]
+  },
+  {
+    "airline": "DL",
+    "origin": "SLC",
+    "destination": "ICN",
+    "url": "https://info.flightmapper.net/route/Delta_Air_Lines_DL_SLC_ICN",
+    "checked_on": "2026-10-20",
+    "rows": [
+      {
+        "flight_number": "0173",
+        "aircraft_name": "Airbus A350-900",
+        "aircraft_iata": "359",
+        "days": "1234567",
+        "source_valid_from": "2026-10-01",
+        "source_valid_to": "2026-10-23"
+      }
+    ]
+  },
+  {
+    "airline": "AC",
+    "origin": "ICN",
+    "destination": "YUL",
+    "url": "https://info.flightmapper.net/route/Air_Canada_AC_ICN_YUL",
+    "checked_on": "2026-10-20",
+    "rows": [
+      {
+        "flight_number": "0068",
+        "aircraft_name": "Boeing 787-9",
+        "aircraft_iata": "789",
+        "days": "357",
+        "source_valid_from": "2026-09-09",
+        "source_valid_to": "2026-10-23"
+      }
+    ]
+  },
+  {
+    "airline": "AC",
+    "origin": "YUL",
+    "destination": "ICN",
+    "url": "https://info.flightmapper.net/route/Air_Canada_AC_YUL_ICN",
+    "checked_on": "2026-10-20",
+    "rows": [
+      {
+        "flight_number": "0067",
+        "aircraft_name": "Boeing 787-9",
+        "aircraft_iata": "789",
+        "days": "246",
+        "source_valid_from": "2026-09-08",
+        "source_valid_to": "2026-10-22"
+      }
+    ]
+  },
+  {
+    "airline": "AC",
+    "origin": "ICN",
+    "destination": "YVR",
+    "url": "https://info.flightmapper.net/route/Air_Canada_AC_ICN_YVR",
+    "checked_on": "2026-10-20",
+    "rows": [
+      {
+        "flight_number": "0064",
+        "aircraft_name": "Boeing 787-9",
+        "aircraft_iata": "789",
+        "days": "1234567",
+        "source_valid_from": "2026-09-08",
+        "source_valid_to": "2026-10-24"
+      }
+    ]
+  },
+  {
+    "airline": "AC",
+    "origin": "YVR",
+    "destination": "ICN",
+    "url": "https://info.flightmapper.net/route/Air_Canada_AC_YVR_ICN",
+    "checked_on": "2026-10-20",
+    "rows": [
+      {
+        "flight_number": "0063",
+        "aircraft_name": "Boeing 787-9",
+        "aircraft_iata": "789",
+        "days": "1234567",
+        "source_valid_from": "2026-09-08",
+        "source_valid_to": "2026-10-23"
+      }
+    ]
+  },
+  {
+    "airline": "KE",
+    "origin": "ICN",
+    "destination": "YVR",
+    "url": "https://info.flightmapper.net/route/Korean_Air_KE_ICN_YVR",
+    "checked_on": "2026-10-20",
+    "rows": [
+      {
+        "flight_number": "0071",
+        "aircraft_name": "Boeing 787-10",
+        "aircraft_iata": "781",
+        "days": "1234567",
+        "source_valid_from": "2026-09-01",
+        "source_valid_to": "2026-10-24"
+      },
+      {
+        "flight_number": "0075",
+        "aircraft_name": "Boeing 787-10",
+        "aircraft_iata": "781",
+        "days": "1234567",
+        "source_valid_from": "2026-09-01",
+        "source_valid_to": "2026-10-24"
+      }
+    ]
+  },
+  {
+    "airline": "KE",
+    "origin": "YVR",
+    "destination": "ICN",
+    "url": "https://info.flightmapper.net/route/Korean_Air_KE_YVR_ICN",
+    "checked_on": "2026-10-20",
+    "rows": [
+      {
+        "flight_number": "0072",
+        "aircraft_name": "Boeing 787-10",
+        "aircraft_iata": "781",
+        "days": "1234567",
+        "source_valid_from": "2026-09-01",
+        "source_valid_to": "2026-10-24"
+      },
+      {
+        "flight_number": "0076",
+        "aircraft_name": "Boeing 787-10",
+        "aircraft_iata": "781",
+        "days": "1234567",
+        "source_valid_from": "2026-09-02",
+        "source_valid_to": "2026-10-25"
+      }
+    ]
+  },
+  {
+    "airline": "TW",
+    "origin": "ICN",
+    "destination": "YVR",
+    "url": "https://info.flightmapper.net/route/T_way_Air_TW_ICN_YVR",
+    "checked_on": "2026-10-20",
+    "rows": [
+      {
+        "flight_number": "0531",
+        "aircraft_name": "Airbus A330-300",
+        "aircraft_iata": "333",
+        "days": "2467",
+        "source_valid_from": "2026-03-29",
+        "source_valid_to": null
+      }
+    ]
+  },
+  {
+    "airline": "TW",
+    "origin": "YVR",
+    "destination": "ICN",
+    "url": "https://info.flightmapper.net/route/T_way_Air_TW_YVR_ICN",
+    "checked_on": "2026-10-20",
+    "rows": [
+      {
+        "flight_number": "0532",
+        "aircraft_name": "Airbus A330-300",
+        "aircraft_iata": "333",
+        "days": "2467",
+        "source_valid_from": "2026-03-29",
+        "source_valid_to": null
+      }
+    ]
+  },
+  {
+    "airline": "WS",
+    "origin": "ICN",
+    "destination": "YYC",
+    "url": "https://info.flightmapper.net/route/WestJet_WS_ICN_YYC",
+    "checked_on": "2026-10-20",
+    "rows": [
+      {
+        "flight_number": "0087",
+        "aircraft_name": "Boeing 787-9",
+        "aircraft_iata": "789",
+        "days": "124567",
+        "source_valid_from": "2026-05-21",
+        "source_valid_to": "2026-10-25"
+      }
+    ]
+  },
+  {
+    "airline": "WS",
+    "origin": "YYC",
+    "destination": "ICN",
+    "url": "https://info.flightmapper.net/route/WestJet_WS_YYC_ICN",
+    "checked_on": "2026-10-20",
+    "rows": [
+      {
+        "flight_number": "0086",
+        "aircraft_name": "Boeing 787-9",
+        "aircraft_iata": "789",
+        "days": "134567",
+        "source_valid_from": "2026-05-20",
+        "source_valid_to": "2026-10-24"
+      }
+    ]
+  },
+  {
+    "airline": "AC",
+    "origin": "ICN",
+    "destination": "YYZ",
+    "url": "https://info.flightmapper.net/route/Air_Canada_AC_ICN_YYZ",
+    "checked_on": "2026-10-20",
+    "rows": [
+      {
+        "flight_number": "0062",
+        "aircraft_name": "Boeing 787-9",
+        "aircraft_iata": "789",
+        "days": "1234567",
+        "source_valid_from": "2026-03-29",
+        "source_valid_to": "2026-10-24"
+      }
+    ]
+  },
+  {
+    "airline": "AC",
+    "origin": "YYZ",
+    "destination": "ICN",
+    "url": "https://info.flightmapper.net/route/Air_Canada_AC_YYZ_ICN",
+    "checked_on": "2026-10-20",
+    "rows": [
+      {
+        "flight_number": "0061",
+        "aircraft_name": "Boeing 787-9",
+        "aircraft_iata": "789",
+        "days": "1234567",
+        "source_valid_from": "2026-09-08",
+        "source_valid_to": "2026-10-23"
+      }
+    ]
+  },
+  {
+    "airline": "KE",
+    "origin": "ICN",
+    "destination": "YYZ",
+    "url": "https://info.flightmapper.net/route/Korean_Air_KE_ICN_YYZ",
+    "checked_on": "2026-10-20",
+    "rows": [
+      {
+        "flight_number": "0077",
+        "aircraft_name": "Airbus A350-900",
+        "aircraft_iata": "359",
+        "days": "1234567",
+        "source_valid_from": "2026-03-29",
+        "source_valid_to": "2026-10-24"
+      }
+    ]
+  },
+  {
+    "airline": "KE",
+    "origin": "YYZ",
+    "destination": "ICN",
+    "url": "https://info.flightmapper.net/route/Korean_Air_KE_YYZ_ICN",
+    "checked_on": "2026-10-20",
+    "rows": [
+      {
+        "flight_number": "0078",
+        "aircraft_name": "Airbus A350-900",
+        "aircraft_iata": "359",
+        "days": "1234567",
+        "source_valid_from": "2026-09-01",
+        "source_valid_to": "2026-10-24"
+      }
+    ]
+  },
+  {
+    "airline": "AS",
+    "origin": "KIX",
+    "destination": "HNL",
+    "url": "https://info.flightmapper.net/route/Alaska_Airlines_AS_KIX_HNL",
+    "checked_on": "2026-10-20",
+    "rows": [
+      {
+        "flight_number": "0850",
+        "aircraft_name": "Airbus A330-200",
+        "aircraft_iata": "332",
+        "days": "1234567",
+        "source_valid_from": "2026-04-23",
+        "source_valid_to": "2026-10-24"
+      }
+    ]
+  },
+  {
+    "airline": "AS",
+    "origin": "HNL",
+    "destination": "KIX",
+    "url": "https://info.flightmapper.net/route/Alaska_Airlines_AS_HNL_KIX",
+    "checked_on": "2026-10-20",
+    "rows": [
+      {
+        "flight_number": "0849",
+        "aircraft_name": "Airbus A330-200",
+        "aircraft_iata": "332",
+        "days": "1234567",
+        "source_valid_from": "2026-04-22",
+        "source_valid_to": "2026-10-24"
+      }
+    ]
+  },
+  {
+    "airline": "JL",
+    "origin": "KIX",
+    "destination": "HNL",
+    "url": "https://info.flightmapper.net/route/Japan_Airlines_JL_KIX_HNL",
+    "checked_on": "2026-10-20",
+    "rows": [
+      {
+        "flight_number": "0790",
+        "aircraft_name": "Boeing 787-9",
+        "aircraft_iata": "789",
+        "days": "1234567",
+        "source_valid_from": "2026-10-01",
+        "source_valid_to": "2026-10-24"
+      }
+    ]
+  },
+  {
+    "airline": "JL",
+    "origin": "HNL",
+    "destination": "KIX",
+    "url": "https://info.flightmapper.net/route/Japan_Airlines_JL_HNL_KIX",
+    "checked_on": "2026-10-20",
+    "rows": [
+      {
+        "flight_number": "0799",
+        "aircraft_name": "Boeing 787-9",
+        "aircraft_iata": "789",
+        "days": "1234567",
+        "source_valid_from": "2026-10-01",
+        "source_valid_to": "2026-10-23"
+      }
+    ]
+  },
+  {
+    "airline": "JL",
+    "origin": "KIX",
+    "destination": "LAX",
+    "url": "https://info.flightmapper.net/route/Japan_Airlines_JL_KIX_LAX",
+    "checked_on": "2026-10-20",
+    "rows": [
+      {
+        "flight_number": "0060",
+        "aircraft_name": "Boeing 787-9",
+        "aircraft_iata": "789",
+        "days": "1234567",
+        "source_valid_from": "2026-10-01",
+        "source_valid_to": "2026-10-24"
+      }
+    ]
+  },
+  {
+    "airline": "JL",
+    "origin": "LAX",
+    "destination": "KIX",
+    "url": "https://info.flightmapper.net/route/Japan_Airlines_JL_LAX_KIX",
+    "checked_on": "2026-10-20",
+    "rows": [
+      {
+        "flight_number": "0069",
+        "aircraft_name": "Boeing 787-9",
+        "aircraft_iata": "789",
+        "days": "1234567",
+        "source_valid_from": "2026-10-01",
+        "source_valid_to": "2026-10-24"
+      }
+    ]
+  },
+  {
+    "airline": "UA",
+    "origin": "KIX",
+    "destination": "LAX",
+    "url": "https://info.flightmapper.net/route/United_Airlines_UA_KIX_LAX",
+    "checked_on": "2026-10-20",
+    "rows": []
+  },
+  {
+    "airline": "UA",
+    "origin": "LAX",
+    "destination": "KIX",
+    "url": "https://info.flightmapper.net/route/United_Airlines_UA_LAX_KIX",
+    "checked_on": "2026-10-20",
+    "rows": []
+  },
+  {
+    "airline": "UA",
+    "origin": "KIX",
+    "destination": "SFO",
+    "url": "https://info.flightmapper.net/route/United_Airlines_UA_KIX_SFO",
+    "checked_on": "2026-10-20",
+    "rows": [
+      {
+        "flight_number": "0034",
+        "aircraft_name": "Boeing 787-9",
+        "aircraft_iata": "789",
+        "days": "1234567",
+        "source_valid_from": "2026-08-02",
+        "source_valid_to": "2026-10-24"
+      }
+    ]
+  },
+  {
+    "airline": "UA",
+    "origin": "SFO",
+    "destination": "KIX",
+    "url": "https://info.flightmapper.net/route/United_Airlines_UA_SFO_KIX",
+    "checked_on": "2026-10-20",
+    "rows": [
+      {
+        "flight_number": "0035",
+        "aircraft_name": "Boeing 787-9",
+        "aircraft_iata": "789",
+        "days": "1234567",
+        "source_valid_from": "2026-09-08",
+        "source_valid_to": "2026-10-23"
+      }
+    ]
+  },
+  {
+    "airline": "AC",
+    "origin": "KIX",
+    "destination": "YVR",
+    "url": "https://info.flightmapper.net/route/Air_Canada_AC_KIX_YVR",
+    "checked_on": "2026-10-20",
+    "rows": [
+      {
+        "flight_number": "0024",
+        "aircraft_name": "Boeing 787-9",
+        "aircraft_iata": "789",
+        "days": "1246",
+        "source_valid_from": "2026-09-08",
+        "source_valid_to": "2026-10-24"
+      }
+    ]
+  },
+  {
+    "airline": "AC",
+    "origin": "YVR",
+    "destination": "KIX",
+    "url": "https://info.flightmapper.net/route/Air_Canada_AC_YVR_KIX",
+    "checked_on": "2026-10-20",
+    "rows": [
+      {
+        "flight_number": "0023",
+        "aircraft_name": "Boeing 787-9",
+        "aircraft_iata": "789",
+        "days": "1357",
+        "source_valid_from": "2026-09-09",
+        "source_valid_to": "2026-10-23"
+      }
+    ]
+  },
+  {
+    "airline": "AC",
+    "origin": "KIX",
+    "destination": "YYZ",
+    "url": "https://info.flightmapper.net/route/Air_Canada_AC_KIX_YYZ",
+    "checked_on": "2026-10-20",
+    "rows": [
+      {
+        "flight_number": "0060",
+        "aircraft_name": "Boeing 787-9",
+        "aircraft_iata": "789",
+        "days": "357",
+        "source_valid_from": "2026-09-09",
+        "source_valid_to": "2026-10-23"
+      }
+    ]
+  },
+  {
+    "airline": "AC",
+    "origin": "YYZ",
+    "destination": "KIX",
+    "url": "https://info.flightmapper.net/route/Air_Canada_AC_YYZ_KIX",
+    "checked_on": "2026-10-20",
+    "rows": [
+      {
+        "flight_number": "0059",
+        "aircraft_name": "Boeing 787-9",
+        "aircraft_iata": "789",
+        "days": "246",
+        "source_valid_from": "2026-09-08",
+        "source_valid_to": "2026-10-22"
+      }
+    ]
+  },
+  {
+    "airline": "JL",
+    "origin": "NGO",
+    "destination": "HNL",
+    "url": "https://info.flightmapper.net/route/Japan_Airlines_JL_NGO_HNL",
+    "checked_on": "2026-10-20",
+    "rows": [
+      {
+        "flight_number": "0798",
+        "aircraft_name": "Boeing 787-9",
+        "aircraft_iata": "789",
+        "days": "1234567",
+        "source_valid_from": "2026-10-01",
+        "source_valid_to": "2026-10-24"
+      }
+    ]
+  },
+  {
+    "airline": "JL",
+    "origin": "HNL",
+    "destination": "NGO",
+    "url": "https://info.flightmapper.net/route/Japan_Airlines_JL_HNL_NGO",
+    "checked_on": "2026-10-20",
+    "rows": [
+      {
+        "flight_number": "0797",
+        "aircraft_name": "Boeing 787-9",
+        "aircraft_iata": "789",
+        "days": "1234567",
+        "source_valid_from": "2026-10-01",
+        "source_valid_to": "2026-10-24"
+      }
+    ]
+  },
+  {
+    "airline": "JL",
+    "origin": "NRT",
+    "destination": "BOS",
+    "url": "https://info.flightmapper.net/route/Japan_Airlines_JL_NRT_BOS",
+    "checked_on": "2026-10-20",
+    "rows": [
+      {
+        "flight_number": "0008",
+        "aircraft_name": "Boeing 787-9",
+        "aircraft_iata": "789",
+        "days": "1234567",
+        "source_valid_from": "2026-09-01",
+        "source_valid_to": "2026-10-24"
+      }
+    ]
+  },
+  {
+    "airline": "JL",
+    "origin": "BOS",
+    "destination": "NRT",
+    "url": "https://info.flightmapper.net/route/Japan_Airlines_JL_BOS_NRT",
+    "checked_on": "2026-10-20",
+    "rows": [
+      {
+        "flight_number": "0007",
+        "aircraft_name": "Boeing 787-9",
+        "aircraft_iata": "789",
+        "days": "1234567",
+        "source_valid_from": "2026-09-01",
+        "source_valid_to": "2026-10-24"
+      }
+    ]
+  },
+  {
+    "airline": "UA",
+    "origin": "NRT",
+    "destination": "DEN",
+    "url": "https://info.flightmapper.net/route/United_Airlines_UA_NRT_DEN",
+    "checked_on": "2026-10-20",
+    "rows": [
+      {
+        "flight_number": "0142",
+        "aircraft_name": "Boeing 787-9",
+        "aircraft_iata": "789",
+        "days": "1234567",
+        "source_valid_from": "2026-09-08",
+        "source_valid_to": "2026-10-24"
+      }
+    ]
+  },
+  {
+    "airline": "UA",
+    "origin": "DEN",
+    "destination": "NRT",
+    "url": "https://info.flightmapper.net/route/United_Airlines_UA_DEN_NRT",
+    "checked_on": "2026-10-20",
+    "rows": [
+      {
+        "flight_number": "0143",
+        "aircraft_name": "Boeing 787-9",
+        "aircraft_iata": "789",
+        "days": "1234567",
+        "source_valid_from": "2026-09-08",
+        "source_valid_to": "2026-10-23"
+      }
+    ]
+  },
+  {
+    "airline": "AA",
+    "origin": "NRT",
+    "destination": "DFW",
+    "url": "https://info.flightmapper.net/route/American_Airlines_AA_NRT_DFW",
+    "checked_on": "2026-10-20",
+    "rows": [
+      {
+        "flight_number": "0060",
+        "aircraft_name": "Boeing 777-200",
+        "aircraft_iata": "772",
+        "days": "1234567",
+        "source_valid_from": "2026-03-29",
+        "source_valid_to": "2026-10-24"
+      }
+    ]
+  },
+  {
+    "airline": "AA",
+    "origin": "DFW",
+    "destination": "NRT",
+    "url": "https://info.flightmapper.net/route/American_Airlines_AA_DFW_NRT",
+    "checked_on": "2026-10-20",
+    "rows": [
+      {
+        "flight_number": "0061",
+        "aircraft_name": "Boeing 777-200",
+        "aircraft_iata": "772",
+        "days": "1234567",
+        "source_valid_from": "2026-03-30",
+        "source_valid_to": "2026-10-23"
+      }
+    ]
+  },
+  {
+    "airline": "UA",
+    "origin": "NRT",
+    "destination": "EWR",
+    "url": "https://info.flightmapper.net/route/United_Airlines_UA_NRT_EWR",
+    "checked_on": "2026-10-20",
+    "rows": [
+      {
+        "flight_number": "0078",
+        "aircraft_name": "Boeing 787-9",
+        "aircraft_iata": "789",
+        "days": "1234567",
+        "source_valid_from": "2026-09-08",
+        "source_valid_to": null
+      }
+    ]
+  },
+  {
+    "airline": "UA",
+    "origin": "EWR",
+    "destination": "NRT",
+    "url": "https://info.flightmapper.net/route/United_Airlines_UA_EWR_NRT",
+    "checked_on": "2026-10-20",
+    "rows": [
+      {
+        "flight_number": "0079",
+        "aircraft_name": "Boeing 787-9",
+        "aircraft_iata": "789",
+        "days": "1234567",
+        "source_valid_from": "2026-09-08",
+        "source_valid_to": "2026-10-23"
+      }
+    ]
+  },
+  {
+    "airline": "JL",
+    "origin": "NRT",
+    "destination": "HNL",
+    "url": "https://info.flightmapper.net/route/Japan_Airlines_JL_NRT_HNL",
+    "checked_on": "2026-10-20",
+    "rows": [
+      {
+        "flight_number": "0786",
+        "aircraft_name": "Boeing 767",
+        "aircraft_iata": "76W",
+        "days": "1234567",
+        "source_valid_from": "2026-10-01",
+        "source_valid_to": "2026-10-24"
+      }
+    ]
+  },
+  {
+    "airline": "JL",
+    "origin": "HNL",
+    "destination": "NRT",
+    "url": "https://info.flightmapper.net/route/Japan_Airlines_JL_HNL_NRT",
+    "checked_on": "2026-10-20",
+    "rows": [
+      {
+        "flight_number": "0785",
+        "aircraft_name": "Boeing 767",
+        "aircraft_iata": "76W",
+        "days": "1234567",
+        "source_valid_from": "2026-10-01",
+        "source_valid_to": "2026-10-24"
+      }
+    ]
+  },
+  {
+    "airline": "NH",
+    "origin": "NRT",
+    "destination": "HNL",
+    "url": "https://info.flightmapper.net/route/All_Nippon_Airways_NH_NRT_HNL",
+    "checked_on": "2026-10-20",
+    "rows": [
+      {
+        "flight_number": "0182",
+        "aircraft_name": "Airbus A380",
+        "aircraft_iata": "388",
+        "days": "1234567",
+        "source_valid_from": "2026-07-01",
+        "source_valid_to": "2026-10-24"
+      },
+      {
+        "flight_number": "0184",
+        "aircraft_name": "Airbus A380",
+        "aircraft_iata": "388",
+        "days": "1234567",
+        "source_valid_from": "2026-07-01",
+        "source_valid_to": "2026-10-24"
+      }
+    ]
+  },
+  {
+    "airline": "NH",
+    "origin": "HNL",
+    "destination": "NRT",
+    "url": "https://info.flightmapper.net/route/All_Nippon_Airways_NH_HNL_NRT",
+    "checked_on": "2026-10-20",
+    "rows": [
+      {
+        "flight_number": "0181",
+        "aircraft_name": "Airbus A380",
+        "aircraft_iata": "388",
+        "days": "1234567",
+        "source_valid_from": "2026-07-01",
+        "source_valid_to": "2026-10-24"
+      },
+      {
+        "flight_number": "0183",
+        "aircraft_name": "Airbus A380",
+        "aircraft_iata": "388",
+        "days": "1234567",
+        "source_valid_from": "2026-07-01",
+        "source_valid_to": "2026-10-24"
+      }
+    ]
+  },
+  {
+    "airline": "ZG",
+    "origin": "NRT",
+    "destination": "HNL",
+    "url": "https://info.flightmapper.net/route/ZIPAIR_Tokyo_ZG_NRT_HNL",
+    "checked_on": "2026-10-20",
+    "rows": []
+  },
+  {
+    "airline": "ZG",
+    "origin": "HNL",
+    "destination": "NRT",
+    "url": "https://info.flightmapper.net/route/ZIPAIR_Tokyo_ZG_HNL_NRT",
+    "checked_on": "2026-10-20",
+    "rows": []
+  },
+  {
+    "airline": "UA",
+    "origin": "NRT",
+    "destination": "IAH",
+    "url": "https://info.flightmapper.net/route/United_Airlines_UA_NRT_IAH",
+    "checked_on": "2026-10-20",
+    "rows": [
+      {
+        "flight_number": "0006",
+        "aircraft_name": "Boeing 787-9",
+        "aircraft_iata": "789",
+        "days": "1234567",
+        "source_valid_from": "2026-09-08",
+        "source_valid_to": "2026-10-24"
+      }
+    ]
+  },
+  {
+    "airline": "UA",
+    "origin": "IAH",
+    "destination": "NRT",
+    "url": "https://info.flightmapper.net/route/United_Airlines_UA_IAH_NRT",
+    "checked_on": "2026-10-20",
+    "rows": [
+      {
+        "flight_number": "0007",
+        "aircraft_name": "Boeing 787-9",
+        "aircraft_iata": "789",
+        "days": "1234567",
+        "source_valid_from": "2026-09-08",
+        "source_valid_to": "2026-10-23"
+      }
+    ]
+  },
+  {
+    "airline": "ZG",
+    "origin": "NRT",
+    "destination": "IAH",
+    "url": "https://info.flightmapper.net/route/ZIPAIR_Tokyo_ZG_NRT_IAH",
+    "checked_on": "2026-10-20",
+    "rows": []
+  },
+  {
+    "airline": "ZG",
+    "origin": "IAH",
+    "destination": "NRT",
+    "url": "https://info.flightmapper.net/route/ZIPAIR_Tokyo_ZG_IAH_NRT",
+    "checked_on": "2026-10-20",
+    "rows": []
+  },
+  {
+    "airline": "JL",
+    "origin": "NRT",
+    "destination": "LAX",
+    "url": "https://info.flightmapper.net/route/Japan_Airlines_JL_NRT_LAX",
+    "checked_on": "2026-10-20",
+    "rows": [
+      {
+        "flight_number": "0062",
+        "aircraft_name": "Boeing 787-9",
+        "aircraft_iata": "789",
+        "days": "1234567",
+        "source_valid_from": "2026-10-01",
+        "source_valid_to": "2026-10-24"
+      }
+    ]
+  },
+  {
+    "airline": "JL",
+    "origin": "LAX",
+    "destination": "NRT",
+    "url": "https://info.flightmapper.net/route/Japan_Airlines_JL_LAX_NRT",
+    "checked_on": "2026-10-20",
+    "rows": [
+      {
+        "flight_number": "0061",
+        "aircraft_name": "Boeing 787-9",
+        "aircraft_iata": "789",
+        "days": "1234567",
+        "source_valid_from": "2026-10-01",
+        "source_valid_to": "2026-10-24"
+      }
+    ]
+  },
+  {
+    "airline": "NH",
+    "origin": "NRT",
+    "destination": "LAX",
+    "url": "https://info.flightmapper.net/route/All_Nippon_Airways_NH_NRT_LAX",
+    "checked_on": "2026-10-20",
+    "rows": [
+      {
+        "flight_number": "0006",
+        "aircraft_name": "Boeing 787-9",
+        "aircraft_iata": "789",
+        "days": "1234567",
+        "source_valid_from": "2026-09-01",
+        "source_valid_to": "2026-10-24"
+      }
+    ]
+  },
+  {
+    "airline": "NH",
+    "origin": "LAX",
+    "destination": "NRT",
+    "url": "https://info.flightmapper.net/route/All_Nippon_Airways_NH_LAX_NRT",
+    "checked_on": "2026-10-20",
+    "rows": [
+      {
+        "flight_number": "0005",
+        "aircraft_name": "Boeing 787-9",
+        "aircraft_iata": "789",
+        "days": "1234567",
+        "source_valid_from": "2026-09-01",
+        "source_valid_to": "2026-10-24"
+      }
+    ]
+  },
+  {
+    "airline": "SQ",
+    "origin": "NRT",
+    "destination": "LAX",
+    "url": "https://info.flightmapper.net/route/Singapore_Airlines_SQ_NRT_LAX",
+    "checked_on": "2026-10-20",
+    "rows": [
+      {
+        "flight_number": "0012",
+        "aircraft_name": "Boeing 777-300ER",
+        "aircraft_iata": "77W",
+        "days": "1234567",
+        "source_valid_from": "2026-03-29",
+        "source_valid_to": "2026-10-24"
+      }
+    ]
+  },
+  {
+    "airline": "SQ",
+    "origin": "LAX",
+    "destination": "NRT",
+    "url": "https://info.flightmapper.net/route/Singapore_Airlines_SQ_LAX_NRT",
+    "checked_on": "2026-10-20",
+    "rows": [
+      {
+        "flight_number": "0011",
+        "aircraft_name": "Boeing 777-300ER",
+        "aircraft_iata": "77W",
+        "days": "1234567",
+        "source_valid_from": "2026-03-29",
+        "source_valid_to": "2026-10-24"
+      }
+    ]
+  },
+  {
+    "airline": "UA",
+    "origin": "NRT",
+    "destination": "LAX",
+    "url": "https://info.flightmapper.net/route/United_Airlines_UA_NRT_LAX",
+    "checked_on": "2026-10-20",
+    "rows": [
+      {
+        "flight_number": "0033",
+        "aircraft_name": "Boeing 787-9",
+        "aircraft_iata": "789",
+        "days": "1234567",
+        "source_valid_from": "2026-09-08",
+        "source_valid_to": "2026-10-24"
+      }
+    ]
+  },
+  {
+    "airline": "UA",
+    "origin": "LAX",
+    "destination": "NRT",
+    "url": "https://info.flightmapper.net/route/United_Airlines_UA_LAX_NRT",
+    "checked_on": "2026-10-20",
+    "rows": [
+      {
+        "flight_number": "0032",
+        "aircraft_name": "Boeing 787-9",
+        "aircraft_iata": "789",
+        "days": "1234567",
+        "source_valid_from": "2026-09-08",
+        "source_valid_to": "2026-10-23"
+      }
+    ]
+  },
+  {
+    "airline": "ZG",
+    "origin": "NRT",
+    "destination": "LAX",
+    "url": "https://info.flightmapper.net/route/ZIPAIR_Tokyo_ZG_NRT_LAX",
+    "checked_on": "2026-10-20",
+    "rows": [
+      {
+        "flight_number": "0024",
+        "aircraft_name": "Boeing 787-8",
+        "aircraft_iata": "788",
+        "days": "1234567",
+        "source_valid_from": "2026-10-01",
+        "source_valid_to": "2026-10-24"
+      }
+    ]
+  },
+  {
+    "airline": "ZG",
+    "origin": "LAX",
+    "destination": "NRT",
+    "url": "https://info.flightmapper.net/route/ZIPAIR_Tokyo_ZG_LAX_NRT",
+    "checked_on": "2026-10-20",
+    "rows": [
+      {
+        "flight_number": "0023",
+        "aircraft_name": "Boeing 787-8",
+        "aircraft_iata": "788",
+        "days": "1234567",
+        "source_valid_from": "2026-10-01",
+        "source_valid_to": "2026-10-24"
+      }
+    ]
+  },
+  {
+    "airline": "AA",
+    "origin": "NRT",
+    "destination": "ORD",
+    "url": "https://info.flightmapper.net/route/American_Airlines_AA_NRT_ORD",
+    "checked_on": "2026-10-20",
+    "rows": []
+  },
+  {
+    "airline": "AA",
+    "origin": "ORD",
+    "destination": "NRT",
+    "url": "https://info.flightmapper.net/route/American_Airlines_AA_ORD_NRT",
+    "checked_on": "2026-10-20",
+    "rows": []
+  },
+  {
+    "airline": "JL",
+    "origin": "NRT",
+    "destination": "ORD",
+    "url": "https://info.flightmapper.net/route/Japan_Airlines_JL_NRT_ORD",
+    "checked_on": "2026-10-20",
+    "rows": [
+      {
+        "flight_number": "0056",
+        "aircraft_name": "Boeing 777-300ER",
+        "aircraft_iata": "77W",
+        "days": "1234567",
+        "source_valid_from": "2026-09-01",
+        "source_valid_to": "2026-10-24"
+      }
+    ]
+  },
+  {
+    "airline": "JL",
+    "origin": "ORD",
+    "destination": "NRT",
+    "url": "https://info.flightmapper.net/route/Japan_Airlines_JL_ORD_NRT",
+    "checked_on": "2026-10-20",
+    "rows": [
+      {
+        "flight_number": "0055",
+        "aircraft_name": "Boeing 777-300ER",
+        "aircraft_iata": "77W",
+        "days": "1234567",
+        "source_valid_from": "2026-09-01",
+        "source_valid_to": "2026-10-24"
+      }
+    ]
+  },
+  {
+    "airline": "NH",
+    "origin": "NRT",
+    "destination": "ORD",
+    "url": "https://info.flightmapper.net/route/All_Nippon_Airways_NH_NRT_ORD",
+    "checked_on": "2026-10-20",
+    "rows": [
+      {
+        "flight_number": "0012",
+        "aircraft_name": "Boeing 777-300ER",
+        "aircraft_iata": "77W",
+        "days": "1234567",
+        "source_valid_from": "2026-03-29",
+        "source_valid_to": "2026-10-24"
+      }
+    ]
+  },
+  {
+    "airline": "NH",
+    "origin": "ORD",
+    "destination": "NRT",
+    "url": "https://info.flightmapper.net/route/All_Nippon_Airways_NH_ORD_NRT",
+    "checked_on": "2026-10-20",
+    "rows": [
+      {
+        "flight_number": "0011",
+        "aircraft_name": "Boeing 777-300ER",
+        "aircraft_iata": "77W",
+        "days": "1234567",
+        "source_valid_from": "2026-03-29",
+        "source_valid_to": "2026-10-24"
+      }
+    ]
+  },
+  {
+    "airline": "UA",
+    "origin": "NRT",
+    "destination": "ORD",
+    "url": "https://info.flightmapper.net/route/United_Airlines_UA_NRT_ORD",
+    "checked_on": "2026-10-20",
+    "rows": []
+  },
+  {
+    "airline": "UA",
+    "origin": "ORD",
+    "destination": "NRT",
+    "url": "https://info.flightmapper.net/route/United_Airlines_UA_ORD_NRT",
+    "checked_on": "2026-10-20",
+    "rows": []
+  },
+  {
+    "airline": "JL",
+    "origin": "NRT",
+    "destination": "SAN",
+    "url": "https://info.flightmapper.net/route/Japan_Airlines_JL_NRT_SAN",
+    "checked_on": "2026-10-20",
+    "rows": [
+      {
+        "flight_number": "0066",
+        "aircraft_name": "Boeing 787-8",
+        "aircraft_iata": "788",
+        "days": "1234567",
+        "source_valid_from": "2026-10-01",
+        "source_valid_to": "2026-10-24"
+      }
+    ]
+  },
+  {
+    "airline": "JL",
+    "origin": "SAN",
+    "destination": "NRT",
+    "url": "https://info.flightmapper.net/route/Japan_Airlines_JL_SAN_NRT",
+    "checked_on": "2026-10-20",
+    "rows": [
+      {
+        "flight_number": "0065",
+        "aircraft_name": "Boeing 787-8",
+        "aircraft_iata": "788",
+        "days": "1234567",
+        "source_valid_from": "2026-10-01",
+        "source_valid_to": "2026-10-24"
+      }
+    ]
+  },
+  {
+    "airline": "AS",
+    "origin": "NRT",
+    "destination": "SEA",
+    "url": "https://info.flightmapper.net/route/Alaska_Airlines_AS_NRT_SEA",
+    "checked_on": "2026-10-20",
+    "rows": [
+      {
+        "flight_number": "0824",
+        "aircraft_name": "Airbus A330-200",
+        "aircraft_iata": "332",
+        "days": "1234567",
+        "source_valid_from": "2026-04-23",
+        "source_valid_to": "2026-10-24"
+      }
+    ]
+  },
+  {
+    "airline": "AS",
+    "origin": "SEA",
+    "destination": "NRT",
+    "url": "https://info.flightmapper.net/route/Alaska_Airlines_AS_SEA_NRT",
+    "checked_on": "2026-10-20",
+    "rows": [
+      {
+        "flight_number": "0823",
+        "aircraft_name": "Airbus A330-200",
+        "aircraft_iata": "332",
+        "days": "1234567",
+        "source_valid_from": "2026-04-22",
+        "source_valid_to": "2026-10-24"
+      }
+    ]
+  },
+  {
+    "airline": "JL",
+    "origin": "NRT",
+    "destination": "SEA",
+    "url": "https://info.flightmapper.net/route/Japan_Airlines_JL_NRT_SEA",
+    "checked_on": "2026-10-20",
+    "rows": [
+      {
+        "flight_number": "0068",
+        "aircraft_name": "Boeing 787-9",
+        "aircraft_iata": "789",
+        "days": "1234567",
+        "source_valid_from": "2026-09-01",
+        "source_valid_to": "2026-10-24"
+      }
+    ]
+  },
+  {
+    "airline": "JL",
+    "origin": "SEA",
+    "destination": "NRT",
+    "url": "https://info.flightmapper.net/route/Japan_Airlines_JL_SEA_NRT",
+    "checked_on": "2026-10-20",
+    "rows": [
+      {
+        "flight_number": "0067",
+        "aircraft_name": "Boeing 787-9",
+        "aircraft_iata": "789",
+        "days": "1234567",
+        "source_valid_from": "2026-09-01",
+        "source_valid_to": "2026-10-23"
+      }
+    ]
+  },
+  {
+    "airline": "JL",
+    "origin": "NRT",
+    "destination": "SFO",
+    "url": "https://info.flightmapper.net/route/Japan_Airlines_JL_NRT_SFO",
+    "checked_on": "2026-10-20",
+    "rows": [
+      {
+        "flight_number": "0058",
+        "aircraft_name": "Boeing 787-9",
+        "aircraft_iata": "789",
+        "days": "1234567",
+        "source_valid_from": "2026-10-01",
+        "source_valid_to": "2026-10-24"
+      }
+    ]
+  },
+  {
+    "airline": "JL",
+    "origin": "SFO",
+    "destination": "NRT",
+    "url": "https://info.flightmapper.net/route/Japan_Airlines_JL_SFO_NRT",
+    "checked_on": "2026-10-20",
+    "rows": [
+      {
+        "flight_number": "0057",
+        "aircraft_name": "Boeing 787-9",
+        "aircraft_iata": "789",
+        "days": "1234567",
+        "source_valid_from": "2026-10-01",
+        "source_valid_to": "2026-10-24"
+      }
+    ]
+  },
+  {
+    "airline": "NH",
+    "origin": "NRT",
+    "destination": "SFO",
+    "url": "https://info.flightmapper.net/route/All_Nippon_Airways_NH_NRT_SFO",
+    "checked_on": "2026-10-20",
+    "rows": [
+      {
+        "flight_number": "0008",
+        "aircraft_name": "Boeing 777-300ER",
+        "aircraft_iata": "77W",
+        "days": "1234567",
+        "source_valid_from": "2026-09-01",
+        "source_valid_to": "2026-10-24"
+      }
+    ]
+  },
+  {
+    "airline": "NH",
+    "origin": "SFO",
+    "destination": "NRT",
+    "url": "https://info.flightmapper.net/route/All_Nippon_Airways_NH_SFO_NRT",
+    "checked_on": "2026-10-20",
+    "rows": [
+      {
+        "flight_number": "0007",
+        "aircraft_name": "Boeing 777-300ER",
+        "aircraft_iata": "77W",
+        "days": "1234567",
+        "source_valid_from": "2026-09-01",
+        "source_valid_to": "2026-10-24"
+      }
+    ]
+  },
+  {
+    "airline": "UA",
+    "origin": "NRT",
+    "destination": "SFO",
+    "url": "https://info.flightmapper.net/route/United_Airlines_UA_NRT_SFO",
+    "checked_on": "2026-10-20",
+    "rows": [
+      {
+        "flight_number": "0838",
+        "aircraft_name": "Boeing 777",
+        "aircraft_iata": "777",
+        "days": "1234567",
+        "source_valid_from": "2026-09-25",
+        "source_valid_to": "2026-10-24"
+      }
+    ]
+  },
+  {
+    "airline": "UA",
+    "origin": "SFO",
+    "destination": "NRT",
+    "url": "https://info.flightmapper.net/route/United_Airlines_UA_SFO_NRT",
+    "checked_on": "2026-10-20",
+    "rows": [
+      {
+        "flight_number": "0837",
+        "aircraft_name": "Boeing 777",
+        "aircraft_iata": "777",
+        "days": "1234567",
+        "source_valid_from": "2026-09-24",
+        "source_valid_to": "2026-10-23"
+      }
+    ]
+  },
+  {
+    "airline": "ZG",
+    "origin": "NRT",
+    "destination": "SFO",
+    "url": "https://info.flightmapper.net/route/ZIPAIR_Tokyo_ZG_NRT_SFO",
+    "checked_on": "2026-10-20",
+    "rows": [
+      {
+        "flight_number": "0026",
+        "aircraft_name": "Boeing 787-8",
+        "aircraft_iata": "788",
+        "days": "1234567",
+        "source_valid_from": "2026-10-01",
+        "source_valid_to": "2026-10-24"
+      }
+    ]
+  },
+  {
+    "airline": "ZG",
+    "origin": "SFO",
+    "destination": "NRT",
+    "url": "https://info.flightmapper.net/route/ZIPAIR_Tokyo_ZG_SFO_NRT",
+    "checked_on": "2026-10-20",
+    "rows": [
+      {
+        "flight_number": "0025",
+        "aircraft_name": "Boeing 787-8",
+        "aircraft_iata": "788",
+        "days": "1234567",
+        "source_valid_from": "2026-10-01",
+        "source_valid_to": "2026-10-24"
+      }
+    ]
+  },
+  {
+    "airline": "ZG",
+    "origin": "NRT",
+    "destination": "SJC",
+    "url": "https://info.flightmapper.net/route/ZIPAIR_Tokyo_ZG_NRT_SJC",
+    "checked_on": "2026-10-20",
+    "rows": []
+  },
+  {
+    "airline": "ZG",
+    "origin": "SJC",
+    "destination": "NRT",
+    "url": "https://info.flightmapper.net/route/ZIPAIR_Tokyo_ZG_SJC_NRT",
+    "checked_on": "2026-10-20",
+    "rows": []
+  },
+  {
+    "airline": "AC",
+    "origin": "NRT",
+    "destination": "YUL",
+    "url": "https://info.flightmapper.net/route/Air_Canada_AC_NRT_YUL",
+    "checked_on": "2026-10-20",
+    "rows": [
+      {
+        "flight_number": "0006",
+        "aircraft_name": "Boeing 777-300ER",
+        "aircraft_iata": "77W",
+        "days": "1234567",
+        "source_valid_from": "2026-09-08",
+        "source_valid_to": "2026-10-24"
+      }
+    ]
+  },
+  {
+    "airline": "AC",
+    "origin": "YUL",
+    "destination": "NRT",
+    "url": "https://info.flightmapper.net/route/Air_Canada_AC_YUL_NRT",
+    "checked_on": "2026-10-20",
+    "rows": [
+      {
+        "flight_number": "0005",
+        "aircraft_name": "Boeing 777-300ER",
+        "aircraft_iata": "77W",
+        "days": "1234567",
+        "source_valid_from": "2026-09-08",
+        "source_valid_to": "2026-10-23"
+      }
+    ]
+  },
+  {
+    "airline": "AC",
+    "origin": "NRT",
+    "destination": "YVR",
+    "url": "https://info.flightmapper.net/route/Air_Canada_AC_NRT_YVR",
+    "checked_on": "2026-10-20",
+    "rows": [
+      {
+        "flight_number": "0004",
+        "aircraft_name": "Boeing 787-9",
+        "aircraft_iata": "789",
+        "days": "1234567",
+        "source_valid_from": "2026-09-08",
+        "source_valid_to": "2026-10-24"
+      }
+    ]
+  },
+  {
+    "airline": "AC",
+    "origin": "YVR",
+    "destination": "NRT",
+    "url": "https://info.flightmapper.net/route/Air_Canada_AC_YVR_NRT",
+    "checked_on": "2026-10-20",
+    "rows": [
+      {
+        "flight_number": "0003",
+        "aircraft_name": "Boeing 787-9",
+        "aircraft_iata": "789",
+        "days": "1234567",
+        "source_valid_from": "2026-09-08",
+        "source_valid_to": "2026-10-23"
+      }
+    ]
+  },
+  {
+    "airline": "JL",
+    "origin": "NRT",
+    "destination": "YVR",
+    "url": "https://info.flightmapper.net/route/Japan_Airlines_JL_NRT_YVR",
+    "checked_on": "2026-10-20",
+    "rows": [
+      {
+        "flight_number": "0018",
+        "aircraft_name": "Boeing 787-8",
+        "aircraft_iata": "788",
+        "days": "1234567",
+        "source_valid_from": "2026-10-01",
+        "source_valid_to": "2026-10-24"
+      }
+    ]
+  },
+  {
+    "airline": "JL",
+    "origin": "YVR",
+    "destination": "NRT",
+    "url": "https://info.flightmapper.net/route/Japan_Airlines_JL_YVR_NRT",
+    "checked_on": "2026-10-20",
+    "rows": [
+      {
+        "flight_number": "0017",
+        "aircraft_name": "Boeing 787-8",
+        "aircraft_iata": "788",
+        "days": "1234567",
+        "source_valid_from": "2026-10-01",
+        "source_valid_to": "2026-10-23"
+      }
+    ]
+  },
+  {
+    "airline": "ZG",
+    "origin": "NRT",
+    "destination": "YVR",
+    "url": "https://info.flightmapper.net/route/ZIPAIR_Tokyo_ZG_NRT_YVR",
+    "checked_on": "2026-10-20",
+    "rows": []
+  },
+  {
+    "airline": "ZG",
+    "origin": "YVR",
+    "destination": "NRT",
+    "url": "https://info.flightmapper.net/route/ZIPAIR_Tokyo_ZG_YVR_NRT",
+    "checked_on": "2026-10-20",
+    "rows": []
+  },
+  {
+    "airline": "WS",
+    "origin": "NRT",
+    "destination": "YYC",
+    "url": "https://info.flightmapper.net/route/WestJet_WS_NRT_YYC",
+    "checked_on": "2026-10-20",
+    "rows": [
+      {
+        "flight_number": "0081",
+        "aircraft_name": "Boeing 787-9",
+        "aircraft_iata": "789",
+        "days": "1234567",
+        "source_valid_from": "2026-04-26",
+        "source_valid_to": "2026-10-24"
+      }
+    ]
+  },
+  {
+    "airline": "WS",
+    "origin": "YYC",
+    "destination": "NRT",
+    "url": "https://info.flightmapper.net/route/WestJet_WS_YYC_NRT",
+    "checked_on": "2026-10-20",
+    "rows": [
+      {
+        "flight_number": "0080",
+        "aircraft_name": "Boeing 787-9",
+        "aircraft_iata": "789",
+        "days": "1234567",
+        "source_valid_from": "2026-04-26",
+        "source_valid_to": "2026-10-24"
+      }
+    ]
+  },
+  {
+    "airline": "AC",
+    "origin": "NRT",
+    "destination": "YYZ",
+    "url": "https://info.flightmapper.net/route/Air_Canada_AC_NRT_YYZ",
+    "checked_on": "2026-10-20",
+    "rows": [
+      {
+        "flight_number": "0010",
+        "aircraft_name": "Boeing 787-9",
+        "aircraft_iata": "789",
+        "days": "1234567",
+        "source_valid_from": "2026-03-30",
+        "source_valid_to": "2026-10-24"
+      }
+    ]
+  },
+  {
+    "airline": "AC",
+    "origin": "YYZ",
+    "destination": "NRT",
+    "url": "https://info.flightmapper.net/route/Air_Canada_AC_YYZ_NRT",
+    "checked_on": "2026-10-20",
+    "rows": [
+      {
+        "flight_number": "0009",
+        "aircraft_name": "Boeing 787-9",
+        "aircraft_iata": "789",
+        "days": "1234567",
+        "source_valid_from": "2026-09-08",
+        "source_valid_to": "2026-10-23"
+      }
+    ]
+  },
+  {
+    "airline": "HU",
+    "origin": "PEK",
+    "destination": "BOS",
+    "url": "https://info.flightmapper.net/route/Hainan_Airlines_HU_PEK_BOS",
+    "checked_on": "2026-10-20",
+    "rows": [
+      {
+        "flight_number": "0729",
+        "aircraft_name": "Boeing 787-9",
+        "aircraft_iata": "789",
+        "days": "357",
+        "source_valid_from": "2026-03-29",
+        "source_valid_to": null
+      }
+    ]
+  },
+  {
+    "airline": "HU",
+    "origin": "BOS",
+    "destination": "PEK",
+    "url": "https://info.flightmapper.net/route/Hainan_Airlines_HU_BOS_PEK",
+    "checked_on": "2026-10-20",
+    "rows": []
+  },
+  {
+    "airline": "CA",
+    "origin": "PEK",
+    "destination": "IAD",
+    "url": "https://info.flightmapper.net/route/Air_China_CA_PEK_IAD",
+    "checked_on": "2026-10-20",
+    "rows": [
+      {
+        "flight_number": "0817",
+        "aircraft_name": "Boeing 747",
+        "aircraft_iata": "747",
+        "days": "25",
+        "source_valid_from": "2026-03-10",
+        "source_valid_to": null
+      }
+    ]
+  },
+  {
+    "airline": "CA",
+    "origin": "IAD",
+    "destination": "PEK",
+    "url": "https://info.flightmapper.net/route/Air_China_CA_IAD_PEK",
+    "checked_on": "2026-10-20",
+    "rows": [
+      {
+        "flight_number": "0818",
+        "aircraft_name": "Boeing 747",
+        "aircraft_iata": "747",
+        "days": "25",
+        "source_valid_from": "2026-03-10",
+        "source_valid_to": null
+      }
+    ]
+  },
+  {
+    "airline": "CA",
+    "origin": "PEK",
+    "destination": "JFK",
+    "url": "https://info.flightmapper.net/route/Air_China_CA_PEK_JFK",
+    "checked_on": "2026-10-20",
+    "rows": [
+      {
+        "flight_number": "0981",
+        "aircraft_name": "Boeing 747",
+        "aircraft_iata": "747",
+        "days": "13467",
+        "source_valid_from": "2026-03-29",
+        "source_valid_to": "2026-10-24"
+      }
+    ]
+  },
+  {
+    "airline": "CA",
+    "origin": "JFK",
+    "destination": "PEK",
+    "url": "https://info.flightmapper.net/route/Air_China_CA_JFK_PEK",
+    "checked_on": "2026-10-20",
+    "rows": [
+      {
+        "flight_number": "0982",
+        "aircraft_name": "Boeing 747",
+        "aircraft_iata": "747",
+        "days": "12457",
+        "source_valid_from": "2026-03-09",
+        "source_valid_to": null
+      }
+    ]
+  },
+  {
+    "airline": "CA",
+    "origin": "PEK",
+    "destination": "LAX",
+    "url": "https://info.flightmapper.net/route/Air_China_CA_PEK_LAX",
+    "checked_on": "2026-10-20",
+    "rows": [
+      {
+        "flight_number": "0983",
+        "aircraft_name": "Boeing 777-300",
+        "aircraft_iata": "773",
+        "days": "145",
+        "source_valid_from": "2026-03-30",
+        "source_valid_to": "2026-10-23"
+      }
+    ]
+  },
+  {
+    "airline": "CA",
+    "origin": "LAX",
+    "destination": "PEK",
+    "url": "https://info.flightmapper.net/route/Air_China_CA_LAX_PEK",
+    "checked_on": "2026-10-20",
+    "rows": [
+      {
+        "flight_number": "0984",
+        "aircraft_name": "Boeing 777-300",
+        "aircraft_iata": "773",
+        "days": "145",
+        "source_valid_from": "2026-03-30",
+        "source_valid_to": "2026-10-23"
+      },
+      {
+        "flight_number": "0988",
+        "aircraft_name": "Boeing 777-300",
+        "aircraft_iata": "773",
+        "days": "7",
+        "source_valid_from": "2026-03-08",
+        "source_valid_to": "2026-10-25"
+      }
+    ]
+  },
+  {
+    "airline": "UA",
+    "origin": "PEK",
+    "destination": "LAX",
+    "url": "https://info.flightmapper.net/route/United_Airlines_UA_PEK_LAX",
+    "checked_on": "2026-10-20",
+    "rows": [
+      {
+        "flight_number": "0772",
+        "aircraft_name": "Boeing 787-9",
+        "aircraft_iata": "789",
+        "days": "146",
+        "source_valid_from": "2026-09-10",
+        "source_valid_to": "2026-10-24"
+      }
+    ]
+  },
+  {
+    "airline": "UA",
+    "origin": "LAX",
+    "destination": "PEK",
+    "url": "https://info.flightmapper.net/route/United_Airlines_UA_LAX_PEK",
+    "checked_on": "2026-10-20",
+    "rows": [
+      {
+        "flight_number": "0771",
+        "aircraft_name": "Boeing 787-9",
+        "aircraft_iata": "789",
+        "days": "246",
+        "source_valid_from": "2026-09-08",
+        "source_valid_to": "2026-10-22"
+      }
+    ]
+  },
+  {
+    "airline": "HU",
+    "origin": "PEK",
+    "destination": "SEA",
+    "url": "https://info.flightmapper.net/route/Hainan_Airlines_HU_PEK_SEA",
+    "checked_on": "2026-10-20",
+    "rows": [
+      {
+        "flight_number": "0495",
+        "aircraft_name": "Boeing 787-9",
+        "aircraft_iata": "789",
+        "days": "26",
+        "source_valid_from": "2026-03-31",
+        "source_valid_to": null
+      }
+    ]
+  },
+  {
+    "airline": "HU",
+    "origin": "SEA",
+    "destination": "PEK",
+    "url": "https://info.flightmapper.net/route/Hainan_Airlines_HU_SEA_PEK",
+    "checked_on": "2026-10-20",
+    "rows": [
+      {
+        "flight_number": "0496",
+        "aircraft_name": "Boeing 787-9",
+        "aircraft_iata": "789",
+        "days": "26",
+        "source_valid_from": "2026-03-31",
+        "source_valid_to": null
+      }
+    ]
+  },
+  {
+    "airline": "CA",
+    "origin": "PEK",
+    "destination": "SFO",
+    "url": "https://info.flightmapper.net/route/Air_China_CA_PEK_SFO",
+    "checked_on": "2026-10-20",
+    "rows": [
+      {
+        "flight_number": "0985",
+        "aircraft_name": "Boeing 777-300",
+        "aircraft_iata": "773",
+        "days": "36",
+        "source_valid_from": "2026-09-02",
+        "source_valid_to": null
+      }
+    ]
+  },
+  {
+    "airline": "CA",
+    "origin": "SFO",
+    "destination": "PEK",
+    "url": "https://info.flightmapper.net/route/Air_China_CA_SFO_PEK",
+    "checked_on": "2026-10-20",
+    "rows": [
+      {
+        "flight_number": "0986",
+        "aircraft_name": "Boeing 777-300",
+        "aircraft_iata": "773",
+        "days": "36",
+        "source_valid_from": "2026-09-02",
+        "source_valid_to": "2026-10-24"
+      }
+    ]
+  },
+  {
+    "airline": "UA",
+    "origin": "PEK",
+    "destination": "SFO",
+    "url": "https://info.flightmapper.net/route/United_Airlines_UA_PEK_SFO",
+    "checked_on": "2026-10-20",
+    "rows": [
+      {
+        "flight_number": "0889",
+        "aircraft_name": "Boeing 777",
+        "aircraft_iata": "777",
+        "days": "1234567",
+        "source_valid_from": "2026-09-08",
+        "source_valid_to": "2026-10-24"
+      }
+    ]
+  },
+  {
+    "airline": "UA",
+    "origin": "SFO",
+    "destination": "PEK",
+    "url": "https://info.flightmapper.net/route/United_Airlines_UA_SFO_PEK",
+    "checked_on": "2026-10-20",
+    "rows": [
+      {
+        "flight_number": "0888",
+        "aircraft_name": "Boeing 777",
+        "aircraft_iata": "777",
+        "days": "1234567",
+        "source_valid_from": "2026-05-21",
+        "source_valid_to": "2026-10-23"
+      }
+    ]
+  },
+  {
+    "airline": "AC",
+    "origin": "PEK",
+    "destination": "YVR",
+    "url": "https://info.flightmapper.net/route/Air_Canada_AC_PEK_YVR",
+    "checked_on": "2026-10-20",
+    "rows": [
+      {
+        "flight_number": "0030",
+        "aircraft_name": "Boeing 787-9",
+        "aircraft_iata": "789",
+        "days": "1234567",
+        "source_valid_from": "2026-05-01",
+        "source_valid_to": "2026-10-24"
+      }
+    ]
+  },
+  {
+    "airline": "AC",
+    "origin": "YVR",
+    "destination": "PEK",
+    "url": "https://info.flightmapper.net/route/Air_Canada_AC_YVR_PEK",
+    "checked_on": "2026-10-20",
+    "rows": [
+      {
+        "flight_number": "0029",
+        "aircraft_name": "Boeing 787-9",
+        "aircraft_iata": "789",
+        "days": "1234567",
+        "source_valid_from": "2026-05-01",
+        "source_valid_to": "2026-10-23"
+      }
+    ]
+  },
+  {
+    "airline": "CA",
+    "origin": "PEK",
+    "destination": "YVR",
+    "url": "https://info.flightmapper.net/route/Air_China_CA_PEK_YVR",
+    "checked_on": "2026-10-20",
+    "rows": [
+      {
+        "flight_number": "0991",
+        "aircraft_name": "Boeing 777-300",
+        "aircraft_iata": "773",
+        "days": "135",
+        "source_valid_from": "2026-09-02",
+        "source_valid_to": null
+      }
+    ]
+  },
+  {
+    "airline": "CA",
+    "origin": "YVR",
+    "destination": "PEK",
+    "url": "https://info.flightmapper.net/route/Air_China_CA_YVR_PEK",
+    "checked_on": "2026-10-20",
+    "rows": [
+      {
+        "flight_number": "0992",
+        "aircraft_name": "Boeing 777-300",
+        "aircraft_iata": "773",
+        "days": "135",
+        "source_valid_from": "2026-09-02",
+        "source_valid_to": "2026-10-23"
+      }
+    ]
+  },
+  {
+    "airline": "CA",
+    "origin": "PEK",
+    "destination": "YYZ",
+    "url": "https://info.flightmapper.net/route/Air_China_CA_PEK_YYZ",
+    "checked_on": "2026-10-20",
+    "rows": [
+      {
+        "flight_number": "0993",
+        "aircraft_name": "Boeing 777-300ER",
+        "aircraft_iata": "77W",
+        "days": "246",
+        "source_valid_from": "2026-03-14",
+        "source_valid_to": null
+      }
+    ]
+  },
+  {
+    "airline": "CA",
+    "origin": "YYZ",
+    "destination": "PEK",
+    "url": "https://info.flightmapper.net/route/Air_China_CA_YYZ_PEK",
+    "checked_on": "2026-10-20",
+    "rows": [
+      {
+        "flight_number": "0994",
+        "aircraft_name": "Boeing 777-300ER",
+        "aircraft_iata": "77W",
+        "days": "246",
+        "source_valid_from": "2026-03-31",
+        "source_valid_to": "2026-10-24"
+      }
+    ]
+  },
+  {
+    "airline": "HU",
+    "origin": "PEK",
+    "destination": "YYZ",
+    "url": "https://info.flightmapper.net/route/Hainan_Airlines_HU_PEK_YYZ",
+    "checked_on": "2026-10-20",
+    "rows": [
+      {
+        "flight_number": "7975",
+        "aircraft_name": "Boeing 787-9",
+        "aircraft_iata": "789",
+        "days": "7",
+        "source_valid_from": "2026-03-29",
+        "source_valid_to": "2026-10-25"
+      }
+    ]
+  },
+  {
+    "airline": "HU",
+    "origin": "YYZ",
+    "destination": "PEK",
+    "url": "https://info.flightmapper.net/route/Hainan_Airlines_HU_YYZ_PEK",
+    "checked_on": "2026-10-20",
+    "rows": [
+      {
+        "flight_number": "7976",
+        "aircraft_name": "Boeing 787-9",
+        "aircraft_iata": "789",
+        "days": "7",
+        "source_valid_from": "2026-03-29",
+        "source_valid_to": "2026-10-25"
+      }
+    ]
+  },
+  {
+    "airline": "AA",
+    "origin": "PVG",
+    "destination": "DFW",
+    "url": "https://info.flightmapper.net/route/American_Airlines_AA_PVG_DFW",
+    "checked_on": "2026-10-20",
+    "rows": [
+      {
+        "flight_number": "0128",
+        "aircraft_name": "Boeing 787-9",
+        "aircraft_iata": "789",
+        "days": "1234567",
+        "source_valid_from": "2026-03-29",
+        "source_valid_to": "2026-10-24"
+      }
+    ]
+  },
+  {
+    "airline": "AA",
+    "origin": "DFW",
+    "destination": "PVG",
+    "url": "https://info.flightmapper.net/route/American_Airlines_AA_DFW_PVG",
+    "checked_on": "2026-10-20",
+    "rows": [
+      {
+        "flight_number": "0127",
+        "aircraft_name": "Boeing 787-9",
+        "aircraft_iata": "789",
+        "days": "1234567",
+        "source_valid_from": "2026-03-29",
+        "source_valid_to": "2026-10-23"
+      }
+    ]
+  },
+  {
+    "airline": "DL",
+    "origin": "PVG",
+    "destination": "DTW",
+    "url": "https://info.flightmapper.net/route/Delta_Air_Lines_DL_PVG_DTW",
+    "checked_on": "2026-10-20",
+    "rows": [
+      {
+        "flight_number": "0388",
+        "aircraft_name": "Airbus A350-900",
+        "aircraft_iata": "359",
+        "days": "1234567",
+        "source_valid_from": "2026-10-01",
+        "source_valid_to": "2026-10-24"
+      }
+    ]
+  },
+  {
+    "airline": "DL",
+    "origin": "DTW",
+    "destination": "PVG",
+    "url": "https://info.flightmapper.net/route/Delta_Air_Lines_DL_DTW_PVG",
+    "checked_on": "2026-10-20",
+    "rows": [
+      {
+        "flight_number": "0389",
+        "aircraft_name": "Airbus A350-900",
+        "aircraft_iata": "359",
+        "days": "1234567",
+        "source_valid_from": "2026-10-01",
+        "source_valid_to": "2026-10-23"
+      }
+    ]
+  },
+  {
+    "airline": "MU",
+    "origin": "PVG",
+    "destination": "JFK",
+    "url": "https://info.flightmapper.net/route/China_Eastern_Airlines_MU_PVG_JFK",
+    "checked_on": "2026-10-20",
+    "rows": [
+      {
+        "flight_number": "0587",
+        "aircraft_name": "Boeing 777-300ER",
+        "aircraft_iata": "77W",
+        "days": "27",
+        "source_valid_from": "2026-03-08",
+        "source_valid_to": "2026-10-27"
+      }
+    ]
+  },
+  {
+    "airline": "MU",
+    "origin": "JFK",
+    "destination": "PVG",
+    "url": "https://info.flightmapper.net/route/China_Eastern_Airlines_MU_JFK_PVG",
+    "checked_on": "2026-10-20",
+    "rows": [
+      {
+        "flight_number": "0588",
+        "aircraft_name": "Boeing 777-300ER",
+        "aircraft_iata": "77W",
+        "days": "13",
+        "source_valid_from": "2026-03-30",
+        "source_valid_to": "2026-10-21"
+      }
+    ]
+  },
+  {
+    "airline": "DL",
+    "origin": "PVG",
+    "destination": "LAX",
+    "url": "https://info.flightmapper.net/route/Delta_Air_Lines_DL_PVG_LAX",
+    "checked_on": "2026-10-20",
+    "rows": [
+      {
+        "flight_number": "0038",
+        "aircraft_name": "Airbus A350-900",
+        "aircraft_iata": "359",
+        "days": "146",
+        "source_valid_from": "2026-10-01",
+        "source_valid_to": "2026-10-24"
+      }
+    ]
+  },
+  {
+    "airline": "DL",
+    "origin": "LAX",
+    "destination": "PVG",
+    "url": "https://info.flightmapper.net/route/Delta_Air_Lines_DL_LAX_PVG",
+    "checked_on": "2026-10-20",
+    "rows": [
+      {
+        "flight_number": "0039",
+        "aircraft_name": "Airbus A350-900",
+        "aircraft_iata": "359",
+        "days": "357",
+        "source_valid_from": "2026-10-02",
+        "source_valid_to": "2026-10-23"
+      }
+    ]
+  },
+  {
+    "airline": "MU",
+    "origin": "PVG",
+    "destination": "LAX",
+    "url": "https://info.flightmapper.net/route/China_Eastern_Airlines_MU_PVG_LAX",
+    "checked_on": "2026-10-20",
+    "rows": [
+      {
+        "flight_number": "0583",
+        "aircraft_name": "Boeing 777-300ER",
+        "aircraft_iata": "77W",
+        "days": "1234567",
+        "source_valid_from": "2026-03-08",
+        "source_valid_to": null
+      }
+    ]
+  },
+  {
+    "airline": "MU",
+    "origin": "LAX",
+    "destination": "PVG",
+    "url": "https://info.flightmapper.net/route/China_Eastern_Airlines_MU_LAX_PVG",
+    "checked_on": "2026-10-20",
+    "rows": [
+      {
+        "flight_number": "0586",
+        "aircraft_name": "Boeing 777-300ER",
+        "aircraft_iata": "77W",
+        "days": "1234567",
+        "source_valid_from": "2026-03-29",
+        "source_valid_to": "2026-10-24"
+      }
+    ]
+  },
+  {
+    "airline": "UA",
+    "origin": "PVG",
+    "destination": "LAX",
+    "url": "https://info.flightmapper.net/route/United_Airlines_UA_PVG_LAX",
+    "checked_on": "2026-10-20",
+    "rows": [
+      {
+        "flight_number": "0199",
+        "aircraft_name": "Boeing 787-9",
+        "aircraft_iata": "789",
+        "days": "1234567",
+        "source_valid_from": "2026-09-08",
+        "source_valid_to": "2026-10-24"
+      }
+    ]
+  },
+  {
+    "airline": "UA",
+    "origin": "LAX",
+    "destination": "PVG",
+    "url": "https://info.flightmapper.net/route/United_Airlines_UA_LAX_PVG",
+    "checked_on": "2026-10-20",
+    "rows": [
+      {
+        "flight_number": "0198",
+        "aircraft_name": "Boeing 787-9",
+        "aircraft_iata": "789",
+        "days": "1234567",
+        "source_valid_from": "2026-09-08",
+        "source_valid_to": "2026-10-23"
+      }
+    ]
+  },
+  {
+    "airline": "DL",
+    "origin": "PVG",
+    "destination": "SEA",
+    "url": "https://info.flightmapper.net/route/Delta_Air_Lines_DL_PVG_SEA",
+    "checked_on": "2026-10-20",
+    "rows": [
+      {
+        "flight_number": "0280",
+        "aircraft_name": "Airbus A350-900",
+        "aircraft_iata": "359",
+        "days": "1234567",
+        "source_valid_from": "2026-10-01",
+        "source_valid_to": "2026-10-24"
+      }
+    ]
+  },
+  {
+    "airline": "DL",
+    "origin": "SEA",
+    "destination": "PVG",
+    "url": "https://info.flightmapper.net/route/Delta_Air_Lines_DL_SEA_PVG",
+    "checked_on": "2026-10-20",
+    "rows": [
+      {
+        "flight_number": "0281",
+        "aircraft_name": "Airbus A350-900",
+        "aircraft_iata": "359",
+        "days": "1234567",
+        "source_valid_from": "2026-10-01",
+        "source_valid_to": "2026-10-23"
+      }
+    ]
+  },
+  {
+    "airline": "MU",
+    "origin": "PVG",
+    "destination": "SFO",
+    "url": "https://info.flightmapper.net/route/China_Eastern_Airlines_MU_PVG_SFO",
+    "checked_on": "2026-10-20",
+    "rows": [
+      {
+        "flight_number": "0589",
+        "aircraft_name": "Boeing 777-300ER",
+        "aircraft_iata": "77W",
+        "days": "146",
+        "source_valid_from": "2026-03-30",
+        "source_valid_to": "2026-10-24"
+      }
+    ]
+  },
+  {
+    "airline": "MU",
+    "origin": "SFO",
+    "destination": "PVG",
+    "url": "https://info.flightmapper.net/route/China_Eastern_Airlines_MU_SFO_PVG",
+    "checked_on": "2026-10-20",
+    "rows": [
+      {
+        "flight_number": "0590",
+        "aircraft_name": "Boeing 777-300ER",
+        "aircraft_iata": "77W",
+        "days": "146",
+        "source_valid_from": "2026-03-30",
+        "source_valid_to": "2026-10-24"
+      }
+    ]
+  },
+  {
+    "airline": "UA",
+    "origin": "PVG",
+    "destination": "SFO",
+    "url": "https://info.flightmapper.net/route/United_Airlines_UA_PVG_SFO",
+    "checked_on": "2026-10-20",
+    "rows": [
+      {
+        "flight_number": "0858",
+        "aircraft_name": "Boeing 777-300ER",
+        "aircraft_iata": "77W",
+        "days": "1234567",
+        "source_valid_from": "2026-09-08",
+        "source_valid_to": "2026-10-24"
+      }
+    ]
+  },
+  {
+    "airline": "UA",
+    "origin": "SFO",
+    "destination": "PVG",
+    "url": "https://info.flightmapper.net/route/United_Airlines_UA_SFO_PVG",
+    "checked_on": "2026-10-20",
+    "rows": [
+      {
+        "flight_number": "0857",
+        "aircraft_name": "Boeing 777-300ER",
+        "aircraft_iata": "77W",
+        "days": "1234567",
+        "source_valid_from": "2026-09-08",
+        "source_valid_to": "2026-10-23"
+      }
+    ]
+  },
+  {
+    "airline": "AC",
+    "origin": "PVG",
+    "destination": "YVR",
+    "url": "https://info.flightmapper.net/route/Air_Canada_AC_PVG_YVR",
+    "checked_on": "2026-10-20",
+    "rows": [
+      {
+        "flight_number": "0026",
+        "aircraft_name": "Boeing 787-9",
+        "aircraft_iata": "789",
+        "days": "1234567",
+        "source_valid_from": "2026-09-08",
+        "source_valid_to": "2026-10-24"
+      }
+    ]
+  },
+  {
+    "airline": "AC",
+    "origin": "YVR",
+    "destination": "PVG",
+    "url": "https://info.flightmapper.net/route/Air_Canada_AC_YVR_PVG",
+    "checked_on": "2026-10-20",
+    "rows": [
+      {
+        "flight_number": "0025",
+        "aircraft_name": "Boeing 787-9",
+        "aircraft_iata": "789",
+        "days": "1234567",
+        "source_valid_from": "2026-09-08",
+        "source_valid_to": "2026-10-23"
+      }
+    ]
+  },
+  {
+    "airline": "MU",
+    "origin": "PVG",
+    "destination": "YVR",
+    "url": "https://info.flightmapper.net/route/China_Eastern_Airlines_MU_PVG_YVR",
+    "checked_on": "2026-10-20",
+    "rows": [
+      {
+        "flight_number": "0581",
+        "aircraft_name": "Airbus A350-900",
+        "aircraft_iata": "359",
+        "days": "14",
+        "source_valid_from": "2026-03-30",
+        "source_valid_to": "2026-10-22"
+      }
+    ]
+  },
+  {
+    "airline": "MU",
+    "origin": "YVR",
+    "destination": "PVG",
+    "url": "https://info.flightmapper.net/route/China_Eastern_Airlines_MU_YVR_PVG",
+    "checked_on": "2026-10-20",
+    "rows": [
+      {
+        "flight_number": "0582",
+        "aircraft_name": "Airbus A350-900",
+        "aircraft_iata": "359",
+        "days": "14",
+        "source_valid_from": "2026-03-30",
+        "source_valid_to": "2026-10-22"
+      }
+    ]
+  },
+  {
+    "airline": "AC",
+    "origin": "PVG",
+    "destination": "YYZ",
+    "url": "https://info.flightmapper.net/route/Air_Canada_AC_PVG_YYZ",
+    "checked_on": "2026-10-20",
+    "rows": [
+      {
+        "flight_number": "0028",
+        "aircraft_name": "Boeing 787-9",
+        "aircraft_iata": "789",
+        "days": "1246",
+        "source_valid_from": "2026-09-08",
+        "source_valid_to": "2026-10-24"
+      }
+    ]
+  },
+  {
+    "airline": "AC",
+    "origin": "YYZ",
+    "destination": "PVG",
+    "url": "https://info.flightmapper.net/route/Air_Canada_AC_YYZ_PVG",
+    "checked_on": "2026-10-20",
+    "rows": [
+      {
+        "flight_number": "0027",
+        "aircraft_name": "Boeing 787-9",
+        "aircraft_iata": "789",
+        "days": "1357",
+        "source_valid_from": "2026-09-09",
+        "source_valid_to": "2026-10-23"
+      }
+    ]
+  },
+  {
+    "airline": "MU",
+    "origin": "PVG",
+    "destination": "YYZ",
+    "url": "https://info.flightmapper.net/route/China_Eastern_Airlines_MU_PVG_YYZ",
+    "checked_on": "2026-10-20",
+    "rows": [
+      {
+        "flight_number": "0207",
+        "aircraft_name": "Boeing 777-300ER",
+        "aircraft_iata": "77W",
+        "days": "1356",
+        "source_valid_from": "2026-03-30",
+        "source_valid_to": "2026-10-24"
+      }
+    ]
+  },
+  {
+    "airline": "MU",
+    "origin": "YYZ",
+    "destination": "PVG",
+    "url": "https://info.flightmapper.net/route/China_Eastern_Airlines_MU_YYZ_PVG",
+    "checked_on": "2026-10-20",
+    "rows": [
+      {
+        "flight_number": "0208",
+        "aircraft_name": "Boeing 777-300ER",
+        "aircraft_iata": "77W",
+        "days": "1356",
+        "source_valid_from": "2026-03-30",
+        "source_valid_to": "2026-10-24"
+      }
+    ]
+  },
+  {
+    "airline": "SQ",
+    "origin": "SIN",
+    "destination": "EWR",
+    "url": "https://info.flightmapper.net/route/Singapore_Airlines_SQ_SIN_EWR",
+    "checked_on": "2026-10-20",
+    "rows": [
+      {
+        "flight_number": "0022",
+        "aircraft_name": "Airbus A350-900",
+        "aircraft_iata": "359",
+        "days": "1234567",
+        "source_valid_from": "2026-03-29",
+        "source_valid_to": "2026-10-24"
+      }
+    ]
+  },
+  {
+    "airline": "SQ",
+    "origin": "EWR",
+    "destination": "SIN",
+    "url": "https://info.flightmapper.net/route/Singapore_Airlines_SQ_EWR_SIN",
+    "checked_on": "2026-10-20",
+    "rows": [
+      {
+        "flight_number": "0021",
+        "aircraft_name": "Airbus A350-900",
+        "aircraft_iata": "359",
+        "days": "1234567",
+        "source_valid_from": "2026-03-29",
+        "source_valid_to": "2026-10-25"
+      }
+    ]
+  },
+  {
+    "airline": "SQ",
+    "origin": "SIN",
+    "destination": "JFK",
+    "url": "https://info.flightmapper.net/route/Singapore_Airlines_SQ_SIN_JFK",
+    "checked_on": "2026-10-20",
+    "rows": [
+      {
+        "flight_number": "0024",
+        "aircraft_name": "Airbus A350-900",
+        "aircraft_iata": "359",
+        "days": "1234567",
+        "source_valid_from": "2026-03-29",
+        "source_valid_to": "2026-10-24"
+      }
+    ]
+  },
+  {
+    "airline": "SQ",
+    "origin": "JFK",
+    "destination": "SIN",
+    "url": "https://info.flightmapper.net/route/Singapore_Airlines_SQ_JFK_SIN",
+    "checked_on": "2026-10-20",
+    "rows": [
+      {
+        "flight_number": "0023",
+        "aircraft_name": "Airbus A350-900",
+        "aircraft_iata": "359",
+        "days": "1234567",
+        "source_valid_from": "2026-03-29",
+        "source_valid_to": "2026-10-24"
+      }
+    ]
+  },
+  {
+    "airline": "SQ",
+    "origin": "SIN",
+    "destination": "LAX",
+    "url": "https://info.flightmapper.net/route/Singapore_Airlines_SQ_SIN_LAX",
+    "checked_on": "2026-10-20",
+    "rows": [
+      {
+        "flight_number": "0036",
+        "aircraft_name": "Airbus A350-900",
+        "aircraft_iata": "359",
+        "days": "357",
+        "source_valid_from": "2026-03-29",
+        "source_valid_to": "2026-10-23"
+      },
+      {
+        "flight_number": "0038",
+        "aircraft_name": "Airbus A350-900",
+        "aircraft_iata": "359",
+        "days": "1234567",
+        "source_valid_from": "2026-03-29",
+        "source_valid_to": "2026-10-24"
+      }
+    ]
+  },
+  {
+    "airline": "SQ",
+    "origin": "LAX",
+    "destination": "SIN",
+    "url": "https://info.flightmapper.net/route/Singapore_Airlines_SQ_LAX_SIN",
+    "checked_on": "2026-10-20",
+    "rows": [
+      {
+        "flight_number": "0035",
+        "aircraft_name": "Airbus A350-900",
+        "aircraft_iata": "359",
+        "days": "357",
+        "source_valid_from": "2026-03-29",
+        "source_valid_to": "2026-10-23"
+      },
+      {
+        "flight_number": "0037",
+        "aircraft_name": "Airbus A350-900",
+        "aircraft_iata": "359",
+        "days": "1234567",
+        "source_valid_from": "2026-03-29",
+        "source_valid_to": "2026-10-24"
+      }
+    ]
+  },
+  {
+    "airline": "SQ",
+    "origin": "SIN",
+    "destination": "SEA",
+    "url": "https://info.flightmapper.net/route/Singapore_Airlines_SQ_SIN_SEA",
+    "checked_on": "2026-10-20",
+    "rows": [
+      {
+        "flight_number": "0028",
+        "aircraft_name": "Airbus A350-900",
+        "aircraft_iata": "359",
+        "days": "24567",
+        "source_valid_from": "2026-03-29",
+        "source_valid_to": "2026-10-24"
+      }
+    ]
+  },
+  {
+    "airline": "SQ",
+    "origin": "SEA",
+    "destination": "SIN",
+    "url": "https://info.flightmapper.net/route/Singapore_Airlines_SQ_SEA_SIN",
+    "checked_on": "2026-10-20",
+    "rows": [
+      {
+        "flight_number": "0027",
+        "aircraft_name": "Airbus A350-900",
+        "aircraft_iata": "359",
+        "days": "24567",
+        "source_valid_from": "2026-03-29",
+        "source_valid_to": "2026-10-24"
+      }
+    ]
+  },
+  {
+    "airline": "SQ",
+    "origin": "SIN",
+    "destination": "SFO",
+    "url": "https://info.flightmapper.net/route/Singapore_Airlines_SQ_SIN_SFO",
+    "checked_on": "2026-10-20",
+    "rows": [
+      {
+        "flight_number": "0032",
+        "aircraft_name": "Airbus A350-900",
+        "aircraft_iata": "359",
+        "days": "1234567",
+        "source_valid_from": "2026-03-29",
+        "source_valid_to": "2026-10-24"
+      },
+      {
+        "flight_number": "0034",
+        "aircraft_name": "Airbus A350-900",
+        "aircraft_iata": "359",
+        "days": "1234567",
+        "source_valid_from": "2026-03-29",
+        "source_valid_to": "2026-10-24"
+      }
+    ]
+  },
+  {
+    "airline": "SQ",
+    "origin": "SFO",
+    "destination": "SIN",
+    "url": "https://info.flightmapper.net/route/Singapore_Airlines_SQ_SFO_SIN",
+    "checked_on": "2026-10-20",
+    "rows": [
+      {
+        "flight_number": "0031",
+        "aircraft_name": "Airbus A350-900",
+        "aircraft_iata": "359",
+        "days": "1234567",
+        "source_valid_from": "2026-03-29",
+        "source_valid_to": "2026-10-24"
+      },
+      {
+        "flight_number": "0033",
+        "aircraft_name": "Airbus A350-900",
+        "aircraft_iata": "359",
+        "days": "1234567",
+        "source_valid_from": "2026-03-29",
+        "source_valid_to": "2026-10-24"
+      }
+    ]
+  },
+  {
+    "airline": "UA",
+    "origin": "SIN",
+    "destination": "SFO",
+    "url": "https://info.flightmapper.net/route/United_Airlines_UA_SIN_SFO",
+    "checked_on": "2026-10-20",
+    "rows": [
+      {
+        "flight_number": "0002",
+        "aircraft_name": "Boeing 787-9",
+        "aircraft_iata": "789",
+        "days": "1234567",
+        "source_valid_from": "2026-09-08",
+        "source_valid_to": "2026-10-24"
+      },
+      {
+        "flight_number": "0028",
+        "aircraft_name": "Boeing 787-9",
+        "aircraft_iata": "789",
+        "days": "1234567",
+        "source_valid_from": "2026-09-08",
+        "source_valid_to": "2026-10-24"
+      }
+    ]
+  },
+  {
+    "airline": "UA",
+    "origin": "SFO",
+    "destination": "SIN",
+    "url": "https://info.flightmapper.net/route/United_Airlines_UA_SFO_SIN",
+    "checked_on": "2026-10-20",
+    "rows": [
+      {
+        "flight_number": "0001",
+        "aircraft_name": "Boeing 787-9",
+        "aircraft_iata": "789",
+        "days": "1234567",
+        "source_valid_from": "2026-09-08",
+        "source_valid_to": "2026-10-23"
+      },
+      {
+        "flight_number": "0029",
+        "aircraft_name": "Boeing 787-9",
+        "aircraft_iata": "789",
+        "days": "1234567",
+        "source_valid_from": "2026-09-08",
+        "source_valid_to": "2026-10-23"
+      }
+    ]
+  },
+  {
+    "airline": "AC",
+    "origin": "SIN",
+    "destination": "YVR",
+    "url": "https://info.flightmapper.net/route/Air_Canada_AC_SIN_YVR",
+    "checked_on": "2026-10-20",
+    "rows": [
+      {
+        "flight_number": "0020",
+        "aircraft_name": "Boeing 787-9",
+        "aircraft_iata": "789",
+        "days": "2467",
+        "source_valid_from": "2026-09-08",
+        "source_valid_to": "2026-10-24"
+      }
+    ]
+  },
+  {
+    "airline": "AC",
+    "origin": "YVR",
+    "destination": "SIN",
+    "url": "https://info.flightmapper.net/route/Air_Canada_AC_YVR_SIN",
+    "checked_on": "2026-10-20",
+    "rows": [
+      {
+        "flight_number": "0019",
+        "aircraft_name": "Boeing 787-9",
+        "aircraft_iata": "789",
+        "days": "2457",
+        "source_valid_from": "2026-09-08",
+        "source_valid_to": "2026-10-23"
+      }
+    ]
+  },
+  {
+    "airline": "CA",
+    "origin": "SZX",
+    "destination": "LAX",
+    "url": "https://info.flightmapper.net/route/Air_China_CA_SZX_LAX",
+    "checked_on": "2026-10-20",
+    "rows": [
+      {
+        "flight_number": "0769",
+        "aircraft_name": "Boeing 777-300",
+        "aircraft_iata": "773",
+        "days": "2",
+        "source_valid_from": "2026-03-31",
+        "source_valid_to": "2026-10-20"
+      }
+    ]
+  },
+  {
+    "airline": "CA",
+    "origin": "LAX",
+    "destination": "SZX",
+    "url": "https://info.flightmapper.net/route/Air_China_CA_LAX_SZX",
+    "checked_on": "2026-10-20",
+    "rows": [
+      {
+        "flight_number": "0770",
+        "aircraft_name": "Boeing 777-300",
+        "aircraft_iata": "773",
+        "days": "2",
+        "source_valid_from": "2026-03-31",
+        "source_valid_to": "2026-10-20"
+      }
+    ]
+  },
+  {
+    "airline": "HU",
+    "origin": "SZX",
+    "destination": "YVR",
+    "url": "https://info.flightmapper.net/route/Hainan_Airlines_HU_SZX_YVR",
+    "checked_on": "2026-10-20",
+    "rows": [
+      {
+        "flight_number": "7959",
+        "aircraft_name": "Boeing 787-9",
+        "aircraft_iata": "789",
+        "days": "4",
+        "source_valid_from": "2026-04-02",
+        "source_valid_to": "2026-10-29"
+      }
+    ]
+  },
+  {
+    "airline": "HU",
+    "origin": "YVR",
+    "destination": "SZX",
+    "url": "https://info.flightmapper.net/route/Hainan_Airlines_HU_YVR_SZX",
+    "checked_on": "2026-10-20",
+    "rows": [
+      {
+        "flight_number": "7960",
+        "aircraft_name": "Boeing 787-9",
+        "aircraft_iata": "789",
+        "days": "4",
+        "source_valid_from": "2026-04-02",
+        "source_valid_to": "2026-10-29"
+      }
+    ]
+  },
+  {
+    "airline": "JD",
+    "origin": "TAO",
+    "destination": "YVR",
+    "url": "https://info.flightmapper.net/route/Beijing_Capital_Airlines_JD_TAO_YVR",
+    "checked_on": "2026-10-20",
+    "rows": [],
+    "error": "404 Client Error: Not Found for url: https://info.flightmapper.net/route/YY_TAO_YVR"
+  },
+  {
+    "airline": "JD",
+    "origin": "YVR",
+    "destination": "TAO",
+    "url": "https://info.flightmapper.net/route/Beijing_Capital_Airlines_JD_YVR_TAO",
+    "checked_on": "2026-10-20",
+    "rows": [],
+    "error": "404 Client Error: Not Found for url: https://info.flightmapper.net/route/YY_YVR_TAO"
+  },
+  {
+    "airline": "3U",
+    "origin": "TFU",
+    "destination": "LAX",
+    "url": "https://info.flightmapper.net/route/Sichuan_Airlines_3U_TFU_LAX",
+    "checked_on": "2026-10-20",
+    "rows": [
+      {
+        "flight_number": "3837",
+        "aircraft_name": "Airbus A350-900",
+        "aircraft_iata": "359",
+        "days": "257",
+        "source_valid_from": "2026-03-29",
+        "source_valid_to": "2026-10-23"
+      }
+    ]
+  },
+  {
+    "airline": "3U",
+    "origin": "LAX",
+    "destination": "TFU",
+    "url": "https://info.flightmapper.net/route/Sichuan_Airlines_3U_LAX_TFU",
+    "checked_on": "2026-10-20",
+    "rows": [
+      {
+        "flight_number": "3838",
+        "aircraft_name": "Airbus A350-900",
+        "aircraft_iata": "359",
+        "days": "257",
+        "source_valid_from": "2026-03-29",
+        "source_valid_to": "2026-10-23"
+      }
+    ]
+  },
+  {
+    "airline": "3U",
+    "origin": "TFU",
+    "destination": "YVR",
+    "url": "https://info.flightmapper.net/route/Sichuan_Airlines_3U_TFU_YVR",
+    "checked_on": "2026-10-20",
+    "rows": [
+      {
+        "flight_number": "3859",
+        "aircraft_name": "Airbus A350-900",
+        "aircraft_iata": "359",
+        "days": "5",
+        "source_valid_from": "2026-04-03",
+        "source_valid_to": "2026-10-23"
+      },
+      {
+        "flight_number": "3859",
+        "aircraft_name": "Airbus A350-900",
+        "aircraft_iata": "359",
+        "days": "2",
+        "source_valid_from": "2026-03-31",
+        "source_valid_to": "2026-10-20"
+      }
+    ]
+  },
+  {
+    "airline": "3U",
+    "origin": "YVR",
+    "destination": "TFU",
+    "url": "https://info.flightmapper.net/route/Sichuan_Airlines_3U_YVR_TFU",
+    "checked_on": "2026-10-20",
+    "rows": [
+      {
+        "flight_number": "3860",
+        "aircraft_name": "Airbus A350-900",
+        "aircraft_iata": "359",
+        "days": "2",
+        "source_valid_from": "2026-03-31",
+        "source_valid_to": "2026-10-20"
+      },
+      {
+        "flight_number": "3860",
+        "aircraft_name": "Airbus A350-900",
+        "aircraft_iata": "359",
+        "days": "5",
+        "source_valid_from": "2026-04-03",
+        "source_valid_to": "2026-10-23"
+      }
+    ]
+  },
+  {
+    "airline": "BR",
+    "origin": "TPE",
+    "destination": "DFW",
+    "url": "https://info.flightmapper.net/route/EVA_Air_BR_TPE_DFW",
+    "checked_on": "2026-10-20",
+    "rows": [
+      {
+        "flight_number": "0050",
+        "aircraft_name": "Boeing 787-9",
+        "aircraft_iata": "789",
+        "days": "1234567",
+        "source_valid_from": "2026-10-01",
+        "source_valid_to": "2026-10-24"
+      }
+    ]
+  },
+  {
+    "airline": "BR",
+    "origin": "DFW",
+    "destination": "TPE",
+    "url": "https://info.flightmapper.net/route/EVA_Air_BR_DFW_TPE",
+    "checked_on": "2026-10-20",
+    "rows": [
+      {
+        "flight_number": "0049",
+        "aircraft_name": "Boeing 787-9",
+        "aircraft_iata": "789",
+        "days": "1234567",
+        "source_valid_from": "2026-10-01",
+        "source_valid_to": "2026-10-24"
+      }
+    ]
+  },
+  {
+    "airline": "BR",
+    "origin": "TPE",
+    "destination": "IAD",
+    "url": "https://info.flightmapper.net/route/EVA_Air_BR_TPE_IAD",
+    "checked_on": "2026-10-20",
+    "rows": [],
+    "error": "404 Client Error: Not Found for url: https://info.flightmapper.net/route/YY_TPE_IAD"
+  },
+  {
+    "airline": "BR",
+    "origin": "IAD",
+    "destination": "TPE",
+    "url": "https://info.flightmapper.net/route/EVA_Air_BR_IAD_TPE",
+    "checked_on": "2026-10-20",
+    "rows": [],
+    "error": "404 Client Error: Not Found for url: https://info.flightmapper.net/route/YY_IAD_TPE"
+  },
+  {
+    "airline": "BR",
+    "origin": "TPE",
+    "destination": "IAH",
+    "url": "https://info.flightmapper.net/route/EVA_Air_BR_TPE_IAH",
+    "checked_on": "2026-10-20",
+    "rows": [
+      {
+        "flight_number": "0052",
+        "aircraft_name": "Boeing 777-300ER",
+        "aircraft_iata": "77W",
+        "days": "1234567",
+        "source_valid_from": "2026-10-01",
+        "source_valid_to": "2026-10-24"
+      }
+    ]
+  },
+  {
+    "airline": "BR",
+    "origin": "IAH",
+    "destination": "TPE",
+    "url": "https://info.flightmapper.net/route/EVA_Air_BR_IAH_TPE",
+    "checked_on": "2026-10-20",
+    "rows": [
+      {
+        "flight_number": "0051",
+        "aircraft_name": "Boeing 777-300ER",
+        "aircraft_iata": "77W",
+        "days": "1234567",
+        "source_valid_from": "2026-10-02",
+        "source_valid_to": "2026-10-25"
+      }
+    ]
+  },
+  {
+    "airline": "BR",
+    "origin": "TPE",
+    "destination": "JFK",
+    "url": "https://info.flightmapper.net/route/EVA_Air_BR_TPE_JFK",
+    "checked_on": "2026-10-20",
+    "rows": [
+      {
+        "flight_number": "0032",
+        "aircraft_name": "Boeing 777-300ER",
+        "aircraft_iata": "77W",
+        "days": "1234567",
+        "source_valid_from": "2026-03-29",
+        "source_valid_to": "2026-10-24"
+      }
+    ]
+  },
+  {
+    "airline": "BR",
+    "origin": "JFK",
+    "destination": "TPE",
+    "url": "https://info.flightmapper.net/route/EVA_Air_BR_JFK_TPE",
+    "checked_on": "2026-10-20",
+    "rows": [
+      {
+        "flight_number": "0031",
+        "aircraft_name": "Boeing 777-300ER",
+        "aircraft_iata": "77W",
+        "days": "1234567",
+        "source_valid_from": "2026-09-02",
+        "source_valid_to": "2026-10-25"
+      }
+    ]
+  },
+  {
+    "airline": "CI",
+    "origin": "TPE",
+    "destination": "JFK",
+    "url": "https://info.flightmapper.net/route/China_Airlines_CI_TPE_JFK",
+    "checked_on": "2026-10-20",
+    "rows": [
+      {
+        "flight_number": "0012",
+        "aircraft_name": "Boeing 777-300ER",
+        "aircraft_iata": "77W",
+        "days": "2467",
+        "source_valid_from": "2026-09-17",
+        "source_valid_to": "2026-10-24"
+      }
+    ]
+  },
+  {
+    "airline": "CI",
+    "origin": "JFK",
+    "destination": "TPE",
+    "url": "https://info.flightmapper.net/route/China_Airlines_CI_JFK_TPE",
+    "checked_on": "2026-10-20",
+    "rows": [
+      {
+        "flight_number": "0011",
+        "aircraft_name": "Boeing 777-300ER",
+        "aircraft_iata": "77W",
+        "days": "1357",
+        "source_valid_from": "2026-09-16",
+        "source_valid_to": "2026-10-23"
+      }
+    ]
+  },
+  {
+    "airline": "BR",
+    "origin": "TPE",
+    "destination": "LAX",
+    "url": "https://info.flightmapper.net/route/EVA_Air_BR_TPE_LAX",
+    "checked_on": "2026-10-20",
+    "rows": [
+      {
+        "flight_number": "0006",
+        "aircraft_name": "Boeing 777-300ER",
+        "aircraft_iata": "77W",
+        "days": "1234567",
+        "source_valid_from": "2026-10-01",
+        "source_valid_to": "2026-10-24"
+      },
+      {
+        "flight_number": "0012",
+        "aircraft_name": "Boeing 777-300ER",
+        "aircraft_iata": "77W",
+        "days": "1234567",
+        "source_valid_from": "2026-09-01",
+        "source_valid_to": "2026-10-24"
+      },
+      {
+        "flight_number": "0016",
+        "aircraft_name": "Boeing 777-300ER",
+        "aircraft_iata": "77W",
+        "days": "1234567",
+        "source_valid_from": "2026-09-01",
+        "source_valid_to": "2026-10-24"
+      }
+    ]
+  },
+  {
+    "airline": "BR",
+    "origin": "LAX",
+    "destination": "TPE",
+    "url": "https://info.flightmapper.net/route/EVA_Air_BR_LAX_TPE",
+    "checked_on": "2026-10-20",
+    "rows": [
+      {
+        "flight_number": "0005",
+        "aircraft_name": "Boeing 777-300ER",
+        "aircraft_iata": "77W",
+        "days": "1234567",
+        "source_valid_from": "2026-10-01",
+        "source_valid_to": "2026-10-24"
+      },
+      {
+        "flight_number": "0011",
+        "aircraft_name": "Boeing 777-300ER",
+        "aircraft_iata": "77W",
+        "days": "1234567",
+        "source_valid_from": "2026-10-02",
+        "source_valid_to": "2026-10-25"
+      },
+      {
+        "flight_number": "0015",
+        "aircraft_name": "Boeing 777-300ER",
+        "aircraft_iata": "77W",
+        "days": "1234567",
+        "source_valid_from": "2026-10-02",
+        "source_valid_to": "2026-10-25"
+      }
+    ]
+  },
+  {
+    "airline": "CI",
+    "origin": "TPE",
+    "destination": "LAX",
+    "url": "https://info.flightmapper.net/route/China_Airlines_CI_TPE_LAX",
+    "checked_on": "2026-10-20",
+    "rows": [
+      {
+        "flight_number": "0008",
+        "aircraft_name": "Boeing 777-300ER",
+        "aircraft_iata": "77W",
+        "days": "1234567",
+        "source_valid_from": "2026-09-16",
+        "source_valid_to": "2026-10-24"
+      }
+    ]
+  },
+  {
+    "airline": "CI",
+    "origin": "LAX",
+    "destination": "TPE",
+    "url": "https://info.flightmapper.net/route/China_Airlines_CI_LAX_TPE",
+    "checked_on": "2026-10-20",
+    "rows": [
+      {
+        "flight_number": "0007",
+        "aircraft_name": "Boeing 777-300ER",
+        "aircraft_iata": "77W",
+        "days": "1234567",
+        "source_valid_from": "2026-09-18",
+        "source_valid_to": "2026-10-24"
+      }
+    ]
+  },
+  {
+    "airline": "JX",
+    "origin": "TPE",
+    "destination": "LAX",
+    "url": "https://info.flightmapper.net/route/STARLUX_Airlines_JX_TPE_LAX",
+    "checked_on": "2026-10-20",
+    "rows": [
+      {
+        "flight_number": "0002",
+        "aircraft_name": "Airbus A350-900",
+        "aircraft_iata": "359",
+        "days": "1234567",
+        "source_valid_from": "2026-09-01",
+        "source_valid_to": "2026-10-25"
+      }
+    ]
+  },
+  {
+    "airline": "JX",
+    "origin": "LAX",
+    "destination": "TPE",
+    "url": "https://info.flightmapper.net/route/STARLUX_Airlines_JX_LAX_TPE",
+    "checked_on": "2026-10-20",
+    "rows": [
+      {
+        "flight_number": "0001",
+        "aircraft_name": "Airbus A350-900",
+        "aircraft_iata": "359",
+        "days": "1234567",
+        "source_valid_from": "2026-09-01",
+        "source_valid_to": "2026-10-24"
+      }
+    ]
+  },
+  {
+    "airline": "CI",
+    "origin": "TPE",
+    "destination": "ONT",
+    "url": "https://info.flightmapper.net/route/China_Airlines_CI_TPE_ONT",
+    "checked_on": "2026-10-20",
+    "rows": [
+      {
+        "flight_number": "0024",
+        "aircraft_name": "Airbus A350-900",
+        "aircraft_iata": "359",
+        "days": "37",
+        "source_valid_from": "2026-09-16",
+        "source_valid_to": "2026-10-21"
+      },
+      {
+        "flight_number": "0024",
+        "aircraft_name": "Boeing 777-300ER",
+        "aircraft_iata": "77W",
+        "days": "12456",
+        "source_valid_from": "2026-09-17",
+        "source_valid_to": "2026-10-24"
+      }
+    ]
+  },
+  {
+    "airline": "CI",
+    "origin": "ONT",
+    "destination": "TPE",
+    "url": "https://info.flightmapper.net/route/China_Airlines_CI_ONT_TPE",
+    "checked_on": "2026-10-20",
+    "rows": [
+      {
+        "flight_number": "0023",
+        "aircraft_name": "Boeing 777-300ER",
+        "aircraft_iata": "77W",
+        "days": "23567",
+        "source_valid_from": "2026-09-16",
+        "source_valid_to": "2026-10-24"
+      },
+      {
+        "flight_number": "0023",
+        "aircraft_name": "Airbus A350-900",
+        "aircraft_iata": "359",
+        "days": "14",
+        "source_valid_from": "2026-09-17",
+        "source_valid_to": "2026-10-22"
+      }
+    ]
+  },
+  {
+    "airline": "JX",
+    "origin": "TPE",
+    "destination": "ONT",
+    "url": "https://info.flightmapper.net/route/STARLUX_Airlines_JX_TPE_ONT",
+    "checked_on": "2026-10-20",
+    "rows": [
+      {
+        "flight_number": "0010",
+        "aircraft_name": "Airbus A350-900",
+        "aircraft_iata": "359",
+        "days": "1356",
+        "source_valid_from": "2026-09-02",
+        "source_valid_to": "2026-10-24"
+      }
+    ]
+  },
+  {
+    "airline": "JX",
+    "origin": "ONT",
+    "destination": "TPE",
+    "url": "https://info.flightmapper.net/route/STARLUX_Airlines_JX_ONT_TPE",
+    "checked_on": "2026-10-20",
+    "rows": [
+      {
+        "flight_number": "0009",
+        "aircraft_name": "Airbus A350-900",
+        "aircraft_iata": "359",
+        "days": "1356",
+        "source_valid_from": "2026-09-02",
+        "source_valid_to": "2026-10-23"
+      }
+    ]
+  },
+  {
+    "airline": "BR",
+    "origin": "TPE",
+    "destination": "ORD",
+    "url": "https://info.flightmapper.net/route/EVA_Air_BR_TPE_ORD",
+    "checked_on": "2026-10-20",
+    "rows": [
+      {
+        "flight_number": "0056",
+        "aircraft_name": "Boeing 777-300ER",
+        "aircraft_iata": "77W",
+        "days": "1234567",
+        "source_valid_from": "2026-09-01",
+        "source_valid_to": "2026-10-24"
+      }
+    ]
+  },
+  {
+    "airline": "BR",
+    "origin": "ORD",
+    "destination": "TPE",
+    "url": "https://info.flightmapper.net/route/EVA_Air_BR_ORD_TPE",
+    "checked_on": "2026-10-20",
+    "rows": [
+      {
+        "flight_number": "0055",
+        "aircraft_name": "Boeing 777-300ER",
+        "aircraft_iata": "77W",
+        "days": "1234567",
+        "source_valid_from": "2026-10-02",
+        "source_valid_to": "2026-10-25"
+      }
+    ]
+  },
+  {
+    "airline": "CI",
+    "origin": "TPE",
+    "destination": "PHX",
+    "url": "https://info.flightmapper.net/route/China_Airlines_CI_TPE_PHX",
+    "checked_on": "2026-10-20",
+    "rows": [
+      {
+        "flight_number": "0036",
+        "aircraft_name": "Airbus A350-900",
+        "aircraft_iata": "359",
+        "days": "357",
+        "source_valid_from": "2026-03-29",
+        "source_valid_to": "2026-10-23"
+      }
+    ]
+  },
+  {
+    "airline": "CI",
+    "origin": "PHX",
+    "destination": "TPE",
+    "url": "https://info.flightmapper.net/route/China_Airlines_CI_PHX_TPE",
+    "checked_on": "2026-10-20",
+    "rows": [
+      {
+        "flight_number": "0035",
+        "aircraft_name": "Airbus A350-900",
+        "aircraft_iata": "359",
+        "days": "357",
+        "source_valid_from": "2026-03-29",
+        "source_valid_to": "2026-10-23"
+      }
+    ]
+  },
+  {
+    "airline": "JX",
+    "origin": "TPE",
+    "destination": "PHX",
+    "url": "https://info.flightmapper.net/route/STARLUX_Airlines_JX_TPE_PHX",
+    "checked_on": "2026-10-20",
+    "rows": [
+      {
+        "flight_number": "0026",
+        "aircraft_name": "Airbus A350-900",
+        "aircraft_iata": "359",
+        "days": "2467",
+        "source_valid_from": "2026-09-01",
+        "source_valid_to": "2026-10-22"
+      }
+    ]
+  },
+  {
+    "airline": "JX",
+    "origin": "PHX",
+    "destination": "TPE",
+    "url": "https://info.flightmapper.net/route/STARLUX_Airlines_JX_PHX_TPE",
+    "checked_on": "2026-10-20",
+    "rows": [
+      {
+        "flight_number": "0025",
+        "aircraft_name": "Airbus A350-900",
+        "aircraft_iata": "359",
+        "days": "2467",
+        "source_valid_from": "2026-09-01",
+        "source_valid_to": "2026-10-22"
+      }
+    ]
+  },
+  {
+    "airline": "BR",
+    "origin": "TPE",
+    "destination": "SEA",
+    "url": "https://info.flightmapper.net/route/EVA_Air_BR_TPE_SEA",
+    "checked_on": "2026-10-20",
+    "rows": [
+      {
+        "flight_number": "0024",
+        "aircraft_name": "Boeing 787-9",
+        "aircraft_iata": "789",
+        "days": "246",
+        "source_valid_from": "2026-09-01",
+        "source_valid_to": "2026-10-22"
+      },
+      {
+        "flight_number": "0026",
+        "aircraft_name": "Boeing 787-10",
+        "aircraft_iata": "781",
+        "days": "1234567",
+        "source_valid_from": "2026-09-01",
+        "source_valid_to": "2026-10-24"
+      }
+    ]
+  },
+  {
+    "airline": "BR",
+    "origin": "SEA",
+    "destination": "TPE",
+    "url": "https://info.flightmapper.net/route/EVA_Air_BR_SEA_TPE",
+    "checked_on": "2026-10-20",
+    "rows": [
+      {
+        "flight_number": "0023",
+        "aircraft_name": "Boeing 787-9",
+        "aircraft_iata": "789",
+        "days": "357",
+        "source_valid_from": "2026-09-02",
+        "source_valid_to": "2026-10-23"
+      },
+      {
+        "flight_number": "0025",
+        "aircraft_name": "Boeing 787-10",
+        "aircraft_iata": "781",
+        "days": "1234567",
+        "source_valid_from": "2026-09-02",
+        "source_valid_to": "2026-10-25"
+      }
+    ]
+  },
+  {
+    "airline": "CI",
+    "origin": "TPE",
+    "destination": "SEA",
+    "url": "https://info.flightmapper.net/route/China_Airlines_CI_TPE_SEA",
+    "checked_on": "2026-10-20",
+    "rows": [
+      {
+        "flight_number": "0022",
+        "aircraft_name": "Airbus A350-900",
+        "aircraft_iata": "359",
+        "days": "12467",
+        "source_valid_from": "2026-09-17",
+        "source_valid_to": "2026-10-24"
+      }
+    ]
+  },
+  {
+    "airline": "CI",
+    "origin": "SEA",
+    "destination": "TPE",
+    "url": "https://info.flightmapper.net/route/China_Airlines_CI_SEA_TPE",
+    "checked_on": "2026-10-20",
+    "rows": [
+      {
+        "flight_number": "0021",
+        "aircraft_name": "Airbus A350-900",
+        "aircraft_iata": "359",
+        "days": "12357",
+        "source_valid_from": "2026-09-16",
+        "source_valid_to": "2026-10-23"
+      }
+    ]
+  },
+  {
+    "airline": "DL",
+    "origin": "TPE",
+    "destination": "SEA",
+    "url": "https://info.flightmapper.net/route/Delta_Air_Lines_DL_TPE_SEA",
+    "checked_on": "2026-10-20",
+    "rows": [
+      {
+        "flight_number": "0068",
+        "aircraft_name": "Airbus A350-900",
+        "aircraft_iata": "359",
+        "days": "1234567",
+        "source_valid_from": "2026-03-29",
+        "source_valid_to": "2026-10-24"
+      }
+    ]
+  },
+  {
+    "airline": "DL",
+    "origin": "SEA",
+    "destination": "TPE",
+    "url": "https://info.flightmapper.net/route/Delta_Air_Lines_DL_SEA_TPE",
+    "checked_on": "2026-10-20",
+    "rows": [
+      {
+        "flight_number": "0069",
+        "aircraft_name": "Airbus A350-900",
+        "aircraft_iata": "359",
+        "days": "1234567",
+        "source_valid_from": "2026-10-01",
+        "source_valid_to": "2026-10-23"
+      }
+    ]
+  },
+  {
+    "airline": "JX",
+    "origin": "TPE",
+    "destination": "SEA",
+    "url": "https://info.flightmapper.net/route/STARLUX_Airlines_JX_TPE_SEA",
+    "checked_on": "2026-10-20",
+    "rows": [
+      {
+        "flight_number": "0032",
+        "aircraft_name": "Airbus A350-900",
+        "aircraft_iata": "359",
+        "days": "1234567",
+        "source_valid_from": "2026-09-01",
+        "source_valid_to": "2026-10-24"
+      }
+    ]
+  },
+  {
+    "airline": "JX",
+    "origin": "SEA",
+    "destination": "TPE",
+    "url": "https://info.flightmapper.net/route/STARLUX_Airlines_JX_SEA_TPE",
+    "checked_on": "2026-10-20",
+    "rows": [
+      {
+        "flight_number": "0031",
+        "aircraft_name": "Airbus A350-900",
+        "aircraft_iata": "359",
+        "days": "1234567",
+        "source_valid_from": "2026-09-02",
+        "source_valid_to": "2026-10-24"
+      }
+    ]
+  },
+  {
+    "airline": "BR",
+    "origin": "TPE",
+    "destination": "SFO",
+    "url": "https://info.flightmapper.net/route/EVA_Air_BR_TPE_SFO",
+    "checked_on": "2026-10-20",
+    "rows": [
+      {
+        "flight_number": "0008",
+        "aircraft_name": "Boeing 777-300ER",
+        "aircraft_iata": "77W",
+        "days": "1234567",
+        "source_valid_from": "2026-09-01",
+        "source_valid_to": "2026-10-24"
+      },
+      {
+        "flight_number": "0018",
+        "aircraft_name": "Boeing 777-300ER",
+        "aircraft_iata": "77W",
+        "days": "1234567",
+        "source_valid_from": "2026-09-01",
+        "source_valid_to": "2026-10-24"
+      },
+      {
+        "flight_number": "0028",
+        "aircraft_name": "Boeing 777-300ER",
+        "aircraft_iata": "77W",
+        "days": "1234567",
+        "source_valid_from": "2026-09-01",
+        "source_valid_to": "2026-10-24"
+      }
+    ]
+  },
+  {
+    "airline": "BR",
+    "origin": "SFO",
+    "destination": "TPE",
+    "url": "https://info.flightmapper.net/route/EVA_Air_BR_SFO_TPE",
+    "checked_on": "2026-10-20",
+    "rows": [
+      {
+        "flight_number": "0007",
+        "aircraft_name": "Boeing 777-300ER",
+        "aircraft_iata": "77W",
+        "days": "1234567",
+        "source_valid_from": "2026-10-01",
+        "source_valid_to": "2026-10-24"
+      },
+      {
+        "flight_number": "0017",
+        "aircraft_name": "Boeing 777-300ER",
+        "aircraft_iata": "77W",
+        "days": "1234567",
+        "source_valid_from": "2026-10-02",
+        "source_valid_to": "2026-10-25"
+      },
+      {
+        "flight_number": "0027",
+        "aircraft_name": "Boeing 777-300ER",
+        "aircraft_iata": "77W",
+        "days": "1234567",
+        "source_valid_from": "2026-10-02",
+        "source_valid_to": "2026-10-25"
+      }
+    ]
+  },
+  {
+    "airline": "CI",
+    "origin": "TPE",
+    "destination": "SFO",
+    "url": "https://info.flightmapper.net/route/China_Airlines_CI_TPE_SFO",
+    "checked_on": "2026-10-20",
+    "rows": [
+      {
+        "flight_number": "0004",
+        "aircraft_name": "Boeing 777-300ER",
+        "aircraft_iata": "77W",
+        "days": "1234567",
+        "source_valid_from": "2026-09-16",
+        "source_valid_to": "2026-10-24"
+      }
+    ]
+  },
+  {
+    "airline": "CI",
+    "origin": "SFO",
+    "destination": "TPE",
+    "url": "https://info.flightmapper.net/route/China_Airlines_CI_SFO_TPE",
+    "checked_on": "2026-10-20",
+    "rows": [
+      {
+        "flight_number": "0003",
+        "aircraft_name": "Boeing 777-300ER",
+        "aircraft_iata": "77W",
+        "days": "1234567",
+        "source_valid_from": "2026-09-16",
+        "source_valid_to": "2026-10-24"
+      }
+    ]
+  },
+  {
+    "airline": "JX",
+    "origin": "TPE",
+    "destination": "SFO",
+    "url": "https://info.flightmapper.net/route/STARLUX_Airlines_JX_TPE_SFO",
+    "checked_on": "2026-10-20",
+    "rows": [
+      {
+        "flight_number": "0012",
+        "aircraft_name": "Airbus A350-900",
+        "aircraft_iata": "359",
+        "days": "1234567",
+        "source_valid_from": "2026-09-01",
+        "source_valid_to": "2026-10-25"
+      }
+    ]
+  },
+  {
+    "airline": "JX",
+    "origin": "SFO",
+    "destination": "TPE",
+    "url": "https://info.flightmapper.net/route/STARLUX_Airlines_JX_SFO_TPE",
+    "checked_on": "2026-10-20",
+    "rows": [
+      {
+        "flight_number": "0011",
+        "aircraft_name": "Airbus A350-900",
+        "aircraft_iata": "359",
+        "days": "1234567",
+        "source_valid_from": "2026-09-01",
+        "source_valid_to": "2026-10-24"
+      }
+    ]
+  },
+  {
+    "airline": "UA",
+    "origin": "TPE",
+    "destination": "SFO",
+    "url": "https://info.flightmapper.net/route/United_Airlines_UA_TPE_SFO",
+    "checked_on": "2026-10-20",
+    "rows": [
+      {
+        "flight_number": "0852",
+        "aircraft_name": "Boeing 777",
+        "aircraft_iata": "777",
+        "days": "1234567",
+        "source_valid_from": "2026-09-08",
+        "source_valid_to": "2026-10-24"
+      },
+      {
+        "flight_number": "0872",
+        "aircraft_name": "Boeing 777-300ER",
+        "aircraft_iata": "77W",
+        "days": "1234567",
+        "source_valid_from": "2026-09-08",
+        "source_valid_to": "2026-10-24"
+      }
+    ]
+  },
+  {
+    "airline": "UA",
+    "origin": "SFO",
+    "destination": "TPE",
+    "url": "https://info.flightmapper.net/route/United_Airlines_UA_SFO_TPE",
+    "checked_on": "2026-10-20",
+    "rows": [
+      {
+        "flight_number": "0853",
+        "aircraft_name": "Boeing 777",
+        "aircraft_iata": "777",
+        "days": "1234567",
+        "source_valid_from": "2026-09-08",
+        "source_valid_to": "2026-10-23"
+      },
+      {
+        "flight_number": "0871",
+        "aircraft_name": "Boeing 777-300ER",
+        "aircraft_iata": "77W",
+        "days": "1234567",
+        "source_valid_from": "2026-09-08",
+        "source_valid_to": "2026-10-23"
+      }
+    ]
+  },
+  {
+    "airline": "BR",
+    "origin": "TPE",
+    "destination": "YVR",
+    "url": "https://info.flightmapper.net/route/EVA_Air_BR_TPE_YVR",
+    "checked_on": "2026-10-20",
+    "rows": [
+      {
+        "flight_number": "0010",
+        "aircraft_name": "Boeing 777-300ER",
+        "aircraft_iata": "77W",
+        "days": "1234567",
+        "source_valid_from": "2026-09-01",
+        "source_valid_to": "2026-10-24"
+      }
+    ]
+  },
+  {
+    "airline": "BR",
+    "origin": "YVR",
+    "destination": "TPE",
+    "url": "https://info.flightmapper.net/route/EVA_Air_BR_YVR_TPE",
+    "checked_on": "2026-10-20",
+    "rows": [
+      {
+        "flight_number": "0009",
+        "aircraft_name": "Boeing 777-300ER",
+        "aircraft_iata": "77W",
+        "days": "1234567",
+        "source_valid_from": "2026-10-02",
+        "source_valid_to": "2026-10-25"
+      }
+    ]
+  },
+  {
+    "airline": "CI",
+    "origin": "TPE",
+    "destination": "YVR",
+    "url": "https://info.flightmapper.net/route/China_Airlines_CI_TPE_YVR",
+    "checked_on": "2026-10-20",
+    "rows": [
+      {
+        "flight_number": "0032",
+        "aircraft_name": "Boeing 777-300ER",
+        "aircraft_iata": "77W",
+        "days": "1234567",
+        "source_valid_from": "2026-09-16",
+        "source_valid_to": "2026-10-24"
+      }
+    ]
+  },
+  {
+    "airline": "CI",
+    "origin": "YVR",
+    "destination": "TPE",
+    "url": "https://info.flightmapper.net/route/China_Airlines_CI_YVR_TPE",
+    "checked_on": "2026-10-20",
+    "rows": [
+      {
+        "flight_number": "0031",
+        "aircraft_name": "Boeing 777-300ER",
+        "aircraft_iata": "77W",
+        "days": "1234567",
+        "source_valid_from": "2026-09-16",
+        "source_valid_to": "2026-10-24"
+      }
+    ]
+  },
+  {
+    "airline": "BR",
+    "origin": "TPE",
+    "destination": "YYZ",
+    "url": "https://info.flightmapper.net/route/EVA_Air_BR_TPE_YYZ",
+    "checked_on": "2026-10-20",
+    "rows": [
+      {
+        "flight_number": "0036",
+        "aircraft_name": "Boeing 777-300ER",
+        "aircraft_iata": "77W",
+        "days": "1234567",
+        "source_valid_from": "2026-09-01",
+        "source_valid_to": "2026-10-24"
+      }
+    ]
+  },
+  {
+    "airline": "BR",
+    "origin": "YYZ",
+    "destination": "TPE",
+    "url": "https://info.flightmapper.net/route/EVA_Air_BR_YYZ_TPE",
+    "checked_on": "2026-10-20",
+    "rows": [
+      {
+        "flight_number": "0035",
+        "aircraft_name": "Boeing 777-300ER",
+        "aircraft_iata": "77W",
+        "days": "1234567",
+        "source_valid_from": "2026-10-02",
+        "source_valid_to": "2026-10-25"
+      }
+    ]
+  },
+  {
+    "airline": "CZ",
+    "origin": "WUH",
+    "destination": "SFO",
+    "url": "https://info.flightmapper.net/route/China_Southern_Airlines_CZ_WUH_SFO",
+    "checked_on": "2026-10-20",
+    "rows": [
+      {
+        "flight_number": "0659",
+        "aircraft_name": "Boeing 777-300ER",
+        "aircraft_iata": "77W",
+        "days": "14",
+        "source_valid_from": "2026-03-30",
+        "source_valid_to": "2026-10-22"
+      }
+    ]
+  },
+  {
+    "airline": "CZ",
+    "origin": "SFO",
+    "destination": "WUH",
+    "url": "https://info.flightmapper.net/route/China_Southern_Airlines_CZ_SFO_WUH",
+    "checked_on": "2026-10-20",
+    "rows": [
+      {
+        "flight_number": "0660",
+        "aircraft_name": "Boeing 777-300ER",
+        "aircraft_iata": "77W",
+        "days": "25",
+        "source_valid_from": "2026-03-31",
+        "source_valid_to": "2026-10-23"
+      }
+    ]
+  },
+  {
+    "airline": "MF",
+    "origin": "XMN",
+    "destination": "LAX",
+    "url": "https://info.flightmapper.net/route/XiamenAir_MF_XMN_LAX",
+    "checked_on": "2026-10-20",
+    "rows": [
+      {
+        "flight_number": "0829",
+        "aircraft_name": "Boeing 787-9",
+        "aircraft_iata": "789",
+        "days": "247",
+        "source_valid_from": "2026-03-29",
+        "source_valid_to": "2026-10-22"
+      }
+    ]
+  },
+  {
+    "airline": "MF",
+    "origin": "LAX",
+    "destination": "XMN",
+    "url": "https://info.flightmapper.net/route/XiamenAir_MF_LAX_XMN",
+    "checked_on": "2026-10-20",
+    "rows": [
+      {
+        "flight_number": "0830",
+        "aircraft_name": "Boeing 787-9",
+        "aircraft_iata": "789",
+        "days": "247",
+        "source_valid_from": "2026-03-29",
+        "source_valid_to": "2026-10-22"
+      }
+    ]
+  },
+  {
+    "airline": "MF",
+    "origin": "XMN",
+    "destination": "YVR",
+    "url": "https://info.flightmapper.net/route/XiamenAir_MF_XMN_YVR",
+    "checked_on": "2026-10-20",
+    "rows": [
+      {
+        "flight_number": "0805",
+        "aircraft_name": "Boeing 787-9",
+        "aircraft_iata": "789",
+        "days": "14",
+        "source_valid_from": "2026-03-30",
+        "source_valid_to": "2026-10-22"
+      }
+    ]
+  },
+  {
+    "airline": "MF",
+    "origin": "YVR",
+    "destination": "XMN",
+    "url": "https://info.flightmapper.net/route/XiamenAir_MF_YVR_XMN",
+    "checked_on": "2026-10-20",
+    "rows": [
+      {
+        "flight_number": "0806",
+        "aircraft_name": "Boeing 787-9",
+        "aircraft_iata": "789",
+        "days": "25",
+        "source_valid_from": "2026-03-10",
+        "source_valid_to": null
+      }
+    ]
+  }
+]

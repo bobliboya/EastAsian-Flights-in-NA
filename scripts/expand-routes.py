@@ -23,6 +23,9 @@ source('hu_network_2026', 'Hainan 2026–2027 North America business fare routes
 source('mu_network_2026', 'China Eastern June 2026 Pudong connecting network', 'https://globalgt.ceair.com/global/static/Announcement/AnnouncementMessage/chinaeasternnewstest/202606/t20260618_30045.html')
 source('fc_sin', 'FlightConnections Singapore nonstop passenger routes', 'https://www.flightconnections.com/flights-from-singapore-sin', 'schedule_index')
 source('fc_kix', 'FlightConnections Kansai nonstop passenger routes', 'https://www.flightconnections.com/flights-from-osaka-kix', 'schedule_index')
+source('aa_ord_nrt_2027', 'American official summer 2027 launch: ORD to NRT March 19', 'https://news.aa.com/news/news-details/2026/Summer-gets-sweeter-with-new-global-routes-from-American-Airlines-NET-RTS-08/')
+source('ua_ord_nrt_2026', 'Narita airport: United Narita–Chicago starts October 25, 2026', 'https://www.narita-airport.jp/en/company/media-center/news/20260518_unitedairlines_en/')
+source('ua_kix_lax_2027', 'United official new Los Angeles–Osaka service starts March 27, 2027', 'https://united.mediaroom.com/2026-08-25-United-Adds-10-International-Cities-for-2027-Largest-Expansion-in-Airlines-History')
 
 routes = {}
 
@@ -82,11 +85,11 @@ add('NH', 'HND', 'LAX SFO SEA IAD JFK IAH ORD YVR HNL', 'ana_routes_2026')
 add('NH', 'NRT', 'LAX SFO ORD HNL', 'ana_routes_2026')
 add('NH', 'NRT', 'YVR', 'ana_routes_2026', 'seasonal', season_note='2026年公布运营期为6月5日至8月31日。', service_start='2026-06-05', service_end='2026-08-31')
 add('UA', 'HND', 'ORD LAX EWR SFO IAD', 'fc_hnd')
-add('UA', 'NRT', 'ORD DEN IAH LAX EWR SFO', 'fc_nrt')
+add('UA', 'NRT', 'DEN IAH LAX EWR SFO', 'fc_nrt')
 add('UA', 'KIX', 'SFO', 'fc_kix')
-add('UA', 'KIX', 'LAX', 'fc_kix', 'seasonal')
+add('UA', 'KIX', 'LAX', 'ua_kix_lax_2027', 'announced', service_start='2027-03-28', note='洛杉矶始发于2027-03-27开航；关西始发为次日。')
 add('AA', 'HND', 'DFW LAX JFK', 'fc_hnd')
-add('AA', 'NRT', 'DFW ORD', 'fc_nrt')
+add('AA', 'NRT', 'DFW', 'fc_nrt')
 add('DL', 'HND', 'ATL DTW MSP LAX HNL SEA', 'dl_tokyo_2026')
 add('AS', 'NRT', 'SEA', 'as_asia_2026')
 add('AS', 'HND', 'HNL', 'fc_hnd')
@@ -117,10 +120,17 @@ add('TW', 'ICN', 'YVR', 'tw_yvr yvr_network')
 add('AC', 'CTS', 'YVR', 'ac_sapporo', 'announced', service_start='2026-12-17')
 add('AC', 'CAN', 'YVR', 'ac_asia_2026 piao_nonstop_202609', 'announced', service_start='2027-05-04')
 add('DL', 'NRT', 'SEA', 'dl_tokyo_2026', 'announced', service_start='2027-03-27')
+add('UA', 'NRT', 'ORD', 'ua_ord_nrt_2026', 'announced', service_start='2026-10-25')
+add('AA', 'NRT', 'ORD', 'aa_ord_nrt_2027', 'announced', service_start='2027-03-20', note='官方公布ORD始发于2027-03-19开航；成田始发为次日。')
 
 result = sorted(routes.values(), key=lambda r: (r['origin'], r['destination'], r['airline']))
+for route in result:
+    if route['id'] in ['UA:NRT-ORD', 'AA:NRT-ORD', 'UA:KIX-LAX']:
+        route['checked_on'] = '2026-10-20'
+for sid in ['aa_ord_nrt_2027', 'ua_ord_nrt_2026', 'ua_kix_lax_2027']:
+    catalog['sources'][sid]['accessed_on'] = '2026-10-20'
 (DATA / 'routes.json').write_text(json.dumps(result, ensure_ascii=False, indent=2) + '\n', encoding='utf-8')
-catalog['route_snapshot'] = dict(checked_on=DATE, records=len(result),
+catalog['route_snapshot'] = dict(checked_on='2026-10-20', records=len(result),
     airport_pairs=len({(r['origin'], r['destination']) for r in result if r['service_status'] != 'announced'}),
     policy='人工核查的定期客运不停站机场对，含季节性；未来开航不显示为现役。航线资格与历史班表独立，未核实的航班号、机型、时刻和班次不补造。')
 (DATA / 'catalog-metadata.json').write_text(json.dumps(catalog, ensure_ascii=False, indent=2) + '\n', encoding='utf-8')

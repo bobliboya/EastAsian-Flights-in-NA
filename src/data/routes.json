@@ -1031,11 +1031,13 @@
     "airline": "UA",
     "origin": "KIX",
     "destination": "LAX",
-    "service_status": "seasonal",
-    "checked_on": "2026-10-19",
+    "service_status": "announced",
+    "checked_on": "2026-10-20",
     "source_ids": [
-      "fc_kix"
-    ]
+      "ua_kix_lax_2027"
+    ],
+    "service_start": "2027-03-28",
+    "note": "洛杉矶始发于2027-03-27开航；关西始发为次日。"
   },
   {
     "id": "UA:KIX-SFO",
@@ -1245,11 +1247,13 @@
     "airline": "AA",
     "origin": "NRT",
     "destination": "ORD",
-    "service_status": "active",
-    "checked_on": "2026-10-19",
+    "service_status": "announced",
+    "checked_on": "2026-10-20",
     "source_ids": [
-      "fc_nrt"
-    ]
+      "aa_ord_nrt_2027"
+    ],
+    "service_start": "2027-03-20",
+    "note": "官方公布ORD始发于2027-03-19开航；成田始发为次日。"
   },
   {
     "id": "JL:NRT-ORD",
@@ -1278,11 +1282,12 @@
     "airline": "UA",
     "origin": "NRT",
     "destination": "ORD",
-    "service_status": "active",
-    "checked_on": "2026-10-19",
+    "service_status": "announced",
+    "checked_on": "2026-10-20",
     "source_ids": [
-      "fc_nrt"
-    ]
+      "ua_ord_nrt_2026"
+    ],
+    "service_start": "2026-10-25"
   },
   {
     "id": "JL:NRT-SAN",
