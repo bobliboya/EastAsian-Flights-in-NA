@@ -25,6 +25,8 @@
     --map-ocean: #d8edf3;
     --map-land: #90aaa0;
     --map-border: #728e85;
+    --map-place-label: #435c55;
+    --map-place-label-opacity: .68;
     --route-color: #31839b;
     /* 地区航线：蓝／紫红／深绿／橙棕，避开与浅色底图接近的黄色。 */
     --route-greater-china: #245ec0;

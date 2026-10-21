@@ -17,3 +17,9 @@
 .leaflet-control-attribution { font-size: var(--font-size-base) !important; }
 #status { position: absolute; z-index: 1000; left: 18px; bottom: 35px; max-width: 85%; padding: 10px; border-radius: 5px; background: var(--color-background); color: var(--color-accent); font-size: var(--font-size-base); }
 #status:empty { display: none; }
+
+/* Low-contrast city context stays below route strokes and airport markers. */
+.map-place-label { width: max-content !important; height: auto !important; color: var(--map-place-label); opacity: var(--map-place-label-opacity); pointer-events: none; font-size: var(--font-size-base); line-height: 1.25; font-weight: 400; }
+.map-place-label span { display: block; width: max-content; white-space: nowrap; text-shadow: 0 0 3px var(--map-land), 0 0 2px var(--map-land); }
+
+.map-place-label .place-name-en { font-size: var(--font-size-base); line-height: 1.15; }

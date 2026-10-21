@@ -11,12 +11,29 @@ document.addEventListener('keydown', () => { inputType = 'keyboard'; }, true);
 const canPreviewHover = () => inputType === 'mouse';
 const canPreviewFocus = () => inputType === 'keyboard';
 
+const NOTE_TRANSLATIONS = {
+  "2026年公布运营期为6月5日至8月31日。": "Published 2026 operating period: June 5 to August 31.",
+  "夏季航线，2026年公布运营季至9月；不代表核查日仍执行。": "Summer route; the published 2026 season ends in September. This does not imply operation on the verification date.",
+  "官方公布ORD始发于2027-03-19开航；成田始发为次日。": "The airline announced departures from ORD starting March 19, 2027; departures from Narita start the following day.",
+  "杭州始发航班经停青岛；地图仅连接青岛—温哥华不停站航段。": "Flights originating in Hangzhou stop at Qingdao; only the nonstop Qingdao–Vancouver segment is mapped.",
+  "洛杉矶始发于2027-03-27开航；关西始发为次日。": "Departures from Los Angeles start March 27, 2027; departures from Kansai start the following day.",
+  "票帝注明10月25日起增加杭州技术经停；该日期后不再计作不停站航线，需再次核实。": "The schedule source lists a technical stop in Hangzhou from October 25. The route is excluded from nonstop counts after that date and requires reconfirmation.",
+  "机型按航司官方资料更新；第三方索引的旧机型仅保留在来源变体中。": "Aircraft updated using official airline information; older third-party aircraft entries are retained only as source variants.",
+  "机型来源有分歧：2026-10-20、2026-10-22、2026-10-24 的 A359／B77W 待航司核实。": "Aircraft sources disagree: A359/B77W on October 20, 22 and 24, 2026 requires airline confirmation.",
+  "机型来源有分歧：2026-10-21、2026-10-23 的 A359／B77W 待航司核实。": "Aircraft sources disagree: A359/B77W on October 21 and 23, 2026 requires airline confirmation.",
+  "班期来源存在分歧：FlightMapper 为周二、周五，Flight.info 为周二、周六；10月23／24日待航司核实。": "Schedule sources disagree: FlightMapper lists Tuesday/Friday; Flight.info lists Tuesday/Saturday. October 23/24 requires airline confirmation."
+};
+const bilingualNote = note => bilingual(note, NOTE_TRANSLATIONS[note]);
+const bilingual = (zh, en) => en && en !== zh ? `${zh} / ${en}` : zh;
 const escapeHTML = value => String(value).replace(/[&<>"']/g, c => ({ '&': '&amp;', '<': '&lt;', '>': '&gt;', '"': '&quot;', "'": '&#39;' }[c]));
+// SVG arrows keep their shape across Apple platforms and system fonts.
+const arrowHTML = (both = false) => `<svg class="inline-arrow" viewBox="0 0 24 24" role="img" aria-label="${both ? '往返 / Both directions' : '至 / To'}" focusable="false"><path d="M4 12h16m-6-6 6 6-6 6${both ? 'M10 6l-6 6 6 6' : ''}"/></svg>`;
+const chevronHTML = '<svg class="filter-chevron" viewBox="0 0 24 24" aria-hidden="true" focusable="false"><path d="m6 9 6 6 6-6"/></svg>';
 // A weekday mask is a recurrence rule, not the number of departures in a
 // truncated timetable. Always count actual local departure dates in its window.
 function departureSummary(f) {
   const first = f.display_from || f.valid_from, last = f.display_to || f.valid_to;
-  if (!first || !last) return '历史班表 · 运营日期未核实';
+  if (!first || !last) return '历史班表 · 运营日期未核实 / Historical schedule · Operating dates unverified';
   let departures = f.departures;
   if (!departures) {
     departures = [];
@@ -25,18 +42,33 @@ function departureSummary(f) {
       if (f[days[new Date(t).getUTCDay()]] === '1') departures.push({ date: new Date(t).toISOString().slice(0,10) });
     }
   }
-  return `${first} 至 ${last} · 期间 ${departures.length} 班`;
+  return `${first} – ${last} · 期间 ${departures.length} 班 / departures in this period`;
 }
 const pacific = ([lat, lon]) => [lat, lon < 0 ? lon + 360 : lon];
 const FLAG_REGIONS = {
-  CHN: ['cn', '中国'], HKG: ['hk', '中国香港'], TWN: ['tw', '台湾'],
-  JPN: ['jp', '日本'], KOR: ['kr', '韩国'], SGP: ['sg', '新加坡'],
-  USA: ['us', '美国'], CAN: ['ca', '加拿大']
+  CHN: ['cn', '中国 / China'], HKG: ['hk', '中国香港 / Hong Kong, China'], TWN: ['tw', '台湾 / Taiwan'],
+  JPN: ['jp', '日本 / Japan'], KOR: ['kr', '韩国 / South Korea'], SGP: ['sg', '新加坡 / Singapore'],
+  USA: ['us', '美国 / United States'], CAN: ['ca', '加拿大 / Canada']
 };
 const flagHTML = country => {
   const flag = FLAG_REGIONS[country];
   return flag ? `<img class="country-flag" src="src/assets/flags/${flag[0]}.svg" alt="${flag[1]}" title="${flag[1]}" width="20" height="15">` : '';
 };
+const stackedNamesHTML = (zh, en) => `<span class="bilingual-lines"><span>${escapeHTML(zh)}</span><span lang="en">${escapeHTML(en || zh)}</span></span>`;
+const countryHeadingHTML = country => {
+  const [zh, en] = (FLAG_REGIONS[country]?.[1] || country).split(' / ');
+  return `${flagHTML(country)}${stackedNamesHTML(zh, en)}`;
+};
+function groupByCountry(items, countryOf) {
+  const order = Object.keys(FLAG_REGIONS), groups = new Map();
+  items.forEach(item => {
+    const country = countryOf(item);
+    if (!groups.has(country)) groups.set(country, []);
+    groups.get(country).push(item);
+  });
+  return [...groups].sort(([a], [b]) => (order.indexOf(a) < 0 ? 999 : order.indexOf(a)) - (order.indexOf(b) < 0 ? 999 : order.indexOf(b)));
+}
+const catalogOptionHTML = (item, airline = false) => `<span class="catalog-code">${escapeHTML(item.iata_code)}${airline ? `<img class="airline-logo" src="src/assets/airlines/${escapeHTML(item.iata_code)}.png" alt="" width="20" height="20" loading="lazy">` : ''}</span>${stackedNamesHTML(item.name_cn, item.name_en)}`;
 // Schematic arcs in Mercator space; mirror southern routes below the endpoint chord.
 const ROUTE_CURVE = {
   mirrorBelowLatitude: 35,
@@ -106,10 +138,10 @@ function setupBrandTooltips() {
 }
 
 async function init() {
-  if (!window.L) throw new Error('地图库加载失败，请检查网络后刷新。');
+  if (!window.L) throw new Error('地图库加载失败，请检查网络后刷新。 / Map library failed to load. Check your connection and refresh.');
   const paths = ['airports.json', 'airlines.json', 'flights.json', 'world-countries.geojson', 'catalog-metadata.json', 'routes.json'];
   const [airports, airlines, rawFlights, countries, catalog, routeCatalog] = await Promise.all(paths.map(async path => {
-    const res = await fetch(`src/data/${path}`, { cache: 'no-store' }); if (!res.ok) throw new Error(`无法读取 ${path}`);
+    const res = await fetch(`src/data/${path}`, { cache: 'no-store' }); if (!res.ok) throw new Error(`无法读取 / Failed to load ${path}`);
     return res.json();
   }));
   const airportByCode = Object.fromEntries(airports.map(a => [a.iata_code, a]));
@@ -135,11 +167,14 @@ async function init() {
     .map(f => `${f.airline}:${f.origin}-${f.destination}`));
   const flights = currentFlights.filter(f => f.import_batch === catalog.timetable_snapshot?.import_batch
     || !refreshedDirections.has(`${f.airline}:${f.origin}-${f.destination}`));
-  document.querySelector('#catalog-note').textContent = `航线资料核查：${catalog.route_snapshot?.checked_on || catalog.checked_on}；班表核查：${timetableDate}。班次按标注日期范围计算。地图含季节性定期客运航线，未开航计划不计入当前连线。机型可能调整。`;
+  document.querySelector('#catalog-note').textContent = `航线资料核查：${catalog.route_snapshot?.checked_on || catalog.checked_on}；班表核查：${timetableDate}。班次按标注日期范围计算。地图含季节性定期客运航线，未开航计划不计入当前连线。机型可能调整。 / Routes checked: ${catalog.route_snapshot?.checked_on || catalog.checked_on}; timetables checked: ${timetableDate}. Departure counts apply to the listed date ranges. Seasonal scheduled passenger routes are included; unlaunched services are excluded. Aircraft may change.`;
   const catalogAirports = new Set(services.flatMap(r => [r.origin, r.destination]));
   const catalogAirlines = new Set(services.map(r => r.airline));
   const catalogRoutes = new Set(services.map(r => `${r.origin}-${r.destination}`));
-  document.querySelector('#stats').innerHTML = `<b>${catalogAirports.size}</b> 机场 &nbsp; <b>${catalogAirlines.size}</b> 航司 &nbsp; <b>${catalogRoutes.size}</b> 航线 &nbsp; <b>${flights.length}</b> 航班`;
+  document.querySelector('#stats').innerHTML = [
+    [catalogAirports.size, '机场', 'Airports'], [catalogAirlines.size, '航司', 'Airlines'],
+    [catalogRoutes.size, '航线', 'Routes'], [flights.length, '航班', 'Flights']
+  ].map(([count, zh, en]) => `<span class="stat-item"><b>${count}</b>${stackedNamesHTML(zh, en)}</span>`).join('');
   const desktop = window.matchMedia('(min-width: 800px)');
   // Fit the same schematic geometry used for drawing and hover selection.
   const pacificBounds = L.latLngBounds(Object.values(locations).map(pacific));
@@ -158,7 +193,7 @@ async function init() {
   panelToggle.onclick = () => {
     const collapsed = document.body.classList.toggle('panel-collapsed');
     panelToggle.setAttribute('aria-expanded', String(!collapsed));
-    panelToggle.setAttribute('aria-label', collapsed ? '恢复面板高度' : '降低面板高度');
+    panelToggle.setAttribute('aria-label', collapsed ? '恢复面板高度 / Restore panel height' : '降低面板高度 / Reduce panel height');
   };
   function framePacific({ preserveView = false } = {}) {
     const zoom = map.getZoom();
@@ -197,22 +232,97 @@ async function init() {
     style: { fillColor: 'var(--map-land)', fillOpacity: 1, color: 'var(--map-border)', weight: .7 },
     attribution: 'Map data: <a href="https://www.naturalearthdata.com/">Natural Earth</a>'
   }).addTo(map));
+  // Quiet geographic context below routes; labels never intercept map gestures.
+  map.createPane('placeLabels');
+  map.getPane('placeLabels').style.zIndex = 350;
+  map.getPane('placeLabels').style.pointerEvents = 'none';
+  const placeLabels = L.layerGroup().addTo(map);
   const lines = L.layerGroup().addTo(map), markers = L.layerGroup().addTo(map);
+  const cities = new Map();
+  airports.forEach(airport => {
+    // Airport city fields sometimes include a secondary town or metro qualifier.
+    const city = airport.city_cn?.split(/[／（]/)[0];
+    if (!city) return;
+    const key = `${airport.country_or_region}:${city}`;
+    if (!cities.has(key)) cities.set(key, { name: city, nameEn: airport.city?.split(/[／（(]/)[0].trim(), location: pacific(locations[airport.iata_code]) });
+  });
+  cities.forEach(city => {
+    const label = L.marker(city.location, {
+      pane: 'placeLabels', interactive: false, keyboard: false,
+      icon: L.divIcon({ className: 'map-place-label', html: `<span>${escapeHTML(city.name)}<span class="place-name-en" lang="en">${escapeHTML(city.nameEn || city.name)}</span></span>`, iconSize: null, iconAnchor: [0, 0] })
+    }).addTo(placeLabels);
+    label.getElement().setAttribute('aria-hidden', 'true');
+  });
+  function layoutPlaceLabels() {
+    const size = map.getSize(), occupied = [], segments = [];
+    const airportPoints = airports.map(airport => map.latLngToContainerPoint(pacific(locations[airport.iata_code])));
+    lines.eachLayer(line => {
+      const points = line.getLatLngs().map(point => map.latLngToContainerPoint(point));
+      for (let i = 1; i < points.length; i++) segments.push([points[i - 1], points[i]]);
+    });
+    const overlaps = (a, b, gap = 0) => a.left < b.right + gap && a.right + gap > b.left && a.top < b.bottom + gap && a.bottom + gap > b.top;
+    placeLabels.eachLayer(label => {
+      const element = label.getElement();
+      element.hidden = false;
+      const text = element.firstElementChild;
+      const point = map.latLngToContainerPoint(label.getLatLng());
+      const width = text.offsetWidth, height = text.offsetHeight, gap = 10;
+      const offsets = [
+        [gap, -height / 2], [-width - gap, -height / 2],
+        [-width / 2, -height - gap], [-width / 2, gap],
+        [gap, -height - gap], [-width - gap, -height - gap],
+        [gap, gap], [-width - gap, gap]
+      ];
+      const localSegments = segments.filter(([a, b]) => Math.max(a.x, b.x) >= point.x - width - 20 && Math.min(a.x, b.x) <= point.x + width + 20
+        && Math.max(a.y, b.y) >= point.y - height - 20 && Math.min(a.y, b.y) <= point.y + height + 20);
+      let best = null;
+      offsets.forEach(([x, y], preference) => {
+        const box = { left: point.x + x, top: point.y + y, right: point.x + x + width, bottom: point.y + y + height };
+        if (box.left < 6 || box.right > size.x - 6 || box.top < 6 || box.bottom > size.y - 6
+          || occupied.some(other => overlaps(box, other, 6))
+          || airportPoints.some(p => overlaps(box, { left: p.x - 7, right: p.x + 7, top: p.y - 7, bottom: p.y + 7 }))) return;
+        // Count route strokes crossing the text rectangle using segment clipping.
+        const crossings = localSegments.filter(([a, b]) => {
+          let start = 0, end = 1;
+          for (const [origin, delta, min, max] of [[a.x, b.x - a.x, box.left - 2, box.right + 2], [a.y, b.y - a.y, box.top - 2, box.bottom + 2]]) {
+            if (delta === 0) { if (origin < min || origin > max) return false; }
+            else {
+              const t0 = (min - origin) / delta, t1 = (max - origin) / delta;
+              start = Math.max(start, Math.min(t0, t1)); end = Math.min(end, Math.max(t0, t1));
+              if (start > end) return false;
+            }
+          }
+          return true;
+        }).length;
+        const score = crossings * 10 + preference;
+        if (!best || score < best.score) best = { box, x, y, score };
+      });
+      element.hidden = !best;
+      if (best) {
+        // Position the inner text; Leaflet retains control of the marker transform.
+        text.style.transform = `translate(${best.x}px, ${best.y}px)`;
+        occupied.push(best.box);
+      }
+    });
+  }
+  map.on('moveend zoomend resize', layoutPlaceLabels);
+  layoutPlaceLabels();
+  document.fonts?.ready.then(layoutPlaceLabels);
+
   const airlineSelect = document.querySelector('#airline');
   const asiaSelect = document.querySelector('#asia-airport'), americaSelect = document.querySelector('#north-america-airport');
   const backButton = document.querySelector('#filter-back');
-  const name = code => airportByCode[code]?.name_cn || code;
-  const airlineName = code => airlineByCode[code]?.name_cn || code;
+  const airlineName = code => bilingual(airlineByCode[code]?.name_cn || code, airlineByCode[code]?.name_en);
   const airportHTML = code => `${flagHTML(airportByCode[code]?.country_or_region)}${escapeHTML(code)}`;
   const airlineFlag = code => flagHTML(airlineByCode[code]?.country_or_region);
-  const allianceNames = { SA: '星空联盟', OW: '寰宇一家', ST: '天合联盟' };
-  function airlineHTML(code, label = airlineName(code)) {
+  const allianceNames = { SA: '星空联盟 / Star Alliance', OW: '寰宇一家 / oneworld', ST: '天合联盟 / SkyTeam' };
+  function airlineHTML(code) {
     const airline = airlineByCode[code];
-    const alliance = allianceNames[airline?.alliance] || '无联盟';
-    const airlineTip = `${airlineName(code)} · ${code}${airline?.alliance ? '' : ' · 无联盟'}`;
+    const alliance = allianceNames[airline?.alliance] || '无联盟 / Unaffiliated';
+    const airlineTip = `${airlineName(code)} · ${code}${airline?.alliance ? '' : ' · 无联盟 / Unaffiliated'}`;
     const logo = `<span class="brand-mark" tabindex="0" data-brand-tip="${escapeHTML(airlineTip)}" aria-label="${escapeHTML(airlineTip)}"><img class="airline-logo" src="src/assets/airlines/${escapeHTML(code)}.png" alt="" width="20" height="20" loading="lazy"></span>`;
     const allianceIcon = airline?.alliance ? `<span class="brand-mark" tabindex="0" data-brand-tip="${escapeHTML(alliance)}" aria-label="${escapeHTML(alliance)}"><img class="alliance-logo" src="src/assets/alliances/${escapeHTML(airline.alliance)}.svg" alt="" width="18" height="18" loading="lazy"></span>` : '';
-    return `<span class="airline-identity">${airlineFlag(code)}${escapeHTML(label)}${logo}${allianceIcon}</span>`;
+    return `<span class="airline-identity">${airlineFlag(code)}${stackedNamesHTML(airline?.name_cn || code, airline?.name_en || code)}${logo}${allianceIcon}</span>`;
   }
   setupBrandTooltips();
   function catalogMultiselect(container, items, placeholder, addLabel, optionHTML, tagHTML) {
@@ -230,24 +340,32 @@ async function init() {
       selected.forEach(code => {
         const tag = document.createElement('button'); tag.type = 'button';
         tag.className = 'airport-tag'; tag.innerHTML = `${tagHTML(code)} ×`;
-        tag.setAttribute('aria-label', `移除 ${code}`);
+        tag.setAttribute('aria-label', `移除 / Remove ${code}`);
         tag.onclick = () => { selected.delete(code); sync(); applyFilters(); };
         tags.append(tag);
       });
       inputs.forEach(input => { input.checked = selected.has(input.value); });
-      summary.textContent = selected.size ? addLabel : placeholder;
+      summary.innerHTML = `<span>${escapeHTML(selected.size ? addLabel : placeholder)}</span>${chevronHTML}`;
       heading.textContent = `${headingText} (${selected.size}/${items.length})`;
     }
-    items.forEach(a => {
-      const label = document.createElement('label');
-      const input = document.createElement('input'); input.type = 'checkbox'; input.value = a.iata_code;
-      input.onchange = () => {
-        if (input.checked) selected.add(input.value); else selected.delete(input.value);
-        sync(); applyFilters();
-      };
-      const text = document.createElement('span'); text.innerHTML = optionHTML(a);
-      label.append(input, text);
-      options.append(label); inputs.push(input);
+    groupByCountry(items, item => item.country_or_region).forEach(([country, members]) => {
+      const group = document.createElement('details'); group.className = 'catalog-country-group';
+      group.setAttribute('role', 'group');
+      const groupHeading = document.createElement('summary'); groupHeading.className = 'country-group-heading';
+      groupHeading.id = `${container.id}-country-${country}`;
+      groupHeading.innerHTML = `${countryHeadingHTML(country)}${chevronHTML.replace('filter-chevron', 'country-chevron')}`;
+      group.setAttribute('aria-labelledby', groupHeading.id); group.append(groupHeading); options.append(group);
+      members.forEach(a => {
+        const label = document.createElement('label');
+        const input = document.createElement('input'); input.type = 'checkbox'; input.value = a.iata_code;
+        input.onchange = () => {
+          if (input.checked) selected.add(input.value); else selected.delete(input.value);
+          sync(); applyFilters();
+        };
+        const text = document.createElement('span'); text.className = 'catalog-option'; text.innerHTML = optionHTML(a);
+        label.append(input, text);
+        group.append(label); inputs.push(input);
+      });
     });
     sync();
     document.addEventListener('click', event => { if (!container.contains(event.target)) dropdown.open = false; });
@@ -256,25 +374,27 @@ async function init() {
       set: codes => { selected.clear(); codes.forEach(code => selected.add(code)); sync(); } };
   }
   const airportMultiselect = (container, region, placeholder) => catalogMultiselect(container,
-    airports.filter(a => a.region === region), placeholder, '添加机场',
-    a => `${airportHTML(a.iata_code)} · ${escapeHTML(a.name_cn)}`, code => escapeHTML(code));
-  const selectedAirlines = catalogMultiselect(airlineSelect, airlines, '全部航空公司', '添加航空公司',
-    a => airlineHTML(a.iata_code, `${a.iata_code} · ${a.name_cn}`),
+    airports.filter(a => a.region === region), placeholder, '添加机场 / Add airports',
+    a => catalogOptionHTML(a), code => escapeHTML(code));
+  const selectedAirlines = catalogMultiselect(airlineSelect, airlines, '全部航空公司 / All airlines', '添加航空公司 / Add airlines',
+    a => catalogOptionHTML(a, true),
     code => escapeHTML(code));
-  const asiaAirports = airportMultiselect(asiaSelect, 'asia_pacific', '全部亚太区机场');
-  const americaAirports = airportMultiselect(americaSelect, 'north_america', '全部北美区机场');
+  const asiaAirports = airportMultiselect(asiaSelect, 'asia_pacific', '全部亚太区机场 / All Asia Pacific airports');
+  const americaAirports = airportMultiselect(americaSelect, 'north_america', '全部北美区机场 / All North American airports');
   let selectedRoute = '';
   const expandedRoutes = new Set();
+  const expandedCountries = new Set();
   function setCardExpanded(card, expanded) {
     card.querySelector('.route-card-toggle').setAttribute('aria-expanded', String(expanded));
-    card.querySelector('.route-card-toggle').title = `${expanded ? '收起' : '展开'} ${card.dataset.routeKey}`;
+    card.querySelector('.route-card-toggle').title = `${expanded ? '收起 / Collapse' : '展开 / Expand'} ${card.dataset.routeKey}`;
     card.querySelector('.filtered-flights').hidden = !expanded;
     if (expanded) expandedRoutes.add(card.dataset.routeKey); else expandedRoutes.delete(card.dataset.routeKey);
   }
   function updateExpansionButtons() {
     const cards = [...document.querySelectorAll('#details .route-card')];
-    document.querySelector('#expand-all-routes').disabled = !cards.some(card => card.querySelector('.filtered-flights').hidden);
-    document.querySelector('#collapse-all-routes').disabled = !cards.some(card => !card.querySelector('.filtered-flights').hidden);
+    const groups = [...document.querySelectorAll('#details .route-country-group')];
+    document.querySelector('#expand-all-routes').disabled = !groups.some(group => !group.open) && !cards.some(card => card.querySelector('.filtered-flights').hidden);
+    document.querySelector('#collapse-all-routes').disabled = !groups.some(group => group.open) && !cards.some(card => !card.querySelector('.filtered-flights').hidden);
   }
   const filterState = () => [selectedAirlines.values(), asiaAirports.values(), americaAirports.values()];
   let appliedFilters = filterState();
@@ -287,11 +407,11 @@ async function init() {
   function updateBackButton() {
     backButton.parentElement.hidden = !selectedRoute;
     backButton.disabled = !selectedRoute;
-    backButton.title = '返回航班列表';
+    backButton.title = '返回航班列表 / Back to flight list';
   }
   function applyFilters() {
     const next = filterState();
-    if (JSON.stringify(next) !== JSON.stringify(appliedFilters)) expandedRoutes.clear();
+    if (JSON.stringify(next) !== JSON.stringify(appliedFilters)) { expandedRoutes.clear(); expandedCountries.clear(); }
     appliedFilters = next;
     render();
     document.querySelector('.panel-scroll').scrollTop = 0;
@@ -320,9 +440,9 @@ async function init() {
     const content = document.createElement('div'); content.className = 'airport-cards map-choice-panel';
     content.classList.toggle('airport-cards-scrollable', candidates.length >= 3);
     const heading = document.createElement('div'); heading.className = 'map-choice-heading';
-    heading.textContent = `附近 ${candidates.length} 座机场 · 请选择`;
+    heading.innerHTML = stackedNamesHTML(`附近 ${candidates.length} 座机场 · 请选择`, `Nearby ${candidates.length} airports · Choose one`);
     const body = document.createElement('div'); body.className = 'map-choice-body';
-    body.tabIndex = 0; body.setAttribute('aria-label', '附近机场列表');
+    body.tabIndex = 0; body.setAttribute('aria-label', '附近机场列表 / Nearby airports');
     content.append(heading, body);
     candidates.forEach(a => {
       const code = a.iata_code;
@@ -330,18 +450,19 @@ async function init() {
       const connections = services.filter(f => matchesFilters(f) && (f.origin === code || f.destination === code));
       const destinations = new Set(connections.map(f => f.origin === code ? f.destination : f.origin));
       const card = document.createElement('article'); card.className = 'airport-info-card';
-      const serviceLabel = a.service_status === 'announced' ? `待开航 · ${a.service_start}` : a.service_status === 'seasonal' ? '含季节性定期客运' : '定期客运机场';
-      card.innerHTML = `<h3><span>${airportHTML(code)}</span> ${escapeHTML(a.name_cn)}</h3><p>${escapeHTML(a.name_en)}<br>${escapeHTML(a.city_cn)} · ${escapeHTML(catalog.regions[a.region].name_cn)}<br>${escapeHTML(serviceLabel)}</p><div class="airport-count">${connections.length ? `${destinations.size} 个目的地 · ${records.length} 条航班记录` : '当前筛选下没有已收录的航线'}</div>`;
+      const serviceLabel = a.service_status === 'announced' ? `待开航 / Planned · ${a.service_start}` : a.service_status === 'seasonal' ? '含季节性定期客运 / Includes seasonal scheduled services' : '定期客运机场 / Scheduled passenger services';
+      card.innerHTML = `<h3><span class="airport-card-code">${airportHTML(code)}</span>${stackedNamesHTML(a.name_cn, a.name_en)}</h3><p>${escapeHTML(bilingual(a.city_cn, a.city))} · ${escapeHTML(bilingual(catalog.regions[a.region].name_cn, a.region === 'asia_pacific' ? 'Asia Pacific' : 'North America'))}<br>${escapeHTML(serviceLabel)}</p><div class="airport-count">${connections.length ? `${destinations.size} 个目的地 / destinations · ${records.length} 条记录 / records` : '当前筛选下没有已收录的航线 / No cataloged routes match these filters'}</div>`;
       const button = document.createElement('button'); button.type = 'button';
-      button.textContent = '查看细节';
+      button.textContent = '查看细节 / View details';
       button.onclick = () => {
         (a.region === 'asia_pacific' ? asiaAirports : americaAirports).set([code]); applyFilters();
         document.querySelector('.panel-scroll').scrollTop = 0;
       };
       card.append(button); body.append(card);
     });
-    airportPopup = L.popup({ autoPan: false, closeOnClick: false, maxWidth: 340, minWidth: 270, className: 'airport-info-popup' })
+    airportPopup = L.popup({ autoPan: false, closeOnClick: false, maxWidth: 340, minWidth: 270, className: 'airport-info-popup', closeButton: true })
       .setLatLng(pacific(locations[candidates[0].iata_code])).setContent(content).openOn(map);
+    airportPopup.getElement().querySelector('.leaflet-popup-close-button')?.setAttribute('aria-label', '关闭 / Close');
     popupKey = key;
     airportPopup.getElement().addEventListener('mouseenter', () => {
       pointerOverCard = true; keepAirportCardOpen();
@@ -432,7 +553,7 @@ async function init() {
   let hoveredRoute = null;
   const routePicker = document.createElement('div');
   routePicker.className = 'route-picker map-choice-panel'; routePicker.hidden = true;
-  routePicker.setAttribute('aria-label', '附近航线选择');
+  routePicker.setAttribute('aria-label', '附近航线选择 / Nearby routes');
   map.getContainer().append(routePicker);
   L.DomEvent.disableClickPropagation(routePicker);
   L.DomEvent.disableScrollPropagation(routePicker);
@@ -482,9 +603,9 @@ async function init() {
     pickerRoutes = candidates;
     pickerKey = key; routePicker.replaceChildren();
     const heading = document.createElement('div'); heading.className = 'map-choice-heading';
-    heading.textContent = `附近 ${candidates.length} 条航线 · 请选择`; routePicker.append(heading);
+    heading.textContent = `附近 ${candidates.length} 条航线 · 请选择 / Nearby routes · Choose one`; routePicker.append(heading);
     const body = document.createElement('div'); body.className = 'map-choice-body'; routePicker.append(body);
-    body.tabIndex = 0; body.setAttribute('aria-label', '附近航线列表');
+    body.tabIndex = 0; body.setAttribute('aria-label', '附近航线列表 / Nearby routes');
     candidates.forEach(route => {
       const button = document.createElement('button'); button.type = 'button';
       button.innerHTML = `${airportHTML(route.a)} - ${airportHTML(route.b)}`;
@@ -517,30 +638,30 @@ async function init() {
   function serviceDetails(route) {
     return route.services.map(service => {
       const hasTimetable = route.flights.some(f => f.airline === service.airline);
-      const status = service.service_status === 'seasonal' ? ' · 季节性' : '';
+      const status = service.service_status === 'seasonal' ? ' · 季节性 / Seasonal' : '';
       const note = service.note || service.season_note;
       const upcoming = hasTimetable ? [] : rawFlights.filter(f => f.airline === service.airline
         && f.service_status === 'seasonal_planned' && f.valid_from > timetableDate
         && ((f.origin === route.a && f.destination === route.b) || (f.origin === route.b && f.destination === route.a)));
-      const planned = upcoming.map(f => `<br>${escapeHTML(f.airline + f.flight_number)} · ${escapeHTML(f.origin)} → ${escapeHTML(f.destination)} · ${escapeHTML(f.aircraft)} · ${escapeHTML(f.valid_from)} 至 ${escapeHTML(f.valid_to)}`).join('');
+      const planned = upcoming.map(f => `<br>${escapeHTML(f.airline + f.flight_number)} · ${escapeHTML(f.origin)} ${arrowHTML()} ${escapeHTML(f.destination)} · ${escapeHTML(f.aircraft)} · ${escapeHTML(f.valid_from)} – ${escapeHTML(f.valid_to)}`).join('');
       if (hasTimetable && !status && !note) return '';
-      return `<div class="filtered-flight">${airlineHTML(service.airline)} (${escapeHTML(service.airline)})${status}${hasTimetable ? '' : upcoming.length ? ' · 下一运营季计划（未计入当前航班数）' : ' · 班表未录入'}${note ? `<br>${escapeHTML(note)}` : ''}${planned}</div>`;
+      return `<div class="filtered-flight">${airlineHTML(service.airline)} (${escapeHTML(service.airline)})${status}${hasTimetable ? '' : upcoming.length ? ' · 下一运营季计划（未计入当前航班数） / Next-season schedule (excluded from current counts)' : ' · 班表未录入 / Timetable unavailable'}${note ? `<br>${escapeHTML(bilingualNote(note))}` : ''}${planned}</div>`;
     }).join('');
   }
   function flightDetailsHTML(f) {
     const mixedAircraft = new Set(f.departures?.map(d => d.aircraft)).size > 1;
     const notice = f.verification_note || f.aircraft_note;
-    const warning = notice ? `<br>${escapeHTML(notice)}` : '';
+    const warning = notice ? `<br>${escapeHTML(bilingualNote(notice))}` : '';
     const departureLabels = f.departures?.map(d =>
       d.date.slice(5) + (mixedAircraft ? ` (${d.aircraft})` : '')) || [];
     const dates = departureLabels.length && departureLabels.length <= 7
-      ? `<br>出发日期：${escapeHTML(departureLabels.join('、'))}` : '';
+      ? `<br>出发日期 / Departure dates: ${escapeHTML(departureLabels.join('、'))}` : '';
     const times = f.dept_time || f.arri_time
-      ? escapeHTML(`${f.dept_time || '—'} → ${f.arri_time || '—'}`) : '起降时间未录入';
-    const validity = f.valid_to ? `资料适用至 ${escapeHTML(f.valid_to)}` : '历史班表';
+      ? `${escapeHTML(f.dept_time || '—')} ${arrowHTML()} ${escapeHTML(f.arri_time || '—')}` : '起降时间未录入 / Flight times unavailable';
+    const validity = f.valid_to ? `资料适用至 / Valid through ${escapeHTML(f.valid_to)}` : '历史班表 / Historical schedule';
     return `<div class="flight">
       <strong>${escapeHTML(f.airline + f.flight_number)} · ${airlineHTML(f.airline)}</strong><br>
-      ${escapeHTML(f.origin)} → ${escapeHTML(f.destination)} · ${escapeHTML(f.aircraft || '机型未录入')}<br>
+      ${escapeHTML(f.origin)} ${arrowHTML()} ${escapeHTML(f.destination)} · ${escapeHTML(f.aircraft || '机型未录入 / Aircraft unspecified')}<br>
       ${escapeHTML(departureSummary(f))}${dates}${warning}<br>${times}<br>${validity}
     </div>`;
   }
@@ -551,10 +672,14 @@ async function init() {
     updateBackButton();
     if (airportPopup) map.closePopup(airportPopup);
     const list = route.flights.map(flightDetailsHTML).join('');
-    document.querySelector('#flight-summary').textContent = `${route.flights.length} 条记录 · 1 条航线`;
+    document.querySelector('#flight-summary').textContent = `${route.flights.length} 条记录 / records · 1 条航线 / route`;
     document.querySelector('#route-list').hidden = true;
     const detail = document.querySelector('#route-detail');
-    detail.innerHTML = `<p class="detail-airports">${airportHTML(route.a)} · ${escapeHTML(name(route.a))}<br>${airportHTML(route.b)} · ${escapeHTML(name(route.b))}</p>${serviceDetails(route)}${list}`;
+    const endpoints = [route.a, route.b].map(code => {
+      const airport = airportByCode[code];
+      return `<div class="detail-airport catalog-option">${catalogOptionHTML(airport)}</div>`;
+    }).join('');
+    detail.innerHTML = `<div class="detail-airports">${endpoints}</div>${serviceDetails(route)}${list}`;
     detail.hidden = false;
     document.querySelector('.panel-scroll').scrollTop = 0;
     updateRouteAppearance();
@@ -591,7 +716,7 @@ async function init() {
       line.on('mousemove', () => { if (line.isTooltipOpen()) constrainOverlay(line.getTooltip()); });
       line.on('mouseover', event => {
         if (!canPreviewHover()) return;
-        line.bindTooltip(`${route.a} ↔ ${route.b}`).openTooltip(event.latlng);
+        line.bindTooltip(`${escapeHTML(route.a)} ${arrowHTML(true)} ${escapeHTML(route.b)}`).openTooltip(event.latlng);
         hoveredRoute = route; updateRouteAppearance();
       });
       line.on('mouseout', () => {
@@ -606,7 +731,7 @@ async function init() {
       const code = a.iata_code, isSelected = asiaAirports.has(code) || americaAirports.has(code);
       const marker = L.circleMarker(pacific(locations[code]), { radius: isSelected ? 8 : active.has(code) ? 5 : 3, color: isSelected ? 'var(--route-highlight)' : active.has(code) ? 'var(--airport-active)' : 'var(--airport-inactive)', fillColor: isSelected ? 'var(--route-highlight)' : active.has(code) ? 'var(--airport-fill)' : 'var(--airport-inactive-fill)', fillOpacity: 1, weight: 2, bubblingMouseEvents: false }).addTo(markers);
       marker.airportCode = code;
-      marker.getElement()?.setAttribute('aria-label', `${code}机场`);
+      marker.getElement()?.setAttribute('aria-label', `${code} 机场 / Airport`);
       marker.on('click', event => {
         if (event.originalEvent) L.DomEvent.stopPropagation(event.originalEvent);
         showAirportCards(airportCardsFor(code));
@@ -622,41 +747,54 @@ async function init() {
     const details = document.querySelector('#route-list');
     details.hidden = false;
     document.querySelector('#route-list-actions').hidden = false;
-    document.querySelector('#flight-summary').textContent = `${filtered.length} 条记录 · ${routes.size} 条航线`;
-    details.innerHTML = !routes.size ? '<p>当前筛选下没有已收录的直飞航线。</p>' : '';
-    [...routes.values()].forEach(route => {
-      const card = document.createElement('div'); card.className = 'route-card';
-      card.dataset.routeKey = route.key;
-      const button = document.createElement('button'); button.type = 'button'; button.className = 'route-card-toggle';
-      button.innerHTML = `<span class="route-card-airports">${airportHTML(route.a)} - ${airportHTML(route.b)}</span><svg class="route-expand-icon" viewBox="0 0 24 24" aria-hidden="true"><path d="m6 9 6 6 6-6"/></svg>`;
-      button.setAttribute('aria-controls', `route-flights-${route.key}`);
-      const previewRoute = () => { hoveredRoute = route; updateRouteAppearance(); };
-      button.onmouseenter = () => { if (canPreviewHover()) previewRoute(); };
-      button.onfocus = () => { if (canPreviewFocus()) previewRoute(); };
-      button.onmouseleave = button.onblur = () => {
-        if (hoveredRoute?.key === route.key) { hoveredRoute = null; updateRouteAppearance(); }
-      };
-      button.onclick = () => { setCardExpanded(card, button.getAttribute('aria-expanded') !== 'true'); updateExpansionButtons(); }; card.append(button);
-      const flightList = document.createElement('div'); flightList.className = 'filtered-flights';
-      flightList.id = `route-flights-${route.key}`;
-      flightList.innerHTML = serviceDetails(route);
-      route.flights.forEach(f => {
-        const row = document.createElement('div'); row.className = 'filtered-flight';
-        row.innerHTML = `${airlineHTML(f.airline)}<br>${escapeHTML(f.airline + f.flight_number)} · ${escapeHTML(f.origin)} → ${escapeHTML(f.destination)} · ${escapeHTML(f.aircraft || '机型未录入')}`;
-        flightList.append(row);
+    document.querySelector('#flight-summary').textContent = `${filtered.length} 条记录 / records · ${routes.size} 条航线 / routes`;
+    details.innerHTML = !routes.size ? '<p>当前筛选下没有已收录的直飞航线。 / No cataloged nonstop routes match these filters.</p>' : '';
+    groupByCountry([...routes.values()], route => airportByCode[route.a].country_or_region).forEach(([country, countryRoutes]) => {
+      const group = document.createElement('details'); group.className = 'route-country-group';
+      group.dataset.country = country; group.open = expandedCountries.has(country);
+      group.addEventListener('toggle', () => {
+        if (!group.isConnected) return;
+        if (group.open) expandedCountries.add(country); else expandedCountries.delete(country);
+        updateExpansionButtons();
       });
-      const detailButton = document.createElement('button'); detailButton.type = 'button'; detailButton.className = 'route-details-button';
-      detailButton.textContent = '查看细节'; detailButton.onclick = () => showRoute(route); flightList.append(detailButton);
-      card.append(flightList); details.append(card); setCardExpanded(card, expandedRoutes.has(route.key));
+      const heading = document.createElement('summary'); heading.className = 'country-group-heading';
+      heading.id = `route-country-${country}`; heading.innerHTML = `${countryHeadingHTML(country)}${chevronHTML.replace('filter-chevron', 'country-chevron')}`;
+      group.setAttribute('aria-labelledby', heading.id); group.append(heading); details.append(group);
+      countryRoutes.sort((a, b) => a.key.localeCompare(b.key)).forEach(route => {
+        const card = document.createElement('div'); card.className = 'route-card';
+        card.dataset.routeKey = route.key;
+        const button = document.createElement('button'); button.type = 'button'; button.className = 'route-card-toggle';
+        button.innerHTML = `<span class="route-card-airports">${escapeHTML(route.a)} - ${escapeHTML(route.b)}</span><svg class="route-expand-icon" viewBox="0 0 24 24" aria-hidden="true"><path d="m6 9 6 6 6-6"/></svg>`;
+        button.setAttribute('aria-controls', `route-flights-${route.key}`);
+        const previewRoute = () => { hoveredRoute = route; updateRouteAppearance(); };
+        button.onmouseenter = () => { if (canPreviewHover()) previewRoute(); };
+        button.onfocus = () => { if (canPreviewFocus()) previewRoute(); };
+        button.onmouseleave = button.onblur = () => {
+          if (hoveredRoute?.key === route.key) { hoveredRoute = null; updateRouteAppearance(); }
+        };
+        button.onclick = () => { setCardExpanded(card, button.getAttribute('aria-expanded') !== 'true'); updateExpansionButtons(); }; card.append(button);
+        const flightList = document.createElement('div'); flightList.className = 'filtered-flights';
+        flightList.id = `route-flights-${route.key}`;
+        flightList.innerHTML = serviceDetails(route);
+        route.flights.forEach(f => {
+          const row = document.createElement('div'); row.className = 'filtered-flight';
+          row.innerHTML = `${airlineHTML(f.airline)}<br>${escapeHTML(f.airline + f.flight_number)} · ${escapeHTML(f.origin)} ${arrowHTML()} ${escapeHTML(f.destination)} · ${escapeHTML(f.aircraft || '机型未录入 / Aircraft unspecified')}`;
+          flightList.append(row);
+        });
+        const detailButton = document.createElement('button'); detailButton.type = 'button'; detailButton.className = 'route-details-button';
+        detailButton.textContent = '查看细节 / View details'; detailButton.onclick = () => showRoute(route); flightList.append(detailButton);
+        card.append(flightList); group.append(card); setCardExpanded(card, expandedRoutes.has(route.key));
+      });
     });
     updateExpansionButtons();
+    layoutPlaceLabels();
   }
-  document.querySelector('#expand-all-routes').onclick = () => { document.querySelectorAll('#details .route-card').forEach(card => setCardExpanded(card, true)); updateExpansionButtons(); };
-  document.querySelector('#collapse-all-routes').onclick = () => { document.querySelectorAll('#details .route-card').forEach(card => setCardExpanded(card, false)); updateExpansionButtons(); };
+  document.querySelector('#expand-all-routes').onclick = () => { document.querySelectorAll('#details .route-country-group').forEach(group => { group.open = true; expandedCountries.add(group.dataset.country); }); document.querySelectorAll('#details .route-card').forEach(card => setCardExpanded(card, true)); updateExpansionButtons(); };
+  document.querySelector('#collapse-all-routes').onclick = () => { document.querySelectorAll('#details .route-country-group').forEach(group => { group.open = false; expandedCountries.delete(group.dataset.country); }); document.querySelectorAll('#details .route-card').forEach(card => setCardExpanded(card, false)); updateExpansionButtons(); };
   backButton.onclick = () => {
     if (selectedRoute) render();
   };
-  document.querySelector('#reset').onclick = () => { expandedRoutes.clear(); asiaAirports.set([]); americaAirports.set([]); selectedAirlines.set([]); applyFilters(); framePacific(); };
+  document.querySelector('#reset').onclick = () => { expandedRoutes.clear(); expandedCountries.clear(); document.querySelectorAll('.catalog-country-group').forEach(group => { group.open = false; }); asiaAirports.set([]); americaAirports.set([]); selectedAirlines.set([]); applyFilters(); framePacific(); };
   render();
 }
 function setupTopbarMenu() {
@@ -666,7 +804,7 @@ function setupTopbarMenu() {
   function setOpen(open) {
     header.dataset.menuOpen = String(open);
     toggle.setAttribute('aria-expanded', String(open));
-    toggle.setAttribute('aria-label', open ? '关闭顶栏菜单' : '打开顶栏菜单');
+    toggle.setAttribute('aria-label', open ? '关闭顶栏菜单 / Close menu' : '打开顶栏菜单 / Open menu');
   }
   toggle.addEventListener('click', () => setOpen(toggle.getAttribute('aria-expanded') !== 'true'));
   document.addEventListener('click', event => { if (!header.contains(event.target)) setOpen(false); });
@@ -677,4 +815,4 @@ function setupTopbarMenu() {
   mobile.addEventListener('change', () => setOpen(false));
 }
 setupTopbarMenu();
-init().catch(error => { document.querySelector('#status').textContent = `${error.message} 请通过本地 HTTP 服务打开此页面。`; document.querySelector('#stats').textContent = '地图未能初始化'; });
+init().catch(error => { document.querySelector('#status').textContent = `${error.message} 请通过本地 HTTP 服务打开此页面。 / Open this page through a local HTTP server.`; document.querySelector('#stats').textContent = '地图未能初始化 / Map initialization failed'; });
