@@ -1,57 +1,83 @@
-# EastAsian-Flights-in-NA
-亚太—北美不停站定期客运航线地图，支持按航司及两端机场多选筛选，查看航班号、机型和有适用日期的班表。
+# 亚太—北美直飞航线地图
 
-## License
+一个没有构建步骤的静态网站。使用原生 JavaScript、原生 CSS 和 Leaflet，按航司、亚太机场、北美机场筛选直飞航线，并显示每周班数、运营星期和备注。
 
-本项目原创代码与文档采用 [MIT License](LICENSE)，允许修改、分发和商用，使用时须保留版权与许可声明。
+## 第一次接手，先做这三件事
 
-第三方依赖、航司／联盟 Logo、地图数据及外部来源资料沿用各自的权利与许可，不包含在本项目的 MIT 授权中，详见 [第三方素材与许可说明](THIRD_PARTY_NOTICES.md)。
+1. 安装／准备 Python 3 和 Node.js。本项目没有 npm 依赖，不用运行 `npm install`。
+2. 在项目根目录启动网页：
+   ```powershell
+   python -m http.server 8000 --bind 127.0.0.1
+   ```
+   浏览器打开 [本地预览](http://127.0.0.1:8000)。不能双击 HTML：页面需要通过 HTTP 加载 JSON 和 JS 模块。
+3. 修改前后都运行完整检查：
+   ```powershell
+   node scripts/check-project.mjs
+   ```
+   它检查 JS／Python 语法、数据关联、CSV、显示规则和地图几何；不会发布网站或重写正式数据。它不能代替浏览器里的交互检查。
 
-## 本地运行
+Leaflet 和字体通过 CDN 加载，预览时需要联网。底图和 Logo 已放在项目里，无需地图 API key。
 
-在仓库根目录运行 `python -m http.server 8000`，然后访问 http://localhost:8000 。
-也可以使用任意静态 HTTP 服务。由于页面通过 fetch 读取 JSON，不能直接双击 HTML 打开。
+## 想改什么，就去哪里
 
-## 地图
+| 想做的事 | 编辑位置 | 说明 |
+| --- | --- | --- |
+| 修改航班、班数、星期、机型、备注 | `admin/timetables.csv` | 一行一个单向航班 |
+| 增加／删除航司与机场的连接关系 | `admin/routes.csv` | 一行一家航司的一对机场 |
+| 修改机场基本资料 | `src/data/airports.json` | 只保留9个基础字段 |
+| 修改航司名字或联盟 | `src/data/airlines.json` | 只保留5个基础字段 |
+| 改航班卡片、中英排版、Logo 顺序 | `src/js/display.js` | 纯显示函数 |
+| 改国家／地区名称和分组顺序 | `src/js/display.js` 的 `REGION_NAMES` | 无旗帜图标 |
+| 改地图曲线与地区颜色映射 | `src/js/geometry.js` | 绘制与命中判断共用几何 |
+| 改筛选、详情切换或地图交互 | `src/js/app.js` | 应用控制器 |
+| 改颜色、字体、间距、侧栏宽度 | `src/css/theme.css` | 修改变量即可 |
+| 改桌面／手机布局 | `src/css/layout.css` | 800px 是桌面分界 |
+| 改卡片、按钮、下拉框样式 | `src/css/components.css` | 没有 CSS 组件库 |
 
-使用开源 Leaflet 1.9.4 与本地 Natural Earth 1:110m 国家边界底图，无需 API key。页面需要联网加载 Leaflet；底图数据随项目保存，使用深色陆地与浅色海洋。
-地图以太平洋为中心，以按平均纬度上下分流的示意弧线连接机场；往返和同一机场对的多班航班合并显示为一条航线。
-默认只显示机场圆点，悬停显示机场信息卡，移开后收起；点击“查看细节”进入航线详情。LAX/ONT、HND/NRT、JFK/EWR、HKG/SZX 按预设分组展示。也可通过下拉框筛选，点击曲线或侧栏航线查看已录入航班号、运营日和机型。
+## 日常更新数据，只有两步
 
-弧线参数集中在 `src/js/app.js` 顶部 `ROUTE_CURVE`：两端机场平均纬度低于35°向下弯，其余向上弯；`bendFactor` 和 `maxBendDegrees` 控制弯曲程度。机场位置不变，绘制、悬停判定与取景使用同一几何。
+1. 修改 `admin/` 的 CSV，保存为 **CSV UTF-8（逗号分隔）**。
+2. 运行：
+   ```powershell
+   python scripts/manage-data.py apply
+   ```
 
-航线按亚太端机场所属地区配色：大中华区蓝、日本紫红、韩国深绿、新加坡橙棕；悬停和选中使用各自更深的颜色，其他航线保留原来的粗细与透明度。普通色和深色集中在 `src/css/theme.css` 的 `--route-*`、`--route-*-highlight` 变量中。
+命令会先在临时目录生成并校验，成功后才替换 `src/data/routes.json` 和 `flights.json`。只想检查时，用 `python scripts/manage-data.py check`。
 
-## 数据
+**不要直接改生成的 routes.json 和 flights.json**：下次生成会覆盖。机场和航司 JSON 则直接编辑。提交时把 CSV 和生成的 JSON 一起提交，再按自己的静态网站部署方式发布。项目没有自动发布流程。
 
-- `src/data/airports.json`：正式机场资料，按亚太区／北美区分类，合并名称、代码、坐标、时区、服务状态及来源。
-- `src/data/airlines.json`：正式航司资料，包括现役独立航司及单列的承运关联公司。
-- `src/data/catalog-metadata.json`：目录及航线／班表各批次的核查日期、来源、计数和排除原因。
-- `src/data/CATALOG.md`：字段说明、研究边界和维护方法。
-- `src/data/routes.json`：194 条有来源的航司—机场对关系，含 188 条现役／季节性资格、6 条待开航计划；地图按机场对合并成 114 条连线。
-- `src/data/flights.json`：602 条班表记录，含 146 条此前资料、446 条当前快照和 10 条下一季计划。航班号保留前导零；新批次保存来源分段、实际出发日期及对应机型。
-- 旧 CSV 和独立坐标文件已移除，坐标直接存于 `airports.json`。
-- `src/data/world-countries.geojson`：Natural Earth 国家边界，来源 https://github.com/nvkelso/natural-earth-vector/blob/master/geojson/ne_110m_admin_0_countries.geojson 。低分辨率底图不包含全部小岛细节。
+详细填写示例见 [管理员维护说明](admin/README.md)，字段说明见 [数据说明](src/data/CATALOG.md)。
 
-机场与航司目录核查日为 2026-10-19，航线及新班表核查日为 2026-10-20。大陆—美加参考 [票帝直航表](https://piao.tips/uschinanonstop/)，并结合航司、机场资料核对。当前班表快照最晚适用至 2026-10-24，不能自动外推到下一航季；起降时间未录入。CI23／CI24 的部分机型及 MF806 的班期有来源分歧，界面明确提示待核实。
-现收录 44 座机场（43 座现役／季节性，CTS 待开航）、26 家独立航司及 1 家承运关联公司。当前快照覆盖 185 条航司—机场对关系、112 对机场；地图仍展示有航线资格但暂无当前班表的机场对，因此地图连线数与班表覆盖数不同。历史资料保留，新批次优先显示；下一季计划不计入当前航班数。
+## 需要保留的显示规则
 
-运行 `node scripts/validate-data.mjs` 检查数据关联、区域、坐标、来源、待开航日期和代码格式。
-离线重建本次班表：`python scripts/import-researched-timetables.py`。它读取 `scripts/data/` 中两份已核对的来源文件，保留原有记录，可重复运行。`expand-routes.py` 用于此前航线和日航／全日空批次的重建；不是实时抓取器，详情见 `src/data/CATALOG.md`。
+- 顶部统计显示全站航线网络的总量，不随筛选变化；航班面板右侧的记录／航线统计才随筛选变化。
+- 一条地图连线代表一对机场，不等于一条实际航班；没有录入班表的航线也能画线。
+- 航班按实际方向显示；机场对和航线表统一亚太端在前。
+- 班表显示两行，例如“每周3班 / 3 Flights per week”和“一 三 五 / MON WED FRI”；每周7班不列星期。
+- 航司选项：Logo → 代码 → 中英文两行名称 → 右侧联盟 Logo。航班卡片中代码换成航班号。
+- 机型用 `B747`、`B77W`、`A359` 等四位代码，纯文字展示。
+- 国家／地区只用文字：`CHN` 为“中国大陆 / Mainland China”，`TWN` 为“台湾地区 / Taiwan”。
 
-需要重新采集时，先安装 `requests` 和 `beautifulsoup4`，再显式运行 `python scripts/research-timetables.py`；本轮脚本固定核查日为 2026-10-20，更新下一批次时须先调整日期与官方更正。`--audit` 单独采集复查证据，然后运行 `python scripts/audit-timetables.py` 生成报告。缓存、复查证据和报告均不提交。
+## 项目目录
 
-## 致谢
+```text
+index.html             页面结构；加载 Leaflet、CSS 和 JS 模块入口
+src/js/                网站 JS：控制器、显示、筛选、输入、几何、城市标签
+src/css/               主题、布局、组件、Leaflet 覆盖样式
+src/data/              网站实际读取的四份 JSON 和地理底图
+src/assets/            航司和联盟 Logo，附来源及许可说明
+admin/                 管理员编辑的两张 CSV 和填写指南
+scripts/               CSV 生成器、数据校验、自动测试、统一检查入口
+reference/             历史研究证据；网站和生成器都不读取
+docs/                  开发交接和检查方法
+```
 
-特别感谢 **北美票帝**。他们整理的航班数据与[中美／中加直航表](https://piao.tips/uschinanonstop/)为本项目的航线收集、班表补充和资料核对提供了非常大的帮助，是本项目重要的参考来源。
+代码调用关系、状态说明及浏览器检查清单见 [开发交接指南](docs/DEVELOPMENT.md)。样式修改方法见 [CSS 指南](src/css/README.md)。
 
-## 前端文件
+## 资料时效、许可与致谢
 
-- `src/js/app.js`：地图、筛选、悬停卡片和航线交互。
-- `src/css/style.css`：界面样式。
-- `src/assets/flags/`：本地国旗／地区旗帜 SVG，按机场和航司的 `country_or_region` 映射。取自 [flag-icons](https://github.com/lipis/flag-icons)，MIT 许可证随文件保存；不依赖系统 emoji 或外部图片服务。
-- `src/assets/airlines/`、`src/assets/alliances/`：航司及联盟标识，来源和使用说明随目录保存。
+资料时效以各航班备注为准。格式转换、检查通过不代表重新核实过航班事实，实际安排以航司公布为准。
 
-地图卡片与标签会在显示、缩放和窗口尺寸变化时向地图内侧调整，保留边缘间距；高卡片内部滚动，机场小标签始终单行。
+原创代码与文档采用 [MIT License](LICENSE)。第三方依赖、底图和 Logo 的权利说明见 [第三方素材与许可](THIRD_PARTY_NOTICES.md)。
 
-航线列表默认折叠，展开后可进入“查看细节”。详情按航班分卡，返回按钮吸附在内容区顶部；机场和航司选中标签仅显示代码。移动端顶栏的统计与 GitHub 入口收进折叠菜单，航班面板高度为 `clamp(300px, 52dvh, 500px)`。
+感谢北美票帝，其[中美／中加直航表](https://piao.tips/uschinanonstop/)为本项目提供了重要参考。

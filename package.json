@@ -1,0 +1,8 @@
+{
+  "name": "east-asian-flights-in-na",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "check": "node scripts/check-project.mjs"
+  }
+}

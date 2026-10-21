@@ -1,9 +1,6 @@
 # Local screenshots, research caches and generated reports
 /artifacts/
 
-# Generated audit evidence and per-record audit output
-/scripts/data/timetable-audit-*.json
-
 # Python runtime caches
 __pycache__/
 *.py[cod]

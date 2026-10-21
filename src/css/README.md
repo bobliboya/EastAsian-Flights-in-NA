@@ -1,40 +1,47 @@
 # CSS 修改指南
 
-`style.css` 仅负责按顺序加载其他文件，不在文件末尾叠加临时覆盖。
+本项目没有 Bootstrap、Tailwind 或其他组件库。`index.html` 加载 Leaflet 自带样式和 `style.css`；后者依次导入四个本地文件。
 
-| 文件 | 修改内容 |
-| --- | --- |
-| `theme.css` | 全站颜色、字体、侧栏宽度、顶部高度、圆角、间距、地图颜色 |
-| `layout.css` | 地图与右侧面板的位置、手机布局 |
-| `components.css` | 筛选框、统计、航线卡片、机场信息卡、滚动条 |
-| `map.css` | Leaflet 弹窗、机场标签、地图署名等覆盖样式 |
+| 文件 | 负责什么 | 修改示例 |
+| --- | --- | --- |
+| `theme.css` | 全局变量、字体、基础标签、滚动条 | 字号、颜色、圆角、侧栏宽度 |
+| `layout.css` | 页面位置和响应式布局 | 地图与侧栏、手机面板高度、顶部菜单 |
+| `components.css` | 网站组件外观 | 筛选框、Logo、统计、航线和航班卡、地图浮层内容 |
+| `map.css` | 地图和 Leaflet 的样式覆盖 | 气泡外壳、提示标签、地名、署名 |
 
-常用变量均在 `theme.css` 的 `:root` 中：
+## 从哪里下手
 
-- `--color-background`：列表和右侧栏背景。
-- `--color-surface`：航线卡片、机场卡片背景。
-- `--color-heading`：标题栏背景。
-- `--color-text`、`--color-muted`：正文、次要文字。
-- `--color-accent`：按钮及航线选中的强调色。
-- `--font-size-base`：普通文字 14px；`medium`、`large`、`xlarge`、`stat` 分别为 16、18、20、22px，统一控制全站字号。
-- `--sidebar-width`：PC 右栏宽度。较小屏幕的覆盖在 `layout.css` 中。
-- `--map-land`、`--map-ocean`、`--map-border`：陆地、海洋、国界。
-- `--route-greater-china`、`--route-japan`、`--route-korea`、`--route-singapore`：各地区航线颜色；加 `-highlight` 后缀的变量控制悬停／选中的深色。`--route-color` 是未分类航线的后备色。
+颜色和尺寸先找 `theme.css` 中的变量；不要把颜色直接写进 JS。
 
-地图 SVG 使用相同的 CSS 变量，颜色不再写死于 JS。修改样式后刷新页面即可。全站字体只在 `theme.css` 指定，组件继承；修改时请在对应组件的原规则中调整，避免多次重复定义同一选择器。
+- `--color-background`、`--color-surface`、`--color-heading`：页面、卡片、标题背景。
+- `--color-text`、`--color-muted`：主要和次要文字。
+- `--color-accent`、`--color-on-accent`：按钮背景和按钮文字。
+- `--font-size-base`：普通正文；其余字号分别用于标题和统计。
+- `--sidebar-width`、`--header-height`、`--panel-padding`：桌面侧栏、顶部高度和内部边距。
+- `--route-*` 与 `--route-*-highlight`：航线普通色与悬停／选中色。
+- `--map-land`、`--map-ocean`：陆地和海洋。
+- `--color-scroll-*`：中性灰滚动条。
 
-滚动条统一由 `theme.css` 的 `--color-scroll-track`、`--color-scroll-thumb`、`--color-scroll-thumb-hover` 控制，使用深灰轨道和灰色滑块。
+## 布局规则
 
-机场信息浮层和附近航线浮层共用 `components.css` 中的 `.map-choice-panel`、`.map-choice-heading`、`.map-choice-body`：标题固定，只有 body 滚动，滚动条与边框之间保留内侧间距。
+桌面宽度从800px开始，地图在左、侧栏在右。799px及以下，地图在上、筛选与结果面板在下。手机顶栏高度为82px；折叠面板按钮将下面板高度减半。航班结果区域本身有独立滚动。
 
-当前界面采用深海蓝配色：`--color-accent` / `--color-on-accent` 控制主按钮，`--color-link` / `--color-link-hover` 控制深色面板内的链接与文字强调，`--color-map-link` 控制浅色地图署名链接。滚动条保持中性灰色。
+`.panel-heading` 左边是标题，`#flight-summary` 在右边分两行。不要把它和顶部全站统计混在一起。
 
-返回按钮位于 `.panel-scroll` 内侧顶部的 `.panel-back`，只在进入“查看细节”后显示，并吸附在滚动区域顶部；不透明背景防止内容透出。标题栏、航线列表和筛选结果不显示返回按钮。返回详情前的列表时保留卡片展开状态。
+`.catalog-option` 是筛选选项的横向布局；`.airline-identity` 是航班卡片中的航司标识；`.bilingual-lines` 保存中英文上下两行；`.alliance-mark` 负责联盟 Logo 靠右。国旗和 Badge 均不使用。
 
-## 航司标识
+## 地图浮层
 
-航线列表保留航司名称、简洁航司图形及联盟小标识；班次和适用日期只在详情展示。联盟全称通过悬停或键盘聚焦的小框显示，不在图标旁重复写出。Logo为正式资源，存放在 `src/assets/airlines/` 与 `src/assets/alliances/`。
+机场卡片和密集航线候选面板共用 `.map-choice-panel`、`.map-choice-heading`、`.map-choice-body`。标题不滚动，body 才滚动；一至两座机场的卡片允许完整展开。
 
-移动端（799px及以下）顶栏右侧改为菜单按钮，统计与GitHub入口默认折叠；点击展开，点外部、按Escape或切换桌面断点时收起。桌面保持直接展示。手机顶栏沿用64px高度，标题不再与统计挤占同一行。
+边界位置由 app.js 的 `constrainOverlay()` 处理，使用元素实际尺寸整体向地图内侧调整。不要通过移动地图或移动机场坐标补救浮层溢出。
 
-移动端整个下方面板展开时占最多60dvh，可降为原高度的一半；其中“航班”区域高 `clamp(300px, 52dvh, 500px)`，包含标题栏，内容独立滚动。外层侧栏仍可滚动以访问筛选与航班区域。
+## 清理样式时注意
+
+1. 在对应组件原规则上修改，避免在末尾不断追加覆盖。
+2. HTML 中看不到的类不一定没用：JS 会创建浮层、选中状态和 Logo。
+3. `leaflet-*` 类由第三方库生成，不能仅凭本地 HTML 搜索结果删除。
+4. 航线高亮变量由 geometry.js 动态拼接引用，单次文本搜索会误报“未使用”。
+5. 同一选择器在不同媒体查询里出现属于响应式覆盖，不要合并掉断点差异。
+
+修改后运行 `node scripts/check-project.mjs`，并按 [开发交接指南](../../docs/DEVELOPMENT.md) 检查桌面、手机、长列表和地图四边浮层。自动测试不能证明 CSS 的实际视觉效果。

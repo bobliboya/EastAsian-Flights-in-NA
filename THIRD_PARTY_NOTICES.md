@@ -7,7 +7,6 @@
 | 内容 | 来源与许可 |
 | --- | --- |
 | Leaflet 1.9.4（通过 CDN 加载） | Copyright 2010–2023 Volodymyr Agafonkin、2010–2011 CloudMade；[BSD-2-Clause 原始许可](https://github.com/Leaflet/Leaflet/blob/v1.9.4/LICENSE) |
-| 本地国旗 SVG | flag-icons；Copyright 2013 Panayiotis Lipiridis；MIT，完整许可保留在 [src/assets/flags/LICENSE](src/assets/flags/LICENSE) |
 | Natural Earth 国家边界 | [公共领域数据及使用说明](https://www.naturalearthdata.com/about/terms-of-use/)；文件为 `src/data/world-countries.geojson` |
 | Open Sans（通过 Google Fonts 加载） | [SIL Open Font License 1.1](https://github.com/googlefonts/opensans/blob/main/OFL.txt) |
 
@@ -19,7 +18,7 @@
 
 ## 航班资料
 
-机场、航司、航线和班表中的外部来源资料不因加入本仓库而获得 MIT 再授权；其来源、适用日期和核查范围见 [数据目录说明](src/data/CATALOG.md) 及 `src/data/catalog-metadata.json`。本项目不主张对客观航班事实享有排他权，也不对来源网站、表格或数据库中第三方享有的权利作出授权。
+机场、航司、航线和班表中的外部来源资料不因加入本仓库而获得 MIT 再授权；当前字段说明见 [数据说明](src/data/CATALOG.md)，历史来源及核查记录见 [参考资料](reference/README.md)。本项目不主张对客观航班事实享有排他权，也不对来源网站、表格或数据库中第三方享有的权利作出授权。
 
 班表是带日期的资料快照，可能变化；使用时应结合相应来源及航司当前公布的信息。
 

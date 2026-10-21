@@ -1,587 +1,191 @@
 [
   {
     "iata_code": "3U",
-    "ticket_code": "876",
     "name_en": "Sichuan Airlines",
     "name_cn": "四川航空",
     "country_or_region": "CHN",
-    "alliance": null,
-    "service_status": "active",
-    "qualifying_service": {
-      "origin": "TFU",
-      "destination": "YVR",
-      "status": "active",
-      "source_ids": [
-        "yvr_network"
-      ]
-    },
-    "source_ids": [
-      "yvr_network"
-    ],
-    "checked_on": "2026-10-19"
+    "alliance": null
   },
   {
     "iata_code": "AA",
-    "ticket_code": "001",
     "name_en": "American Airlines",
     "name_cn": "美国航空",
     "country_or_region": "USA",
-    "alliance": "OW",
-    "service_status": "active",
-    "qualifying_service": {
-      "origin": "NRT",
-      "destination": "DFW",
-      "status": "active",
-      "source_ids": [
-        "fc_nrt"
-      ]
-    },
-    "source_ids": [
-      "fc_nrt"
-    ],
-    "checked_on": "2026-10-19"
+    "alliance": "OW"
   },
   {
     "iata_code": "AC",
-    "ticket_code": "014",
     "name_en": "Air Canada",
     "name_cn": "加拿大航空",
     "country_or_region": "CAN",
-    "alliance": "SA",
-    "service_status": "active",
-    "qualifying_service": {
-      "origin": "NRT",
-      "destination": "YVR",
-      "status": "active",
-      "source_ids": [
-        "yvr_network"
-      ]
-    },
-    "source_ids": [
-      "yvr_network"
-    ],
-    "checked_on": "2026-10-19"
+    "alliance": "SA"
   },
   {
     "iata_code": "AS",
-    "ticket_code": null,
     "name_en": "Alaska Airlines",
     "name_cn": "阿拉斯加航空",
     "country_or_region": "USA",
-    "alliance": "OW",
-    "service_status": "active",
-    "qualifying_service": {
-      "origin": "NRT",
-      "destination": "SEA",
-      "status": "active",
-      "source_ids": [
-        "fc_nrt"
-      ]
-    },
-    "source_ids": [
-      "fc_nrt",
-      "as_ha",
-      "ha_brand"
-    ],
-    "checked_on": "2026-10-19",
-    "legacy_iata_codes": [
-      "HA"
-    ],
-    "brands": [
-      "Alaska Airlines",
-      "Hawaiian Airlines"
-    ],
-    "notes": "Hawaiian 品牌保留；2026-04-22 客运系统合并后不再把 HA 作为独立现役航司代码重复计数。"
+    "alliance": "OW"
   },
   {
     "iata_code": "BR",
-    "ticket_code": "695",
     "name_en": "EVA Air",
     "name_cn": "长荣航空",
     "country_or_region": "TWN",
-    "alliance": "SA",
-    "service_status": "active",
-    "qualifying_service": {
-      "origin": "TPE",
-      "destination": "YYZ",
-      "status": "active",
-      "source_ids": [
-        "fc_yyz"
-      ]
-    },
-    "source_ids": [
-      "fc_yyz"
-    ],
-    "checked_on": "2026-10-19"
+    "alliance": "SA"
   },
   {
     "iata_code": "CA",
-    "ticket_code": "999",
     "name_en": "Air China",
     "name_cn": "中国国际航空",
     "country_or_region": "CHN",
-    "alliance": "SA",
-    "service_status": "active",
-    "qualifying_service": {
-      "origin": "PEK",
-      "destination": "YVR",
-      "status": "active",
-      "source_ids": [
-        "yvr_network"
-      ]
-    },
-    "source_ids": [
-      "yvr_network"
-    ],
-    "checked_on": "2026-10-19"
+    "alliance": "SA"
   },
   {
     "iata_code": "CI",
-    "ticket_code": "297",
     "name_en": "China Airlines",
     "name_cn": "中华航空",
     "country_or_region": "TWN",
-    "alliance": "ST",
-    "service_status": "active",
-    "qualifying_service": {
-      "origin": "TPE",
-      "destination": "PHX",
-      "status": "active",
-      "source_ids": [
-        "ci_network"
-      ]
-    },
-    "source_ids": [
-      "ci_network"
-    ],
-    "checked_on": "2026-10-19"
+    "alliance": "ST"
   },
   {
     "iata_code": "CX",
-    "ticket_code": "160",
     "name_en": "Cathay Pacific",
     "name_cn": "国泰航空",
     "country_or_region": "HKG",
-    "alliance": "OW",
-    "service_status": "active",
-    "qualifying_service": {
-      "origin": "HKG",
-      "destination": "DFW",
-      "status": "active",
-      "source_ids": [
-        "cx_network"
-      ]
-    },
-    "source_ids": [
-      "cx_network"
-    ],
-    "checked_on": "2026-10-19"
+    "alliance": "OW"
   },
   {
     "iata_code": "CZ",
-    "ticket_code": "784",
     "name_en": "China Southern Airlines",
     "name_cn": "中国南方航空",
     "country_or_region": "CHN",
-    "alliance": null,
-    "service_status": "active",
-    "qualifying_service": {
-      "origin": "CAN",
-      "destination": "YVR",
-      "status": "active",
-      "source_ids": [
-        "yvr_network"
-      ]
-    },
-    "source_ids": [
-      "yvr_network"
-    ],
-    "checked_on": "2026-10-19"
+    "alliance": null
   },
   {
     "iata_code": "DL",
-    "ticket_code": "006",
     "name_en": "Delta Air Lines",
     "name_cn": "达美航空",
     "country_or_region": "USA",
-    "alliance": "ST",
-    "service_status": "active",
-    "qualifying_service": {
-      "origin": "ICN",
-      "destination": "SLC",
-      "status": "active",
-      "source_ids": [
-        "dl_slc"
-      ]
-    },
-    "source_ids": [
-      "dl_slc"
-    ],
-    "checked_on": "2026-10-19"
+    "alliance": "ST"
   },
   {
     "iata_code": "HU",
-    "ticket_code": "880",
     "name_en": "Hainan Airlines",
     "name_cn": "海南航空",
     "country_or_region": "CHN",
-    "alliance": null,
-    "service_status": "active",
-    "qualifying_service": {
-      "origin": "SZX",
-      "destination": "YVR",
-      "status": "active",
-      "source_ids": [
-        "yvr_network"
-      ]
-    },
-    "source_ids": [
-      "yvr_network"
-    ],
-    "checked_on": "2026-10-19"
+    "alliance": null
   },
   {
     "iata_code": "HX",
-    "ticket_code": "851",
     "name_en": "Hong Kong Airlines",
     "name_cn": "香港航空",
     "country_or_region": "HKG",
-    "alliance": null,
-    "service_status": "active",
-    "qualifying_service": {
-      "origin": "HKG",
-      "destination": "YVR",
-      "status": "active",
-      "source_ids": [
-        "hx_yvr"
-      ]
-    },
-    "source_ids": [
-      "hx_yvr"
-    ],
-    "checked_on": "2026-10-19"
+    "alliance": null
   },
   {
     "iata_code": "JD",
-    "ticket_code": null,
     "name_en": "Beijing Capital Airlines",
     "name_cn": "首都航空",
     "country_or_region": "CHN",
-    "alliance": null,
-    "service_status": "active",
-    "qualifying_service": {
-      "origin": "TAO",
-      "destination": "YVR",
-      "status": "seasonal",
-      "source_ids": [
-        "fc_yvr"
-      ]
-    },
-    "source_ids": [
-      "fc_yvr"
-    ],
-    "checked_on": "2026-10-19"
+    "alliance": null
   },
   {
     "iata_code": "JL",
-    "ticket_code": "131",
     "name_en": "Japan Airlines",
     "name_cn": "日本航空",
     "country_or_region": "JPN",
-    "alliance": "OW",
-    "service_status": "active",
-    "qualifying_service": {
-      "origin": "NRT",
-      "destination": "BOS",
-      "status": "active",
-      "source_ids": [
-        "fc_nrt"
-      ]
-    },
-    "source_ids": [
-      "fc_nrt"
-    ],
-    "checked_on": "2026-10-19"
+    "alliance": "OW"
   },
   {
     "iata_code": "JX",
-    "ticket_code": "189",
     "name_en": "STARLUX Airlines",
     "name_cn": "星宇航空",
     "country_or_region": "TWN",
-    "alliance": null,
-    "service_status": "active",
-    "qualifying_service": {
-      "origin": "TPE",
-      "destination": "ONT",
-      "status": "active",
-      "source_ids": [
-        "jx_network"
-      ]
-    },
-    "source_ids": [
-      "jx_network"
-    ],
-    "checked_on": "2026-10-19"
+    "alliance": null
   },
   {
     "iata_code": "KE",
-    "ticket_code": "180",
     "name_en": "Korean Air",
     "name_cn": "大韩航空",
     "country_or_region": "KOR",
-    "alliance": "ST",
-    "service_status": "active",
-    "qualifying_service": {
-      "origin": "ICN",
-      "destination": "YVR",
-      "status": "active",
-      "source_ids": [
-        "yvr_network"
-      ]
-    },
-    "source_ids": [
-      "yvr_network"
-    ],
-    "checked_on": "2026-10-19"
+    "alliance": "ST"
   },
   {
     "iata_code": "MF",
-    "ticket_code": "731",
     "name_en": "XiamenAir",
     "name_cn": "厦门航空",
     "country_or_region": "CHN",
-    "alliance": "ST",
-    "service_status": "active",
-    "qualifying_service": {
-      "origin": "XMN",
-      "destination": "YVR",
-      "status": "active",
-      "source_ids": [
-        "yvr_network"
-      ]
-    },
-    "source_ids": [
-      "yvr_network"
-    ],
-    "checked_on": "2026-10-19"
+    "alliance": "ST"
   },
   {
     "iata_code": "MU",
-    "ticket_code": "781",
     "name_en": "China Eastern Airlines",
     "name_cn": "中国东方航空",
     "country_or_region": "CHN",
-    "alliance": "ST",
-    "service_status": "active",
-    "qualifying_service": {
-      "origin": "PVG",
-      "destination": "YVR",
-      "status": "active",
-      "source_ids": [
-        "yvr_network"
-      ]
-    },
-    "source_ids": [
-      "yvr_network"
-    ],
-    "checked_on": "2026-10-19"
+    "alliance": "ST"
   },
   {
     "iata_code": "NH",
-    "ticket_code": "205",
     "name_en": "All Nippon Airways",
     "name_cn": "全日空",
     "country_or_region": "JPN",
-    "alliance": "SA",
-    "service_status": "active",
-    "qualifying_service": {
-      "origin": "HND",
-      "destination": "YVR",
-      "status": "active",
-      "source_ids": [
-        "yvr_network"
-      ]
-    },
-    "source_ids": [
-      "yvr_network"
-    ],
-    "checked_on": "2026-10-19"
+    "alliance": "SA"
   },
   {
     "iata_code": "OZ",
-    "ticket_code": "988",
     "name_en": "Asiana Airlines",
     "name_cn": "韩亚航空",
     "country_or_region": "KOR",
-    "alliance": "SA",
-    "service_status": "active",
-    "qualifying_service": {
-      "origin": "ICN",
-      "destination": "LAX",
-      "status": "active",
-      "source_ids": [
-        "fc_lax"
-      ]
-    },
-    "source_ids": [
-      "fc_lax",
-      "oz_merger"
-    ],
-    "checked_on": "2026-10-19",
-    "planned_alliance_end": "2026-12-16",
-    "notes": "核查日仍单独运营；已公布退出星空联盟和整合计划，不能提前改成大韩航空或天合联盟。"
+    "alliance": "SA"
   },
   {
     "iata_code": "SQ",
-    "ticket_code": "618",
     "name_en": "Singapore Airlines",
     "name_cn": "新加坡航空",
     "country_or_region": "SGP",
-    "alliance": "SA",
-    "service_status": "active",
-    "qualifying_service": {
-      "origin": "SIN",
-      "destination": "SFO",
-      "status": "active",
-      "source_ids": [
-        "sq_sfo"
-      ]
-    },
-    "source_ids": [
-      "sq_sfo"
-    ],
-    "checked_on": "2026-10-19"
+    "alliance": "SA"
   },
   {
     "iata_code": "TW",
-    "ticket_code": null,
     "name_en": "T'way Air",
     "name_cn": "德威航空",
     "country_or_region": "KOR",
-    "alliance": null,
-    "service_status": "active",
-    "qualifying_service": {
-      "origin": "ICN",
-      "destination": "YVR",
-      "status": "active",
-      "source_ids": [
-        "tw_yvr"
-      ]
-    },
-    "source_ids": [
-      "tw_yvr"
-    ],
-    "checked_on": "2026-10-19"
+    "alliance": null
   },
   {
     "iata_code": "UA",
-    "ticket_code": "016",
     "name_en": "United Airlines",
     "name_cn": "美国联合航空",
     "country_or_region": "USA",
-    "alliance": "SA",
-    "service_status": "active",
-    "qualifying_service": {
-      "origin": "NRT",
-      "destination": "DEN",
-      "status": "active",
-      "source_ids": [
-        "fc_nrt"
-      ]
-    },
-    "source_ids": [
-      "fc_nrt"
-    ],
-    "checked_on": "2026-10-19"
+    "alliance": "SA"
   },
   {
     "iata_code": "WS",
-    "ticket_code": null,
     "name_en": "WestJet",
     "name_cn": "西捷航空",
     "country_or_region": "CAN",
-    "alliance": null,
-    "service_status": "active",
-    "qualifying_service": {
-      "origin": "NRT",
-      "destination": "YYC",
-      "status": "active",
-      "source_ids": [
-        "ws_asia"
-      ]
-    },
-    "source_ids": [
-      "ws_asia"
-    ],
-    "checked_on": "2026-10-19"
+    "alliance": null
   },
   {
     "iata_code": "YP",
-    "ticket_code": null,
     "name_en": "Air Premia",
     "name_cn": "普莱米娅航空",
     "country_or_region": "KOR",
-    "alliance": null,
-    "service_status": "active",
-    "qualifying_service": {
-      "origin": "ICN",
-      "destination": "EWR",
-      "status": "active",
-      "source_ids": [
-        "yp_airports"
-      ]
-    },
-    "source_ids": [
-      "yp_airports"
-    ],
-    "checked_on": "2026-10-19"
+    "alliance": null
   },
   {
     "iata_code": "ZG",
-    "ticket_code": null,
     "name_en": "ZIPAIR Tokyo",
     "name_cn": "ZIPAIR",
     "country_or_region": "JPN",
-    "alliance": null,
-    "service_status": "active",
-    "qualifying_service": {
-      "origin": "NRT",
-      "destination": "IAH",
-      "status": "active",
-      "source_ids": [
-        "zg_iah"
-      ]
-    },
-    "source_ids": [
-      "zg_iah"
-    ],
-    "checked_on": "2026-10-19"
+    "alliance": null
   },
   {
     "iata_code": "NQ",
-    "ticket_code": null,
     "name_en": "Air Japan",
     "name_cn": "日本航空运输（Air Japan）",
     "country_or_region": "JPN",
-    "alliance": null,
-    "service_status": "operating_affiliate",
-    "marketing_carrier": "NH",
-    "qualifying_service": {
-      "origin": "HND",
-      "destination": "HNL",
-      "status": "operating_affiliate",
-      "source_ids": [
-        "nq_operations",
-        "fc_hnd"
-      ]
-    },
-    "source_ids": [
-      "nq_brand",
-      "nq_operations",
-      "fc_hnd"
-    ],
-    "checked_on": "2026-10-19",
-    "notes": "AirJapan 自有品牌已于 2026-03 停运；作为 ANA 的承运关联公司单列，不能当成仍在售 NQ 自有品牌跨太平洋航线。"
+    "alliance": null
   }
 ]

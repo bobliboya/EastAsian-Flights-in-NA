@@ -1,7 +1,6 @@
 [
   {
     "iata_code": "PEK",
-    "icao_code": "ZBAA",
     "name_en": "Beijing Capital International Airport",
     "name_cn": "北京首都国际机场",
     "city": "Beijing",
@@ -9,27 +8,10 @@
     "country_or_region": "CHN",
     "region": "asia_pacific",
     "latitude": 40.077349,
-    "longitude": 116.596702,
-    "timezone": "Asia/Shanghai",
-    "service_status": "active",
-    "qualifying_service": {
-      "origin": "PEK",
-      "destination": "SFO",
-      "airline": "CA",
-      "status": "active",
-      "source_ids": [
-        "fc_pek"
-      ]
-    },
-    "source_ids": [
-      "airport_codes",
-      "fc_pek"
-    ],
-    "checked_on": "2026-10-19"
+    "longitude": 116.596702
   },
   {
     "iata_code": "PVG",
-    "icao_code": "ZSPD",
     "name_en": "Shanghai Pudong International Airport",
     "name_cn": "上海浦东国际机场",
     "city": "Shanghai",
@@ -37,27 +19,10 @@
     "country_or_region": "CHN",
     "region": "asia_pacific",
     "latitude": 31.1434,
-    "longitude": 121.805,
-    "timezone": "Asia/Shanghai",
-    "service_status": "active",
-    "qualifying_service": {
-      "origin": "PVG",
-      "destination": "LAX",
-      "airline": "MU",
-      "status": "active",
-      "source_ids": [
-        "fc_lax"
-      ]
-    },
-    "source_ids": [
-      "airport_codes",
-      "fc_lax"
-    ],
-    "checked_on": "2026-10-19"
+    "longitude": 121.805
   },
   {
     "iata_code": "CAN",
-    "icao_code": "ZGGG",
     "name_en": "Guangzhou Baiyun International Airport",
     "name_cn": "广州白云国际机场",
     "city": "Guangzhou",
@@ -65,27 +30,10 @@
     "country_or_region": "CHN",
     "region": "asia_pacific",
     "latitude": 23.392401,
-    "longitude": 113.299004,
-    "timezone": "Asia/Shanghai",
-    "service_status": "active",
-    "qualifying_service": {
-      "origin": "CAN",
-      "destination": "LAX",
-      "airline": "CZ",
-      "status": "active",
-      "source_ids": [
-        "fc_lax"
-      ]
-    },
-    "source_ids": [
-      "airport_codes",
-      "fc_lax"
-    ],
-    "checked_on": "2026-10-19"
+    "longitude": 113.299004
   },
   {
     "iata_code": "SZX",
-    "icao_code": "ZGSZ",
     "name_en": "Shenzhen Bao'an International Airport",
     "name_cn": "深圳宝安国际机场",
     "city": "Shenzhen",
@@ -93,27 +41,10 @@
     "country_or_region": "CHN",
     "region": "asia_pacific",
     "latitude": 22.639474,
-    "longitude": 113.803262,
-    "timezone": "Asia/Shanghai",
-    "service_status": "active",
-    "qualifying_service": {
-      "origin": "SZX",
-      "destination": "YVR",
-      "airline": "HU",
-      "status": "active",
-      "source_ids": [
-        "yvr_network"
-      ]
-    },
-    "source_ids": [
-      "airport_codes",
-      "yvr_network"
-    ],
-    "checked_on": "2026-10-19"
+    "longitude": 113.803262
   },
   {
     "iata_code": "XMN",
-    "icao_code": "ZSAM",
     "name_en": "Xiamen Gaoqi International Airport",
     "name_cn": "厦门高崎国际机场",
     "city": "Xiamen",
@@ -121,27 +52,10 @@
     "country_or_region": "CHN",
     "region": "asia_pacific",
     "latitude": 24.543889,
-    "longitude": 118.127454,
-    "timezone": "Asia/Shanghai",
-    "service_status": "active",
-    "qualifying_service": {
-      "origin": "XMN",
-      "destination": "YVR",
-      "airline": "MF",
-      "status": "active",
-      "source_ids": [
-        "yvr_network"
-      ]
-    },
-    "source_ids": [
-      "airport_codes",
-      "yvr_network"
-    ],
-    "checked_on": "2026-10-19"
+    "longitude": 118.127454
   },
   {
     "iata_code": "FOC",
-    "icao_code": "ZSFZ",
     "name_en": "Fuzhou Changle International Airport",
     "name_cn": "福州长乐国际机场",
     "city": "Fuzhou",
@@ -149,27 +63,10 @@
     "country_or_region": "CHN",
     "region": "asia_pacific",
     "latitude": 25.929254,
-    "longitude": 119.672524,
-    "timezone": "Asia/Shanghai",
-    "service_status": "active",
-    "qualifying_service": {
-      "origin": "FOC",
-      "destination": "JFK",
-      "airline": "MF",
-      "status": "active",
-      "source_ids": [
-        "fc_foc"
-      ]
-    },
-    "source_ids": [
-      "airport_codes",
-      "fc_foc"
-    ],
-    "checked_on": "2026-10-19"
+    "longitude": 119.672524
   },
   {
     "iata_code": "WUH",
-    "icao_code": "ZHHH",
     "name_en": "Wuhan Tianhe International Airport",
     "name_cn": "武汉天河国际机场",
     "city": "Wuhan",
@@ -177,27 +74,10 @@
     "country_or_region": "CHN",
     "region": "asia_pacific",
     "latitude": 30.774798,
-    "longitude": 114.213723,
-    "timezone": "Asia/Shanghai",
-    "service_status": "active",
-    "qualifying_service": {
-      "origin": "WUH",
-      "destination": "SFO",
-      "airline": "CZ",
-      "status": "active",
-      "source_ids": [
-        "fc_wuh"
-      ]
-    },
-    "source_ids": [
-      "airport_codes",
-      "fc_wuh"
-    ],
-    "checked_on": "2026-10-19"
+    "longitude": 114.213723
   },
   {
     "iata_code": "TFU",
-    "icao_code": "ZUTF",
     "name_en": "Chengdu Tianfu International Airport",
     "name_cn": "成都天府国际机场",
     "city": "Chengdu",
@@ -205,27 +85,10 @@
     "country_or_region": "CHN",
     "region": "asia_pacific",
     "latitude": 30.31252,
-    "longitude": 104.441284,
-    "timezone": "Asia/Shanghai",
-    "service_status": "active",
-    "qualifying_service": {
-      "origin": "TFU",
-      "destination": "YVR",
-      "airline": "3U",
-      "status": "active",
-      "source_ids": [
-        "yvr_network"
-      ]
-    },
-    "source_ids": [
-      "airport_codes",
-      "yvr_network"
-    ],
-    "checked_on": "2026-10-19"
+    "longitude": 104.441284
   },
   {
     "iata_code": "CKG",
-    "icao_code": "ZUCK",
     "name_en": "Chongqing Jiangbei International Airport",
     "name_cn": "重庆江北国际机场",
     "city": "Chongqing",
@@ -233,27 +96,10 @@
     "country_or_region": "CHN",
     "region": "asia_pacific",
     "latitude": 29.712254,
-    "longitude": 106.651895,
-    "timezone": "Asia/Shanghai",
-    "service_status": "active",
-    "qualifying_service": {
-      "origin": "CKG",
-      "destination": "SEA",
-      "airline": "HU",
-      "status": "active",
-      "source_ids": [
-        "hu_ckg"
-      ]
-    },
-    "source_ids": [
-      "airport_codes",
-      "hu_ckg"
-    ],
-    "checked_on": "2026-10-19"
+    "longitude": 106.651895
   },
   {
     "iata_code": "TAO",
-    "icao_code": "ZSQD",
     "name_en": "Qingdao Jiaodong International Airport",
     "name_cn": "青岛胶东国际机场",
     "city": "Qingdao",
@@ -261,28 +107,10 @@
     "country_or_region": "CHN",
     "region": "asia_pacific",
     "latitude": 36.361953,
-    "longitude": 120.088171,
-    "timezone": "Asia/Shanghai",
-    "service_status": "seasonal",
-    "qualifying_service": {
-      "origin": "TAO",
-      "destination": "YVR",
-      "airline": "JD",
-      "status": "seasonal",
-      "source_ids": [
-        "fc_yvr"
-      ]
-    },
-    "source_ids": [
-      "airport_codes",
-      "fc_yvr"
-    ],
-    "checked_on": "2026-10-19",
-    "notes": "当前代码对应胶东机场，不是已关闭的流亭机场；HGH-TAO-YVR 仅 TAO-YVR 为跨太平洋不停站航段。"
+    "longitude": 120.088171
   },
   {
     "iata_code": "HKG",
-    "icao_code": "VHHH",
     "name_en": "Hong Kong International Airport",
     "name_cn": "香港国际机场",
     "city": "Hong Kong",
@@ -290,27 +118,10 @@
     "country_or_region": "HKG",
     "region": "asia_pacific",
     "latitude": 22.31184,
-    "longitude": 113.914862,
-    "timezone": "Asia/Hong_Kong",
-    "service_status": "active",
-    "qualifying_service": {
-      "origin": "HKG",
-      "destination": "YVR",
-      "airline": "CX",
-      "status": "active",
-      "source_ids": [
-        "yvr_network"
-      ]
-    },
-    "source_ids": [
-      "airport_codes",
-      "yvr_network"
-    ],
-    "checked_on": "2026-10-19"
+    "longitude": 113.914862
   },
   {
     "iata_code": "TPE",
-    "icao_code": "RCTP",
     "name_en": "Taiwan Taoyuan International Airport",
     "name_cn": "台湾桃园国际机场",
     "city": "Taipei",
@@ -318,27 +129,10 @@
     "country_or_region": "TWN",
     "region": "asia_pacific",
     "latitude": 25.0777,
-    "longitude": 121.233002,
-    "timezone": "Asia/Taipei",
-    "service_status": "active",
-    "qualifying_service": {
-      "origin": "TPE",
-      "destination": "LAX",
-      "airline": "CI",
-      "status": "active",
-      "source_ids": [
-        "ci_network"
-      ]
-    },
-    "source_ids": [
-      "airport_codes",
-      "ci_network"
-    ],
-    "checked_on": "2026-10-19"
+    "longitude": 121.233002
   },
   {
     "iata_code": "SIN",
-    "icao_code": "WSSS",
     "name_en": "Singapore Changi Airport",
     "name_cn": "新加坡樟宜机场",
     "city": "Singapore",
@@ -346,27 +140,10 @@
     "country_or_region": "SGP",
     "region": "asia_pacific",
     "latitude": 1.35019,
-    "longitude": 103.994003,
-    "timezone": "Asia/Singapore",
-    "service_status": "active",
-    "qualifying_service": {
-      "origin": "SIN",
-      "destination": "SFO",
-      "airline": "SQ",
-      "status": "active",
-      "source_ids": [
-        "sq_sfo"
-      ]
-    },
-    "source_ids": [
-      "airport_codes",
-      "sq_sfo"
-    ],
-    "checked_on": "2026-10-19"
+    "longitude": 103.994003
   },
   {
     "iata_code": "ICN",
-    "icao_code": "RKSI",
     "name_en": "Incheon International Airport",
     "name_cn": "仁川国际机场",
     "city": "Seoul",
@@ -374,27 +151,10 @@
     "country_or_region": "KOR",
     "region": "asia_pacific",
     "latitude": 37.469101,
-    "longitude": 126.450996,
-    "timezone": "Asia/Seoul",
-    "service_status": "active",
-    "qualifying_service": {
-      "origin": "ICN",
-      "destination": "SLC",
-      "airline": "DL",
-      "status": "active",
-      "source_ids": [
-        "dl_slc"
-      ]
-    },
-    "source_ids": [
-      "airport_codes",
-      "dl_slc"
-    ],
-    "checked_on": "2026-10-19"
+    "longitude": 126.450996
   },
   {
     "iata_code": "HND",
-    "icao_code": "RJTT",
     "name_en": "Tokyo Haneda International Airport",
     "name_cn": "东京国际机场（羽田）",
     "city": "Tokyo",
@@ -402,27 +162,10 @@
     "country_or_region": "JPN",
     "region": "asia_pacific",
     "latitude": 35.549678,
-    "longitude": 139.786958,
-    "timezone": "Asia/Tokyo",
-    "service_status": "active",
-    "qualifying_service": {
-      "origin": "HND",
-      "destination": "SFO",
-      "airline": "NH",
-      "status": "active",
-      "source_ids": [
-        "fc_hnd"
-      ]
-    },
-    "source_ids": [
-      "airport_codes",
-      "fc_hnd"
-    ],
-    "checked_on": "2026-10-19"
+    "longitude": 139.786958
   },
   {
     "iata_code": "NRT",
-    "icao_code": "RJAA",
     "name_en": "Narita International Airport",
     "name_cn": "成田国际机场",
     "city": "Tokyo",
@@ -430,27 +173,10 @@
     "country_or_region": "JPN",
     "region": "asia_pacific",
     "latitude": 35.76858,
-    "longitude": 140.388714,
-    "timezone": "Asia/Tokyo",
-    "service_status": "active",
-    "qualifying_service": {
-      "origin": "NRT",
-      "destination": "BOS",
-      "airline": "JL",
-      "status": "active",
-      "source_ids": [
-        "fc_nrt"
-      ]
-    },
-    "source_ids": [
-      "airport_codes",
-      "fc_nrt"
-    ],
-    "checked_on": "2026-10-19"
+    "longitude": 140.388714
   },
   {
     "iata_code": "KIX",
-    "icao_code": "RJBB",
     "name_en": "Kansai International Airport",
     "name_cn": "关西国际机场",
     "city": "Osaka",
@@ -458,27 +184,10 @@
     "country_or_region": "JPN",
     "region": "asia_pacific",
     "latitude": 34.427299,
-    "longitude": 135.244003,
-    "timezone": "Asia/Tokyo",
-    "service_status": "seasonal",
-    "qualifying_service": {
-      "origin": "KIX",
-      "destination": "YVR",
-      "airline": "AC",
-      "status": "seasonal",
-      "source_ids": [
-        "yvr_network"
-      ]
-    },
-    "source_ids": [
-      "airport_codes",
-      "yvr_network"
-    ],
-    "checked_on": "2026-10-19"
+    "longitude": 135.244003
   },
   {
     "iata_code": "NGO",
-    "icao_code": "RJGG",
     "name_en": "Chubu Centrair International Airport",
     "name_cn": "中部国际机场",
     "city": "Nagoya",
@@ -486,27 +195,10 @@
     "country_or_region": "JPN",
     "region": "asia_pacific",
     "latitude": 34.858398,
-    "longitude": 136.804993,
-    "timezone": "Asia/Tokyo",
-    "service_status": "active",
-    "qualifying_service": {
-      "origin": "NGO",
-      "destination": "HNL",
-      "airline": "JL",
-      "status": "active",
-      "source_ids": [
-        "jal_schedule"
-      ]
-    },
-    "source_ids": [
-      "airport_codes",
-      "jal_schedule"
-    ],
-    "checked_on": "2026-10-19"
+    "longitude": 136.804993
   },
   {
     "iata_code": "CTS",
-    "icao_code": "RJCC",
     "name_en": "New Chitose Airport",
     "name_cn": "新千岁机场",
     "city": "Sapporo",
@@ -514,29 +206,10 @@
     "country_or_region": "JPN",
     "region": "asia_pacific",
     "latitude": 42.774753,
-    "longitude": 141.690414,
-    "timezone": "Asia/Tokyo",
-    "service_status": "announced",
-    "qualifying_service": {
-      "origin": "CTS",
-      "destination": "YVR",
-      "airline": "AC",
-      "status": "announced",
-      "source_ids": [
-        "ac_sapporo"
-      ]
-    },
-    "source_ids": [
-      "airport_codes",
-      "ac_sapporo"
-    ],
-    "checked_on": "2026-10-19",
-    "service_start": "2026-12-17",
-    "notes": "已公布的冬季定期客运服务，核查日尚未开航；不计入当前运营机场。"
+    "longitude": 141.690414
   },
   {
     "iata_code": "LAX",
-    "icao_code": "KLAX",
     "name_en": "Los Angeles International Airport",
     "name_cn": "洛杉矶国际机场",
     "city": "Los Angeles, CA",
@@ -544,27 +217,10 @@
     "country_or_region": "USA",
     "region": "north_america",
     "latitude": 33.942501,
-    "longitude": -118.407997,
-    "timezone": "America/Los_Angeles",
-    "service_status": "active",
-    "qualifying_service": {
-      "origin": "LAX",
-      "destination": "TPE",
-      "airline": "CI",
-      "status": "active",
-      "source_ids": [
-        "ci_network"
-      ]
-    },
-    "source_ids": [
-      "airport_codes",
-      "ci_network"
-    ],
-    "checked_on": "2026-10-19"
+    "longitude": -118.407997
   },
   {
     "iata_code": "SFO",
-    "icao_code": "KSFO",
     "name_en": "San Francisco International Airport",
     "name_cn": "旧金山国际机场",
     "city": "San Francisco, CA",
@@ -572,27 +228,10 @@
     "country_or_region": "USA",
     "region": "north_america",
     "latitude": 37.619806,
-    "longitude": -122.374821,
-    "timezone": "America/Los_Angeles",
-    "service_status": "active",
-    "qualifying_service": {
-      "origin": "SFO",
-      "destination": "SIN",
-      "airline": "SQ",
-      "status": "active",
-      "source_ids": [
-        "sq_sfo"
-      ]
-    },
-    "source_ids": [
-      "airport_codes",
-      "sq_sfo"
-    ],
-    "checked_on": "2026-10-19"
+    "longitude": -122.374821
   },
   {
     "iata_code": "JFK",
-    "icao_code": "KJFK",
     "name_en": "John F. Kennedy International Airport",
     "name_cn": "约翰·F·肯尼迪国际机场",
     "city": "New York, NY",
@@ -600,27 +239,10 @@
     "country_or_region": "USA",
     "region": "north_america",
     "latitude": 40.639447,
-    "longitude": -73.779317,
-    "timezone": "America/New_York",
-    "service_status": "active",
-    "qualifying_service": {
-      "origin": "JFK",
-      "destination": "HND",
-      "airline": "JL",
-      "status": "active",
-      "source_ids": [
-        "fc_hnd"
-      ]
-    },
-    "source_ids": [
-      "airport_codes",
-      "fc_hnd"
-    ],
-    "checked_on": "2026-10-19"
+    "longitude": -73.779317
   },
   {
     "iata_code": "EWR",
-    "icao_code": "KEWR",
     "name_en": "Newark Liberty International Airport",
     "name_cn": "纽瓦克自由国际机场",
     "city": "Newark, NJ",
@@ -628,27 +250,10 @@
     "country_or_region": "USA",
     "region": "north_america",
     "latitude": 40.6894,
-    "longitude": -74.170545,
-    "timezone": "America/New_York",
-    "service_status": "active",
-    "qualifying_service": {
-      "origin": "EWR",
-      "destination": "ICN",
-      "airline": "YP",
-      "status": "active",
-      "source_ids": [
-        "yp_airports"
-      ]
-    },
-    "source_ids": [
-      "airport_codes",
-      "yp_airports"
-    ],
-    "checked_on": "2026-10-19"
+    "longitude": -74.170545
   },
   {
     "iata_code": "SEA",
-    "icao_code": "KSEA",
     "name_en": "Seattle–Tacoma International Airport",
     "name_cn": "西雅图-塔科马国际机场",
     "city": "Seattle, WA",
@@ -656,27 +261,10 @@
     "country_or_region": "USA",
     "region": "north_america",
     "latitude": 47.447943,
-    "longitude": -122.310276,
-    "timezone": "America/Los_Angeles",
-    "service_status": "active",
-    "qualifying_service": {
-      "origin": "SEA",
-      "destination": "HKG",
-      "airline": "CX",
-      "status": "active",
-      "source_ids": [
-        "cx_network"
-      ]
-    },
-    "source_ids": [
-      "airport_codes",
-      "cx_network"
-    ],
-    "checked_on": "2026-10-19"
+    "longitude": -122.310276
   },
   {
     "iata_code": "DFW",
-    "icao_code": "KDFW",
     "name_en": "Dallas Fort Worth International Airport",
     "name_cn": "达拉斯／沃思堡国际机场",
     "city": "Dallas-Fort Worth, TX",
@@ -684,27 +272,10 @@
     "country_or_region": "USA",
     "region": "north_america",
     "latitude": 32.896801,
-    "longitude": -97.038002,
-    "timezone": "America/Chicago",
-    "service_status": "active",
-    "qualifying_service": {
-      "origin": "DFW",
-      "destination": "HKG",
-      "airline": "CX",
-      "status": "active",
-      "source_ids": [
-        "cx_network"
-      ]
-    },
-    "source_ids": [
-      "airport_codes",
-      "cx_network"
-    ],
-    "checked_on": "2026-10-19"
+    "longitude": -97.038002
   },
   {
     "iata_code": "BOS",
-    "icao_code": "KBOS",
     "name_en": "Boston Logan International Airport",
     "name_cn": "波士顿洛根国际机场",
     "city": "Boston, MA",
@@ -712,27 +283,10 @@
     "country_or_region": "USA",
     "region": "north_america",
     "latitude": 42.36197,
-    "longitude": -71.0079,
-    "timezone": "America/New_York",
-    "service_status": "active",
-    "qualifying_service": {
-      "origin": "BOS",
-      "destination": "NRT",
-      "airline": "JL",
-      "status": "active",
-      "source_ids": [
-        "fc_nrt"
-      ]
-    },
-    "source_ids": [
-      "airport_codes",
-      "fc_nrt"
-    ],
-    "checked_on": "2026-10-19"
+    "longitude": -71.0079
   },
   {
     "iata_code": "ORD",
-    "icao_code": "KORD",
     "name_en": "Chicago O'Hare International Airport",
     "name_cn": "芝加哥奥黑尔国际机场",
     "city": "Chicago, IL",
@@ -740,27 +294,10 @@
     "country_or_region": "USA",
     "region": "north_america",
     "latitude": 41.9786,
-    "longitude": -87.9048,
-    "timezone": "America/Chicago",
-    "service_status": "active",
-    "qualifying_service": {
-      "origin": "ORD",
-      "destination": "HND",
-      "airline": "NH",
-      "status": "active",
-      "source_ids": [
-        "fc_hnd"
-      ]
-    },
-    "source_ids": [
-      "airport_codes",
-      "fc_hnd"
-    ],
-    "checked_on": "2026-10-19"
+    "longitude": -87.9048
   },
   {
     "iata_code": "IAD",
-    "icao_code": "KIAD",
     "name_en": "Washington Dulles International Airport",
     "name_cn": "华盛顿杜勒斯国际机场",
     "city": "Washington, DC",
@@ -768,27 +305,10 @@
     "country_or_region": "USA",
     "region": "north_america",
     "latitude": 38.9445,
-    "longitude": -77.455803,
-    "timezone": "America/New_York",
-    "service_status": "active",
-    "qualifying_service": {
-      "origin": "IAD",
-      "destination": "ICN",
-      "airline": "YP",
-      "status": "active",
-      "source_ids": [
-        "yp_airports"
-      ]
-    },
-    "source_ids": [
-      "airport_codes",
-      "yp_airports"
-    ],
-    "checked_on": "2026-10-19"
+    "longitude": -77.455803
   },
   {
     "iata_code": "ONT",
-    "icao_code": "KONT",
     "name_en": "Ontario International Airport",
     "name_cn": "安大略国际机场",
     "city": "Ontario, CA",
@@ -796,27 +316,10 @@
     "country_or_region": "USA",
     "region": "north_america",
     "latitude": 34.056,
-    "longitude": -117.600998,
-    "timezone": "America/Los_Angeles",
-    "service_status": "active",
-    "qualifying_service": {
-      "origin": "ONT",
-      "destination": "TPE",
-      "airline": "CI",
-      "status": "active",
-      "source_ids": [
-        "ci_network"
-      ]
-    },
-    "source_ids": [
-      "airport_codes",
-      "ci_network"
-    ],
-    "checked_on": "2026-10-19"
+    "longitude": -117.600998
   },
   {
     "iata_code": "HNL",
-    "icao_code": "PHNL",
     "name_en": "Daniel K. Inouye International Airport",
     "name_cn": "丹尼尔·K·井上国际机场",
     "city": "Honolulu, HI",
@@ -824,27 +327,10 @@
     "country_or_region": "USA",
     "region": "north_america",
     "latitude": 21.318387,
-    "longitude": -157.92567,
-    "timezone": "Pacific/Honolulu",
-    "service_status": "active",
-    "qualifying_service": {
-      "origin": "HNL",
-      "destination": "NGO",
-      "airline": "JL",
-      "status": "active",
-      "source_ids": [
-        "jal_schedule"
-      ]
-    },
-    "source_ids": [
-      "airport_codes",
-      "jal_schedule"
-    ],
-    "checked_on": "2026-10-19"
+    "longitude": -157.92567
   },
   {
     "iata_code": "ATL",
-    "icao_code": "KATL",
     "name_en": "Hartsfield Jackson Atlanta International Airport",
     "name_cn": "亚特兰大哈茨菲尔德-杰克逊国际机场",
     "city": "Atlanta, GA",
@@ -852,27 +338,10 @@
     "country_or_region": "USA",
     "region": "north_america",
     "latitude": 33.6367,
-    "longitude": -84.428101,
-    "timezone": "America/New_York",
-    "service_status": "active",
-    "qualifying_service": {
-      "origin": "ATL",
-      "destination": "HND",
-      "airline": "DL",
-      "status": "active",
-      "source_ids": [
-        "fc_hnd"
-      ]
-    },
-    "source_ids": [
-      "airport_codes",
-      "fc_hnd"
-    ],
-    "checked_on": "2026-10-19"
+    "longitude": -84.428101
   },
   {
     "iata_code": "DTW",
-    "icao_code": "KDTW",
     "name_en": "Detroit Metropolitan Wayne County Airport",
     "name_cn": "底特律都会韦恩县机场",
     "city": "Detroit, MI",
@@ -880,27 +349,10 @@
     "country_or_region": "USA",
     "region": "north_america",
     "latitude": 42.21377,
-    "longitude": -83.353786,
-    "timezone": "America/Detroit",
-    "service_status": "active",
-    "qualifying_service": {
-      "origin": "DTW",
-      "destination": "HND",
-      "airline": "DL",
-      "status": "active",
-      "source_ids": [
-        "fc_hnd"
-      ]
-    },
-    "source_ids": [
-      "airport_codes",
-      "fc_hnd"
-    ],
-    "checked_on": "2026-10-19"
+    "longitude": -83.353786
   },
   {
     "iata_code": "LAS",
-    "icao_code": "KLAS",
     "name_en": "Harry Reid International Airport",
     "name_cn": "哈里·里德国际机场",
     "city": "Las Vegas, NV",
@@ -908,27 +360,10 @@
     "country_or_region": "USA",
     "region": "north_america",
     "latitude": 36.083361,
-    "longitude": -115.151817,
-    "timezone": "America/Los_Angeles",
-    "service_status": "active",
-    "qualifying_service": {
-      "origin": "LAS",
-      "destination": "ICN",
-      "airline": "KE",
-      "status": "active",
-      "source_ids": [
-        "fc_icn"
-      ]
-    },
-    "source_ids": [
-      "airport_codes",
-      "fc_icn"
-    ],
-    "checked_on": "2026-10-19"
+    "longitude": -115.151817
   },
   {
     "iata_code": "IAH",
-    "icao_code": "KIAH",
     "name_en": "George Bush Intercontinental Airport",
     "name_cn": "乔治·布什洲际机场",
     "city": "Houston, TX",
@@ -936,27 +371,10 @@
     "country_or_region": "USA",
     "region": "north_america",
     "latitude": 29.9844,
-    "longitude": -95.3414,
-    "timezone": "America/Chicago",
-    "service_status": "active",
-    "qualifying_service": {
-      "origin": "IAH",
-      "destination": "NRT",
-      "airline": "ZG",
-      "status": "active",
-      "source_ids": [
-        "zg_iah"
-      ]
-    },
-    "source_ids": [
-      "airport_codes",
-      "zg_iah"
-    ],
-    "checked_on": "2026-10-19"
+    "longitude": -95.3414
   },
   {
     "iata_code": "DEN",
-    "icao_code": "KDEN",
     "name_en": "Denver International Airport",
     "name_cn": "丹佛国际机场",
     "city": "Denver, CO",
@@ -964,27 +382,10 @@
     "country_or_region": "USA",
     "region": "north_america",
     "latitude": 39.860027,
-    "longitude": -104.673792,
-    "timezone": "America/Denver",
-    "service_status": "active",
-    "qualifying_service": {
-      "origin": "DEN",
-      "destination": "NRT",
-      "airline": "UA",
-      "status": "active",
-      "source_ids": [
-        "fc_nrt"
-      ]
-    },
-    "source_ids": [
-      "airport_codes",
-      "fc_nrt"
-    ],
-    "checked_on": "2026-10-19"
+    "longitude": -104.673792
   },
   {
     "iata_code": "MSP",
-    "icao_code": "KMSP",
     "name_en": "Minneapolis–Saint Paul International Airport / Wold–Chamberlain Field",
     "name_cn": "明尼阿波利斯／圣保罗国际机场",
     "city": "Minneapolis-Saint Paul, MN",
@@ -992,27 +393,10 @@
     "country_or_region": "USA",
     "region": "north_america",
     "latitude": 44.880081,
-    "longitude": -93.221741,
-    "timezone": "America/Chicago",
-    "service_status": "active",
-    "qualifying_service": {
-      "origin": "MSP",
-      "destination": "HND",
-      "airline": "DL",
-      "status": "active",
-      "source_ids": [
-        "fc_hnd"
-      ]
-    },
-    "source_ids": [
-      "airport_codes",
-      "fc_hnd"
-    ],
-    "checked_on": "2026-10-19"
+    "longitude": -93.221741
   },
   {
     "iata_code": "SAN",
-    "icao_code": "KSAN",
     "name_en": "San Diego International Airport",
     "name_cn": "圣迭戈国际机场",
     "city": "San Diego, CA",
@@ -1020,27 +404,10 @@
     "country_or_region": "USA",
     "region": "north_america",
     "latitude": 32.733601,
-    "longitude": -117.190002,
-    "timezone": "America/Los_Angeles",
-    "service_status": "active",
-    "qualifying_service": {
-      "origin": "SAN",
-      "destination": "NRT",
-      "airline": "JL",
-      "status": "active",
-      "source_ids": [
-        "fc_nrt"
-      ]
-    },
-    "source_ids": [
-      "airport_codes",
-      "fc_nrt"
-    ],
-    "checked_on": "2026-10-19"
+    "longitude": -117.190002
   },
   {
     "iata_code": "SJC",
-    "icao_code": "KSJC",
     "name_en": "Mineta San Jose International Airport",
     "name_cn": "圣何塞米内塔国际机场",
     "city": "San Jose, CA",
@@ -1048,27 +415,10 @@
     "country_or_region": "USA",
     "region": "north_america",
     "latitude": 37.362452,
-    "longitude": -121.929188,
-    "timezone": "America/Los_Angeles",
-    "service_status": "seasonal",
-    "qualifying_service": {
-      "origin": "SJC",
-      "destination": "NRT",
-      "airline": "ZG",
-      "status": "seasonal",
-      "source_ids": [
-        "zg_iah"
-      ]
-    },
-    "source_ids": [
-      "airport_codes",
-      "zg_iah"
-    ],
-    "checked_on": "2026-10-19"
+    "longitude": -121.929188
   },
   {
     "iata_code": "PHX",
-    "icao_code": "KPHX",
     "name_en": "Phoenix Sky Harbor International Airport",
     "name_cn": "菲尼克斯天港国际机场",
     "city": "Phoenix, AZ",
@@ -1076,27 +426,10 @@
     "country_or_region": "USA",
     "region": "north_america",
     "latitude": 33.435302,
-    "longitude": -112.005905,
-    "timezone": "America/Phoenix",
-    "service_status": "active",
-    "qualifying_service": {
-      "origin": "PHX",
-      "destination": "TPE",
-      "airline": "CI",
-      "status": "active",
-      "source_ids": [
-        "ci_network"
-      ]
-    },
-    "source_ids": [
-      "airport_codes",
-      "ci_network"
-    ],
-    "checked_on": "2026-10-19"
+    "longitude": -112.005905
   },
   {
     "iata_code": "SLC",
-    "icao_code": "KSLC",
     "name_en": "Salt Lake City International Airport",
     "name_cn": "盐湖城国际机场",
     "city": "Salt Lake City, UT",
@@ -1104,27 +437,10 @@
     "country_or_region": "USA",
     "region": "north_america",
     "latitude": 40.78886,
-    "longitude": -111.979866,
-    "timezone": "America/Denver",
-    "service_status": "active",
-    "qualifying_service": {
-      "origin": "SLC",
-      "destination": "ICN",
-      "airline": "DL",
-      "status": "active",
-      "source_ids": [
-        "dl_slc"
-      ]
-    },
-    "source_ids": [
-      "airport_codes",
-      "dl_slc"
-    ],
-    "checked_on": "2026-10-19"
+    "longitude": -111.979866
   },
   {
     "iata_code": "YVR",
-    "icao_code": "CYVR",
     "name_en": "Vancouver International Airport",
     "name_cn": "温哥华国际机场",
     "city": "Vancouver, BC",
@@ -1132,27 +448,10 @@
     "country_or_region": "CAN",
     "region": "north_america",
     "latitude": 49.193901,
-    "longitude": -123.183998,
-    "timezone": "America/Vancouver",
-    "service_status": "active",
-    "qualifying_service": {
-      "origin": "YVR",
-      "destination": "ICN",
-      "airline": "TW",
-      "status": "active",
-      "source_ids": [
-        "tw_yvr"
-      ]
-    },
-    "source_ids": [
-      "airport_codes",
-      "tw_yvr"
-    ],
-    "checked_on": "2026-10-19"
+    "longitude": -123.183998
   },
   {
     "iata_code": "YYZ",
-    "icao_code": "CYYZ",
     "name_en": "Toronto Pearson International Airport",
     "name_cn": "多伦多皮尔逊国际机场",
     "city": "Toronto, ON",
@@ -1160,27 +459,10 @@
     "country_or_region": "CAN",
     "region": "north_america",
     "latitude": 43.675935,
-    "longitude": -79.629421,
-    "timezone": "America/Toronto",
-    "service_status": "active",
-    "qualifying_service": {
-      "origin": "YYZ",
-      "destination": "TPE",
-      "airline": "BR",
-      "status": "active",
-      "source_ids": [
-        "fc_yyz"
-      ]
-    },
-    "source_ids": [
-      "airport_codes",
-      "fc_yyz"
-    ],
-    "checked_on": "2026-10-19"
+    "longitude": -79.629421
   },
   {
     "iata_code": "YUL",
-    "icao_code": "CYUL",
     "name_en": "Montreal / Pierre Elliott Trudeau International Airport",
     "name_cn": "蒙特利尔特鲁多国际机场",
     "city": "Montreal, QC",
@@ -1188,27 +470,10 @@
     "country_or_region": "CAN",
     "region": "north_america",
     "latitude": 45.467837,
-    "longitude": -73.742294,
-    "timezone": "America/Toronto",
-    "service_status": "active",
-    "qualifying_service": {
-      "origin": "YUL",
-      "destination": "NRT",
-      "airline": "AC",
-      "status": "active",
-      "source_ids": [
-        "ac_yul"
-      ]
-    },
-    "source_ids": [
-      "airport_codes",
-      "ac_yul"
-    ],
-    "checked_on": "2026-10-19"
+    "longitude": -73.742294
   },
   {
     "iata_code": "YYC",
-    "icao_code": "CYYC",
     "name_en": "Calgary International Airport",
     "name_cn": "卡尔加里国际机场",
     "city": "Calgary, AB",
@@ -1216,22 +481,6 @@
     "country_or_region": "CAN",
     "region": "north_america",
     "latitude": 51.118822,
-    "longitude": -114.009933,
-    "timezone": "America/Edmonton",
-    "service_status": "active",
-    "qualifying_service": {
-      "origin": "YYC",
-      "destination": "NRT",
-      "airline": "WS",
-      "status": "active",
-      "source_ids": [
-        "ws_asia"
-      ]
-    },
-    "source_ids": [
-      "airport_codes",
-      "ws_asia"
-    ],
-    "checked_on": "2026-10-19"
+    "longitude": -114.009933
   }
 ]
