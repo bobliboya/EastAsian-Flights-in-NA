@@ -8,7 +8,7 @@
   <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css">
   <link rel="stylesheet" href="src/css/style.css">
   <script defer src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"></script>
-  <script defer src="src/js/app.js"></script>
+  <script type="module" src="src/js/app.js"></script>
 </head>
 
 <body>
@@ -41,10 +41,10 @@
       <div class="filter"><label id="airline-label">航空公司 / Airlines</label>
         <div id="airline" class="airport-multiselect" aria-labelledby="airline-label"></div>
       </div>
-      <div class="filter airport-filter"><label id="asia-airport-label">亚太区机场 / Asia Pacific airports</label>
+      <div class="filter"><label id="asia-airport-label">亚太区机场 / Asia Pacific airports</label>
         <div id="asia-airport" class="airport-multiselect" aria-labelledby="asia-airport-label"></div>
       </div>
-      <div class="filter airport-filter"><label id="north-america-airport-label">北美区机场 / North American airports</label>
+      <div class="filter"><label id="north-america-airport-label">北美区机场 / North American airports</label>
         <div id="north-america-airport" class="airport-multiselect" aria-labelledby="north-america-airport-label"></div>
       </div>
       <div class="filter-actions"><button id="reset" type="button">重置筛选 / Reset filters</button></div>
@@ -58,12 +58,12 @@
         <section id="details" aria-live="polite">
           <div id="route-list">
           <h2>选择一个机场或一条航线 / Select an airport or route</h2>
-          <p>点击地图上的圆点，查看连接目的地；点击航线，查看航班、机型与适用日期内班次。<br><span lang="en">Tap an airport for destinations, or a route for flights, aircraft and departures within the listed dates.</span></p>
+          <p>点击地图上的圆点，查看连接目的地；点击航线，查看航班、机型、每周班数与运营星期。<br><span lang="en">Tap an airport for destinations, or a route for flights, aircraft, weekly frequencies and operating days.</span></p>
           </div>
           <div id="route-detail" hidden></div>
         </section>
         <footer>
-          <p id="catalog-note"></p>标注“历史”的班表保留自原始资料，不能作为当前时刻表。新增班表注明有效期。曲线不代表实际飞行轨迹。灰色圆点表示当前筛选下没有已收录的航线。<br><span lang="en">Historical schedules are retained for reference and are not current timetables. Added schedules show validity dates. Curves are schematic, not actual flight paths. Gray dots have no cataloged routes under the current filters.</span>
+          <p id="catalog-note"></p>曲线不代表实际飞行轨迹。灰色圆点表示当前筛选下没有已收录的航线。<br><span lang="en">Curves are schematic, not actual flight paths. Gray dots have no cataloged routes under the current filters.</span>
         </footer>
       </div>
     </div>

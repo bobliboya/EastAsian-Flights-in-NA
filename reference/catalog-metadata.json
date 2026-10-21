@@ -1,5 +1,5 @@
 {
-  "schema_version": 1,
+  "schema_version": 2,
   "checked_on": "2026-10-19",
   "regions": {
     "asia_pacific": {
@@ -34,7 +34,6 @@
       ]
     }
   },
-  "inclusion_rule": "至少有一条亚太区与北美区之间的不停站定期客运航段；含季节性服务，不含纯货运、包机、代码共享营销航司和经停全程。已公布未开航单独标注。",
   "sources": {
     "airport_codes": {
       "title": "OurAirports-derived Airport Codes dataset",
@@ -51,12 +50,6 @@
     "yvr_airlines": {
       "title": "YVR airlines and destinations",
       "url": "https://www.yvr.ca/en/passengers/flights/airlines-and-destinations",
-      "kind": "primary",
-      "accessed_on": "2026-10-19"
-    },
-    "ac_sapporo": {
-      "title": "Air Canada winter 2026 Sapporo announcement",
-      "url": "https://www.aircanada.com/media/epic-snow-ramen-legendary-beer-air-canada-unveils-its-first-ever-winter-seasonal-service-to-sapporo/",
       "kind": "primary",
       "accessed_on": "2026-10-19"
     },
@@ -84,12 +77,6 @@
       "kind": "primary",
       "accessed_on": "2026-10-19"
     },
-    "zg_iah": {
-      "title": "ZIPAIR winter Honolulu, Vancouver and Houston services",
-      "url": "https://www.zipair.net/en/notification/336",
-      "kind": "primary",
-      "accessed_on": "2026-10-19"
-    },
     "ci_network": {
       "title": "China Airlines seven nonstop North American gateways, May 2026",
       "url": "https://www.china-airlines.com/us/en/about-china-airlines/media/news/20260506",
@@ -99,12 +86,6 @@
     "jx_network": {
       "title": "STARLUX five US gateways, September 2026",
       "url": "https://www.starlux-airlines.com/flights/en-us/flights-from-ontario",
-      "kind": "primary",
-      "accessed_on": "2026-10-19"
-    },
-    "cx_network": {
-      "title": "Cathay Pacific summer 2026 North America network",
-      "url": "https://news.cathaypacific.com/cathay-pacific-returns-to-seattle-with-five-non-stop-return-flights-per-week",
       "kind": "primary",
       "accessed_on": "2026-10-19"
     },
@@ -294,12 +275,6 @@
       "kind": "primary",
       "accessed_on": "2026-10-19"
     },
-    "ana_routes_2026": {
-      "title": "ANA 2026 international operating routes and seasonal dates",
-      "url": "https://www.ana.co.jp/en/us/plan-book/routes/international-route-information/",
-      "kind": "primary",
-      "accessed_on": "2026-10-19"
-    },
     "ac_asia_2026": {
       "title": "Air Canada published Asia operating schedule",
       "url": "https://vacations.aircanada.com/en/travel-info/where-we-fly/files/EN-ASIA-Asia.pdf",
@@ -359,12 +334,6 @@
       "url": "https://www.flightconnections.com/flights-from-osaka-kix",
       "kind": "schedule_index",
       "accessed_on": "2026-10-19"
-    },
-    "aa_ord_nrt_2027": {
-      "title": "American official summer 2027 launch: ORD to NRT March 19",
-      "url": "https://news.aa.com/news/news-details/2026/Summer-gets-sweeter-with-new-global-routes-from-American-Airlines-NET-RTS-08/",
-      "kind": "primary",
-      "accessed_on": "2026-10-20"
     },
     "ua_ord_nrt_2026": {
       "title": "Narita airport: United Narita–Chicago starts October 25, 2026",
@@ -2562,21 +2531,9 @@
       "kind": "primary",
       "accessed_on": "2026-10-20"
     },
-    "jal_aircraft_20261020": {
-      "title": "JAL US/Canada official summer operating table and A350-1000 aircraft",
-      "url": "https://www.jal.co.jp/flights/en-us/flight-resumption",
-      "kind": "primary",
-      "accessed_on": "2026-10-20"
-    },
     "ana_honu_20261020": {
       "title": "ANA A380 Honolulu official dated operating table",
       "url": "https://www.ana.co.jp/en/jp/international/area/hawaii/a380/",
-      "kind": "primary",
-      "accessed_on": "2026-10-20"
-    },
-    "zg_hnl_20261020": {
-      "title": "ZIPAIR official summer Honolulu operating table (image inspected)",
-      "url": "https://www.zipair.net/ja/notification/375",
       "kind": "primary",
       "accessed_on": "2026-10-20"
     },
@@ -2596,12 +2553,6 @@
       "title": "ZIPAIR official Vancouver Tuesday addition through October 20 (image inspected)",
       "url": "https://www.zipair.net/ja/notification/372",
       "kind": "primary",
-      "accessed_on": "2026-10-20"
-    },
-    "zg_yvr_base_20261020": {
-      "title": "ZIPAIR Vancouver base weekdays and 2026 summer fifth weekly flight",
-      "url": "https://sky-budget.com/2026/02/08/zipair-increase-nrt-yvr-2026summer/",
-      "kind": "schedule_report",
       "accessed_on": "2026-10-20"
     },
     "hu730_current_20261020": {
@@ -2631,12 +2582,6 @@
     "ua_kix_lax_2027": {
       "title": "United official new Los Angeles–Osaka service starts March 27, 2027",
       "url": "https://united.mediaroom.com/2026-08-25-United-Adds-10-International-Cities-for-2027-Largest-Expansion-in-Airlines-History",
-      "kind": "primary",
-      "accessed_on": "2026-10-20"
-    },
-    "zg_sjc_20261020": {
-      "title": "ZIPAIR official 2026–27 San Jose seasonal periods and weekdays (image inspected)",
-      "url": "https://www.zipair.net/ja/notification/428",
       "kind": "primary",
       "accessed_on": "2026-10-20"
     },
@@ -2691,8 +2636,6 @@
   },
   "counts": {
     "airports": 44,
-    "current_airports": 43,
-    "announced_airports": 1,
     "independent_airlines": 26,
     "operating_affiliates": 1
   },
@@ -2700,7 +2643,7 @@
   "exclusions": [
     {
       "iata_code": "GUM",
-      "reason": "不属于用户定义的北美区；原 flights.json 两条 GUM-TPE 记录保留但不在当前区域地图展示。"
+      "reason": "不属于本项目定义的北美区。"
     },
     {
       "iata_code": "CTU",
@@ -2727,7 +2670,7 @@
     },
     {
       "iata_code": "HA",
-      "reason": "历史航司代码；当前 Hawaiian 品牌归入 AS，不删除历史原表。",
+      "reason": "品牌历史航司代码；当前资料使用AS，避免重复计数。",
       "source_ids": [
         "as_ha",
         "ha_brand"
@@ -2745,32 +2688,6 @@
     "flights.csv"
   ],
   "schedule_file": "flights.json",
-  "route_snapshot": {
-    "checked_on": "2026-10-20",
-    "records": 194,
-    "airport_pairs": 114,
-    "policy": "人工核查的定期客运不停站机场对，含季节性；未来开航不显示为现役。航线资格与历史班表独立，未核实的航班号、机型、时刻和班次不补造。"
-  },
-  "timetable_snapshot": {
-    "checked_on": "2026-10-20",
-    "review_by": "2026-10-24",
-    "import_batch": "passenger_snapshot_20261020",
-    "records": 446,
-    "airline_route_records": 185,
-    "airport_pairs": 112,
-    "airlines": 26,
-    "missing_airline_routes": [
-      "AC:ICN-YUL",
-      "ZG:NRT-SJC"
-    ],
-    "seasonal_plan_records": 10,
-    "seasonal_plan_import_batch": "seasonal_plans_20261020",
-    "departure_window": {
-      "valid_from": "2026-10-20",
-      "valid_to": "2026-10-24",
-      "departures": 1840,
-      "records_without_departures": 3
-    },
-    "policy": "核查日适用的有方向不停站客运班表；以现有航线资格为边界。官方资料优先，机型可因调度变化；起降时间不录入。为避免把夏季班表外推至冬季，新批次最多适用至10月24日。旧记录逐条保留，同方向已有本批次资料时不再重复显示旧班表。"
-  }
+  "inclusion_rule": "亚太与北美之间的当前不停站客运航线；排除纯货运、包机、仅营销代码共享和经停全程。",
+  "route_file": "routes.json"
 }

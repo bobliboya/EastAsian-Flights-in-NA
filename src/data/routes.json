@@ -1,2213 +1,1318 @@
 [
   {
-    "id": "CZ:CAN-JFK",
     "airline": "CZ",
     "origin": "CAN",
     "destination": "JFK",
-    "service_status": "active",
-    "checked_on": "2026-10-19",
-    "source_ids": [
-      "piao_nonstop_202609"
-    ]
+    "note": "",
+    "id": "CZ:CAN-JFK"
   },
   {
-    "id": "CZ:CAN-LAX",
     "airline": "CZ",
     "origin": "CAN",
     "destination": "LAX",
-    "service_status": "active",
-    "checked_on": "2026-10-19",
-    "source_ids": [
-      "piao_nonstop_202609"
-    ]
+    "note": "",
+    "id": "CZ:CAN-LAX"
   },
   {
-    "id": "CZ:CAN-SFO",
     "airline": "CZ",
     "origin": "CAN",
     "destination": "SFO",
-    "service_status": "active",
-    "checked_on": "2026-10-19",
-    "source_ids": [
-      "piao_nonstop_202609"
-    ]
+    "note": "",
+    "id": "CZ:CAN-SFO"
   },
   {
-    "id": "AC:CAN-YVR",
-    "airline": "AC",
-    "origin": "CAN",
-    "destination": "YVR",
-    "service_status": "announced",
-    "checked_on": "2026-10-19",
-    "source_ids": [
-      "ac_asia_2026",
-      "piao_nonstop_202609"
-    ],
-    "service_start": "2027-05-04"
-  },
-  {
-    "id": "CZ:CAN-YVR",
     "airline": "CZ",
     "origin": "CAN",
     "destination": "YVR",
-    "service_status": "active",
-    "checked_on": "2026-10-19",
-    "source_ids": [
-      "piao_nonstop_202609",
-      "yvr_network"
-    ]
+    "note": "",
+    "id": "CZ:CAN-YVR"
   },
   {
-    "id": "CZ:CAN-YYZ",
     "airline": "CZ",
     "origin": "CAN",
     "destination": "YYZ",
-    "service_status": "active",
-    "checked_on": "2026-10-19",
-    "source_ids": [
-      "piao_nonstop_202609"
-    ]
+    "note": "",
+    "id": "CZ:CAN-YYZ"
   },
   {
-    "id": "HU:CKG-SEA",
     "airline": "HU",
     "origin": "CKG",
     "destination": "SEA",
-    "service_status": "active",
-    "checked_on": "2026-10-19",
-    "source_ids": [
-      "hu_network_2026",
-      "hu_ckg"
-    ]
+    "note": "",
+    "id": "HU:CKG-SEA"
   },
   {
-    "id": "AC:CTS-YVR",
-    "airline": "AC",
-    "origin": "CTS",
-    "destination": "YVR",
-    "service_status": "announced",
-    "checked_on": "2026-10-19",
-    "source_ids": [
-      "ac_sapporo"
-    ],
-    "service_start": "2026-12-17"
-  },
-  {
-    "id": "MF:FOC-JFK",
     "airline": "MF",
     "origin": "FOC",
     "destination": "JFK",
-    "service_status": "active",
-    "checked_on": "2026-10-19",
-    "source_ids": [
-      "piao_nonstop_202609",
-      "fc_foc"
-    ]
+    "note": "",
+    "id": "MF:FOC-JFK"
   },
   {
-    "id": "CX:HKG-BOS",
     "airline": "CX",
     "origin": "HKG",
     "destination": "BOS",
-    "service_status": "active",
-    "checked_on": "2026-10-19",
-    "source_ids": [
-      "cx_network"
-    ]
+    "note": "",
+    "id": "CX:HKG-BOS"
   },
   {
-    "id": "CX:HKG-DFW",
     "airline": "CX",
     "origin": "HKG",
     "destination": "DFW",
-    "service_status": "active",
-    "checked_on": "2026-10-19",
-    "source_ids": [
-      "cx_network"
-    ]
+    "note": "",
+    "id": "CX:HKG-DFW"
   },
   {
-    "id": "CX:HKG-JFK",
     "airline": "CX",
     "origin": "HKG",
     "destination": "JFK",
-    "service_status": "active",
-    "checked_on": "2026-10-19",
-    "source_ids": [
-      "cx_network"
-    ]
+    "note": "",
+    "id": "CX:HKG-JFK"
   },
   {
-    "id": "CX:HKG-LAX",
     "airline": "CX",
     "origin": "HKG",
     "destination": "LAX",
-    "service_status": "active",
-    "checked_on": "2026-10-19",
-    "source_ids": [
-      "cx_network"
-    ]
+    "note": "",
+    "id": "CX:HKG-LAX"
   },
   {
-    "id": "DL:HKG-LAX",
     "airline": "DL",
     "origin": "HKG",
     "destination": "LAX",
-    "service_status": "active",
-    "checked_on": "2026-10-19",
-    "source_ids": [
-      "piao_nonstop_202609"
-    ]
+    "note": "",
+    "id": "DL:HKG-LAX"
   },
   {
-    "id": "UA:HKG-LAX",
     "airline": "UA",
     "origin": "HKG",
     "destination": "LAX",
-    "service_status": "active",
-    "checked_on": "2026-10-19",
-    "source_ids": [
-      "piao_nonstop_202609"
-    ]
+    "note": "",
+    "id": "UA:HKG-LAX"
   },
   {
-    "id": "CX:HKG-ORD",
     "airline": "CX",
     "origin": "HKG",
     "destination": "ORD",
-    "service_status": "active",
-    "checked_on": "2026-10-19",
-    "source_ids": [
-      "cx_network"
-    ]
+    "note": "",
+    "id": "CX:HKG-ORD"
   },
   {
-    "id": "CX:HKG-SEA",
     "airline": "CX",
     "origin": "HKG",
     "destination": "SEA",
-    "service_status": "active",
-    "checked_on": "2026-10-19",
-    "source_ids": [
-      "cx_network"
-    ]
+    "note": "",
+    "id": "CX:HKG-SEA"
   },
   {
-    "id": "CX:HKG-SFO",
     "airline": "CX",
     "origin": "HKG",
     "destination": "SFO",
-    "service_status": "active",
-    "checked_on": "2026-10-19",
-    "source_ids": [
-      "cx_network"
-    ]
+    "note": "",
+    "id": "CX:HKG-SFO"
   },
   {
-    "id": "UA:HKG-SFO",
     "airline": "UA",
     "origin": "HKG",
     "destination": "SFO",
-    "service_status": "active",
-    "checked_on": "2026-10-19",
-    "source_ids": [
-      "piao_nonstop_202609"
-    ]
+    "note": "",
+    "id": "UA:HKG-SFO"
   },
   {
-    "id": "AC:HKG-YVR",
     "airline": "AC",
     "origin": "HKG",
     "destination": "YVR",
-    "service_status": "active",
-    "checked_on": "2026-10-19",
-    "source_ids": [
-      "yvr_network",
-      "ac_asia_2026"
-    ]
+    "note": "",
+    "id": "AC:HKG-YVR"
   },
   {
-    "id": "CX:HKG-YVR",
     "airline": "CX",
     "origin": "HKG",
     "destination": "YVR",
-    "service_status": "active",
-    "checked_on": "2026-10-19",
-    "source_ids": [
-      "cx_network"
-    ]
+    "note": "",
+    "id": "CX:HKG-YVR"
   },
   {
-    "id": "HX:HKG-YVR",
     "airline": "HX",
     "origin": "HKG",
     "destination": "YVR",
-    "service_status": "active",
-    "checked_on": "2026-10-19",
-    "source_ids": [
-      "hx_yvr",
-      "yvr_network"
-    ]
+    "note": "",
+    "id": "HX:HKG-YVR"
   },
   {
-    "id": "CX:HKG-YYZ",
     "airline": "CX",
     "origin": "HKG",
     "destination": "YYZ",
-    "service_status": "active",
-    "checked_on": "2026-10-19",
-    "source_ids": [
-      "cx_network"
-    ]
+    "note": "",
+    "id": "CX:HKG-YYZ"
   },
   {
-    "id": "DL:HND-ATL",
     "airline": "DL",
     "origin": "HND",
     "destination": "ATL",
-    "service_status": "active",
-    "checked_on": "2026-10-19",
-    "source_ids": [
-      "dl_tokyo_2026"
-    ]
+    "note": "",
+    "id": "DL:HND-ATL"
   },
   {
-    "id": "AA:HND-DFW",
     "airline": "AA",
     "origin": "HND",
     "destination": "DFW",
-    "service_status": "active",
-    "checked_on": "2026-10-19",
-    "source_ids": [
-      "fc_hnd"
-    ]
+    "note": "",
+    "id": "AA:HND-DFW"
   },
   {
-    "id": "JL:HND-DFW",
     "airline": "JL",
     "origin": "HND",
     "destination": "DFW",
-    "service_status": "active",
-    "checked_on": "2026-10-19",
-    "source_ids": [
-      "jal_schedule"
-    ]
+    "note": "",
+    "id": "JL:HND-DFW"
   },
   {
-    "id": "DL:HND-DTW",
     "airline": "DL",
     "origin": "HND",
     "destination": "DTW",
-    "service_status": "active",
-    "checked_on": "2026-10-19",
-    "source_ids": [
-      "dl_tokyo_2026"
-    ]
+    "note": "",
+    "id": "DL:HND-DTW"
   },
   {
-    "id": "UA:HND-EWR",
     "airline": "UA",
     "origin": "HND",
     "destination": "EWR",
-    "service_status": "active",
-    "checked_on": "2026-10-19",
-    "source_ids": [
-      "fc_hnd"
-    ]
+    "note": "",
+    "id": "UA:HND-EWR"
   },
   {
-    "id": "AS:HND-HNL",
     "airline": "AS",
     "origin": "HND",
     "destination": "HNL",
-    "service_status": "active",
-    "checked_on": "2026-10-19",
-    "source_ids": [
-      "fc_hnd"
-    ]
+    "note": "",
+    "id": "AS:HND-HNL"
   },
   {
-    "id": "DL:HND-HNL",
     "airline": "DL",
     "origin": "HND",
     "destination": "HNL",
-    "service_status": "active",
-    "checked_on": "2026-10-19",
-    "source_ids": [
-      "dl_tokyo_2026"
-    ]
+    "note": "",
+    "id": "DL:HND-HNL"
   },
   {
-    "id": "JL:HND-HNL",
     "airline": "JL",
     "origin": "HND",
     "destination": "HNL",
-    "service_status": "active",
-    "checked_on": "2026-10-19",
-    "source_ids": [
-      "jal_schedule"
-    ]
+    "note": "",
+    "id": "JL:HND-HNL"
   },
   {
-    "id": "NH:HND-HNL",
     "airline": "NH",
     "origin": "HND",
     "destination": "HNL",
-    "service_status": "active",
-    "checked_on": "2026-10-19",
-    "source_ids": [
-      "ana_routes_2026"
-    ]
+    "note": "",
+    "id": "NH:HND-HNL"
   },
   {
-    "id": "NH:HND-IAD",
     "airline": "NH",
     "origin": "HND",
     "destination": "IAD",
-    "service_status": "active",
-    "checked_on": "2026-10-19",
-    "source_ids": [
-      "ana_routes_2026"
-    ]
+    "note": "",
+    "id": "NH:HND-IAD"
   },
   {
-    "id": "UA:HND-IAD",
     "airline": "UA",
     "origin": "HND",
     "destination": "IAD",
-    "service_status": "active",
-    "checked_on": "2026-10-19",
-    "source_ids": [
-      "fc_hnd"
-    ]
+    "note": "",
+    "id": "UA:HND-IAD"
   },
   {
-    "id": "NH:HND-IAH",
     "airline": "NH",
     "origin": "HND",
     "destination": "IAH",
-    "service_status": "active",
-    "checked_on": "2026-10-19",
-    "source_ids": [
-      "ana_routes_2026"
-    ]
+    "note": "",
+    "id": "NH:HND-IAH"
   },
   {
-    "id": "AA:HND-JFK",
     "airline": "AA",
     "origin": "HND",
     "destination": "JFK",
-    "service_status": "active",
-    "checked_on": "2026-10-19",
-    "source_ids": [
-      "fc_hnd"
-    ]
+    "note": "",
+    "id": "AA:HND-JFK"
   },
   {
-    "id": "JL:HND-JFK",
     "airline": "JL",
     "origin": "HND",
     "destination": "JFK",
-    "service_status": "active",
-    "checked_on": "2026-10-19",
-    "source_ids": [
-      "jal_schedule"
-    ]
+    "note": "",
+    "id": "JL:HND-JFK"
   },
   {
-    "id": "NH:HND-JFK",
     "airline": "NH",
     "origin": "HND",
     "destination": "JFK",
-    "service_status": "active",
-    "checked_on": "2026-10-19",
-    "source_ids": [
-      "ana_routes_2026"
-    ]
+    "note": "",
+    "id": "NH:HND-JFK"
   },
   {
-    "id": "AA:HND-LAX",
     "airline": "AA",
     "origin": "HND",
     "destination": "LAX",
-    "service_status": "active",
-    "checked_on": "2026-10-19",
-    "source_ids": [
-      "fc_hnd"
-    ]
+    "note": "",
+    "id": "AA:HND-LAX"
   },
   {
-    "id": "DL:HND-LAX",
     "airline": "DL",
     "origin": "HND",
     "destination": "LAX",
-    "service_status": "active",
-    "checked_on": "2026-10-19",
-    "source_ids": [
-      "dl_tokyo_2026"
-    ]
+    "note": "",
+    "id": "DL:HND-LAX"
   },
   {
-    "id": "JL:HND-LAX",
     "airline": "JL",
     "origin": "HND",
     "destination": "LAX",
-    "service_status": "active",
-    "checked_on": "2026-10-19",
-    "source_ids": [
-      "jal_schedule"
-    ]
+    "note": "",
+    "id": "JL:HND-LAX"
   },
   {
-    "id": "NH:HND-LAX",
     "airline": "NH",
     "origin": "HND",
     "destination": "LAX",
-    "service_status": "active",
-    "checked_on": "2026-10-19",
-    "source_ids": [
-      "ana_routes_2026"
-    ]
+    "note": "",
+    "id": "NH:HND-LAX"
   },
   {
-    "id": "UA:HND-LAX",
     "airline": "UA",
     "origin": "HND",
     "destination": "LAX",
-    "service_status": "active",
-    "checked_on": "2026-10-19",
-    "source_ids": [
-      "fc_hnd"
-    ]
+    "note": "",
+    "id": "UA:HND-LAX"
   },
   {
-    "id": "DL:HND-MSP",
     "airline": "DL",
     "origin": "HND",
     "destination": "MSP",
-    "service_status": "active",
-    "checked_on": "2026-10-19",
-    "source_ids": [
-      "dl_tokyo_2026"
-    ]
+    "note": "",
+    "id": "DL:HND-MSP"
   },
   {
-    "id": "JL:HND-ORD",
     "airline": "JL",
     "origin": "HND",
     "destination": "ORD",
-    "service_status": "active",
-    "checked_on": "2026-10-19",
-    "source_ids": [
-      "jal_schedule"
-    ]
+    "note": "",
+    "id": "JL:HND-ORD"
   },
   {
-    "id": "NH:HND-ORD",
     "airline": "NH",
     "origin": "HND",
     "destination": "ORD",
-    "service_status": "active",
-    "checked_on": "2026-10-19",
-    "source_ids": [
-      "ana_routes_2026"
-    ]
+    "note": "",
+    "id": "NH:HND-ORD"
   },
   {
-    "id": "UA:HND-ORD",
     "airline": "UA",
     "origin": "HND",
     "destination": "ORD",
-    "service_status": "active",
-    "checked_on": "2026-10-19",
-    "source_ids": [
-      "fc_hnd"
-    ]
+    "note": "",
+    "id": "UA:HND-ORD"
   },
   {
-    "id": "DL:HND-SEA",
     "airline": "DL",
     "origin": "HND",
     "destination": "SEA",
-    "service_status": "active",
-    "checked_on": "2026-10-19",
-    "source_ids": [
-      "dl_tokyo_2026"
-    ]
+    "note": "",
+    "id": "DL:HND-SEA"
   },
   {
-    "id": "NH:HND-SEA",
     "airline": "NH",
     "origin": "HND",
     "destination": "SEA",
-    "service_status": "active",
-    "checked_on": "2026-10-19",
-    "source_ids": [
-      "ana_routes_2026"
-    ]
+    "note": "",
+    "id": "NH:HND-SEA"
   },
   {
-    "id": "JL:HND-SFO",
     "airline": "JL",
     "origin": "HND",
     "destination": "SFO",
-    "service_status": "active",
-    "checked_on": "2026-10-19",
-    "source_ids": [
-      "jal_schedule"
-    ]
+    "note": "",
+    "id": "JL:HND-SFO"
   },
   {
-    "id": "NH:HND-SFO",
     "airline": "NH",
     "origin": "HND",
     "destination": "SFO",
-    "service_status": "active",
-    "checked_on": "2026-10-19",
-    "source_ids": [
-      "ana_routes_2026"
-    ]
+    "note": "",
+    "id": "NH:HND-SFO"
   },
   {
-    "id": "UA:HND-SFO",
     "airline": "UA",
     "origin": "HND",
     "destination": "SFO",
-    "service_status": "active",
-    "checked_on": "2026-10-19",
-    "source_ids": [
-      "fc_hnd"
-    ]
+    "note": "",
+    "id": "UA:HND-SFO"
   },
   {
-    "id": "NH:HND-YVR",
     "airline": "NH",
     "origin": "HND",
     "destination": "YVR",
-    "service_status": "active",
-    "checked_on": "2026-10-19",
-    "source_ids": [
-      "ana_routes_2026"
-    ]
+    "note": "",
+    "id": "NH:HND-YVR"
   },
   {
-    "id": "AC:HND-YYZ",
     "airline": "AC",
     "origin": "HND",
     "destination": "YYZ",
-    "service_status": "active",
-    "checked_on": "2026-10-19",
-    "source_ids": [
-      "fc_hnd",
-      "ac_asia_2026"
-    ]
+    "note": "",
+    "id": "AC:HND-YYZ"
   },
   {
-    "id": "DL:ICN-ATL",
     "airline": "DL",
     "origin": "ICN",
     "destination": "ATL",
-    "service_status": "active",
-    "checked_on": "2026-10-19",
-    "source_ids": [
-      "fc_icn",
-      "dl_slc"
-    ]
+    "note": "",
+    "id": "DL:ICN-ATL"
   },
   {
-    "id": "KE:ICN-ATL",
     "airline": "KE",
     "origin": "ICN",
     "destination": "ATL",
-    "service_status": "active",
-    "checked_on": "2026-10-19",
-    "source_ids": [
-      "fc_icn"
-    ]
+    "note": "",
+    "id": "KE:ICN-ATL"
   },
   {
-    "id": "KE:ICN-BOS",
     "airline": "KE",
     "origin": "ICN",
     "destination": "BOS",
-    "service_status": "active",
-    "checked_on": "2026-10-19",
-    "source_ids": [
-      "fc_icn"
-    ]
+    "note": "",
+    "id": "KE:ICN-BOS"
   },
   {
-    "id": "AA:ICN-DFW",
     "airline": "AA",
     "origin": "ICN",
     "destination": "DFW",
-    "service_status": "active",
-    "checked_on": "2026-10-19",
-    "source_ids": [
-      "fc_icn"
-    ]
+    "note": "",
+    "id": "AA:ICN-DFW"
   },
   {
-    "id": "KE:ICN-DFW",
     "airline": "KE",
     "origin": "ICN",
     "destination": "DFW",
-    "service_status": "active",
-    "checked_on": "2026-10-19",
-    "source_ids": [
-      "fc_icn"
-    ]
+    "note": "",
+    "id": "KE:ICN-DFW"
   },
   {
-    "id": "DL:ICN-DTW",
     "airline": "DL",
     "origin": "ICN",
     "destination": "DTW",
-    "service_status": "active",
-    "checked_on": "2026-10-19",
-    "source_ids": [
-      "fc_icn",
-      "dl_slc"
-    ]
+    "note": "",
+    "id": "DL:ICN-DTW"
   },
   {
-    "id": "YP:ICN-EWR",
     "airline": "YP",
     "origin": "ICN",
     "destination": "EWR",
-    "service_status": "active",
-    "checked_on": "2026-10-19",
-    "source_ids": [
-      "yp_airports",
-      "fc_icn"
-    ]
+    "note": "",
+    "id": "YP:ICN-EWR"
   },
   {
-    "id": "KE:ICN-HNL",
     "airline": "KE",
     "origin": "ICN",
     "destination": "HNL",
-    "service_status": "active",
-    "checked_on": "2026-10-19",
-    "source_ids": [
-      "fc_icn"
-    ]
+    "note": "",
+    "id": "KE:ICN-HNL"
   },
   {
-    "id": "YP:ICN-HNL",
     "airline": "YP",
     "origin": "ICN",
     "destination": "HNL",
-    "service_status": "seasonal",
-    "checked_on": "2026-10-19",
-    "source_ids": [
-      "yp_airports",
-      "fc_icn"
-    ]
+    "note": "",
+    "id": "YP:ICN-HNL"
   },
   {
-    "id": "KE:ICN-IAD",
     "airline": "KE",
     "origin": "ICN",
     "destination": "IAD",
-    "service_status": "active",
-    "checked_on": "2026-10-19",
-    "source_ids": [
-      "fc_icn"
-    ]
+    "note": "",
+    "id": "KE:ICN-IAD"
   },
   {
-    "id": "YP:ICN-IAD",
     "airline": "YP",
     "origin": "ICN",
     "destination": "IAD",
-    "service_status": "active",
-    "checked_on": "2026-10-19",
-    "source_ids": [
-      "yp_airports",
-      "fc_icn"
-    ]
+    "note": "",
+    "id": "YP:ICN-IAD"
   },
   {
-    "id": "KE:ICN-JFK",
     "airline": "KE",
     "origin": "ICN",
     "destination": "JFK",
-    "service_status": "active",
-    "checked_on": "2026-10-19",
-    "source_ids": [
-      "fc_icn"
-    ]
+    "note": "",
+    "id": "KE:ICN-JFK"
   },
   {
-    "id": "OZ:ICN-JFK",
     "airline": "OZ",
     "origin": "ICN",
     "destination": "JFK",
-    "service_status": "active",
-    "checked_on": "2026-10-19",
-    "source_ids": [
-      "fc_icn"
-    ]
+    "note": "",
+    "id": "OZ:ICN-JFK"
   },
   {
-    "id": "KE:ICN-LAS",
     "airline": "KE",
     "origin": "ICN",
     "destination": "LAS",
-    "service_status": "active",
-    "checked_on": "2026-10-19",
-    "source_ids": [
-      "fc_icn"
-    ]
+    "note": "",
+    "id": "KE:ICN-LAS"
   },
   {
-    "id": "KE:ICN-LAX",
     "airline": "KE",
     "origin": "ICN",
     "destination": "LAX",
-    "service_status": "active",
-    "checked_on": "2026-10-19",
-    "source_ids": [
-      "fc_icn"
-    ]
+    "note": "",
+    "id": "KE:ICN-LAX"
   },
   {
-    "id": "OZ:ICN-LAX",
     "airline": "OZ",
     "origin": "ICN",
     "destination": "LAX",
-    "service_status": "active",
-    "checked_on": "2026-10-19",
-    "source_ids": [
-      "fc_icn"
-    ]
+    "note": "",
+    "id": "OZ:ICN-LAX"
   },
   {
-    "id": "YP:ICN-LAX",
     "airline": "YP",
     "origin": "ICN",
     "destination": "LAX",
-    "service_status": "active",
-    "checked_on": "2026-10-19",
-    "source_ids": [
-      "yp_airports",
-      "fc_icn"
-    ]
+    "note": "",
+    "id": "YP:ICN-LAX"
   },
   {
-    "id": "DL:ICN-MSP",
     "airline": "DL",
     "origin": "ICN",
     "destination": "MSP",
-    "service_status": "active",
-    "checked_on": "2026-10-19",
-    "source_ids": [
-      "fc_icn",
-      "dl_slc"
-    ]
+    "note": "",
+    "id": "DL:ICN-MSP"
   },
   {
-    "id": "KE:ICN-ORD",
     "airline": "KE",
     "origin": "ICN",
     "destination": "ORD",
-    "service_status": "active",
-    "checked_on": "2026-10-19",
-    "source_ids": [
-      "fc_icn"
-    ]
+    "note": "",
+    "id": "KE:ICN-ORD"
   },
   {
-    "id": "AS:ICN-SEA",
     "airline": "AS",
     "origin": "ICN",
     "destination": "SEA",
-    "service_status": "active",
-    "checked_on": "2026-10-19",
-    "source_ids": [
-      "as_asia_2026"
-    ]
+    "note": "",
+    "id": "AS:ICN-SEA"
   },
   {
-    "id": "DL:ICN-SEA",
     "airline": "DL",
     "origin": "ICN",
     "destination": "SEA",
-    "service_status": "active",
-    "checked_on": "2026-10-19",
-    "source_ids": [
-      "fc_icn",
-      "dl_slc"
-    ]
+    "note": "",
+    "id": "DL:ICN-SEA"
   },
   {
-    "id": "KE:ICN-SEA",
     "airline": "KE",
     "origin": "ICN",
     "destination": "SEA",
-    "service_status": "active",
-    "checked_on": "2026-10-19",
-    "source_ids": [
-      "fc_icn"
-    ]
+    "note": "",
+    "id": "KE:ICN-SEA"
   },
   {
-    "id": "KE:ICN-SFO",
     "airline": "KE",
     "origin": "ICN",
     "destination": "SFO",
-    "service_status": "active",
-    "checked_on": "2026-10-19",
-    "source_ids": [
-      "fc_icn"
-    ]
+    "note": "",
+    "id": "KE:ICN-SFO"
   },
   {
-    "id": "OZ:ICN-SFO",
     "airline": "OZ",
     "origin": "ICN",
     "destination": "SFO",
-    "service_status": "active",
-    "checked_on": "2026-10-19",
-    "source_ids": [
-      "fc_icn"
-    ]
+    "note": "",
+    "id": "OZ:ICN-SFO"
   },
   {
-    "id": "UA:ICN-SFO",
     "airline": "UA",
     "origin": "ICN",
     "destination": "SFO",
-    "service_status": "active",
-    "checked_on": "2026-10-19",
-    "source_ids": [
-      "fc_icn"
-    ]
+    "note": "",
+    "id": "UA:ICN-SFO"
   },
   {
-    "id": "YP:ICN-SFO",
     "airline": "YP",
     "origin": "ICN",
     "destination": "SFO",
-    "service_status": "active",
-    "checked_on": "2026-10-19",
-    "source_ids": [
-      "yp_airports",
-      "fc_icn"
-    ]
+    "note": "",
+    "id": "YP:ICN-SFO"
   },
   {
-    "id": "DL:ICN-SLC",
     "airline": "DL",
     "origin": "ICN",
     "destination": "SLC",
-    "service_status": "active",
-    "checked_on": "2026-10-19",
-    "source_ids": [
-      "fc_icn",
-      "dl_slc"
-    ]
+    "note": "",
+    "id": "DL:ICN-SLC"
   },
   {
-    "id": "AC:ICN-YUL",
     "airline": "AC",
     "origin": "ICN",
     "destination": "YUL",
-    "service_status": "seasonal",
-    "checked_on": "2026-10-19",
-    "source_ids": [
-      "fc_icn",
-      "ac_asia_2026"
-    ],
-    "season_note": "夏季航线，2026年公布运营季至9月；不代表核查日仍执行。"
+    "note": "",
+    "id": "AC:ICN-YUL"
   },
   {
-    "id": "AC:ICN-YVR",
     "airline": "AC",
     "origin": "ICN",
     "destination": "YVR",
-    "service_status": "active",
-    "checked_on": "2026-10-19",
-    "source_ids": [
-      "fc_icn",
-      "ac_asia_2026"
-    ]
+    "note": "",
+    "id": "AC:ICN-YVR"
   },
   {
-    "id": "KE:ICN-YVR",
     "airline": "KE",
     "origin": "ICN",
     "destination": "YVR",
-    "service_status": "active",
-    "checked_on": "2026-10-19",
-    "source_ids": [
-      "fc_icn"
-    ]
+    "note": "",
+    "id": "KE:ICN-YVR"
   },
   {
-    "id": "TW:ICN-YVR",
     "airline": "TW",
     "origin": "ICN",
     "destination": "YVR",
-    "service_status": "active",
-    "checked_on": "2026-10-19",
-    "source_ids": [
-      "tw_yvr",
-      "yvr_network"
-    ]
+    "note": "",
+    "id": "TW:ICN-YVR"
   },
   {
-    "id": "WS:ICN-YYC",
     "airline": "WS",
     "origin": "ICN",
     "destination": "YYC",
-    "service_status": "seasonal",
-    "checked_on": "2026-10-19",
-    "source_ids": [
-      "ws_asia"
-    ],
-    "service_start": "2026-03-29",
-    "service_end": "2026-11-07"
+    "note": "",
+    "id": "WS:ICN-YYC"
   },
   {
-    "id": "AC:ICN-YYZ",
     "airline": "AC",
     "origin": "ICN",
     "destination": "YYZ",
-    "service_status": "active",
-    "checked_on": "2026-10-19",
-    "source_ids": [
-      "fc_icn",
-      "ac_asia_2026"
-    ]
+    "note": "",
+    "id": "AC:ICN-YYZ"
   },
   {
-    "id": "KE:ICN-YYZ",
     "airline": "KE",
     "origin": "ICN",
     "destination": "YYZ",
-    "service_status": "active",
-    "checked_on": "2026-10-19",
-    "source_ids": [
-      "fc_icn"
-    ]
+    "note": "",
+    "id": "KE:ICN-YYZ"
   },
   {
-    "id": "AS:KIX-HNL",
     "airline": "AS",
     "origin": "KIX",
     "destination": "HNL",
-    "service_status": "active",
-    "checked_on": "2026-10-19",
-    "source_ids": [
-      "fc_kix"
-    ]
+    "note": "",
+    "id": "AS:KIX-HNL"
   },
   {
-    "id": "JL:KIX-HNL",
     "airline": "JL",
     "origin": "KIX",
     "destination": "HNL",
-    "service_status": "active",
-    "checked_on": "2026-10-19",
-    "source_ids": [
-      "jal_schedule"
-    ]
+    "note": "",
+    "id": "JL:KIX-HNL"
   },
   {
-    "id": "JL:KIX-LAX",
     "airline": "JL",
     "origin": "KIX",
     "destination": "LAX",
-    "service_status": "active",
-    "checked_on": "2026-10-19",
-    "source_ids": [
-      "jal_schedule"
-    ]
+    "note": "",
+    "id": "JL:KIX-LAX"
   },
   {
-    "id": "UA:KIX-LAX",
-    "airline": "UA",
-    "origin": "KIX",
-    "destination": "LAX",
-    "service_status": "announced",
-    "checked_on": "2026-10-20",
-    "source_ids": [
-      "ua_kix_lax_2027"
-    ],
-    "service_start": "2027-03-28",
-    "note": "洛杉矶始发于2027-03-27开航；关西始发为次日。"
-  },
-  {
-    "id": "UA:KIX-SFO",
     "airline": "UA",
     "origin": "KIX",
     "destination": "SFO",
-    "service_status": "active",
-    "checked_on": "2026-10-19",
-    "source_ids": [
-      "fc_kix"
-    ]
+    "note": "",
+    "id": "UA:KIX-SFO"
   },
   {
-    "id": "AC:KIX-YVR",
     "airline": "AC",
     "origin": "KIX",
     "destination": "YVR",
-    "service_status": "seasonal",
-    "checked_on": "2026-10-19",
-    "source_ids": [
-      "fc_kix",
-      "ac_asia_2026"
-    ]
+    "note": "",
+    "id": "AC:KIX-YVR"
   },
   {
-    "id": "AC:KIX-YYZ",
     "airline": "AC",
     "origin": "KIX",
     "destination": "YYZ",
-    "service_status": "seasonal",
-    "checked_on": "2026-10-19",
-    "source_ids": [
-      "fc_kix",
-      "ac_asia_2026"
-    ]
+    "note": "",
+    "id": "AC:KIX-YYZ"
   },
   {
-    "id": "JL:NGO-HNL",
     "airline": "JL",
     "origin": "NGO",
     "destination": "HNL",
-    "service_status": "active",
-    "checked_on": "2026-10-19",
-    "source_ids": [
-      "jal_schedule"
-    ]
+    "note": "",
+    "id": "JL:NGO-HNL"
   },
   {
-    "id": "JL:NRT-BOS",
     "airline": "JL",
     "origin": "NRT",
     "destination": "BOS",
-    "service_status": "active",
-    "checked_on": "2026-10-19",
-    "source_ids": [
-      "jal_schedule"
-    ]
+    "note": "",
+    "id": "JL:NRT-BOS"
   },
   {
-    "id": "UA:NRT-DEN",
     "airline": "UA",
     "origin": "NRT",
     "destination": "DEN",
-    "service_status": "active",
-    "checked_on": "2026-10-19",
-    "source_ids": [
-      "fc_nrt"
-    ]
+    "note": "",
+    "id": "UA:NRT-DEN"
   },
   {
-    "id": "AA:NRT-DFW",
     "airline": "AA",
     "origin": "NRT",
     "destination": "DFW",
-    "service_status": "active",
-    "checked_on": "2026-10-19",
-    "source_ids": [
-      "fc_nrt"
-    ]
+    "note": "",
+    "id": "AA:NRT-DFW"
   },
   {
-    "id": "UA:NRT-EWR",
     "airline": "UA",
     "origin": "NRT",
     "destination": "EWR",
-    "service_status": "active",
-    "checked_on": "2026-10-19",
-    "source_ids": [
-      "fc_nrt"
-    ]
+    "note": "",
+    "id": "UA:NRT-EWR"
   },
   {
-    "id": "JL:NRT-HNL",
     "airline": "JL",
     "origin": "NRT",
     "destination": "HNL",
-    "service_status": "active",
-    "checked_on": "2026-10-19",
-    "source_ids": [
-      "jal_schedule"
-    ]
+    "note": "",
+    "id": "JL:NRT-HNL"
   },
   {
-    "id": "NH:NRT-HNL",
     "airline": "NH",
     "origin": "NRT",
     "destination": "HNL",
-    "service_status": "active",
-    "checked_on": "2026-10-19",
-    "source_ids": [
-      "ana_routes_2026"
-    ]
+    "note": "",
+    "id": "NH:NRT-HNL"
   },
   {
-    "id": "ZG:NRT-HNL",
     "airline": "ZG",
     "origin": "NRT",
     "destination": "HNL",
-    "service_status": "active",
-    "checked_on": "2026-10-19",
-    "source_ids": [
-      "zg_network_2026",
-      "zg_notices_2026"
-    ]
+    "note": "",
+    "id": "ZG:NRT-HNL"
   },
   {
-    "id": "UA:NRT-IAH",
     "airline": "UA",
     "origin": "NRT",
     "destination": "IAH",
-    "service_status": "active",
-    "checked_on": "2026-10-19",
-    "source_ids": [
-      "fc_nrt"
-    ]
+    "note": "",
+    "id": "UA:NRT-IAH"
   },
   {
-    "id": "ZG:NRT-IAH",
     "airline": "ZG",
     "origin": "NRT",
     "destination": "IAH",
-    "service_status": "active",
-    "checked_on": "2026-10-19",
-    "source_ids": [
-      "zg_network_2026",
-      "zg_notices_2026"
-    ]
+    "note": "",
+    "id": "ZG:NRT-IAH"
   },
   {
-    "id": "JL:NRT-LAX",
     "airline": "JL",
     "origin": "NRT",
     "destination": "LAX",
-    "service_status": "active",
-    "checked_on": "2026-10-19",
-    "source_ids": [
-      "jal_schedule"
-    ]
+    "note": "",
+    "id": "JL:NRT-LAX"
   },
   {
-    "id": "NH:NRT-LAX",
     "airline": "NH",
     "origin": "NRT",
     "destination": "LAX",
-    "service_status": "active",
-    "checked_on": "2026-10-19",
-    "source_ids": [
-      "ana_routes_2026"
-    ]
+    "note": "",
+    "id": "NH:NRT-LAX"
   },
   {
-    "id": "SQ:NRT-LAX",
     "airline": "SQ",
     "origin": "NRT",
     "destination": "LAX",
-    "service_status": "active",
-    "checked_on": "2026-10-19",
-    "source_ids": [
-      "fc_nrt"
-    ]
+    "note": "",
+    "id": "SQ:NRT-LAX"
   },
   {
-    "id": "UA:NRT-LAX",
     "airline": "UA",
     "origin": "NRT",
     "destination": "LAX",
-    "service_status": "active",
-    "checked_on": "2026-10-19",
-    "source_ids": [
-      "fc_nrt"
-    ]
+    "note": "",
+    "id": "UA:NRT-LAX"
   },
   {
-    "id": "ZG:NRT-LAX",
     "airline": "ZG",
     "origin": "NRT",
     "destination": "LAX",
-    "service_status": "active",
-    "checked_on": "2026-10-19",
-    "source_ids": [
-      "zg_network_2026",
-      "zg_notices_2026"
-    ]
+    "note": "",
+    "id": "ZG:NRT-LAX"
   },
   {
-    "id": "AA:NRT-ORD",
-    "airline": "AA",
-    "origin": "NRT",
-    "destination": "ORD",
-    "service_status": "announced",
-    "checked_on": "2026-10-20",
-    "source_ids": [
-      "aa_ord_nrt_2027"
-    ],
-    "service_start": "2027-03-20",
-    "note": "官方公布ORD始发于2027-03-19开航；成田始发为次日。"
-  },
-  {
-    "id": "JL:NRT-ORD",
     "airline": "JL",
     "origin": "NRT",
     "destination": "ORD",
-    "service_status": "active",
-    "checked_on": "2026-10-19",
-    "source_ids": [
-      "jal_schedule"
-    ]
+    "note": "",
+    "id": "JL:NRT-ORD"
   },
   {
-    "id": "NH:NRT-ORD",
     "airline": "NH",
     "origin": "NRT",
     "destination": "ORD",
-    "service_status": "active",
-    "checked_on": "2026-10-19",
-    "source_ids": [
-      "ana_routes_2026"
-    ]
+    "note": "",
+    "id": "NH:NRT-ORD"
   },
   {
-    "id": "UA:NRT-ORD",
-    "airline": "UA",
-    "origin": "NRT",
-    "destination": "ORD",
-    "service_status": "announced",
-    "checked_on": "2026-10-20",
-    "source_ids": [
-      "ua_ord_nrt_2026"
-    ],
-    "service_start": "2026-10-25"
-  },
-  {
-    "id": "JL:NRT-SAN",
     "airline": "JL",
     "origin": "NRT",
     "destination": "SAN",
-    "service_status": "active",
-    "checked_on": "2026-10-19",
-    "source_ids": [
-      "jal_schedule"
-    ]
+    "note": "",
+    "id": "JL:NRT-SAN"
   },
   {
-    "id": "AS:NRT-SEA",
     "airline": "AS",
     "origin": "NRT",
     "destination": "SEA",
-    "service_status": "active",
-    "checked_on": "2026-10-19",
-    "source_ids": [
-      "as_asia_2026"
-    ]
+    "note": "",
+    "id": "AS:NRT-SEA"
   },
   {
-    "id": "DL:NRT-SEA",
-    "airline": "DL",
-    "origin": "NRT",
-    "destination": "SEA",
-    "service_status": "announced",
-    "checked_on": "2026-10-19",
-    "source_ids": [
-      "dl_tokyo_2026"
-    ],
-    "service_start": "2027-03-27"
-  },
-  {
-    "id": "JL:NRT-SEA",
     "airline": "JL",
     "origin": "NRT",
     "destination": "SEA",
-    "service_status": "active",
-    "checked_on": "2026-10-19",
-    "source_ids": [
-      "jal_schedule"
-    ]
+    "note": "",
+    "id": "JL:NRT-SEA"
   },
   {
-    "id": "JL:NRT-SFO",
     "airline": "JL",
     "origin": "NRT",
     "destination": "SFO",
-    "service_status": "active",
-    "checked_on": "2026-10-19",
-    "source_ids": [
-      "jal_schedule"
-    ]
+    "note": "",
+    "id": "JL:NRT-SFO"
   },
   {
-    "id": "NH:NRT-SFO",
     "airline": "NH",
     "origin": "NRT",
     "destination": "SFO",
-    "service_status": "active",
-    "checked_on": "2026-10-19",
-    "source_ids": [
-      "ana_routes_2026"
-    ]
+    "note": "",
+    "id": "NH:NRT-SFO"
   },
   {
-    "id": "UA:NRT-SFO",
     "airline": "UA",
     "origin": "NRT",
     "destination": "SFO",
-    "service_status": "active",
-    "checked_on": "2026-10-19",
-    "source_ids": [
-      "fc_nrt"
-    ]
+    "note": "",
+    "id": "UA:NRT-SFO"
   },
   {
-    "id": "ZG:NRT-SFO",
     "airline": "ZG",
     "origin": "NRT",
     "destination": "SFO",
-    "service_status": "active",
-    "checked_on": "2026-10-19",
-    "source_ids": [
-      "zg_network_2026",
-      "zg_notices_2026"
-    ]
+    "note": "",
+    "id": "ZG:NRT-SFO"
   },
   {
-    "id": "ZG:NRT-SJC",
     "airline": "ZG",
     "origin": "NRT",
     "destination": "SJC",
-    "service_status": "seasonal",
-    "checked_on": "2026-10-19",
-    "source_ids": [
-      "zg_network_2026",
-      "zg_notices_2026"
-    ]
+    "note": "",
+    "id": "ZG:NRT-SJC"
   },
   {
-    "id": "AC:NRT-YUL",
     "airline": "AC",
     "origin": "NRT",
     "destination": "YUL",
-    "service_status": "active",
-    "checked_on": "2026-10-19",
-    "source_ids": [
-      "fc_nrt",
-      "ac_asia_2026"
-    ]
+    "note": "",
+    "id": "AC:NRT-YUL"
   },
   {
-    "id": "AC:NRT-YVR",
     "airline": "AC",
     "origin": "NRT",
     "destination": "YVR",
-    "service_status": "active",
-    "checked_on": "2026-10-19",
-    "source_ids": [
-      "fc_nrt",
-      "ac_asia_2026"
-    ]
+    "note": "",
+    "id": "AC:NRT-YVR"
   },
   {
-    "id": "JL:NRT-YVR",
     "airline": "JL",
     "origin": "NRT",
     "destination": "YVR",
-    "service_status": "active",
-    "checked_on": "2026-10-19",
-    "source_ids": [
-      "jal_schedule"
-    ]
+    "note": "",
+    "id": "JL:NRT-YVR"
   },
   {
-    "id": "NH:NRT-YVR",
     "airline": "NH",
     "origin": "NRT",
     "destination": "YVR",
-    "service_status": "seasonal",
-    "checked_on": "2026-10-19",
-    "source_ids": [
-      "ana_routes_2026"
-    ],
-    "season_note": "2026年公布运营期为6月5日至8月31日。",
-    "service_start": "2026-06-05",
-    "service_end": "2026-08-31"
+    "note": "",
+    "id": "NH:NRT-YVR"
   },
   {
-    "id": "ZG:NRT-YVR",
     "airline": "ZG",
     "origin": "NRT",
     "destination": "YVR",
-    "service_status": "seasonal",
-    "checked_on": "2026-10-19",
-    "source_ids": [
-      "zg_network_2026",
-      "zg_notices_2026"
-    ]
+    "note": "",
+    "id": "ZG:NRT-YVR"
   },
   {
-    "id": "WS:NRT-YYC",
     "airline": "WS",
     "origin": "NRT",
     "destination": "YYC",
-    "service_status": "active",
-    "checked_on": "2026-10-19",
-    "source_ids": [
-      "ws_asia"
-    ]
+    "note": "",
+    "id": "WS:NRT-YYC"
   },
   {
-    "id": "AC:NRT-YYZ",
     "airline": "AC",
     "origin": "NRT",
     "destination": "YYZ",
-    "service_status": "active",
-    "checked_on": "2026-10-19",
-    "source_ids": [
-      "fc_nrt",
-      "ac_asia_2026"
-    ]
+    "note": "",
+    "id": "AC:NRT-YYZ"
   },
   {
-    "id": "HU:PEK-BOS",
     "airline": "HU",
     "origin": "PEK",
     "destination": "BOS",
-    "service_status": "active",
-    "checked_on": "2026-10-19",
-    "source_ids": [
-      "hu_network_2026",
-      "piao_nonstop_202609"
-    ]
+    "note": "",
+    "id": "HU:PEK-BOS"
   },
   {
-    "id": "CA:PEK-IAD",
     "airline": "CA",
     "origin": "PEK",
     "destination": "IAD",
-    "service_status": "active",
-    "checked_on": "2026-10-19",
-    "source_ids": [
-      "piao_nonstop_202609"
-    ]
+    "note": "",
+    "id": "CA:PEK-IAD"
   },
   {
-    "id": "CA:PEK-JFK",
     "airline": "CA",
     "origin": "PEK",
     "destination": "JFK",
-    "service_status": "active",
-    "checked_on": "2026-10-19",
-    "source_ids": [
-      "piao_nonstop_202609"
-    ]
+    "note": "",
+    "id": "CA:PEK-JFK"
   },
   {
-    "id": "CA:PEK-LAX",
     "airline": "CA",
     "origin": "PEK",
     "destination": "LAX",
-    "service_status": "active",
-    "checked_on": "2026-10-19",
-    "source_ids": [
-      "piao_nonstop_202609"
-    ]
+    "note": "",
+    "id": "CA:PEK-LAX"
   },
   {
-    "id": "UA:PEK-LAX",
     "airline": "UA",
     "origin": "PEK",
     "destination": "LAX",
-    "service_status": "active",
-    "checked_on": "2026-10-19",
-    "source_ids": [
-      "piao_nonstop_202609"
-    ]
+    "note": "",
+    "id": "UA:PEK-LAX"
   },
   {
-    "id": "HU:PEK-SEA",
     "airline": "HU",
     "origin": "PEK",
     "destination": "SEA",
-    "service_status": "active",
-    "checked_on": "2026-10-19",
-    "source_ids": [
-      "hu_network_2026",
-      "piao_nonstop_202609"
-    ]
+    "note": "",
+    "id": "HU:PEK-SEA"
   },
   {
-    "id": "CA:PEK-SFO",
     "airline": "CA",
     "origin": "PEK",
     "destination": "SFO",
-    "service_status": "active",
-    "checked_on": "2026-10-19",
-    "source_ids": [
-      "piao_nonstop_202609"
-    ]
+    "note": "",
+    "id": "CA:PEK-SFO"
   },
   {
-    "id": "UA:PEK-SFO",
     "airline": "UA",
     "origin": "PEK",
     "destination": "SFO",
-    "service_status": "active",
-    "checked_on": "2026-10-19",
-    "source_ids": [
-      "piao_nonstop_202609"
-    ]
+    "note": "",
+    "id": "UA:PEK-SFO"
   },
   {
-    "id": "AC:PEK-YVR",
     "airline": "AC",
     "origin": "PEK",
     "destination": "YVR",
-    "service_status": "active",
-    "checked_on": "2026-10-19",
-    "source_ids": [
-      "yvr_network",
-      "piao_nonstop_202609"
-    ]
+    "note": "",
+    "id": "AC:PEK-YVR"
   },
   {
-    "id": "CA:PEK-YVR",
     "airline": "CA",
     "origin": "PEK",
     "destination": "YVR",
-    "service_status": "active",
-    "checked_on": "2026-10-19",
-    "source_ids": [
-      "piao_nonstop_202609",
-      "yvr_network"
-    ]
+    "note": "",
+    "id": "CA:PEK-YVR"
   },
   {
-    "id": "CA:PEK-YYZ",
     "airline": "CA",
     "origin": "PEK",
     "destination": "YYZ",
-    "service_status": "active",
-    "checked_on": "2026-10-19",
-    "source_ids": [
-      "piao_nonstop_202609"
-    ]
+    "note": "",
+    "id": "CA:PEK-YYZ"
   },
   {
-    "id": "HU:PEK-YYZ",
     "airline": "HU",
     "origin": "PEK",
     "destination": "YYZ",
-    "service_status": "active",
-    "checked_on": "2026-10-19",
-    "source_ids": [
-      "hu_network_2026",
-      "piao_nonstop_202609"
-    ]
+    "note": "",
+    "id": "HU:PEK-YYZ"
   },
   {
-    "id": "AA:PVG-DFW",
     "airline": "AA",
     "origin": "PVG",
     "destination": "DFW",
-    "service_status": "active",
-    "checked_on": "2026-10-19",
-    "source_ids": [
-      "piao_nonstop_202609"
-    ]
+    "note": "",
+    "id": "AA:PVG-DFW"
   },
   {
-    "id": "DL:PVG-DTW",
     "airline": "DL",
     "origin": "PVG",
     "destination": "DTW",
-    "service_status": "active",
-    "checked_on": "2026-10-19",
-    "source_ids": [
-      "piao_nonstop_202609"
-    ]
+    "note": "",
+    "id": "DL:PVG-DTW"
   },
   {
-    "id": "MU:PVG-JFK",
     "airline": "MU",
     "origin": "PVG",
     "destination": "JFK",
-    "service_status": "active",
-    "checked_on": "2026-10-19",
-    "source_ids": [
-      "mu_network_2026",
-      "piao_nonstop_202609"
-    ]
+    "note": "",
+    "id": "MU:PVG-JFK"
   },
   {
-    "id": "DL:PVG-LAX",
     "airline": "DL",
     "origin": "PVG",
     "destination": "LAX",
-    "service_status": "active",
-    "checked_on": "2026-10-19",
-    "source_ids": [
-      "piao_nonstop_202609"
-    ]
+    "note": "",
+    "id": "DL:PVG-LAX"
   },
   {
-    "id": "MU:PVG-LAX",
     "airline": "MU",
     "origin": "PVG",
     "destination": "LAX",
-    "service_status": "active",
-    "checked_on": "2026-10-19",
-    "source_ids": [
-      "mu_network_2026",
-      "piao_nonstop_202609"
-    ]
+    "note": "",
+    "id": "MU:PVG-LAX"
   },
   {
-    "id": "UA:PVG-LAX",
     "airline": "UA",
     "origin": "PVG",
     "destination": "LAX",
-    "service_status": "active",
-    "checked_on": "2026-10-19",
-    "source_ids": [
-      "piao_nonstop_202609"
-    ]
+    "note": "",
+    "id": "UA:PVG-LAX"
   },
   {
-    "id": "DL:PVG-SEA",
     "airline": "DL",
     "origin": "PVG",
     "destination": "SEA",
-    "service_status": "active",
-    "checked_on": "2026-10-19",
-    "source_ids": [
-      "piao_nonstop_202609"
-    ]
+    "note": "",
+    "id": "DL:PVG-SEA"
   },
   {
-    "id": "MU:PVG-SFO",
     "airline": "MU",
     "origin": "PVG",
     "destination": "SFO",
-    "service_status": "active",
-    "checked_on": "2026-10-19",
-    "source_ids": [
-      "mu_network_2026",
-      "piao_nonstop_202609"
-    ]
+    "note": "",
+    "id": "MU:PVG-SFO"
   },
   {
-    "id": "UA:PVG-SFO",
     "airline": "UA",
     "origin": "PVG",
     "destination": "SFO",
-    "service_status": "active",
-    "checked_on": "2026-10-19",
-    "source_ids": [
-      "piao_nonstop_202609"
-    ]
+    "note": "",
+    "id": "UA:PVG-SFO"
   },
   {
-    "id": "AC:PVG-YVR",
     "airline": "AC",
     "origin": "PVG",
     "destination": "YVR",
-    "service_status": "active",
-    "checked_on": "2026-10-19",
-    "source_ids": [
-      "ac_asia_2026",
-      "piao_nonstop_202609"
-    ]
+    "note": "",
+    "id": "AC:PVG-YVR"
   },
   {
-    "id": "MU:PVG-YVR",
     "airline": "MU",
     "origin": "PVG",
     "destination": "YVR",
-    "service_status": "active",
-    "checked_on": "2026-10-19",
-    "source_ids": [
-      "mu_network_2026",
-      "yvr_network"
-    ]
+    "note": "",
+    "id": "MU:PVG-YVR"
   },
   {
-    "id": "AC:PVG-YYZ",
     "airline": "AC",
     "origin": "PVG",
     "destination": "YYZ",
-    "service_status": "active",
-    "checked_on": "2026-10-19",
-    "source_ids": [
-      "ac_asia_2026",
-      "piao_nonstop_202609"
-    ]
+    "note": "",
+    "id": "AC:PVG-YYZ"
   },
   {
-    "id": "MU:PVG-YYZ",
     "airline": "MU",
     "origin": "PVG",
     "destination": "YYZ",
-    "service_status": "active",
-    "checked_on": "2026-10-19",
-    "source_ids": [
-      "mu_network_2026",
-      "piao_nonstop_202609"
-    ]
+    "note": "",
+    "id": "MU:PVG-YYZ"
   },
   {
-    "id": "SQ:SIN-EWR",
     "airline": "SQ",
     "origin": "SIN",
     "destination": "EWR",
-    "service_status": "active",
-    "checked_on": "2026-10-19",
-    "source_ids": [
-      "fc_sin"
-    ]
+    "note": "",
+    "id": "SQ:SIN-EWR"
   },
   {
-    "id": "SQ:SIN-JFK",
     "airline": "SQ",
     "origin": "SIN",
     "destination": "JFK",
-    "service_status": "active",
-    "checked_on": "2026-10-19",
-    "source_ids": [
-      "fc_sin"
-    ]
+    "note": "",
+    "id": "SQ:SIN-JFK"
   },
   {
-    "id": "SQ:SIN-LAX",
     "airline": "SQ",
     "origin": "SIN",
     "destination": "LAX",
-    "service_status": "active",
-    "checked_on": "2026-10-19",
-    "source_ids": [
-      "fc_sin"
-    ]
+    "note": "",
+    "id": "SQ:SIN-LAX"
   },
   {
-    "id": "SQ:SIN-SEA",
     "airline": "SQ",
     "origin": "SIN",
     "destination": "SEA",
-    "service_status": "active",
-    "checked_on": "2026-10-19",
-    "source_ids": [
-      "fc_sin"
-    ]
+    "note": "",
+    "id": "SQ:SIN-SEA"
   },
   {
-    "id": "SQ:SIN-SFO",
     "airline": "SQ",
     "origin": "SIN",
     "destination": "SFO",
-    "service_status": "active",
-    "checked_on": "2026-10-19",
-    "source_ids": [
-      "fc_sin"
-    ]
+    "note": "",
+    "id": "SQ:SIN-SFO"
   },
   {
-    "id": "UA:SIN-SFO",
     "airline": "UA",
     "origin": "SIN",
     "destination": "SFO",
-    "service_status": "active",
-    "checked_on": "2026-10-19",
-    "source_ids": [
-      "fc_sin"
-    ]
+    "note": "",
+    "id": "UA:SIN-SFO"
   },
   {
-    "id": "AC:SIN-YVR",
     "airline": "AC",
     "origin": "SIN",
     "destination": "YVR",
-    "service_status": "active",
-    "checked_on": "2026-10-19",
-    "source_ids": [
-      "yvr_network",
-      "ac_asia_2026"
-    ]
+    "note": "",
+    "id": "AC:SIN-YVR"
   },
   {
-    "id": "CA:SZX-LAX",
     "airline": "CA",
     "origin": "SZX",
     "destination": "LAX",
-    "service_status": "active",
-    "checked_on": "2026-10-19",
-    "source_ids": [
-      "piao_nonstop_202609"
-    ]
+    "note": "",
+    "id": "CA:SZX-LAX"
   },
   {
-    "id": "HU:SZX-YVR",
     "airline": "HU",
     "origin": "SZX",
     "destination": "YVR",
-    "service_status": "active",
-    "checked_on": "2026-10-19",
-    "source_ids": [
-      "hu_network_2026",
-      "yvr_network"
-    ]
+    "note": "",
+    "id": "HU:SZX-YVR"
   },
   {
-    "id": "JD:TAO-YVR",
     "airline": "JD",
     "origin": "TAO",
     "destination": "YVR",
-    "service_status": "active",
-    "checked_on": "2026-10-19",
-    "source_ids": [
-      "jd_yvr",
-      "piao_nonstop_202609"
-    ],
-    "note": "杭州始发航班经停青岛；地图仅连接青岛—温哥华不停站航段。"
+    "note": "杭州始发航班经停青岛；地图仅连接青岛—温哥华不停站航段。",
+    "id": "JD:TAO-YVR"
   },
   {
-    "id": "3U:TFU-LAX",
     "airline": "3U",
     "origin": "TFU",
     "destination": "LAX",
-    "service_status": "active",
-    "checked_on": "2026-10-19",
-    "source_ids": [
-      "piao_nonstop_202609"
-    ],
-    "service_end": "2026-10-24",
-    "note": "票帝注明10月25日起增加杭州技术经停；该日期后不再计作不停站航线，需再次核实。"
+    "note": "票帝注明10月25日起增加杭州技术经停；该日期后不再计作不停站航线，需再次核实。",
+    "id": "3U:TFU-LAX"
   },
   {
-    "id": "3U:TFU-YVR",
     "airline": "3U",
     "origin": "TFU",
     "destination": "YVR",
-    "service_status": "active",
-    "checked_on": "2026-10-19",
-    "source_ids": [
-      "yvr_network",
-      "piao_nonstop_202609"
-    ]
+    "note": "",
+    "id": "3U:TFU-YVR"
   },
   {
-    "id": "BR:TPE-DFW",
     "airline": "BR",
     "origin": "TPE",
     "destination": "DFW",
-    "service_status": "active",
-    "checked_on": "2026-10-19",
-    "source_ids": [
-      "eva_network_202609",
-      "eva_iad_2026"
-    ]
+    "note": "",
+    "id": "BR:TPE-DFW"
   },
   {
-    "id": "BR:TPE-IAD",
     "airline": "BR",
     "origin": "TPE",
     "destination": "IAD",
-    "service_status": "active",
-    "checked_on": "2026-10-19",
-    "source_ids": [
-      "eva_network_202609",
-      "eva_iad_2026"
-    ]
+    "note": "",
+    "id": "BR:TPE-IAD"
   },
   {
-    "id": "BR:TPE-IAH",
     "airline": "BR",
     "origin": "TPE",
     "destination": "IAH",
-    "service_status": "active",
-    "checked_on": "2026-10-19",
-    "source_ids": [
-      "eva_network_202609",
-      "eva_iad_2026"
-    ]
+    "note": "",
+    "id": "BR:TPE-IAH"
   },
   {
-    "id": "BR:TPE-JFK",
     "airline": "BR",
     "origin": "TPE",
     "destination": "JFK",
-    "service_status": "active",
-    "checked_on": "2026-10-19",
-    "source_ids": [
-      "eva_network_202609",
-      "eva_iad_2026"
-    ]
+    "note": "",
+    "id": "BR:TPE-JFK"
   },
   {
-    "id": "CI:TPE-JFK",
     "airline": "CI",
     "origin": "TPE",
     "destination": "JFK",
-    "service_status": "active",
-    "checked_on": "2026-10-19",
-    "source_ids": [
-      "ci_network"
-    ]
+    "note": "",
+    "id": "CI:TPE-JFK"
   },
   {
-    "id": "BR:TPE-LAX",
     "airline": "BR",
     "origin": "TPE",
     "destination": "LAX",
-    "service_status": "active",
-    "checked_on": "2026-10-19",
-    "source_ids": [
-      "eva_network_202609",
-      "eva_iad_2026"
-    ]
+    "note": "",
+    "id": "BR:TPE-LAX"
   },
   {
-    "id": "CI:TPE-LAX",
     "airline": "CI",
     "origin": "TPE",
     "destination": "LAX",
-    "service_status": "active",
-    "checked_on": "2026-10-19",
-    "source_ids": [
-      "ci_network"
-    ]
+    "note": "",
+    "id": "CI:TPE-LAX"
   },
   {
-    "id": "JX:TPE-LAX",
     "airline": "JX",
     "origin": "TPE",
     "destination": "LAX",
-    "service_status": "active",
-    "checked_on": "2026-10-19",
-    "source_ids": [
-      "jx_network_2026"
-    ]
+    "note": "",
+    "id": "JX:TPE-LAX"
   },
   {
-    "id": "CI:TPE-ONT",
     "airline": "CI",
     "origin": "TPE",
     "destination": "ONT",
-    "service_status": "active",
-    "checked_on": "2026-10-19",
-    "source_ids": [
-      "ci_network"
-    ]
+    "note": "",
+    "id": "CI:TPE-ONT"
   },
   {
-    "id": "JX:TPE-ONT",
     "airline": "JX",
     "origin": "TPE",
     "destination": "ONT",
-    "service_status": "active",
-    "checked_on": "2026-10-19",
-    "source_ids": [
-      "jx_network_2026"
-    ]
+    "note": "",
+    "id": "JX:TPE-ONT"
   },
   {
-    "id": "BR:TPE-ORD",
     "airline": "BR",
     "origin": "TPE",
     "destination": "ORD",
-    "service_status": "active",
-    "checked_on": "2026-10-19",
-    "source_ids": [
-      "eva_network_202609",
-      "eva_iad_2026"
-    ]
+    "note": "",
+    "id": "BR:TPE-ORD"
   },
   {
-    "id": "CI:TPE-PHX",
     "airline": "CI",
     "origin": "TPE",
     "destination": "PHX",
-    "service_status": "active",
-    "checked_on": "2026-10-19",
-    "source_ids": [
-      "ci_network"
-    ]
+    "note": "",
+    "id": "CI:TPE-PHX"
   },
   {
-    "id": "JX:TPE-PHX",
     "airline": "JX",
     "origin": "TPE",
     "destination": "PHX",
-    "service_status": "active",
-    "checked_on": "2026-10-19",
-    "source_ids": [
-      "jx_network_2026"
-    ]
+    "note": "",
+    "id": "JX:TPE-PHX"
   },
   {
-    "id": "BR:TPE-SEA",
     "airline": "BR",
     "origin": "TPE",
     "destination": "SEA",
-    "service_status": "active",
-    "checked_on": "2026-10-19",
-    "source_ids": [
-      "eva_network_202609",
-      "eva_iad_2026"
-    ]
+    "note": "",
+    "id": "BR:TPE-SEA"
   },
   {
-    "id": "CI:TPE-SEA",
     "airline": "CI",
     "origin": "TPE",
     "destination": "SEA",
-    "service_status": "active",
-    "checked_on": "2026-10-19",
-    "source_ids": [
-      "ci_network"
-    ]
+    "note": "",
+    "id": "CI:TPE-SEA"
   },
   {
-    "id": "DL:TPE-SEA",
     "airline": "DL",
     "origin": "TPE",
     "destination": "SEA",
-    "service_status": "active",
-    "checked_on": "2026-10-19",
-    "source_ids": [
-      "piao_nonstop_202609"
-    ]
+    "note": "",
+    "id": "DL:TPE-SEA"
   },
   {
-    "id": "JX:TPE-SEA",
     "airline": "JX",
     "origin": "TPE",
     "destination": "SEA",
-    "service_status": "active",
-    "checked_on": "2026-10-19",
-    "source_ids": [
-      "jx_network_2026"
-    ]
+    "note": "",
+    "id": "JX:TPE-SEA"
   },
   {
-    "id": "BR:TPE-SFO",
     "airline": "BR",
     "origin": "TPE",
     "destination": "SFO",
-    "service_status": "active",
-    "checked_on": "2026-10-19",
-    "source_ids": [
-      "eva_network_202609",
-      "eva_iad_2026"
-    ]
+    "note": "",
+    "id": "BR:TPE-SFO"
   },
   {
-    "id": "CI:TPE-SFO",
     "airline": "CI",
     "origin": "TPE",
     "destination": "SFO",
-    "service_status": "active",
-    "checked_on": "2026-10-19",
-    "source_ids": [
-      "ci_network"
-    ]
+    "note": "",
+    "id": "CI:TPE-SFO"
   },
   {
-    "id": "JX:TPE-SFO",
     "airline": "JX",
     "origin": "TPE",
     "destination": "SFO",
-    "service_status": "active",
-    "checked_on": "2026-10-19",
-    "source_ids": [
-      "jx_network_2026"
-    ]
+    "note": "",
+    "id": "JX:TPE-SFO"
   },
   {
-    "id": "UA:TPE-SFO",
     "airline": "UA",
     "origin": "TPE",
     "destination": "SFO",
-    "service_status": "active",
-    "checked_on": "2026-10-19",
-    "source_ids": [
-      "piao_nonstop_202609"
-    ]
+    "note": "",
+    "id": "UA:TPE-SFO"
   },
   {
-    "id": "BR:TPE-YVR",
     "airline": "BR",
     "origin": "TPE",
     "destination": "YVR",
-    "service_status": "active",
-    "checked_on": "2026-10-19",
-    "source_ids": [
-      "eva_network_202609",
-      "eva_iad_2026"
-    ]
+    "note": "",
+    "id": "BR:TPE-YVR"
   },
   {
-    "id": "CI:TPE-YVR",
     "airline": "CI",
     "origin": "TPE",
     "destination": "YVR",
-    "service_status": "active",
-    "checked_on": "2026-10-19",
-    "source_ids": [
-      "ci_network"
-    ]
+    "note": "",
+    "id": "CI:TPE-YVR"
   },
   {
-    "id": "BR:TPE-YYZ",
     "airline": "BR",
     "origin": "TPE",
     "destination": "YYZ",
-    "service_status": "active",
-    "checked_on": "2026-10-19",
-    "source_ids": [
-      "eva_network_202609",
-      "eva_iad_2026"
-    ]
+    "note": "",
+    "id": "BR:TPE-YYZ"
   },
   {
-    "id": "CZ:WUH-SFO",
     "airline": "CZ",
     "origin": "WUH",
     "destination": "SFO",
-    "service_status": "active",
-    "checked_on": "2026-10-19",
-    "source_ids": [
-      "cz_wuh",
-      "piao_nonstop_202609"
-    ]
+    "note": "",
+    "id": "CZ:WUH-SFO"
   },
   {
-    "id": "MF:XMN-LAX",
     "airline": "MF",
     "origin": "XMN",
     "destination": "LAX",
-    "service_status": "active",
-    "checked_on": "2026-10-19",
-    "source_ids": [
-      "piao_nonstop_202609"
-    ]
+    "note": "",
+    "id": "MF:XMN-LAX"
   },
   {
-    "id": "MF:XMN-YVR",
     "airline": "MF",
     "origin": "XMN",
     "destination": "YVR",
-    "service_status": "active",
-    "checked_on": "2026-10-19",
-    "source_ids": [
-      "piao_nonstop_202609",
-      "yvr_network"
-    ]
+    "note": "",
+    "id": "MF:XMN-YVR"
   }
 ]
