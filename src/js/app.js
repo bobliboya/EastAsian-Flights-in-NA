@@ -1,5 +1,16 @@
 /* Buildless Leaflet viewer with JSON catalogs and retained historical schedules. */
 'use strict';
+// Touch browsers synthesize mouseover before click. Changing the DOM during that
+// preview can consume the first tap (notably on iOS). Track the actual input,
+// including on hybrid devices, and reserve hover previews for a real mouse.
+let inputType = window.matchMedia('(hover: hover)').matches ? 'mouse' : 'touch';
+document.addEventListener('pointerdown', event => { inputType = event.pointerType; }, true);
+document.addEventListener('pointermove', event => { inputType = event.pointerType; }, true);
+document.addEventListener('touchstart', () => { inputType = 'touch'; }, { capture: true, passive: true });
+document.addEventListener('keydown', () => { inputType = 'keyboard'; }, true);
+const canPreviewHover = () => inputType === 'mouse';
+const canPreviewFocus = () => inputType === 'keyboard';
+
 const escapeHTML = value => String(value).replace(/[&<>"']/g, c => ({ '&': '&amp;', '<': '&lt;', '>': '&gt;', '"': '&quot;', "'": '&#39;' }[c]));
 // A weekday mask is a recurrence rule, not the number of departures in a
 // truncated timetable. Always count actual local departure dates in its window.
@@ -76,6 +87,7 @@ function setupBrandTooltips() {
     brandTooltip.style.top = `${rect.top >= box.height + 14 ? rect.top - box.height - 6 : rect.bottom + 6}px`;
   }
   document.addEventListener('mouseover', event => {
+    if (!canPreviewHover()) return;
     const mark = event.target.closest('[data-brand-tip]');
     if (mark && mark !== activeBrand) showBrandTooltip(mark);
   });
@@ -83,6 +95,7 @@ function setupBrandTooltips() {
     if (activeBrand && !activeBrand.contains(event.relatedTarget)) hideBrandTooltip();
   });
   document.addEventListener('focusin', event => {
+    if (!canPreviewFocus()) return;
     const mark = event.target.closest('[data-brand-tip]');
     if (mark) showBrandTooltip(mark);
   });
@@ -286,6 +299,7 @@ async function init() {
   let airportPopup = null, popupKey = '', popupCloseTimer, pointerOverCard = false;
   function keepAirportCardOpen() { clearTimeout(popupCloseTimer); popupCloseTimer = null; }
   function scheduleAirportCardClose() {
+    if (!canPreviewHover()) return;
     if (popupCloseTimer || !airportPopup || pointerOverCard) return;
     popupCloseTimer = setTimeout(() => {
       popupCloseTimer = null;
@@ -340,6 +354,7 @@ async function init() {
     keepAirportCardOpen(); airportPopup = null; popupKey = ''; pointerOverCard = false;
   });
   map.on('mousemove', event => {
+    if (!canPreviewHover()) return;
     if (event.originalEvent?.target?.closest?.('.route-picker')) {
       clearTimeout(pickerTimer); pickerTimer = null; return;
     }
@@ -379,7 +394,12 @@ async function init() {
     }
   });
   map.getContainer().addEventListener('mouseleave', scheduleAirportCardClose);
-  map.on('click', () => {
+  map.on('click', event => {
+    // A finger rarely lands on the visible 2px stroke. Also resolve taps on
+    // the surrounding map using the same curve geometry as the route picker.
+    if (isTouchInput(event) && !event.originalEvent?.target?.closest?.('.leaflet-control, .leaflet-popup, .route-picker')) {
+      if (selectNearbyRoute(event.containerPoint, TOUCH_ROUTE_TOLERANCE)) return;
+    }
     closeRoutePicker();
     if (airportPopup) map.closePopup(airportPopup);
     if (selectedRoute) render();
@@ -423,11 +443,24 @@ async function init() {
     if (wasOpen) { hoveredRoute = null; updateRouteAppearance(); }
   }
   function scheduleRoutePickerClose() {
+    if (!canPreviewHover()) return;
     if (pickerTimer || routePicker.hidden || routePicker.matches(':hover')) return;
     pickerTimer = setTimeout(closeRoutePicker, 100);
   }
   routePicker.onmouseenter = () => { clearTimeout(pickerTimer); pickerTimer = null; };
   routePicker.onmouseleave = () => { hoveredRoute = null; updateRouteAppearance(); scheduleRoutePickerClose(); };
+  const TOUCH_ROUTE_TOLERANCE = 22; // CSS pixels on either side of a route.
+  const isTouchInput = event => inputType === 'touch'
+    || event.originalEvent?.pointerType === 'touch'
+    || event.originalEvent?.sourceCapabilities?.firesTouchEvents;
+  function selectNearbyRoute(point, tolerance) {
+    const candidates = nearbyRoutes(point, tolerance);
+    if (!candidates.length) return false;
+    if (airportPopup) map.closePopup(airportPopup);
+    if (candidates.length > 1) showRoutePicker(candidates, point);
+    else { closeRoutePicker(); showRoute(candidates[0]); }
+    return true;
+  }
   function nearbyRoutes(point, tolerance = 4) {
     const candidates = [];
     lines.eachLayer(line => {
@@ -455,7 +488,9 @@ async function init() {
     candidates.forEach(route => {
       const button = document.createElement('button'); button.type = 'button';
       button.innerHTML = `${airportHTML(route.a)} - ${airportHTML(route.b)}`;
-      button.onmouseenter = button.onfocus = () => { hoveredRoute = route; updateRouteAppearance(); };
+      const previewRoute = () => { hoveredRoute = route; updateRouteAppearance(); };
+      button.onmouseenter = () => { if (canPreviewHover()) previewRoute(); };
+      button.onfocus = () => { if (canPreviewFocus()) previewRoute(); };
       button.onclick = () => { closeRoutePicker(); hoveredRoute = null; showRoute(route); };
       body.append(button);
     });
@@ -549,17 +584,21 @@ async function init() {
       const line = L.polyline(points, { color: routeColor(airportByCode[route.a].country_or_region), weight: 2, opacity: .65, smoothFactor: 1, bubblingMouseEvents: false }).addTo(lines);
       line.routeKey = route.key;
       line.route = route;
-      line.bindTooltip(`${route.a} ↔ ${route.b}`);
+      line.getElement()?.addEventListener('pointerdown', event => {
+        if (event.pointerType !== 'mouse') line.unbindTooltip();
+      });
+      // Tooltips are created only for a real mouse, never during a touch preview.
       line.on('mousemove', () => { if (line.isTooltipOpen()) constrainOverlay(line.getTooltip()); });
-      line.on('mouseover', () => { hoveredRoute = route; updateRouteAppearance(); });
+      line.on('mouseover', event => {
+        if (!canPreviewHover()) return;
+        line.bindTooltip(`${route.a} ↔ ${route.b}`).openTooltip(event.latlng);
+        hoveredRoute = route; updateRouteAppearance();
+      });
       line.on('mouseout', () => {
         if (hoveredRoute?.key === route.key) { hoveredRoute = null; updateRouteAppearance(); }
       });
       line.on('click', event => {
-        const touch = event.originalEvent?.pointerType === 'touch' || event.originalEvent?.sourceCapabilities?.firesTouchEvents;
-        const candidates = nearbyRoutes(event.containerPoint, touch ? 28 : 4);
-        if (candidates.length > 1) showRoutePicker(candidates, event.containerPoint);
-        else showRoute(route);
+        if (!selectNearbyRoute(event.containerPoint, isTouchInput(event) ? TOUCH_ROUTE_TOLERANCE : 4)) showRoute(route);
       });
     });
     airports.forEach(a => {
@@ -573,6 +612,7 @@ async function init() {
         showAirportCards(airportCardsFor(code));
       });
       marker.on('mouseover', () => {
+        if (!canPreviewHover()) return;
         showAirportCards(airportCardsFor(code));
       });
       marker.on('mouseout', scheduleAirportCardClose);
@@ -590,7 +630,9 @@ async function init() {
       const button = document.createElement('button'); button.type = 'button'; button.className = 'route-card-toggle';
       button.innerHTML = `<span class="route-card-airports">${airportHTML(route.a)} - ${airportHTML(route.b)}</span><svg class="route-expand-icon" viewBox="0 0 24 24" aria-hidden="true"><path d="m6 9 6 6 6-6"/></svg>`;
       button.setAttribute('aria-controls', `route-flights-${route.key}`);
-      button.onmouseenter = button.onfocus = () => { hoveredRoute = route; updateRouteAppearance(); };
+      const previewRoute = () => { hoveredRoute = route; updateRouteAppearance(); };
+      button.onmouseenter = () => { if (canPreviewHover()) previewRoute(); };
+      button.onfocus = () => { if (canPreviewFocus()) previewRoute(); };
       button.onmouseleave = button.onblur = () => {
         if (hoveredRoute?.key === route.key) { hoveredRoute = null; updateRouteAppearance(); }
       };
