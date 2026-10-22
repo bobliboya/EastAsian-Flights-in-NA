@@ -1,0 +1,764 @@
+{
+  "reviewed_on": "2026-10-21",
+  "scope": "All 446 website flight records and both administrator tables",
+  "evidence_policy": "AC recurring summer patterns restored from dated 2026-10-20 route evidence. Official rolling PDF clips elapsed dates and includes one-off AC15; not treated as a full-week frequency. FlightMapper confirms daily AC61/62 through Oct23/24; official PDF and FlightMapper disagree on some transition details. No future winter pattern substituted.",
+  "official_pdf": "https://vacations.aircanada.com/en/travel-info/where-we-fly/files/EN-ASIA-Asia.pdf",
+  "changes": [
+    {
+      "action": "restore_weekly_pattern",
+      "before": {
+        "airline": "AC",
+        "flight_number": "0008",
+        "origin": "HKG",
+        "destination": "YVR",
+        "aircraft": "B789",
+        "weekly_flights": "6",
+        "weekdays": "123456",
+        "note": "资料核查：2026-10-20；班期以航司最新公布为准。"
+      },
+      "after": {
+        "airline": "AC",
+        "flight_number": "0008",
+        "origin": "HKG",
+        "destination": "YVR",
+        "aircraft": "B789",
+        "weekly_flights": "7",
+        "weekdays": "1234567",
+        "note": "周班模式复核：2026-10-21；来源核查：2026-10-20；适用 2026-09-08 至 2026-10-24；恢复完整运营星期，非本周剩余班次；换季周实际执行可能不同，以航司为准。"
+      },
+      "source_url": "https://info.flightmapper.net/route/Air_Canada_AC_HKG_YVR",
+      "source_checked_on": "2026-10-20",
+      "valid_from": "2026-09-08",
+      "valid_to": "2026-10-24"
+    },
+    {
+      "action": "restore_weekly_pattern",
+      "before": {
+        "airline": "AC",
+        "flight_number": "0002",
+        "origin": "HND",
+        "destination": "YYZ",
+        "aircraft": "B77W",
+        "weekly_flights": "6",
+        "weekdays": "123456",
+        "note": "资料核查：2026-10-20；班期以航司最新公布为准。"
+      },
+      "after": {
+        "airline": "AC",
+        "flight_number": "0002",
+        "origin": "HND",
+        "destination": "YYZ",
+        "aircraft": "B77W",
+        "weekly_flights": "7",
+        "weekdays": "1234567",
+        "note": "周班模式复核：2026-10-21；来源核查：2026-10-20；适用 2026-09-08 至 2026-10-24；恢复完整运营星期，非本周剩余班次；换季周实际执行可能不同，以航司为准。"
+      },
+      "source_url": "https://info.flightmapper.net/route/Air_Canada_AC_HND_YYZ",
+      "source_checked_on": "2026-10-20",
+      "valid_from": "2026-09-08",
+      "valid_to": "2026-10-24"
+    },
+    {
+      "action": "restore_weekly_pattern",
+      "before": {
+        "airline": "AC",
+        "flight_number": "0064",
+        "origin": "ICN",
+        "destination": "YVR",
+        "aircraft": "B789",
+        "weekly_flights": "6",
+        "weekdays": "123456",
+        "note": "资料核查：2026-10-20；班期以航司最新公布为准。"
+      },
+      "after": {
+        "airline": "AC",
+        "flight_number": "0064",
+        "origin": "ICN",
+        "destination": "YVR",
+        "aircraft": "B789",
+        "weekly_flights": "7",
+        "weekdays": "1234567",
+        "note": "周班模式复核：2026-10-21；来源核查：2026-10-20；适用 2026-09-08 至 2026-10-24；恢复完整运营星期，非本周剩余班次；换季周实际执行可能不同，以航司为准。"
+      },
+      "source_url": "https://info.flightmapper.net/route/Air_Canada_AC_ICN_YVR",
+      "source_checked_on": "2026-10-20",
+      "valid_from": "2026-09-08",
+      "valid_to": "2026-10-24"
+    },
+    {
+      "action": "restore_weekly_pattern",
+      "before": {
+        "airline": "AC",
+        "flight_number": "0062",
+        "origin": "ICN",
+        "destination": "YYZ",
+        "aircraft": "B789",
+        "weekly_flights": "6",
+        "weekdays": "123456",
+        "note": "资料核查：2026-10-20；班期以航司最新公布为准。"
+      },
+      "after": {
+        "airline": "AC",
+        "flight_number": "0062",
+        "origin": "ICN",
+        "destination": "YYZ",
+        "aircraft": "B789",
+        "weekly_flights": "7",
+        "weekdays": "1234567",
+        "note": "周班模式复核：2026-10-21；来源核查：2026-10-20；适用 2026-03-29 至 2026-10-24；恢复完整运营星期，非本周剩余班次；换季周实际执行可能不同，以航司为准。"
+      },
+      "source_url": "https://info.flightmapper.net/route/Air_Canada_AC_ICN_YYZ",
+      "source_checked_on": "2026-10-20",
+      "valid_from": "2026-03-29",
+      "valid_to": "2026-10-24"
+    },
+    {
+      "action": "restore_weekly_pattern",
+      "before": {
+        "airline": "AC",
+        "flight_number": "0024",
+        "origin": "KIX",
+        "destination": "YVR",
+        "aircraft": "B789",
+        "weekly_flights": "4",
+        "weekdays": "1246",
+        "note": "资料核查：2026-10-20；班期以航司最新公布为准。"
+      },
+      "after": {
+        "airline": "AC",
+        "flight_number": "0024",
+        "origin": "KIX",
+        "destination": "YVR",
+        "aircraft": "B789",
+        "weekly_flights": "4",
+        "weekdays": "1246",
+        "note": "周班模式复核：2026-10-21；来源核查：2026-10-20；适用 2026-09-08 至 2026-10-24；恢复完整运营星期，非本周剩余班次；换季周实际执行可能不同，以航司为准。"
+      },
+      "source_url": "https://info.flightmapper.net/route/Air_Canada_AC_KIX_YVR",
+      "source_checked_on": "2026-10-20",
+      "valid_from": "2026-09-08",
+      "valid_to": "2026-10-24"
+    },
+    {
+      "action": "restore_weekly_pattern",
+      "before": {
+        "airline": "AC",
+        "flight_number": "0060",
+        "origin": "KIX",
+        "destination": "YYZ",
+        "aircraft": "B789",
+        "weekly_flights": "2",
+        "weekdays": "35",
+        "note": "资料核查：2026-10-20；班期以航司最新公布为准。"
+      },
+      "after": {
+        "airline": "AC",
+        "flight_number": "0060",
+        "origin": "KIX",
+        "destination": "YYZ",
+        "aircraft": "B789",
+        "weekly_flights": "3",
+        "weekdays": "357",
+        "note": "周班模式复核：2026-10-21；来源核查：2026-10-20；适用 2026-09-09 至 2026-10-23；恢复完整运营星期，非本周剩余班次；换季周实际执行可能不同，以航司为准。"
+      },
+      "source_url": "https://info.flightmapper.net/route/Air_Canada_AC_KIX_YYZ",
+      "source_checked_on": "2026-10-20",
+      "valid_from": "2026-09-09",
+      "valid_to": "2026-10-23"
+    },
+    {
+      "action": "restore_weekly_pattern",
+      "before": {
+        "airline": "AC",
+        "flight_number": "0006",
+        "origin": "NRT",
+        "destination": "YUL",
+        "aircraft": "B77W",
+        "weekly_flights": "6",
+        "weekdays": "123456",
+        "note": "资料核查：2026-10-20；班期以航司最新公布为准。"
+      },
+      "after": {
+        "airline": "AC",
+        "flight_number": "0006",
+        "origin": "NRT",
+        "destination": "YUL",
+        "aircraft": "B77W",
+        "weekly_flights": "7",
+        "weekdays": "1234567",
+        "note": "周班模式复核：2026-10-21；来源核查：2026-10-20；适用 2026-09-08 至 2026-10-24；恢复完整运营星期，非本周剩余班次；换季周实际执行可能不同，以航司为准。"
+      },
+      "source_url": "https://info.flightmapper.net/route/Air_Canada_AC_NRT_YUL",
+      "source_checked_on": "2026-10-20",
+      "valid_from": "2026-09-08",
+      "valid_to": "2026-10-24"
+    },
+    {
+      "action": "restore_weekly_pattern",
+      "before": {
+        "airline": "AC",
+        "flight_number": "0004",
+        "origin": "NRT",
+        "destination": "YVR",
+        "aircraft": "B789",
+        "weekly_flights": "6",
+        "weekdays": "123456",
+        "note": "资料核查：2026-10-20；班期以航司最新公布为准。"
+      },
+      "after": {
+        "airline": "AC",
+        "flight_number": "0004",
+        "origin": "NRT",
+        "destination": "YVR",
+        "aircraft": "B789",
+        "weekly_flights": "7",
+        "weekdays": "1234567",
+        "note": "周班模式复核：2026-10-21；来源核查：2026-10-20；适用 2026-09-08 至 2026-10-24；恢复完整运营星期，非本周剩余班次；换季周实际执行可能不同，以航司为准。"
+      },
+      "source_url": "https://info.flightmapper.net/route/Air_Canada_AC_NRT_YVR",
+      "source_checked_on": "2026-10-20",
+      "valid_from": "2026-09-08",
+      "valid_to": "2026-10-24"
+    },
+    {
+      "action": "restore_weekly_pattern",
+      "before": {
+        "airline": "AC",
+        "flight_number": "0010",
+        "origin": "NRT",
+        "destination": "YYZ",
+        "aircraft": "B789",
+        "weekly_flights": "6",
+        "weekdays": "123456",
+        "note": "资料核查：2026-10-20；班期以航司最新公布为准。"
+      },
+      "after": {
+        "airline": "AC",
+        "flight_number": "0010",
+        "origin": "NRT",
+        "destination": "YYZ",
+        "aircraft": "B789",
+        "weekly_flights": "7",
+        "weekdays": "1234567",
+        "note": "周班模式复核：2026-10-21；来源核查：2026-10-20；适用 2026-03-30 至 2026-10-24；恢复完整运营星期，非本周剩余班次；换季周实际执行可能不同，以航司为准。"
+      },
+      "source_url": "https://info.flightmapper.net/route/Air_Canada_AC_NRT_YYZ",
+      "source_checked_on": "2026-10-20",
+      "valid_from": "2026-03-30",
+      "valid_to": "2026-10-24"
+    },
+    {
+      "action": "restore_weekly_pattern",
+      "before": {
+        "airline": "AC",
+        "flight_number": "0030",
+        "origin": "PEK",
+        "destination": "YVR",
+        "aircraft": "B789",
+        "weekly_flights": "6",
+        "weekdays": "123456",
+        "note": "资料核查：2026-10-20；班期以航司最新公布为准。"
+      },
+      "after": {
+        "airline": "AC",
+        "flight_number": "0030",
+        "origin": "PEK",
+        "destination": "YVR",
+        "aircraft": "B789",
+        "weekly_flights": "7",
+        "weekdays": "1234567",
+        "note": "周班模式复核：2026-10-21；来源核查：2026-10-20；适用 2026-05-01 至 2026-10-24；恢复完整运营星期，非本周剩余班次；换季周实际执行可能不同，以航司为准。"
+      },
+      "source_url": "https://info.flightmapper.net/route/Air_Canada_AC_PEK_YVR",
+      "source_checked_on": "2026-10-20",
+      "valid_from": "2026-05-01",
+      "valid_to": "2026-10-24"
+    },
+    {
+      "action": "restore_weekly_pattern",
+      "before": {
+        "airline": "AC",
+        "flight_number": "0026",
+        "origin": "PVG",
+        "destination": "YVR",
+        "aircraft": "B789",
+        "weekly_flights": "6",
+        "weekdays": "123456",
+        "note": "资料核查：2026-10-20；班期以航司最新公布为准。"
+      },
+      "after": {
+        "airline": "AC",
+        "flight_number": "0026",
+        "origin": "PVG",
+        "destination": "YVR",
+        "aircraft": "B789",
+        "weekly_flights": "7",
+        "weekdays": "1234567",
+        "note": "周班模式复核：2026-10-21；来源核查：2026-10-20；适用 2026-09-08 至 2026-10-24；恢复完整运营星期，非本周剩余班次；换季周实际执行可能不同，以航司为准。"
+      },
+      "source_url": "https://info.flightmapper.net/route/Air_Canada_AC_PVG_YVR",
+      "source_checked_on": "2026-10-20",
+      "valid_from": "2026-09-08",
+      "valid_to": "2026-10-24"
+    },
+    {
+      "action": "restore_weekly_pattern",
+      "before": {
+        "airline": "AC",
+        "flight_number": "0028",
+        "origin": "PVG",
+        "destination": "YYZ",
+        "aircraft": "B789",
+        "weekly_flights": "4",
+        "weekdays": "1246",
+        "note": "资料核查：2026-10-20；班期以航司最新公布为准。"
+      },
+      "after": {
+        "airline": "AC",
+        "flight_number": "0028",
+        "origin": "PVG",
+        "destination": "YYZ",
+        "aircraft": "B789",
+        "weekly_flights": "4",
+        "weekdays": "1246",
+        "note": "周班模式复核：2026-10-21；来源核查：2026-10-20；适用 2026-09-08 至 2026-10-24；恢复完整运营星期，非本周剩余班次；换季周实际执行可能不同，以航司为准。"
+      },
+      "source_url": "https://info.flightmapper.net/route/Air_Canada_AC_PVG_YYZ",
+      "source_checked_on": "2026-10-20",
+      "valid_from": "2026-09-08",
+      "valid_to": "2026-10-24"
+    },
+    {
+      "action": "restore_weekly_pattern",
+      "before": {
+        "airline": "AC",
+        "flight_number": "0020",
+        "origin": "SIN",
+        "destination": "YVR",
+        "aircraft": "B789",
+        "weekly_flights": "3",
+        "weekdays": "246",
+        "note": "资料核查：2026-10-20；班期以航司最新公布为准。"
+      },
+      "after": {
+        "airline": "AC",
+        "flight_number": "0020",
+        "origin": "SIN",
+        "destination": "YVR",
+        "aircraft": "B789",
+        "weekly_flights": "4",
+        "weekdays": "2467",
+        "note": "周班模式复核：2026-10-21；来源核查：2026-10-20；适用 2026-09-08 至 2026-10-24；恢复完整运营星期，非本周剩余班次；换季周实际执行可能不同，以航司为准。"
+      },
+      "source_url": "https://info.flightmapper.net/route/Air_Canada_AC_SIN_YVR",
+      "source_checked_on": "2026-10-20",
+      "valid_from": "2026-09-08",
+      "valid_to": "2026-10-24"
+    },
+    {
+      "action": "restore_weekly_pattern",
+      "before": {
+        "airline": "AC",
+        "flight_number": "0005",
+        "origin": "YUL",
+        "destination": "NRT",
+        "aircraft": "B77W",
+        "weekly_flights": "5",
+        "weekdays": "12345",
+        "note": "资料核查：2026-10-20；班期以航司最新公布为准。"
+      },
+      "after": {
+        "airline": "AC",
+        "flight_number": "0005",
+        "origin": "YUL",
+        "destination": "NRT",
+        "aircraft": "B77W",
+        "weekly_flights": "7",
+        "weekdays": "1234567",
+        "note": "周班模式复核：2026-10-21；来源核查：2026-10-20；适用 2026-09-08 至 2026-10-23；恢复完整运营星期，非本周剩余班次；换季周实际执行可能不同，以航司为准。"
+      },
+      "source_url": "https://info.flightmapper.net/route/Air_Canada_AC_YUL_NRT",
+      "source_checked_on": "2026-10-20",
+      "valid_from": "2026-09-08",
+      "valid_to": "2026-10-23"
+    },
+    {
+      "action": "restore_weekly_pattern",
+      "before": {
+        "airline": "AC",
+        "flight_number": "0007",
+        "origin": "YVR",
+        "destination": "HKG",
+        "aircraft": "B789",
+        "weekly_flights": "6",
+        "weekdays": "123456",
+        "note": "资料核查：2026-10-20；班期以航司最新公布为准。"
+      },
+      "after": {
+        "airline": "AC",
+        "flight_number": "0007",
+        "origin": "YVR",
+        "destination": "HKG",
+        "aircraft": "B789",
+        "weekly_flights": "7",
+        "weekdays": "1234567",
+        "note": "周班模式复核：2026-10-21；来源核查：2026-10-20；适用 2026-09-08 至 2026-10-23；恢复完整运营星期，非本周剩余班次；换季周实际执行可能不同，以航司为准。"
+      },
+      "source_url": "https://info.flightmapper.net/route/Air_Canada_AC_YVR_HKG",
+      "source_checked_on": "2026-10-20",
+      "valid_from": "2026-09-08",
+      "valid_to": "2026-10-23"
+    },
+    {
+      "action": "remove_one_off",
+      "before": {
+        "airline": "AC",
+        "flight_number": "0015",
+        "origin": "YVR",
+        "destination": "HKG",
+        "aircraft": "B789",
+        "weekly_flights": "1",
+        "weekdays": "5",
+        "note": "资料核查：2026-10-20；班期以航司最新公布为准。"
+      },
+      "reason": "Official PDF p9: AC15 operates only 2026-10-23; not a weekly service."
+    },
+    {
+      "action": "restore_weekly_pattern",
+      "before": {
+        "airline": "AC",
+        "flight_number": "0063",
+        "origin": "YVR",
+        "destination": "ICN",
+        "aircraft": "B789",
+        "weekly_flights": "6",
+        "weekdays": "123456",
+        "note": "资料核查：2026-10-20；班期以航司最新公布为准。"
+      },
+      "after": {
+        "airline": "AC",
+        "flight_number": "0063",
+        "origin": "YVR",
+        "destination": "ICN",
+        "aircraft": "B789",
+        "weekly_flights": "7",
+        "weekdays": "1234567",
+        "note": "周班模式复核：2026-10-21；来源核查：2026-10-20；适用 2026-09-08 至 2026-10-23；恢复完整运营星期，非本周剩余班次；换季周实际执行可能不同，以航司为准。"
+      },
+      "source_url": "https://info.flightmapper.net/route/Air_Canada_AC_YVR_ICN",
+      "source_checked_on": "2026-10-20",
+      "valid_from": "2026-09-08",
+      "valid_to": "2026-10-23"
+    },
+    {
+      "action": "restore_weekly_pattern",
+      "before": {
+        "airline": "AC",
+        "flight_number": "0023",
+        "origin": "YVR",
+        "destination": "KIX",
+        "aircraft": "B789",
+        "weekly_flights": "3",
+        "weekdays": "135",
+        "note": "资料核查：2026-10-20；班期以航司最新公布为准。"
+      },
+      "after": {
+        "airline": "AC",
+        "flight_number": "0023",
+        "origin": "YVR",
+        "destination": "KIX",
+        "aircraft": "B789",
+        "weekly_flights": "4",
+        "weekdays": "1357",
+        "note": "周班模式复核：2026-10-21；来源核查：2026-10-20；适用 2026-09-09 至 2026-10-23；恢复完整运营星期，非本周剩余班次；换季周实际执行可能不同，以航司为准。"
+      },
+      "source_url": "https://info.flightmapper.net/route/Air_Canada_AC_YVR_KIX",
+      "source_checked_on": "2026-10-20",
+      "valid_from": "2026-09-09",
+      "valid_to": "2026-10-23"
+    },
+    {
+      "action": "restore_weekly_pattern",
+      "before": {
+        "airline": "AC",
+        "flight_number": "0003",
+        "origin": "YVR",
+        "destination": "NRT",
+        "aircraft": "B789",
+        "weekly_flights": "6",
+        "weekdays": "123456",
+        "note": "资料核查：2026-10-20；班期以航司最新公布为准。"
+      },
+      "after": {
+        "airline": "AC",
+        "flight_number": "0003",
+        "origin": "YVR",
+        "destination": "NRT",
+        "aircraft": "B789",
+        "weekly_flights": "7",
+        "weekdays": "1234567",
+        "note": "周班模式复核：2026-10-21；来源核查：2026-10-20；适用 2026-09-08 至 2026-10-23；恢复完整运营星期，非本周剩余班次；换季周实际执行可能不同，以航司为准。"
+      },
+      "source_url": "https://info.flightmapper.net/route/Air_Canada_AC_YVR_NRT",
+      "source_checked_on": "2026-10-20",
+      "valid_from": "2026-09-08",
+      "valid_to": "2026-10-23"
+    },
+    {
+      "action": "restore_weekly_pattern",
+      "before": {
+        "airline": "AC",
+        "flight_number": "0029",
+        "origin": "YVR",
+        "destination": "PEK",
+        "aircraft": "B789",
+        "weekly_flights": "6",
+        "weekdays": "123456",
+        "note": "资料核查：2026-10-20；班期以航司最新公布为准。"
+      },
+      "after": {
+        "airline": "AC",
+        "flight_number": "0029",
+        "origin": "YVR",
+        "destination": "PEK",
+        "aircraft": "B789",
+        "weekly_flights": "7",
+        "weekdays": "1234567",
+        "note": "周班模式复核：2026-10-21；来源核查：2026-10-20；适用 2026-05-01 至 2026-10-23；恢复完整运营星期，非本周剩余班次；换季周实际执行可能不同，以航司为准。"
+      },
+      "source_url": "https://info.flightmapper.net/route/Air_Canada_AC_YVR_PEK",
+      "source_checked_on": "2026-10-20",
+      "valid_from": "2026-05-01",
+      "valid_to": "2026-10-23"
+    },
+    {
+      "action": "restore_weekly_pattern",
+      "before": {
+        "airline": "AC",
+        "flight_number": "0025",
+        "origin": "YVR",
+        "destination": "PVG",
+        "aircraft": "B789",
+        "weekly_flights": "6",
+        "weekdays": "123456",
+        "note": "资料核查：2026-10-20；班期以航司最新公布为准。"
+      },
+      "after": {
+        "airline": "AC",
+        "flight_number": "0025",
+        "origin": "YVR",
+        "destination": "PVG",
+        "aircraft": "B789",
+        "weekly_flights": "7",
+        "weekdays": "1234567",
+        "note": "周班模式复核：2026-10-21；来源核查：2026-10-20；适用 2026-09-08 至 2026-10-23；恢复完整运营星期，非本周剩余班次；换季周实际执行可能不同，以航司为准。"
+      },
+      "source_url": "https://info.flightmapper.net/route/Air_Canada_AC_YVR_PVG",
+      "source_checked_on": "2026-10-20",
+      "valid_from": "2026-09-08",
+      "valid_to": "2026-10-23"
+    },
+    {
+      "action": "restore_weekly_pattern",
+      "before": {
+        "airline": "AC",
+        "flight_number": "0019",
+        "origin": "YVR",
+        "destination": "SIN",
+        "aircraft": "B789",
+        "weekly_flights": "3",
+        "weekdays": "245",
+        "note": "资料核查：2026-10-20；班期以航司最新公布为准。"
+      },
+      "after": {
+        "airline": "AC",
+        "flight_number": "0019",
+        "origin": "YVR",
+        "destination": "SIN",
+        "aircraft": "B789",
+        "weekly_flights": "4",
+        "weekdays": "2457",
+        "note": "周班模式复核：2026-10-21；来源核查：2026-10-20；适用 2026-09-08 至 2026-10-23；恢复完整运营星期，非本周剩余班次；换季周实际执行可能不同，以航司为准。"
+      },
+      "source_url": "https://info.flightmapper.net/route/Air_Canada_AC_YVR_SIN",
+      "source_checked_on": "2026-10-20",
+      "valid_from": "2026-09-08",
+      "valid_to": "2026-10-23"
+    },
+    {
+      "action": "restore_weekly_pattern",
+      "before": {
+        "airline": "AC",
+        "flight_number": "0001",
+        "origin": "YYZ",
+        "destination": "HND",
+        "aircraft": "B77W",
+        "weekly_flights": "6",
+        "weekdays": "123456",
+        "note": "资料核查：2026-10-20；班期以航司最新公布为准。"
+      },
+      "after": {
+        "airline": "AC",
+        "flight_number": "0001",
+        "origin": "YYZ",
+        "destination": "HND",
+        "aircraft": "B77W",
+        "weekly_flights": "7",
+        "weekdays": "1234567",
+        "note": "周班模式复核：2026-10-21；来源核查：2026-10-20；适用 2026-09-08 至 2026-10-23；恢复完整运营星期，非本周剩余班次；换季周实际执行可能不同，以航司为准。"
+      },
+      "source_url": "https://info.flightmapper.net/route/Air_Canada_AC_YYZ_HND",
+      "source_checked_on": "2026-10-20",
+      "valid_from": "2026-09-08",
+      "valid_to": "2026-10-23"
+    },
+    {
+      "action": "restore_weekly_pattern",
+      "before": {
+        "airline": "AC",
+        "flight_number": "0061",
+        "origin": "YYZ",
+        "destination": "ICN",
+        "aircraft": "B789",
+        "weekly_flights": "5",
+        "weekdays": "12345",
+        "note": "资料核查：2026-10-20；班期以航司最新公布为准。"
+      },
+      "after": {
+        "airline": "AC",
+        "flight_number": "0061",
+        "origin": "YYZ",
+        "destination": "ICN",
+        "aircraft": "B789",
+        "weekly_flights": "7",
+        "weekdays": "1234567",
+        "note": "周班模式复核：2026-10-21；来源核查：2026-10-20；适用 2026-09-08 至 2026-10-23；恢复完整运营星期，非本周剩余班次；换季周实际执行可能不同，以航司为准。"
+      },
+      "source_url": "https://info.flightmapper.net/route/Air_Canada_AC_YYZ_ICN",
+      "source_checked_on": "2026-10-20",
+      "valid_from": "2026-09-08",
+      "valid_to": "2026-10-23"
+    },
+    {
+      "action": "restore_weekly_pattern",
+      "before": {
+        "airline": "AC",
+        "flight_number": "0059",
+        "origin": "YYZ",
+        "destination": "KIX",
+        "aircraft": "B789",
+        "weekly_flights": "2",
+        "weekdays": "24",
+        "note": "资料核查：2026-10-20；班期以航司最新公布为准。"
+      },
+      "after": {
+        "airline": "AC",
+        "flight_number": "0059",
+        "origin": "YYZ",
+        "destination": "KIX",
+        "aircraft": "B789",
+        "weekly_flights": "3",
+        "weekdays": "246",
+        "note": "周班模式复核：2026-10-21；来源核查：2026-10-20；适用 2026-09-08 至 2026-10-22；恢复完整运营星期，非本周剩余班次；换季周实际执行可能不同，以航司为准。"
+      },
+      "source_url": "https://info.flightmapper.net/route/Air_Canada_AC_YYZ_KIX",
+      "source_checked_on": "2026-10-20",
+      "valid_from": "2026-09-08",
+      "valid_to": "2026-10-22"
+    },
+    {
+      "action": "restore_weekly_pattern",
+      "before": {
+        "airline": "AC",
+        "flight_number": "0009",
+        "origin": "YYZ",
+        "destination": "NRT",
+        "aircraft": "B77W / B789",
+        "weekly_flights": "6",
+        "weekdays": "123456",
+        "note": "资料核查：2026-10-20；班期以航司最新公布为准。"
+      },
+      "after": {
+        "airline": "AC",
+        "flight_number": "0009",
+        "origin": "YYZ",
+        "destination": "NRT",
+        "aircraft": "B77W / B789",
+        "weekly_flights": "7",
+        "weekdays": "1234567",
+        "note": "周班模式复核：2026-10-21；来源核查：2026-10-20；适用 2026-09-08 至 2026-10-23；恢复完整运营星期，非本周剩余班次；换季周实际执行可能不同，以航司为准。"
+      },
+      "source_url": "https://info.flightmapper.net/route/Air_Canada_AC_YYZ_NRT",
+      "source_checked_on": "2026-10-20",
+      "valid_from": "2026-09-08",
+      "valid_to": "2026-10-23"
+    },
+    {
+      "action": "restore_weekly_pattern",
+      "before": {
+        "airline": "AC",
+        "flight_number": "0027",
+        "origin": "YYZ",
+        "destination": "PVG",
+        "aircraft": "B789",
+        "weekly_flights": "3",
+        "weekdays": "135",
+        "note": "资料核查：2026-10-20；班期以航司最新公布为准。"
+      },
+      "after": {
+        "airline": "AC",
+        "flight_number": "0027",
+        "origin": "YYZ",
+        "destination": "PVG",
+        "aircraft": "B789",
+        "weekly_flights": "4",
+        "weekdays": "1357",
+        "note": "周班模式复核：2026-10-21；来源核查：2026-10-20；适用 2026-09-09 至 2026-10-23；恢复完整运营星期，非本周剩余班次；换季周实际执行可能不同，以航司为准。"
+      },
+      "source_url": "https://info.flightmapper.net/route/Air_Canada_AC_YYZ_PVG",
+      "source_checked_on": "2026-10-20",
+      "valid_from": "2026-09-09",
+      "valid_to": "2026-10-23"
+    },
+    {
+      "action": "add_missing_return",
+      "after": {
+        "airline": "CA",
+        "flight_number": "0987",
+        "origin": "PEK",
+        "destination": "LAX",
+        "aircraft": "B773",
+        "weekly_flights": "1",
+        "weekdays": "7",
+        "note": "资料核查：2026-10-21；Flight.info CA987 与票帝班表均列每周日 PEK–LAX；已核对10月18日及25日；以航司为准。"
+      },
+      "source_urls": [
+        "https://www.flight.info/CA987",
+        "https://www.flight.info/CA988",
+        "https://piao.tips/uschinanonstop/",
+        "https://piao.tips/wp-content/uploads/2026/09/wx_fmtpngampfromappmsg-139.png"
+      ]
+    }
+  ],
+  "validation": {
+    "airline_route_records": 188,
+    "scheduled_airline_routes": 185,
+    "unscheduled_airline_routes": 3,
+    "flight_records_before": 446,
+    "flight_records_after": 446,
+    "modified_records": 27,
+    "added_records": 1,
+    "removed_records": 1,
+    "structural_anomalies_before": 6,
+    "structural_anomalies_after": 0,
+    "declared_pairs": 14,
+    "weekly_departures_before": 2654,
+    "weekly_departures_after": 2680
+  },
+  "limitations": [
+    "Not a full fresh verification of all 446 flight facts.",
+    "The restored AC entries are recurring summer patterns with per-record end dates Oct22-24, not a prediction for the transition week or winter season.",
+    "Official rolling PDF and FlightMapper differ on some aircraft, times and winter weekdays; these are not silently merged.",
+    "14 number associations are explicitly declared; the remaining flights receive route and frequency-distribution checks, not proof of their exact commercial return number."
+  ]
+}

@@ -5,6 +5,7 @@
 - `catalog-metadata.json`：早期来源索引、范围与研究说明。
 - `timetable-research-20261020.json`：2026-10-20 收集的班表事实证据。
 - `timetable-supplemental-review-20261020.json`：补充核对及已知资料分歧。
+- [round-trip-review-20261021.json](round-trip-review-20261021.json)：往返扫描、逐项修复证据、原值、新值与适用期。
 
 这些内容只用于追溯已有记录的来源，不能认为是今天的实时资料。请勿把研究字段重新加入机场、航司或每周班表。
 

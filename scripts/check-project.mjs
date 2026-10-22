@@ -51,6 +51,7 @@ for (const file of ['README.md', 'docs/DEVELOPMENT.md', 'admin/README.md',
 const python = process.env.PYTHON || 'python';
 run(python, ['-c', 'import ast,pathlib; [ast.parse(p.read_text(encoding="utf-8"),filename=str(p)) for p in pathlib.Path("scripts").glob("*.py")]']);
 run(process.execPath, ['scripts/validate-data.mjs']);
+run(process.execPath, ['scripts/test-round-trip-audit.mjs']);
 run(process.execPath, ['scripts/test-weekly-display.mjs']);
 run(python, ['scripts/test-manage-data.py']);
 run(python, ['scripts/manage-data.py', 'check']);
