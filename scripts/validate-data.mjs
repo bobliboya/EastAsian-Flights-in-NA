@@ -2,6 +2,7 @@ import assert from 'node:assert/strict';
 import fs from 'node:fs';
 import path from 'node:path';
 import { pathToFileURL } from 'node:url';
+import { auditRoundTrips } from './round-trip-audit.mjs';
 const data = process.env.FLIGHT_DATA_DIR
   ? pathToFileURL(path.resolve(process.env.FLIGHT_DATA_DIR) + path.sep)
   : new URL('../src/data/', import.meta.url);
@@ -59,4 +60,7 @@ for (const flight of flights) {
   const [asia, america] = originAirport.region === 'asia_pacific' ? [flight.origin, flight.destination] : [flight.destination, flight.origin];
   assert(routeIds.has(`${flight.airline}:${asia}-${america}`), `Flight without route: ${id}`);
 }
-console.log(`PASS: ${routes.length} current airline-route records, ${flights.length} weekly flight records.`);
+const pairs = JSON.parse(fs.readFileSync(new URL('./data/round-trip-pairs.json', import.meta.url), 'utf8'));
+const audit = auditRoundTrips(flights, airports, pairs);
+assert.equal(audit.errors.length, 0, `Round-trip audit failed:\n${audit.errors.join('\n')}`);
+console.log(`PASS: ${routes.length} current airline-route records, ${flights.length} weekly flight records; ${audit.routeCount} scheduled routes balanced.`);

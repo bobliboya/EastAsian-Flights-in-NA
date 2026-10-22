@@ -367,7 +367,7 @@ async function init() {
     const labeledAirports = new Map();
     lines.eachLayer(line => {
       const highlighted = line.routeKey === selectedRoute || line.routeKey === hoveredRoute?.key;
-      line.setStyle({ color: routeColor(airportByCode[line.route.a].country_or_region, highlighted), weight: highlighted ? 4 : 2, opacity: highlighted ? 1 : .65 });
+      line.setStyle({ color: routeColor(airportByCode[line.route.a].country_or_region, highlighted), weight: highlighted ? 4 : 2, opacity: highlighted ? 1 : .45 });
       if (highlighted) [line.route.a, line.route.b].forEach((code, index) => labeledAirports.set(code, index));
     });
     endpointLabels.clearLayers();
@@ -427,7 +427,7 @@ async function init() {
     });
     routes.forEach(route => {
       const points = routeCurve(locations[route.a], locations[route.b]);
-      const line = L.polyline(points, { color: routeColor(airportByCode[route.a].country_or_region), weight: 2, opacity: .65, smoothFactor: 1, bubblingMouseEvents: false }).addTo(lines);
+      const line = L.polyline(points, { color: routeColor(airportByCode[route.a].country_or_region), weight: 2, opacity: .45, smoothFactor: 1, bubblingMouseEvents: false }).addTo(lines);
       line.routeKey = route.key;
       line.route = route;
       line.getElement()?.addEventListener('pointerdown', event => {

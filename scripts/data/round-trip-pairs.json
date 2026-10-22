@@ -1,0 +1,100 @@
+[
+  {
+    "airline": "AC",
+    "origin": "YVR",
+    "destination": "HKG",
+    "outbound": "0007",
+    "inbound": "0008"
+  },
+  {
+    "airline": "AC",
+    "origin": "YYZ",
+    "destination": "HND",
+    "outbound": "0001",
+    "inbound": "0002"
+  },
+  {
+    "airline": "AC",
+    "origin": "YVR",
+    "destination": "ICN",
+    "outbound": "0063",
+    "inbound": "0064"
+  },
+  {
+    "airline": "AC",
+    "origin": "YYZ",
+    "destination": "ICN",
+    "outbound": "0061",
+    "inbound": "0062"
+  },
+  {
+    "airline": "AC",
+    "origin": "YVR",
+    "destination": "KIX",
+    "outbound": "0023",
+    "inbound": "0024"
+  },
+  {
+    "airline": "AC",
+    "origin": "YYZ",
+    "destination": "KIX",
+    "outbound": "0059",
+    "inbound": "0060"
+  },
+  {
+    "airline": "AC",
+    "origin": "YUL",
+    "destination": "NRT",
+    "outbound": "0005",
+    "inbound": "0006"
+  },
+  {
+    "airline": "AC",
+    "origin": "YVR",
+    "destination": "NRT",
+    "outbound": "0003",
+    "inbound": "0004"
+  },
+  {
+    "airline": "AC",
+    "origin": "YYZ",
+    "destination": "NRT",
+    "outbound": "0009",
+    "inbound": "0010"
+  },
+  {
+    "airline": "AC",
+    "origin": "YVR",
+    "destination": "PEK",
+    "outbound": "0029",
+    "inbound": "0030"
+  },
+  {
+    "airline": "AC",
+    "origin": "YVR",
+    "destination": "PVG",
+    "outbound": "0025",
+    "inbound": "0026"
+  },
+  {
+    "airline": "AC",
+    "origin": "YYZ",
+    "destination": "PVG",
+    "outbound": "0027",
+    "inbound": "0028"
+  },
+  {
+    "airline": "AC",
+    "origin": "YVR",
+    "destination": "SIN",
+    "outbound": "0019",
+    "inbound": "0020"
+  },
+  {
+    "airline": "CA",
+    "origin": "PEK",
+    "destination": "LAX",
+    "outbound": "0987",
+    "inbound": "0988"
+  }
+]

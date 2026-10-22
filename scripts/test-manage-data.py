@@ -66,5 +66,21 @@ class MaintenanceTests(unittest.TestCase):
         self.assertEqual(before, {name: (m.DATA / name).read_bytes() for name in names})
 
 
+    def test_missing_return_does_not_write_output(self):
+        names = ['routes.json', 'flights.json']
+        before = {name: (m.DATA / name).read_bytes() for name in names}
+        original = m.read_csv
+        def read(name, fields):
+            rows = original(name, fields)
+            if name == 'timetables.csv':
+                rows = [r for r in rows if not (r['airline'] == 'CA' and r['flight_number'] == '0987')]
+            return rows
+        with patch.object(m, 'read_csv', read), patch('sys.argv', ['manage-data.py', 'apply']):
+            with contextlib.redirect_stdout(io.StringIO()):
+                with self.assertRaisesRegex(ValueError, 'Round-trip audit failed'):
+                    m.main()
+        self.assertEqual(before, {name: (m.DATA / name).read_bytes() for name in names})
+
+
 if __name__ == '__main__':
     unittest.main()
