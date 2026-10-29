@@ -11,3 +11,6 @@ __pycache__/
 node_modules/
 playwright-report/
 test-results/
+
+# Local UI audit reports
+.taste-skill/

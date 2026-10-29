@@ -16,7 +16,7 @@
    ```
    它检查 JS／Python 语法、数据关联、CSV、显示规则和地图几何；不会发布网站或重写正式数据。它不能代替浏览器里的交互检查。
 
-Leaflet 和字体通过 CDN 加载，预览时需要联网。底图和 Logo 已放在项目里，无需地图 API key。
+Bootstrap、Leaflet 和字体通过 CDN 加载，预览时需要联网。底图和 Logo 已放在项目里，无需地图 API key。
 
 ## 想改什么，就去哪里
 
@@ -32,7 +32,7 @@ Leaflet 和字体通过 CDN 加载，预览时需要联网。底图和 Logo 已�
 | 改筛选、详情切换或地图交互 | `src/js/app.js` | 应用控制器 |
 | 改颜色、字体、间距、侧栏宽度 | `src/css/theme.css` | 修改变量即可 |
 | 改桌面／手机布局 | `src/css/layout.css` | 800px 是桌面分界 |
-| 改卡片、按钮、下拉框样式 | `src/css/components.css` | 没有 CSS 组件库 |
+| 改卡片、按钮、下拉框样式 | `src/css/components.css` | Bootstrap 5.3 组件与业务样式 |
 
 ## 日常更新数据，只有两步
 
@@ -81,3 +81,5 @@ docs/                  开发交接和检查方法
 原创代码与文档采用 [MIT License](LICENSE)。第三方依赖、底图和 Logo 的权利说明见 [第三方素材与许可](THIRD_PARTY_NOTICES.md)。
 
 感谢北美票帝，其[中美／中加直航表](https://piao.tips/uschinanonstop/)为本项目提供了重要参考。
+
+Bootstrap 通用组件由官方 CSS / bundle 提供；`multiselect.js` 只衔接目录数据、多选状态与回调。地图命中、浮层边界与手机面板减半保留业务逻辑。新增通用控件优先复用 Bootstrap，避免另写基础控件样式。

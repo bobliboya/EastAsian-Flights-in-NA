@@ -5,7 +5,7 @@
     cursor: default;
 }
 .leaflet-container, .leaflet-container .leaflet-tooltip, .leaflet-container .leaflet-popup,
-.leaflet-container .leaflet-control, .leaflet-container a.leaflet-popup-close-button {
+.leaflet-container .leaflet-control {
     font-family: inherit;
 }
 .leaflet-container, .leaflet-tooltip, .leaflet-popup-content {
@@ -34,7 +34,6 @@
 .airport-info-popup .leaflet-popup-content-wrapper {
     padding: 0;
     overflow: hidden;
-    border: 1px solid var(--color-border);
     border-radius: var(--radius);
     box-shadow: var(--shadow);
 }
@@ -55,9 +54,6 @@
 }
 .edge-adjusted .leaflet-popup-tip-container {
     display: none;
-}
-.leaflet-container a.leaflet-popup-close-button {
-    color: var(--color-muted);
 }
 .leaflet-control-attribution a, .leaflet-control-attribution a:hover {
     color: var(--color-map-link);
@@ -103,3 +99,5 @@
     font-size: var(--font-size-base);
     line-height: 1.15;
 }
+
+.leaflet-control-attribution { padding-inline: 16px !important; }

@@ -12,7 +12,6 @@
     border-bottom: 1px solid var(--color-border);
 }
 .topbar-info {
-    display: flex;
     flex-wrap: wrap;
     align-items: center;
     justify-content: flex-end;
@@ -22,22 +21,6 @@
 }
 #topbar-menu-toggle, .github-label {
     display: none;
-}
-#topbar-menu-toggle svg {
-    display: block;
-    fill: none;
-    stroke: currentColor;
-    stroke-width: 2;
-    stroke-linecap: round;
-}
-#topbar-menu-toggle .menu-close-icon {
-    display: none;
-}
-#topbar-menu-toggle[aria-expanded="true"] .menu-open-icon {
-    display: none;
-}
-#topbar-menu-toggle[aria-expanded="true"] .menu-close-icon {
-    display: block;
 }
 .github-link {
     display: inline-flex;
@@ -152,7 +135,7 @@ main {
         transform: rotate(180deg);
     }
     .topbar {
-        padding: 10px 12px;
+        padding: 10px 16px;
         gap: 8px;
     }
     .brand {
@@ -180,7 +163,6 @@ main {
         margin-left: auto;
     }
     .topbar-info {
-        display: none;
         position: absolute;
         top: calc(100% + 6px);
         right: 12px;
@@ -197,7 +179,7 @@ main {
         border-radius: var(--radius);
         box-shadow: var(--shadow);
     }
-    .topbar[data-menu-open="true"] .topbar-info {
+    .topbar-info.show, .topbar-info.collapsing {
         display: flex;
     }
     .topbar .stats {
@@ -240,7 +222,6 @@ main {
     /* Filters retain their full height; the sidebar scrolls both sections together. */
     .filters {
         flex: 0 0 auto;
-        min-height: 306px;
         grid-auto-rows: max-content;
         align-content: start;
         overflow: visible;
@@ -271,4 +252,8 @@ main {
     :root {
         --panel-motion-duration: 0ms;
     }
+}
+
+@media (min-width: 800px) {
+    .topbar-info.collapse { display: flex; }
 }

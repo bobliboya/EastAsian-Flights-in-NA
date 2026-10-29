@@ -1,5 +1,5 @@
 <!doctype html>
-<html lang="zh-CN">
+<html lang="zh-CN" data-bs-theme="dark">
 
 <head>
   <meta charset="utf-8">
@@ -7,18 +7,20 @@
   <title>跨太平洋 · 直飞航线地图 | Transpacific Nonstop Route Map</title>
   <link rel="icon" type="image/svg+xml" sizes="any" href="src/assets/favicon.svg">
   <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css">
   <link rel="stylesheet" href="src/css/style.css">
+  <script defer src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"></script>
   <script defer src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"></script>
   <script type="module" src="src/js/app.js"></script>
 </head>
 
 <body>
-  <header class="topbar">
+  <header class="topbar navbar flex-nowrap">
     <div class="brand">
       <h1>亚太—北美直飞航线<span class="title-en" lang="en">Asia Pacific–North America Nonstop Routes</span></h1>
     </div>
-    <button id="topbar-menu-toggle" type="button" aria-controls="topbar-info" aria-expanded="false" aria-label="打开顶栏菜单 / Open menu"><svg viewBox="0 0 24 24" width="22" height="22" aria-hidden="true" focusable="false"><path class="menu-open-icon" d="M4 6h16M4 12h16M4 18h16"/><path class="menu-close-icon" d="m6 6 12 12M6 18 18 6"/></svg></button>
-    <div id="topbar-info" class="topbar-info">
+    <button class="btn btn-secondary btn-sm" id="topbar-menu-toggle" data-bs-toggle="collapse" data-bs-target="#topbar-info" type="button" aria-controls="topbar-info" aria-expanded="false" aria-label="打开顶栏菜单 / Open menu"><span class="navbar-toggler-icon" aria-hidden="true"></span></button>
+    <div id="topbar-info" class="topbar-info collapse">
       <div id="stats" class="stats" aria-live="polite">正在读取航线 / Loading routes…</div>
       <a class="github-link" href="https://github.com/bobliboya/EastAsian-Flights-in-NA" target="_blank"
         rel="noopener noreferrer" aria-label="在新标签页打开 GitHub 项目仓库 / Open GitHub repository in a new tab" title="GitHub"><svg viewBox="0 0 24 24" width="22"
@@ -30,32 +32,32 @@
   </header>
   <main>
     <div id="map" aria-label="跨太平洋直飞航线交互地图 / Interactive transpacific nonstop route map"></div>
-    <div id="status" role="status"></div>
+    <div id="status" class="alert alert-info" role="status"></div>
   </main>
-  <button id="panel-toggle" type="button" aria-controls="flight-panel" aria-expanded="true" aria-label="降低面板高度 / Reduce panel height"><svg
+  <button class="btn btn-secondary btn-sm" id="panel-toggle" type="button" aria-controls="flight-panel" aria-expanded="true" aria-label="降低面板高度 / Reduce panel height"><svg
       viewBox="0 0 24 24" width="20" height="20" aria-hidden="true" focusable="false">
       <path d="m6 9 6 6 6-6" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
         stroke-linejoin="round" />
     </svg></button>
   <aside id="flight-panel" class="sidebar" aria-label="航班筛选与结果 / Flight filters and results">
-    <div class="filters" id="filter-controls">
-      <div class="filter"><label id="airline-label">航空公司 / Airlines</label>
+    <div class="filters card" id="filter-controls">
+      <div class="filter"><label class="form-label" id="airline-label">航空公司 / Airlines</label>
         <div id="airline" class="airport-multiselect" aria-labelledby="airline-label"></div>
       </div>
-      <div class="filter"><label id="asia-airport-label">亚太区机场 / Asia Pacific airports</label>
+      <div class="filter"><label class="form-label" id="asia-airport-label">亚太区机场 / Asia Pacific airports</label>
         <div id="asia-airport" class="airport-multiselect" aria-labelledby="asia-airport-label"></div>
       </div>
-      <div class="filter"><label id="north-america-airport-label">北美区机场 / North American airports</label>
+      <div class="filter"><label class="form-label" id="north-america-airport-label">北美区机场 / North American airports</label>
         <div id="north-america-airport" class="airport-multiselect" aria-labelledby="north-america-airport-label"></div>
       </div>
-      <div class="filter-actions"><button id="reset" type="button">重置筛选 / Reset filters</button></div>
+      <div class="filter-actions"><button class="btn btn-primary" id="reset" type="button">重置筛选 / Reset filters</button></div>
     </div>
-    <div class="information">
-      <div class="panel-heading"><span>航班 / Flights</span><small id="flight-summary" aria-live="polite"></small></div>
-      <div id="route-list-actions" class="route-list-actions" hidden><button id="expand-all-routes"
-          type="button">全部展开 / Expand all</button><button id="collapse-all-routes" type="button">全部折叠 / Collapse all</button></div>
+    <div class="information card">
+      <div class="panel-heading card-header"><span>航班 / Flights</span><small id="flight-summary" aria-live="polite"></small></div>
+      <div id="route-list-actions" class="route-list-actions" hidden><button class="btn btn-secondary btn-sm" id="expand-all-routes"
+          type="button">全部展开 / Expand all</button><button class="btn btn-secondary btn-sm" id="collapse-all-routes" type="button">全部折叠 / Collapse all</button></div>
       <div id="detail-content" class="panel-scroll">
-        <div class="panel-back" hidden><button id="filter-back" type="button" disabled><svg class="back-icon" viewBox="0 0 24 24" aria-hidden="true" focusable="false"><path d="m14.5 5-7 7 7 7"/></svg><span>返回 / Back</span></button></div>
+        <div class="panel-back" hidden><button class="btn btn-primary btn-sm" id="filter-back" type="button" disabled><svg class="back-icon" viewBox="0 0 24 24" aria-hidden="true" focusable="false"><path d="m14.5 5-7 7 7 7"/></svg><span>返回 / Back</span></button></div>
         <section id="details" aria-live="polite">
           <div id="route-list">
           <h2>选择一个机场或一条航线 / Select an airport or route</h2>

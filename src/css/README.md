@@ -1,6 +1,6 @@
 # CSS 修改指南
 
-本项目没有 Bootstrap、Tailwind 或其他组件库。`index.html` 加载 Leaflet 自带样式和 `style.css`；后者依次导入四个本地文件。
+本项目使用 Bootstrap 5.3.8（CDN，无构建步骤）提供按钮、表单、Dropdown、Collapse、Accordion 外观和 Tooltip。`index.html` 加载 Leaflet 自带样式和 `style.css`；后者依次导入四个本地文件。
 
 | 文件 | 负责什么 | 修改示例 |
 | --- | --- | --- |
@@ -32,7 +32,7 @@
 
 ## 地图浮层
 
-机场卡片和密集航线候选面板共用 `.map-choice-panel`、`.map-choice-heading`、`.map-choice-body`。标题不滚动，body 才滚动；一至两座机场的卡片允许完整展开。
+机场卡片和密集航线候选面板共用 `.map-choice-panel`、`.map-choice-heading`、`.map-choice-body`。标题不滚动，body 才滚动；机场内容在地图空间足够时完整展开；空间不足时只滚动内容区。
 
 边界位置由 app.js 的 `constrainOverlay()` 处理，使用元素实际尺寸整体向地图内侧调整。不要通过移动地图或移动机场坐标补救浮层溢出。
 
@@ -45,3 +45,13 @@
 5. 同一选择器在不同媒体查询里出现属于响应式覆盖，不要合并掉断点差异。
 
 修改后运行 `node scripts/check-project.mjs`，并按 [开发交接指南](../../docs/DEVELOPMENT.md) 检查桌面、手机、长列表和地图四边浮层。自动测试不能证明 CSS 的实际视觉效果。
+
+Bootstrap 通用组件由官方 CSS / bundle 提供；`multiselect.js` 只衔接目录数据、多选状态与回调。地图命中、浮层边界与手机面板减半保留业务逻辑。新增通用控件优先复用 Bootstrap，避免另写基础控件样式。
+
+## Bootstrap 主题
+
+保留原有深海蓝视觉。`theme.css` 将现有颜色映射到 Bootstrap 的 `--bs-btn-*`、`--bs-card-*`、`--bs-accordion-*`、`--bs-dropdown-*` 变量；不要再引入官方默认灰按钮或深蓝 Accordion。筛选下拉和已选标签的业务尺寸在 `components.css`，重置与详情操作复用 `btn-primary`。
+
+航班结果继续使用 Bootstrap Accordion / Collapse：国家标题透明底色，航线为独立圆角 `accordion-item`，以局部主题样式保留原版间距、字号及右向折叠箭头；不另写展开／折叠事件。
+
+地图选择卡片统一复用 Bootstrap Card、List group、Close button；`.map-choice-*` 只控制原版主题、地图可用高度和内容滚动。Leaflet 外壳保留地图锚点和箭头，关闭操作在卡片标题中提供。

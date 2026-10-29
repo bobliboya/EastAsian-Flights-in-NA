@@ -9,7 +9,7 @@
 | `python scripts/manage-data.py apply` | 校验通过后替换 routes.json 和 flights.json | 是 |
 | `node scripts/validate-data.mjs` | 检查已有正式 JSON 的字段、重复和关联 | 否 |
 | `python scripts/test-manage-data.py` | 测试 CSV 转换、无效输入和失败时不写入 | 否 |
-| `node scripts/test-weekly-display.mjs` | 测试真实显示函数、Logo 顺序、地区名和地图几何 | 否 |
+| `node scripts/test-weekly-display.mjs` | 测试真实显示函数、Logo 顺序、地区名、地图几何和附近机场分组 | 否 |
 | `node scripts/test-round-trip-audit.mjs` | 测试漏返程、错航班号、频次不一致与跨日返程 | 否 |
 
 `manage-data.py` 的 `build()` 只返回内存数据，`main()` 才负责临时文件、校验和替换。临时目录在已被 Git 忽略的 `artifacts/` 下，退出时自动清理。
