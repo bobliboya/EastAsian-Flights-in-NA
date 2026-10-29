@@ -10,7 +10,12 @@ const target = (f, code, number) => f.airline === code && f.flight_number === nu
 assert(audit(flights.filter(f => !target(f, 'CA', '0987'))).some(e => e.includes('0987/0988')));
 const wrongNumber = flights.map(f => target(f, 'CA', '0987') ? { ...f, flight_number: '0989' } : f);
 assert(audit(wrongNumber).some(e => e.includes('missing declared return')));
-const wrongFrequency = flights.map(f => target(f, 'AC', '0061') ? { ...f, weekly_flights: 5, weekdays: '12345' } : f);
+// Always introduce a real mismatch, even after a seasonal frequency change.
+const wrongFrequency = flights.map(f => {
+  if (!target(f, 'AC', '0061')) return f;
+  const frequency = f.weekly_flights === 7 ? 6 : f.weekly_flights + 1;
+  return { ...f, weekly_flights: frequency, weekdays: '1234567'.slice(0, frequency) };
+});
 assert(audit(wrongFrequency).some(e => e.includes('0061/0062')));
 // Balanced route totals alone must not hide two mismatched flight groups.
 const sample = (n, from, to, frequency) => ({ airline: 'XX', flight_number: n, origin: from, destination: to, weekly_flights: frequency });
@@ -25,8 +30,12 @@ assert.deepEqual(auditRoundTrips([
 ], airports).errors, []);
 assert.deepEqual(auditRoundTrips([], airports, pairs).errors, []);
 for (const [a, b] of [['0061','0062'], ['0005','0006'], ['0007','0008']]) {
-  assert.equal(flights.find(f => target(f,'AC',a)).weekly_flights, 7);
-  assert.equal(flights.find(f => target(f,'AC',b)).weekly_flights, 7);
+  const out = flights.find(f => target(f,'AC',a));
+  const back = flights.find(f => target(f,'AC',b));
+  assert(out && back, `Missing regular AC${a}/${b} pair`);
+  assert.equal(out.weekly_flights, back.weekly_flights);
+  assert.equal(out.weekly_flights, out.weekdays.length);
+  assert.equal(back.weekly_flights, back.weekdays.length);
 }
 assert(!flights.some(f => target(f,'AC','0015')), 'One-off AC15 must not be a recurring weekly flight');
 console.log('PASS: round-trip audit regressions (missing return, wrong number, frequency mismatch, local day shift).');
