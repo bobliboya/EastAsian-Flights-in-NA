@@ -4,7 +4,7 @@
 
 ## 1. 页面是怎么运行的
 
-`index.html` 先加载 CDN 的 Leaflet，再通过 `type="module"` 加载 `src/js/app.js`。模块使用相对路径导入，没有全局自定义命名空间。
+`index.html` 先加载 CDN 的 Bootstrap CSS / bundle 和 Leaflet，再通过 `type="module"` 加载 `src/js/app.js`。模块使用相对路径导入，没有全局自定义命名空间。
 
 ```text
 index.html
@@ -102,3 +102,19 @@ node scripts/check-project.mjs
 数据更新提交 CSV 和生成的 JSON；代码改动提交新增模块。先看 `git diff`，确认没有顺手混入无关变动，再使用自己的托管平台发布。仓库没有内置发布脚本。
 
 回退时回退同一次修改中的完整文件组。不要只回退 flights.json 而保留更新后的 CSV，也不要只回退 app.js 而漏掉配套模块和页面入口。
+
+Bootstrap 通用组件由官方 CSS / bundle 提供；`multiselect.js` 只衔接目录数据、多选状态与回调。地图命中、浮层边界与手机面板减半保留业务逻辑。新增通用控件优先复用 Bootstrap，避免另写基础控件样式。
+
+结果与目录的分组使用 Bootstrap Collapse，折叠状态在 shown/hidden 事件中同步；重绘前 dispose 旧实例。保留 800px 业务断点，不套用 Bootstrap navbar 的不同断点。
+
+Bootstrap 迁移验证：1440 / 768 / 390px 截图检查；390px 下无页面横向溢出，菜单、面板减半、机场多选可用；桌面航司筛选、详情返回、批量折叠和重置通过浏览器操作。真实触屏手感和地图四边浮层仍需设备回归。设计检查中的 Bootstrap Accordion 默认内阴影及边框保留官方组件外观；地图地名描边与地区色保留业务语义。
+
+## Bootstrap 组件覆盖范围
+
+筛选使用 Dropdown / Form Check，已选标签和操作使用 Button；结果与航班使用 Card / Accordion / Collapse；顶栏使用 Navbar / Collapse，Logo 使用 Tooltip，状态使用 Alert。机场卡片与附近航线共用 `controls.js` 的 `createMapChoiceCard()`，组合 Card / Card header / Card body / List group / Close button。关闭按钮通过回调通知地图控制器，不再使用 Leaflet 自带关闭链接。组件外观沿用原版主题。
+
+Leaflet Popup 仅作为地图锚点和外壳；机场标签、城市标签、航线绘制／命中、边界约束、悬停连接区域及面板减半仍是地图业务逻辑，不以 Bootstrap Modal / Popover 代替，否则会改变原来的地图交互。
+
+地图组件迁移浏览器回归：机场卡片打开／关闭、附近六条航线列表选择已验证；390px 手机机场卡片已验证位于地图边界内且内容可滚动。真实触屏和所有四边组合尚未完整设备回归。
+
+附近机场选择由 `geometry.js` 的 `nearbyAirports()` 按真实经纬度计算：以当前机场为中心、同一区域内 200 公里为候选范围，当前机场优先，其余按距离排序。覆盖 LAX／ONT／SAN、HKG／SZX／CAN 等；不传递合并邻居，不随缩放变化，也不移动真实坐标。候选保留无当前班表的机场供进一步选择。

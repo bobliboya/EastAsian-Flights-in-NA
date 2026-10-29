@@ -6,6 +6,7 @@
 
 | 内容 | 来源与许可 |
 | --- | --- |
+| Bootstrap 5.3.8（CDN，bundle 包含 Popper） | [Bootstrap MIT 许可](https://github.com/twbs/bootstrap/blob/v5.3.8/LICENSE)；[Popper MIT 许可](https://github.com/floating-ui/floating-ui/blob/v2.x/LICENSE.md) |
 | Leaflet 1.9.4（通过 CDN 加载） | Copyright 2010–2023 Volodymyr Agafonkin、2010–2011 CloudMade；[BSD-2-Clause 原始许可](https://github.com/Leaflet/Leaflet/blob/v1.9.4/LICENSE) |
 | Natural Earth 国家边界 | [公共领域数据及使用说明](https://www.naturalearthdata.com/about/terms-of-use/)；文件为 `src/data/world-countries.geojson` |
 | Open Sans（通过 Google Fonts 加载） | [SIL Open Font License 1.1](https://github.com/googlefonts/opensans/blob/main/OFL.txt) |

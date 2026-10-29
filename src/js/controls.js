@@ -13,63 +13,48 @@ export const isTouchInput = event => inputType === 'touch'
   || event.originalEvent?.pointerType === 'touch'
   || event.originalEvent?.sourceCapabilities?.firesTouchEvents;
 
-// A single shared tooltip avoids clipping inside scrollable dropdowns.
+// Bootstrap owns tooltip placement and lifecycle for dynamically rendered logos.
 export function setupBrandTooltips() {
-  const brandTooltip = document.createElement('div');
-  brandTooltip.className = 'brand-tooltip';
-  brandTooltip.id = 'brand-tooltip';
-  brandTooltip.setAttribute('role', 'tooltip');
-  brandTooltip.hidden = true;
-  document.body.append(brandTooltip);
-  let activeBrand;
-  function hideBrandTooltip() {
-    activeBrand?.removeAttribute('aria-describedby');
-    activeBrand = null;
-    brandTooltip.hidden = true;
-  }
-  function showBrandTooltip(mark) {
-    hideBrandTooltip();
-    activeBrand = mark;
-    brandTooltip.textContent = mark.dataset.brandTip;
-    brandTooltip.hidden = false;
-    mark.setAttribute('aria-describedby', brandTooltip.id);
-    const rect = mark.getBoundingClientRect(), box = brandTooltip.getBoundingClientRect();
-    brandTooltip.style.left = `${Math.max(8, Math.min(rect.left, innerWidth - box.width - 8))}px`;
-    brandTooltip.style.top = `${rect.top >= box.height + 14 ? rect.top - box.height - 6 : rect.bottom + 6}px`;
-  }
-  document.addEventListener('mouseover', event => {
-    if (!canPreviewHover()) return;
-    const mark = event.target.closest('[data-brand-tip]');
-    if (mark && mark !== activeBrand) showBrandTooltip(mark);
+  document.body.addEventListener('show.bs.tooltip', event => {
+    if (inputType === 'touch') event.preventDefault();
   });
-  document.addEventListener('mouseout', event => {
-    if (activeBrand && !activeBrand.contains(event.relatedTarget)) hideBrandTooltip();
+  new bootstrap.Tooltip(document.body, {
+    selector: '[data-brand-tip]',
+    title() { return this.dataset.brandTip; },
+    container: 'body',
+    trigger: 'hover focus',
   });
-  document.addEventListener('focusin', event => {
-    if (!canPreviewFocus()) return;
-    const mark = event.target.closest('[data-brand-tip]');
-    if (mark) showBrandTooltip(mark);
-  });
-  document.addEventListener('focusout', hideBrandTooltip);
-  document.addEventListener('scroll', hideBrandTooltip, true);
-  window.addEventListener('resize', hideBrandTooltip);
-  document.addEventListener('keydown', event => { if (event.key === 'Escape') hideBrandTooltip(); });
 }
 
 export function setupTopbarMenu() {
-  const header = document.querySelector('.topbar');
+  const menu = document.querySelector('#topbar-info');
   const toggle = document.querySelector('#topbar-menu-toggle');
-  const mobile = matchMedia('(max-width: 799px)');
-  function setOpen(open) {
-    header.dataset.menuOpen = String(open);
-    toggle.setAttribute('aria-expanded', String(open));
-    toggle.setAttribute('aria-label', open ? '关闭顶栏菜单 / Close menu' : '打开顶栏菜单 / Open menu');
-  }
-  toggle.addEventListener('click', () => setOpen(toggle.getAttribute('aria-expanded') !== 'true'));
-  document.addEventListener('click', event => { if (!header.contains(event.target)) setOpen(false); });
-  document.addEventListener('keydown', event => {
-    if (event.key === 'Escape' && toggle.getAttribute('aria-expanded') === 'true') { setOpen(false); toggle.focus(); }
+  const collapse = bootstrap.Collapse.getOrCreateInstance(menu, { toggle: false });
+  document.addEventListener('click', event => {
+    if (!event.target.closest('.topbar')) collapse.hide();
   });
-  header.addEventListener('focusout', event => { if (!header.contains(event.relatedTarget)) setOpen(false); });
-  mobile.addEventListener('change', () => setOpen(false));
+  document.addEventListener('keydown', event => {
+    if (event.key === 'Escape' && menu.classList.contains('show')) {
+      collapse.hide(); toggle.focus();
+    }
+  });
+  matchMedia('(max-width: 799px)').addEventListener('change', () => collapse.hide());
+}
+
+// Compose Bootstrap Card, List group and Close button for both map selectors.
+// Leaflet/app retain ownership of anchoring, hover lifetime and map selection.
+export function createMapChoiceCard(container, label, onClose) {
+  container.classList.add('card', 'map-choice-panel');
+  const heading = document.createElement('div');
+  heading.className = 'card-header map-choice-heading d-flex align-items-start gap-2';
+  const title = document.createElement('span'); title.className = 'flex-grow-1';
+  const close = document.createElement('button'); close.type = 'button';
+  close.className = 'btn-close flex-shrink-0';
+  close.setAttribute('aria-label', '关闭 / Close'); close.onclick = onClose;
+  heading.append(title, close);
+  const body = document.createElement('div');
+  body.className = 'card-body list-group map-choice-body';
+  body.tabIndex = 0; body.setAttribute('aria-label', label);
+  container.replaceChildren(heading, body);
+  return { title, body };
 }

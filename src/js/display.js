@@ -8,7 +8,6 @@ export const bilingual = (zh, en) => en && en !== zh ? `${zh} / ${en}` : zh;
 export const escapeHTML = value => String(value).replace(/[&<>"']/g, c => ({ '&': '&amp;', '<': '&lt;', '>': '&gt;', '"': '&quot;', "'": '&#39;' }[c]));
 // SVG arrows keep their shape across Apple platforms and system fonts.
 export const arrowHTML = (both = false) => `<svg class="inline-arrow" viewBox="0 0 24 24" role="img" aria-label="${both ? '往返 / Both directions' : '至 / To'}" focusable="false"><path d="M4 12h16m-6-6 6 6-6 6${both ? 'M10 6l-6 6 6 6' : ''}"/></svg>`;
-export const chevronHTML = '<svg class="filter-chevron" viewBox="0 0 24 24" aria-hidden="true" focusable="false"><path d="m6 9 6 6 6-6"/></svg>';
 export function departureSummary(f) {
   const zh = ['一', '二', '三', '四', '五', '六', '日'];
   const en = ['MON', 'TUE', 'WED', 'THU', 'FRI', 'SAT', 'SUN'];
@@ -54,7 +53,7 @@ export function createAirlineRenderer(airlineByCode) {
 
 export function createFlightRenderer(airlineHTML) {
   function flightDetailsHTML(f) {
-    return `<div class="flight">
+    return `<div class="flight card">
       <strong>${airlineHTML(f.airline, f.airline + f.flight_number)}</strong><br>
       ${escapeHTML(f.origin)} ${arrowHTML()} ${escapeHTML(f.destination)} · ${escapeHTML(f.aircraft || '机型未录入 / Aircraft unspecified')}<br>
       ${departureSummary(f).split('\n').map(escapeHTML).join('<br>')}<br>备注 / Note：${escapeHTML(bilingualNote(f.note))}

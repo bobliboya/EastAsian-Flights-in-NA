@@ -25,3 +25,23 @@ export function routeCurve(start, end) {
   });
 }
 export const routeColor = (country, highlighted = false) => `var(--route-${({CHN:'greater-china', HKG:'greater-china', MAC:'greater-china', TWN:'greater-china', JPN:'japan', KOR:'korea', PRK:'korea', SGP:'singapore'})[country] || 'color'}${highlighted ? '-highlight' : ''})`;
+
+// Geographic neighborhood stays consistent across viewport sizes and zoom levels.
+// 200 km includes LAX–SAN and the Pearl River Delta without chaining distant cities.
+export const AIRPORT_NEIGHBORHOOD_KM = 200;
+export function nearbyAirports(anchor, airports, radiusKm = AIRPORT_NEIGHBORHOOD_KM) {
+  if (!anchor) return [];
+  const rad = Math.PI / 180;
+  const distanceKm = airport => {
+    const dLat = (airport.latitude - anchor.latitude) * rad;
+    const dLon = (airport.longitude - anchor.longitude) * rad;
+    const h = Math.sin(dLat / 2) ** 2 + Math.cos(anchor.latitude * rad)
+      * Math.cos(airport.latitude * rad) * Math.sin(dLon / 2) ** 2;
+    return 6371 * 2 * Math.asin(Math.sqrt(Math.min(1, h)));
+  };
+  return airports.filter(airport => airport.region === anchor.region)
+    .map(airport => ({ airport, distance: distanceKm(airport) }))
+    .filter(({ distance }) => distance <= radiusKm)
+    .sort((a, b) => a.distance - b.distance || a.airport.iata_code.localeCompare(b.airport.iata_code))
+    .map(({ airport }) => airport);
+}

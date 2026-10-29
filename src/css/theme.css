@@ -92,6 +92,9 @@
     display: none !important;
 }
 body {
+    --bs-body-font-family: 'Open Sans', sans-serif;
+    --bs-body-bg: var(--color-background);
+    --bs-body-color: var(--color-text);
     margin: 0;
     height: 100dvh;
     overflow: hidden;
@@ -101,20 +104,6 @@ a {
 }
 a:hover {
     color: var(--color-link-hover);
-}
-button {
-    font: inherit;
-}
-button {
-    cursor: pointer;
-}
-button:disabled {
-    opacity: .45;
-    cursor: default;
-}
-button:focus-visible {
-    outline: 2px solid var(--color-accent);
-    outline-offset: 3px;
 }
 h1 {
     margin: 0;
@@ -142,4 +131,89 @@ footer #catalog-note {
     font-size: inherit;
     line-height: inherit;
     color: inherit;
+}
+
+/* Bootstrap 负责组件结构与状态；此处统一映射原有深海蓝主题。 */
+[data-bs-theme="dark"] {
+    --bs-body-bg: var(--color-background);
+    --bs-body-color: var(--color-text);
+    --bs-secondary-color: var(--color-muted);
+    --bs-tertiary-bg: var(--color-control);
+    --bs-border-color: var(--color-border);
+    --bs-border-radius: var(--radius);
+    --bs-link-color: var(--color-link);
+    --bs-link-hover-color: var(--color-link-hover);
+}
+.btn {
+    --bs-btn-font-size: var(--font-size-base);
+    --bs-btn-padding-y: 9px;
+    --bs-btn-padding-x: 10px;
+    --bs-btn-border-radius: 5px;
+}
+.btn-secondary, .btn-outline-secondary {
+    --bs-btn-color: var(--color-text);
+    --bs-btn-bg: var(--color-control);
+    --bs-btn-border-color: var(--color-border);
+    --bs-btn-hover-color: var(--color-text);
+    --bs-btn-hover-bg: var(--color-hover);
+    --bs-btn-hover-border-color: var(--color-border);
+    --bs-btn-active-color: var(--color-text);
+    --bs-btn-active-bg: var(--color-hover);
+    --bs-btn-active-border-color: var(--color-link);
+    --bs-btn-disabled-color: var(--color-muted);
+    --bs-btn-disabled-bg: var(--color-control);
+    --bs-btn-disabled-border-color: var(--color-border);
+}
+.btn-primary {
+    --bs-btn-color: var(--color-on-accent);
+    --bs-btn-bg: var(--color-accent);
+    --bs-btn-border-color: var(--color-link);
+    --bs-btn-hover-color: var(--color-on-accent);
+    --bs-btn-hover-bg: var(--color-accent-hover);
+    --bs-btn-hover-border-color: var(--color-link);
+    --bs-btn-active-color: var(--color-on-accent);
+    --bs-btn-active-bg: var(--color-accent-hover);
+    --bs-btn-active-border-color: var(--color-link);
+    font-weight: 700;
+}
+.card {
+    --bs-card-bg: var(--color-surface);
+    --bs-card-color: var(--color-text);
+    --bs-card-border-color: var(--color-border);
+    --bs-card-border-radius: var(--radius);
+}
+.accordion {
+    --bs-accordion-bg: var(--color-surface);
+    --bs-accordion-color: var(--color-text);
+    --bs-accordion-border-color: var(--color-border);
+    --bs-accordion-btn-color: var(--color-text);
+    --bs-accordion-btn-bg: var(--color-surface);
+    --bs-accordion-active-color: var(--color-link);
+    --bs-accordion-active-bg: var(--color-control);
+    --bs-accordion-btn-focus-box-shadow: 0 0 0 2px var(--color-link);
+}
+.dropdown-menu {
+    --bs-dropdown-bg: var(--color-surface);
+    --bs-dropdown-color: var(--color-text);
+    --bs-dropdown-border-color: var(--color-border);
+    --bs-dropdown-link-color: var(--color-text);
+    --bs-dropdown-link-hover-color: var(--color-text);
+    --bs-dropdown-link-hover-bg: var(--color-hover);
+    --bs-dropdown-link-active-bg: var(--color-control);
+}
+.form-label { color: var(--color-muted); }
+.form-check-input:checked {
+    background-color: var(--color-accent);
+    border-color: var(--color-link);
+}
+
+.list-group {
+    --bs-list-group-color: var(--color-text);
+    --bs-list-group-bg: var(--color-surface);
+    --bs-list-group-border-color: var(--color-border);
+    --bs-list-group-action-color: var(--color-text);
+    --bs-list-group-action-hover-color: var(--color-link);
+    --bs-list-group-action-hover-bg: var(--color-hover);
+    --bs-list-group-action-active-color: var(--color-text);
+    --bs-list-group-action-active-bg: var(--color-control);
 }
